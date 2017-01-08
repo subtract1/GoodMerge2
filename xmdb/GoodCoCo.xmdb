@@ -5,7 +5,7 @@ Email: goodmerge@gmail.com
 -->
 
 <romsets>
-<set name="CoCo" version="3.13">
+<set name="CoCo" version="3.27">
 <!--Radio Shack Color Computer-->
 
 <options>
@@ -13,16 +13,27 @@ Email: goodmerge@gmail.com
 <ext text="ccc"/>
 <ext text="bin"/>
 <flag reg=" \[[!A-Za-z][0-9a-z]?\]"/>
+<ignore reg=" \((NTSC|PAL)\)"/>
 <ignore reg=" \([0-9]{2}-[0-9x]{4}\)"/>
 </options>
 
 <parents>
 <!--Hacks, Versions, etc.-->
-<parent name="Bustout (1980-81) (Radio Shack)"><group reg="^Bustout"/></parent>
-<parent name="Doodle Bug (1982) (Computerware)"><group reg="^Doodle Bug"/></parent>
-<parent name="Downland (1983) (Tandy)"><group reg="^Downland"/></parent>
+<parent name="Bustout (1980-81) (Radio Shack)"><group reg="^Bustout "/></parent>
+<parent name="Color BASIC (1980-82) (Tandy)"><group reg="^Color BASIC "/></parent>
+<parent name="Color Computer Disk BASIC (1982) (Tandy)"><group reg="^Color Computer Disk BASIC "/></parent>
+<parent name="Color Logo (1983) (Larry Kheriaty &amp; George Gerhold"><group reg="^Color Logo "/></parent>
+<parent name="Doodle Bug (1982) (Computerware)"><group reg="^Doodle Bug "/></parent>
+<parent name="DOSPlus (1989) (3S)"><group reg="^DOSPlus "/></parent>
+<parent name="Downland (1983) (Tandy)"><group reg="^Downland "/></parent>
+<parent name="DragonDOS (1983) (Dragon Data)"><group reg="^DragonDOS .* \(Dragon Data\)"/></parent>
+<parent name="DragonDOS (1985) (Eurohard S.A.)"><group reg="^DragonDOS .* \(Eurohard S\.A\.\)"/></parent>
+<parent name="Extended Color BASIC (1981-82) (Tandy)"><group reg="^Extended Color BASIC "/></parent>
 <parent name="JDOS (1983-85) (J&amp;M Systems)"><group reg="^JDOS V"/></parent>
-<parent name="Videotex (1981) (Tandy)"><group reg="^Videotex"/></parent>
+<parent name="Super Bustout (1981) (Tandy)"><group reg="^Super Bustout "/></parent>
+
+
+<parent name="Videotex (1981) (Tandy)"><group reg="^Videotex "/></parent>
 </parents>
 
 </set>

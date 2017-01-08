@@ -5,7 +5,7 @@ Email: goodmerge@gmail.com
 -->
 
 <romsets>
-<set name="ChaF" version="3.13">
+<set name="ChaF" version="3.1415">
 <!--Fairchild/Zircon Channel F-->
 
 <options>
@@ -16,6 +16,9 @@ Email: goodmerge@gmail.com
 </options>
 
 <parents>
+<!--Collections-->
+<parent name="Public Domain"><group reg="\(PD\)"/></parent>
+
 <parent name="256K Channel F Multigame ROM (2004) (Sean Riddle)"><group reg="^256K"/></parent>
 <parent name="Fairchild Channel F BIOS (1976) (Fairchild)"><group reg="^Fairchild Channel F BIOS"/><group reg="^Hockey &amp; Tennis"/></parent>
 <parent name="Hangman (1978) (Fairchild)"><group reg="^Hangman"/></parent>

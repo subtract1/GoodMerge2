@@ -5,17 +5,20 @@ Email: goodmerge@gmail.com
 -->
 
 <romsets>
-<set name="Gen" version="3.00">
+<set name="Gen" version="3.21">
 <!--Sega Genesis/MegaDrive/32X-->
 
 <options>
 <ext text="smd"/>
 <ext text="md"/>
+<ext text="mdx"/>
 <ext text="bin"/>
 <ext text="32x"/>
 <ext text="gen"/>
-<flag reg=" \(([JUECBFGSKRWMP]{0,2}|Unl|Ch(-(Simple|Trad))?|V1.1|Prototype|Menu|Sample|Alpha|Beta( [12])?)\)| \[[Tphb]"/>
-<ignore reg=" \(?V[0-9x]\.[0-9Ix]{1,2}\)?"/>
+<flag reg=" (\(([JUEACBFGSKRWMP]{0,2}|Unl|Ch(-(Simple|Simp|Trad))?|V1.1|Prototype.*|Menu|REV\d+|Sample|[Aa]lpha.*|[Bb]eta.*|32X\))|\[)"/>
+<hackflag reg=" \("/>
+<ignore reg=" \(?[vV][0-9x]\.[0-9Ix]{1,2}\)?"/>
+<ignore reg=" \(GNKO\)?"/>
 <ignore reg=" \(Hack\)"/>
 </options>
 
@@ -25,33 +28,87 @@ Email: goodmerge@gmail.com
 
 <!--Hacks, Versions, etc.-->
 <parent name="Activator Command Demo"><clone name="Activator Command Demo 30 Hz"/><clone name="Activator Command Demo 60 Hz"/></parent>
+<parent name="Battletoads and Double Dragon"><group reg="^Battletoads and Double Dragon "/></parent>
+<parent name="Battletoads"><group reg="^Battletoads "/></parent>
 <parent name="Best of the Best - Championship Karate"><clone name="Kick Boxing, The"/></parent>
+<parent name="Bill Walsh College Football"><group reg="^Bill Walsh College Football "/><clone name="Bill Walsh 2010 Gators vs Sooners"/></parent>
+<parent name="Brutal - Paws of Fury"><group reg="^Brutal - Paws of Fury "/></parent>
+<parent name="Chuck II - Son of Chuck"><clone name="Chuck II - Girls"/></parent>
+<parent name="Conquering the World III"><group reg="^Conquering the World III "/></parent>
+<parent name="Cool Spot"><group reg="^Cool Spot "/></parent>
 <parent name="Crue Ball"><clone name="Twisted Flipper"/></parent>
 <parent name="Cyborg Justice"><clone name="Robot Wreckage"/></parent>
-<parent name="Dahna - Megami Tanjou"><clone name="Hercules"/></parent>
+<parent name="Dahna - Megami Tanjou"><clone name="Dahna"/><clone name="Hercules"/></parent>
+<parent name="Desert Demolition"><clone name="Desert Demolution"/></parent>
+<parent name="Disney's Aladdin"><group reg="^Disney's Aladdin "/><group reg="\(Aladdin Hack\)"/></parent>
+<parent name="Doom Troopers - The Mutant Chronicles"><group reg="^Doom Troopers - The Mutant Chronicles "/></parent>
+<parent name="Doom"><clone name="Doom RR"/><group reg="^Doom - "/></parent>
+<parent name="Dyna Brothers 2"><group reg="^Dyna Brothers 2 "/></parent>
 <parent name="Exo-Squad"><group reg="^Exo-Squad"/></parent>
 <parent name="F1 World Championship"><clone name="F1 World Championship Edition"/></parent>
 <parent name="Fighting Masters"><clone name="Zionist Freedom Fighters by RyanVG"/></parent>
 <parent name="FIFA Soccer 95"><clone name="Futbol Argentino 98 - Pasion de Multitudes"/></parent>
 <parent name="FIFA Soccer 96"><clone name="FIFA Soccer 99"/></parent>
-<parent name="FIFA Soccer 97 Gold Edition"><clone name="FIFA Soccer 2000 Gold Edition"/></parent>
+<parent name="FIFA Soccer 97 Gold Edition"><clone name="FIFA Soccer 2000 Gold Edition"/><group reg="^FIFA Soccer 97 "/></parent>
+<parent name="Golden Axe II"><group reg="^Golden Axe II "/></parent>
+<parent name="Golden Axe III"><group reg="^Golden Axe III "/></parent>
+<parent name="Herzog Zwei"><group reg="^Herzog Zwei "/></parent>
 <parent name="International Superstar Soccer Deluxe"><clone name="Ronaldinho 98"/></parent>
 <parent name="J. League Pro Striker"><clone name="J. League Pro Striker - Perfect Edition"/></parent>
 <parent name="Jeopardy!"><group reg="^Jeopardy! "/></parent>
 <parent name="John Madden Football '93"><clone name="John Madden Football '93 - Championship Edition"/></parent>
+<parent name="Jungle Strike"><group reg="^Jungle Strike "/></parent>
+<parent name="Kid Chameleon"><group reg="^Kid Chameleon "/></parent>
+<parent name="Knuckles' Chaotix"><group reg="^Knuckles' Chaotix "/></parent>
+<parent name="Langrisser II"><group reg="^Langrisser II "/></parent>
+<parent name="Light Crusader"><group reg="^Light Crusader "/></parent>
+<parent name="Lion King, The"><clone name="Lion King Debug Mode by Segaman"/><clone name="Lion King Simba Bonus Levels"/></parent>
+<parent name="Lost Vikings, The"><group reg="^Lost Vikings, The "/></parent>
 <parent name="Mars Sample Program (32X)"><group reg="^Mars .* Program"/></parent>
 <parent name="Mega Bomberman"><clone name="Mega Bomberman - 8 Player Demo"/></parent>
+<parent name="Mortal Kombat"><group reg="^Mortal Kombat - "/><clone name="Mortal Kombat Graff Kore"/><clone name="Mortal Kombat Revelations by Dark Eva"/></parent>
+<parent name="Mortal Kombat II"><group reg="^Mortal Kombat II "/></parent>
+<parent name="Mortal Kombat III"><group reg="^Mortal Kombat III "/><group reg="^Mortal Kombat 3 "/></parent>
+<parent name="NHL 96"><clone name="NHL 96 Remix by Pmack"/></parent>
+<parent name="NHLPA Hockey '93"><group reg="^NHLPA Hockey "/></parent>
 <parent name="OutRun 2019"><clone name="Junkers High"/></parent>
 <parent name="NHL 95"><clone name="NHL 95 Elitserien"/></parent>
 <parent name="NHL 96"><clone name="NHL 96 Elitserien"/></parent>
-<parent name="Phantasy Star II"><group reg="^Phantasy Star II - .*'s Adventure"/></parent>
+<parent name="Phantasy Star - The End of the Millenium"><group reg="^Phantasy Star - The End of the Millenium"/></parent>
+<parent name="Phantasy Star II"><group reg="^Phantasy Star II - "/></parent>
 <parent name="Pro Action Replay"><clone name="Pro Action Replay 2"/></parent>
+<parent name="Rings of Power"><group reg="^Rings of Power "/></parent>
+<parent name="Road Rash 3"><group reg="^Road Rash 3 "/></parent>
+<parent name="Rock n' Roll Racing"><group reg="^Rock n' Roll Racing "/></parent>
+<parent name="Rolling Thunder 3"><group reg="^Rolling Thunder 3 "/></parent>
 <parent name="Sensible Soccer"><clone name="Sensible Soccer - International Edition"/></parent>
+<parent name="Shadowrun"><group reg="^Shadowrun "/></parent>
+<parent name="Shining Force II"><group reg="^Shining Force II "/></parent>
+<parent name="Shining Force"><group reg="^Shining Force "/></parent>
+<parent name="Shinobi III - Return of the Ninja Master"><group reg="^Shinobi III - Return of the Ninja Master"/></parent>
+<parent name="Sonic 3D Blast"><group reg="^Sonic 3D Blast "/><clone name="Super Sonic in Sonic 3D"/><group reg="^Sonic 3D No Flickies "/></parent>
 <parent name="Sonic and Knuckles"><clone name="SK"/><group reg="^Sonic and Knuckles &amp; Sonic "/><clone name="Sonic Special Stages"/><group reg="Knuckles in Sonic 2 Green Hill Zone by Hivebrain V0.1"/></parent>
+<parent name="Sonic Classics"><group reg="^Sonic Classics "/></parent>
+<parent name="Sonic Compilation"><group reg="^Sonic Compilation "/></parent>
 <parent name="Sonic The Hedgehog"><clone name="S1"/><group reg="^Supersonic in South Island Adventure"/><clone name="Sonic Xmas"/><clone name="Sonic Weird"/><clone name="Sonic Ultima 1337"/><clone name="Sonic Tikal"/><clone name="Sonic The Hedgehog with Knuckles"/><clone name="Sonic Rich Rodgers"/><clone name="Sonic Psycho"/><clone name="Sonic Amy"/><clone name="Sonic in Paynt by Monkeyman"/><clone name="Sonic Dr IKS"/><clone name="Sonic Chao Walker"/><group reg="^Sonic The Hedgehog - "/><group reg="^Sonic 1 "/><group reg="^Sonic 2 Menu no Sonic 1"/></parent>
 <parent name="Sonic The Hedgehog 2"><clone name="S2"/><group reg="^Sonic The Hedgehog 2 - "/><group reg="^Sonic 2"/><group reg="^Sonic - More Than A Memory"/><group reg="Knuckles in Sonic 2 Green Hill Zone by Hivebrain V0.2"/></parent>
-<parent name="Sonic The Hedgehog 3"><group reg="^Sonic 3 "/></parent>
+<parent name="Sonic The Hedgehog 3"><group reg="^Sonic 3 "/><clone name="Sonic 3C"/></parent>
 <parent name="Super Donkey Kong 99"><clone name="Super King Kong 99"/></parent>
+<parent name="Super Street Fighter II - The New Challengers"><clone name="Super Street Fighter II - The New Challengers - Not Settled"/><clone name="Super Street Fighter II - Not Settled"/></parent>
+<parent name="Thunder Force III"><group reg="^Thunder Force III "/></parent>
+<parent name="Thunder Fox"><group reg="^Thunder Fox "/></parent>
+<parent name="Ultimate Mortal Kombat 3"><group reg="^Ultimate Mortal Kombat 3 "/><clone name="Ultimate Mortal Kombat - mini13"/></parent>
+<parent name="Ultimate Mortal Kombat Trilogy"><group reg="^Ultimate Mortal Kombat Trilogy "/></parent>
+<parent name="Urban Strike"><group reg="^Urban Strike "/></parent>
+<parent name="Vectorman 2"><group reg="^Vectorman 2 "/></parent>
+<parent name="Wolfenstein 3D by Chilly Willy"><group reg="^Wolfenstein 3D .* by Chilly Willy$"/></parent>
+<parent name="Wonder Boy In Monster World"><group reg="^Wonder Boy [Ii]n Monster World "/></parent>
+<parent name="Wu Kong Wai Zhuan"><group reg="^Wu Kong Wai Zhuan "/></parent>
+<parent name="X-Men 2 - Clone Wars"><group reg="^X-Men 2 - Clone Wars "/></parent>
+<parent name="Yuu Yuu Hakusho - Makyou Toitsusen"><group reg="^Yuu Yuu Hakusho - Makyou Toitsusen "/></parent>
+<parent name="Zero Tolerance"><group reg="^Zero Tolerance "/></parent>
+<parent name="Zero Wing"><group reg="^Zero Wing "/></parent>
+
 
 <!--Biased-->
 <zoned><bias zone="U" name="Aerobiz"/><bias zone="J" name="Air Management - Oozora ni Kakeru"/></zoned>
@@ -75,7 +132,7 @@ Email: goodmerge@gmail.com
 <zoned><bias zone="En" name="Chase HQ II"/><bias zone="J" name="Super HQ"/></zoned>
 <zoned><bias zone="U" name="Chi Chi's Pro Challenge"/><bias zone="J" name="Top Pro Golf 2"/></zoned>
 <zoned><bias zone="U" name="Columns III - Revenge of Columns"/><bias zone="J" name="Columns III - Taiketsu! Columns World"/></zoned>
-<zoned><bias zone="U" name="Contra - Hard Corps"/><bias zone="E" name="Probotector"/><bias zone="J" name="Contra - The Hard Corps"/></zoned>
+<zoned><bias zone="U" name="Contra - Hard Corps"/><bias zone="E" name="Probotector"/><bias zone="J" name="Contra - The Hard Corps"/><group reg="^Contra - Hard Corps "/><group reg="^Contra - The Hard Corps "/></zoned>
 <zoned><bias zone="U" name="CrossFire"/><bias zone="J" name="Super Airwolf"/></zoned>
 <zoned><bias zone="U" name="Crusader of Centy"/><bias zone="E" name="Soleil"/><bias zone="J" name="Ragnacenty"/><bias zone="K" name="Shin Changsegi - Ragnacenty"/></zoned>
 <zoned><bias zone="U" name="Cyber-Cop"/><bias zone="E" name="Corporation"/><bias zone="J" name="Cyber-Cop"/></zoned>
@@ -85,11 +142,11 @@ Email: goodmerge@gmail.com
 <zoned><bias zone="U" name="Devilish - The Next Possession"/><bias zone="J" name="Bad Omen"/></zoned>
 <zoned><bias zone="U" name="Double Dribble - The Playoff Edition"/><bias zone="E" name="Hyper Dunk - The Playoff Edition"/></zoned>
 <zoned><bias zone="En" name="Dr. Robotnik's Mean Bean Machine"/><bias zone="J" name="Puyo Puyo"/></zoned>
-<zoned><bias zone="F" name="Dragon Ball Z - L'Appel du Destin"/><bias zone="J" name="Dragon Ball Z - Buyuu Retsuden"/></zoned>
+<zoned><bias zone="F" name="Dragon Ball Z - L'Appel du Destin"/><bias zone="J" name="Dragon Ball Z - Buyuu Retsuden"/><group reg="^Dragon Ball Z - Buyuu Retsuden "/></zoned>
 <zoned><bias zone="En" name="Dragon's Fury"/><bias zone="J" name="Devil Crash MD"/></zoned>
-<zoned><bias zone="En" name="Dune - The Battle for Arrakis"/><bias zone="G" name="Dune - Der Kampf um den Wuestenplaneten"/></zoned>
+<zoned><bias zone="En" name="Dune - The Battle for Arrakis"/><bias zone="G" name="Dune - Der Kampf um den Wuestenplaneten"/><group reg="^Dune - The Battle for Arrakis "/></zoned>
 <zoned><bias zone="U" name="ESWAT Cyber Police - City Under Siege"/><bias zone="J" name="ESWAT Cyber Police"/></zoned>
-<zoned><bias zone="U" name="Exile"/><bias zone="J" name="XZR"/></zoned>
+<zoned><bias zone="U" name="Exile"/><bias zone="J" name="Exile - Toki no Hazama e"/><group reg="^Exile "/></zoned>
 <zoned><bias zone="En" name="F-117 Night Storm"/><bias zone="J" name="F-117 Stealth - Operation Night Storm"/></zoned>
 <zoned><bias zone="U" name="F-22 Interceptor"/><bias zone="J" name="F-22 Interceptor - Advanced Tactical Fighter"/></zoned>
 <zoned><bias zone="En" name="Fatal Fury"/><bias zone="J" name="Garou Densetsu - Shukumei no Tatakai"/></zoned>
@@ -119,8 +176,8 @@ Email: goodmerge@gmail.com
 <zoned><bias zone="U" name="M.U.S.H.A"/><bias zone="J" name="Musha Aleste - Full Metal Fighter Ellinor"/></zoned>
 <zoned><bias zone="U" name="Marvel Land"/><bias zone="E" name="Talmit's Adventure"/><bias zone="J" name="Marvel Land"/></zoned>
 <zoned><bias zone="U" name="Mazin Saga"/><bias zone="E" name="Mazin Wars"/><bias zone="J" name="Mazin Saga"/></zoned>
-<zoned><bias zone="E" name="Megaman - The Wily Wars"/><bias zone="J" name="Rockman Megaworld"/></zoned>
-<zoned><bias zone="En" name="Mystic Defender"/><bias zone="J" name="Kujaku Ou 2"/></zoned>
+<zoned><bias zone="E" name="Megaman - The Wily Wars"/><bias zone="J" name="Rockman Megaworld"/><group reg="^Megaman - The Wily Wars "/></zoned>
+<zoned><bias zone="En" name="Mystic Defender"/><bias zone="J" name="Kujaku Ou 2"/><group reg="^Kujaku Ou 2 "/></zoned>
 <zoned><bias zone="U" name="Mystical Fighter"/><bias zone="J" name="Maou Renjishi"/></zoned>
 <zoned><bias zone="En" name="NBA Showdown 94"/><bias zone="J" name="NBA Pro Basketball '94"/></zoned>
 <zoned><bias zone="U" name="NHL Hockey"/><bias zone="E" name="EA Hockey"/><bias zone="J" name="Pro Hockey"/></zoned>
@@ -130,7 +187,7 @@ Email: goodmerge@gmail.com
 <zoned><bias zone="U" name="P.T.O. Pacific Theater of Operations"/><bias zone="J" name="Teitoku no Ketsudan"/></zoned>
 <zoned><bias zone="U" name="Pat Riley Basketball"/><bias zone="E" name="Super Real Basketball"/><bias zone="J" name="Super Real Basketball"/></zoned>
 <zoned><bias zone="En" name="Pebble Beach Golf Links"/><bias zone="J" name="Pebble Beach no Hatou"/></zoned>
-<zoned><bias zone="En" name="Phantasy Star III - Generations of Doom"/><bias zone="Br" name="Phantasy Star III - Generations of Doom"/><bias zone="J" name="Phantasy Star III - Toki no Keishousha"/></zoned>
+<zoned><bias zone="En" name="Phantasy Star III - Generations of Doom"/><bias zone="Br" name="Phantasy Star III - Generations of Doom"/><bias zone="J" name="Phantasy Star III - Toki no Keishousha"/><group reg="^Phantasy Star III "/></zoned>
 <zoned><bias zone="U" name="Powerball"/><bias zone="J" name="Wrestleball"/></zoned>
 <zoned><bias zone="U" name="Quad Challenge"/><bias zone="J" name="MegaTraX"/></zoned>
 <zoned><bias zone="En" name="Ranger-X"/><bias zone="J" name="Ex-Ranza"/></zoned>
@@ -155,11 +212,12 @@ Email: goodmerge@gmail.com
 <zoned><bias zone="U" name="Soldiers of Fortune"/><bias zone="E" name="Chaos Engine, The"/></zoned>
 <zoned><bias zone="U" name="Sorcerer's Kingdom"/><bias zone="J" name="Sorcer Kingdom"/></zoned>
 <zoned><bias zone="U" name="Space Invaders 91"/><bias zone="J" name="Space Invaders 90"/></zoned>
+<zoned><bias zone="U" name="Splatterhouse 2"/><bias zone="J" name="Splatterhouse Part 2"/></zoned>
 <zoned><bias zone="U" name="Splatterhouse 3"/><bias zone="J" name="Splatterhouse Part 3"/></zoned>
 <zoned><bias zone="En" name="Steel Empire, The"/><bias zone="J" name="Koutetsu Teikoku"/></zoned>
 <zoned><bias zone="En" name="Street Fighter II' - Special Champion Edition"/><bias zone="J" name="Street Fighter II' Plus - Champion Edition"/><clone name="Street Fighter II' Turbo"/></zoned>
-<zoned><bias zone="En" name="Streets of Rage"/><bias zone="J" name="Bare Knuckle"/></zoned>
-<zoned><bias zone="En" name="Streets of Rage 2"/><bias zone="J" name="Bare Knuckle II"/></zoned>
+<zoned><bias zone="En" name="Streets of Rage"/><bias zone="J" name="Bare Knuckle"/><clone name="Streets of Rage - Clone by TI"/></zoned>
+<zoned><bias zone="En" name="Streets of Rage 2"/><bias zone="J" name="Bare Knuckle II"/><group reg="^Streets of Rage 2 "/></zoned>
 <zoned><bias zone="En" name="Streets of Rage 3"/><bias zone="J" name="Bare Knuckle III"/><group reg="^Streets of Rage 3 "/></zoned>
 <zoned><bias zone="En" name="Strider"/><bias zone="J" name="Strider Hiryuu"/></zoned>
 <zoned><bias zone="U" name="Syd of Valis"/><bias zone="J" name="Valis SD"/></zoned>

@@ -6,13 +6,22 @@ Webpage: http://goodmerge.sourceforge.net
 -->
 
 <romsets>
-<set name="7800" version="2.04">
+<set name="7800" version="3.28">
 <!--Atari 7800-->
 
 <options>
 <ext text="a78"/>
 <flag reg=" \[[!A-Za-z][0-9a-z]?\]"/>
-<ignore reg=" \((Prototype|PAL|CC2 Hack|HSC Hack|Crypt Hack)\)"/>
+<hackflag reg=" \("/>
+<ignore reg=" \((NTSC|PAL|CC2 Hack|HSC Hack|Crypt Hack)\)"/>
+<ignore reg=" \([vV][ \w.-]+\)"/>
+<ignore reg=" \([Pp]rototype[ \w.-]*\)"/>
+<ignore reg=" \(Unsigned\)"/>
+<ignore reg=" \(Pokey\)"/>
+<ignore reg=" \([ \w.+-]*[Co]olor[ \w.+-]*\)"/>
+<ignore reg=" \(Final Version[ \w.-]*\)"/>
+<ignore reg=" \(Hack\)"/>
+
 </options>
 
 <parents>
@@ -20,10 +29,29 @@ Webpage: http://goodmerge.sourceforge.net
 <parent name="Public Domain"><group reg="\(PD\)"/><group reg="Beef Drop 7800 .*"/></parent>
 
 <!--Hacks, Versions, etc.-->
+<parent name="Armor Attack II by Bob DeCrescenzo"><group reg="^Armor Attack II by Bob DeCrescenzo "/><group reg="^Armor Attack II by Blue Azure "/></parent>
+<parent name="Bentley Bear - Crystal Quest by Bob DeCrescenzo"><group reg="^Bentley Bear - Crystal Quest by Bob DeCrescenzo "/><clone name="Bentley Bear by Bob DeCrescenzo"/></parent>
+<parent name="bonQ by Ken Siders"><clone name="bonQ Demo by Ken Siders"/></parent>
+<parent name="Centipede (1987) (Atari)"><group reg="^Centipede "/></parent>
+<parent name="Choplifter (1987) (Atari)"><group reg="^Choplifter "/></parent>
+<parent name="Commando (1989) (Atari)"><clone name="Commando (1988) (Atari)"/></parent>
 <parent name="Desert Falcon (1987) (Atari)"><group reg="Desert Falcon .*"/></parent>
+<parent name="Donkey Kong (1988) (Atari)"><group reg="^Donkey Kong .* by tep392$"/></parent>
+<parent name="Food Fight (1987) (Atari)"><group reg="^Food Fight "/></parent>
+<parent name="Gato (1988) (Atari)"><clone name="Gato (1987) (Atari)"/></parent>
+<parent name="Galaga (1987) (Atari)"><clone name="Galaga (1984) (Atari)"/></parent>
+<parent name="Impossible Mission (1987) (Atari)"><group reg="^Impossible Mission "/></parent>
 <parent name="Klax (1992) (Atari)"><group reg="Klax .*"/></parent>
+<parent name="Kung Fu Master (1989) (Absolute)"><group reg="^Kung-Fu Master"/></parent>
+<parent name="Ms. Pac-Man (1987) (Atari)"><group reg="Ms. Pac-Man "/></parent>
+<parent name="Pac-Man Collection by Bob DeCrescenzo"><clone name="Pac_snd_hack by tep392 (Pac-Man Collection Hack)"/></parent>
+<parent name="Robotron 2084 (1987) (Atari)"><clone name="Robotron X"/><clone name="Rowdytron"/></parent>
 <parent name="Sentinel (1988-91) (Atari)"><clone name="Sentinel (1988) (Atari)"/><clone name="Sentinel (1991) (Atari)"/></parent>
+<parent name="Tank Command (1988) (Froggo)"><group reg="^Tank Command "/></parent>
 <parent name="Tubes (2004) (Bruce Tomlin)"><group reg="Tubes .*"/></parent>
+<parent name="Xevious"><group reg="^Xevious "/></parent>
+
+
 </parents>
 
 </set>
