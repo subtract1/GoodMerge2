@@ -1,0 +1,1714 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE languages SYSTEM "GoodMerge.dtd"[]>
+<!--Version: 2005-05-18-->
+<languages>
+<language name="Deutsch">
+<!--Author: accolon-->
+<font face="Trebuchet MS" size="9.75"/>
+<size scale-x="6" scale-y="16"/>
+<zonetext n="A" t="Australien"/>
+<zonetext n="Br" t="Brasilien/Brasilianisch"/>
+<zonetext n="Ca" t="Kanada/Kanadisch"/>
+<zonetext n="Cn" t="China/Chinesisch"/>
+<zonetext n="E" t="Europa"/>
+<zonetext n="En" t="Englisch"/>
+<zonetext n="F" t="Frankreich/Franz."/>
+<zonetext n="G" t="Deutsch(land)"/>
+<zonetext n="I" t="Italien(isch)"/>
+<zonetext n="J" t="Japan(isch)"/>
+<zonetext n="K" t="Korea(nisch)"/>
+<zonetext n="No" t="Norwegen/Norwegisch"/>
+<zonetext n="S" t="Spanien/Spanisch"/>
+<zonetext n="Sw" t="Schweden/Schwedisch"/>
+<zonetext n="U" t="USA"/>
+<text n="1" t="Fehler"/>
+<text n="2" t="Ihre aktuellen Sicherheitseinstellungen erlauben es nicht, dieses Programm&#xD;über eine Netzwerkfreigabe laufen zu lassen.&#xD;&#xD;Bitte starten sie es von einer lokalen Festplatte (z.B. C:)."/>
+<text n="3" t="Ungültiger Typ: "/>
+<text n="4" t="Ungültiger Parameter: "/>
+<text n="5" t="Unbekannter Parameter: "/>
+<text n="6" t="Eingabeverzeichnis existiert nicht."/>
+<text n="7" t="Arbeitsverzeichnis existiert nicht."/>
+<text n="8" t="ROM-Liste existiert nicht."/>
+<text n="9" t="Konnte nicht finden: "/>
+<text n="10" t="Sie haben für die aktuellen Einstellungen nicht genug Speicher&#xD;(oder $PRG konnte die Größe des vorhandenen RAMs nicht feststellen)."/>
+<text n="11" t="Starte"/>
+<text n="12" t="Warte..."/>
+<text n="13" t="Insgesamt erwartete Dauer des Vorgangs (Pausen nicht eingerechnet)."/>
+<text n="14" t="Ungefähre Restzeit.&#xD;Aufgrund der variablen Kompressionsvorgänge nicht sehr genau.&#xD;Wird nur nach jeder Archivoperation aktualisiert."/>
+<text n="15" t="Bisher erzeugte Archive / Gesamtzahl zu erzeugender Archive."/>
+<text n="16" t="Vorher-Nachher-Verhältnis der Kompression.&#xD;Der gleiche Wert wie '% des Originals' in der Statistikansicht,&#xD;fortlaufend aktualisiert. Ein kleinerer Wert ist besser."/>
+<text n="17" t="Erwartete Endgröße nach der Kompression.&#xD;Normalerweise kleiner als die tatsächlich Ausgabe aufgrund gewisser Dateigruppen,&#xD;wie Public Domain. Am Ende der Kompression immer präzise."/>
+<text n="18" t="Hintergrundpriorität ein/aus.&#xD;Umschalten mit einem Doppelklick."/>
+<text n="19" t="&amp;Abbruch"/>
+<text n="20" t="L&amp;og speich."/>
+<text n="21" t="Pa&amp;use"/>
+<text n="22" t="&amp;Minimal"/>
+<text n="23" t="Log-Ausgabe"/>
+<text n="24" t="Datei-Ausgabe"/>
+<text n="25" t="Log-Dateien"/>
+<text n="26" t="&amp;Zwischenablage"/>
+<text n="27" t="&amp;Komplett kopieren"/>
+<text n="28" t="Fertig"/>
+<text n="29" t="&amp;Schließen"/>
+<text n="30" t="&amp;Weiter"/>
+<text n="31" t="Vorgang wird pausiert, sobald die aktuelle Dateigruppe komprimiert wurde."/>
+<text n="32" t="Pause"/>
+<text n="33" t="Fehler beim Schreiben auf das Laufwerk.&#xD;Datei: "/>
+<text n="34" t="Nachricht: "/>
+<text n="35" t="Wirklich abbrechen?&#xD;($PRG wird einen abgebrochen&#xD;Vorgang automatisch fortsetzen.)"/>
+<text n="36" t="Abbruch"/>
+<text n="37" t="&amp;Speichern"/>
+<text n="38" t="HP: An"/>
+<text n="39" t="HP: Aus"/>
+<text n="40" t="Erwartet: "/>
+<text n="41" t="Übrig: "/>
+<text n="42" t="Set"/>
+<text n="43" t="Version"/>
+<text n="44" t="nicht gefunden."/>
+<text n="45" t="Parse"/>
+<text n="46" t="Ungültiges XML:"/>
+<text n="47" t=" Keine Erweiterung spezifiziert."/>
+<text n="48" t=" Kein Schalter spezifiziert."/>
+<text n="49" t="Achtung - unbekannte regionale Vorliebe: "/>
+<text n="50" t="Erfolg."/>
+<text n="51" t="Konnte erwartete Zahl nicht aus der ersten Zeile parsen."/>
+<text n="52" t="Fülle Dateibaum... "/>
+<text n="53" t="Fertig."/>
+<text n="54" t=" Dateien werden gespeicher in "/>
+<text n="55" t=" Archiven (vgl. Datei-Ausgabe)."/>
+<text n="56" t="Konnte temporäres Verzeichnis nicht leeren."/>
+<text n="57" t="Verwende maximal "/>
+<text n="58" t="MB RAM."/>
+<text n="59" t="Konnte Ausgabeverzeichnis nicht erzeugen."/>
+<text n="60" t="Konnte Vorgang nicht ausführen."/>
+<text n="61" t="Fehler im Vorgang."/>
+<text n="62" t="Konnte Ausgabe des Entpackers nicht parsen:"/>
+<text n="63" t="Bytes in"/>
+<text n="64" t="Datei"/>
+<text n="65" t="Dateien"/>
+<text n="66" t="bereits komprimiert zu"/>
+<text n="67" t="Konnte temporäres Verzeichnis nicht erzeugen."/>
+<text n="68" t="Dekomprimiere... "/>
+<text n="69" t="Konnte temporäre Datei nicht erzeugen."/>
+<text n="70" t="Doppelte Dateien gefunden."/>
+<text n="71" t="Konnte nicht in temporäre Datei schreiben."/>
+<text n="72" t="Konnte nicht auf Dateisystem zugreifen."/>
+<text n="73" t="Keine passenden ROMs gefunden für"/>
+<text n="74" t="Konnte temporäre Datei nicht schließen."/>
+<text n="75" t="Parameter: "/>
+<text n="76" t="komprimiert zu..."/>
+<text n="77" t="Extern (Kommandozeile -- "/>
+<text n="78" t="% des Originals"/>
+<text n="79" t="Lösche Dateien... "/>
+<text n="80" t="Konnte nicht löschen"/>
+<text n="81" t="Konnte temporäre Datei nicht löschen."/>
+<text n="82" t="Abgebrochen bei "/>
+<text n="83" t="Statistik"/>
+<text n="84" t="Dateien wurden komprimiert zu"/>
+<text n="85" t="in"/>
+<text n="86" t="Achtung - Duplikat: "/>
+<text n="87" t="Bytes"/>
+<text n="88" t="Konnte temporären Ordner nicht löschen."/>
+<text n="89" t="Jetzt &amp;Mergen"/>
+<text n="90" t="&amp;Nächste Seite &gt;"/>
+<text n="91" t="&lt; &amp;Vorherige Seite"/>
+<text n="92" t="Alle Dateien"/>
+<text n="93" t="ROM Set"/>
+<text n="94" t="Dateiorte"/>
+<text n="95" t="Kompression"/>
+<text n="96" t="Erweitert"/>
+<text n="97" t="Andere Orte"/>
+<text n="98" t="Über"/>
+<text n="99" t="Willkommen bei $PRG!"/>
+<text n="100" t="Dieses Programm hilft dabei, durch hochgradig komprimierte und trotzdem leicht verwendbare Archive das meiste aus vorhandenen ROM-Sets herauszuholen. Dazu bitte einfach die Einstellungen auf jeder Seite überprüfen und mit einem Klick auf 'Jetzt Mergen' starten. Die Einstellungen werden beim Beenden gespeichert; meistens reicht es also aus, diese und die nächste Seite zu überprüfen.&#xD;&#xD;Wenn dies der erste Start von $PRG ist, bitte die 'Regionalen Vorlieben' unter 'Erweitert' beachten.&#xD;&#xD;Links sind alle ROM-Sets aufgeführt, für die Daten installiert sind. Zu Anfang dort als erstes das gewünschte ROM-Set auswählen und dann zur nächsten Seite gehen."/>
+<text n="101" t="&amp;ROM-Sets neu lesen"/>
+<text n="102" t="Quellverzeichnis"/>
+<text n="103" t="Vorgabe"/>
+<text n="104" t="Suchen"/>
+<text n="105" t="Dieser Ordner enthält alle ROM-Dateien. $PRG sucht nicht in Unterordnern, also die GoodTools mit 'rename' statt 'rename dirs' zum Scannen der ROMs verwenden."/>
+<text n="106" t="Zielverzeichnis"/>
+<text n="107" t="Hierhin gelangen alle erfolgr. bearbeiteten Archive. Das Verz. wird erstellt, wenn es nicht existiert. Falls doch, muss es leer sein oder die Archive eines abgebr. Vorgangs enthalten."/>
+<text n="108" t="have.txt-Datei"/>
+<text n="109" t="Die *have.txt-Datei, die zu dem gewählten ROM-Set gehört. Die Datei muss korrekt und aktuell sein, oder es können Fehler auftreten!"/>
+<text n="110" t="Quell-Kompression"/>
+<text n="111" t="Das Archivformat, in dem die ROMs momentan vorliegen"/>
+<text n="112" t="Ziel-Kompression"/>
+<text n="113" t="Der für das Mergen gewünschte Kompressionstyp."/>
+<text n="114" t="7-Zip Optionen"/>
+<text n="115" t=" MB max. RAM"/>
+<text n="116" t=" MB 'Max' Dict"/>
+<text n="117" t=" MB 'Ultra' Dict"/>
+<text n="118" t="&amp;Vorgabe"/>
+<text n="119" t="Dies ist der maximale von 7-zip zu verwendende Arbeitsspeicher, sowie die daraus resultierenden Wörterbuchgrößen. Da ein größeres Wörterbuch effektiver ist als der Ultra Modus, nutzt $PRG das größere Wörterbuch im Max Modus, wenn nicht genug RAM für den Ultra Modus verfügbar ist."/>
+<text n="120" t="Hintergrundpriorität verwenden"/>
+<text n="121" t="Der Computer reagiert schneller auf Benutzeraktionen, allerdings verlangsamt dies den Archivierungsprozess ein wenig."/>
+<text n="122" t="Kompressionsparameter anzeigen"/>
+<text n="123" t="Zeigt die benutzten Kompressionsparam. im Log-Fenster an. Hilfreich für eine Übersicht der tatsächl. von 7-zip verwendeten Wörterbuchgröße."/>
+<text n="124" t="Quelldateien löschen"/>
+<text n="125" t="Löscht unkomprimierte Dateien nach erfolgreicher Archivierung. Diese Option ist nur verfügbar, wenn die Quell-Kompression auf 'keine' steht."/>
+<text n="126" t="Arbeitsverzeichnis"/>
+<text n="127" t="$PRG nutzt dieses Verzeichnis für alle temporären Dateien."/>
+<text n="128" t="Regionale Vorlieben"/>
+<text n="129" t="Die Liste enthält alle in $PRG bekannten regionalen Zonen. Für jedes Spiel mit unterschiedl. Namen in versch. Regionen wird der Name mit der höchsten regionalen Priorität (am weitesten oben) als Archivname genutzt. Bei versch. Namen in den USA und Japan wird z.B. der US-Name benutzt, wenn USA in der Liste über Japan steht."/>
+<text n="130" t="Kommandozeilenversion"/>
+<text n="131" t="Version"/>
+<text n="132" t="$PRG hat bereits viele Veränderungen durchlebt, und viele Personen haben zu dem Projekt beigetragen. Der Autor möchte (ohne bestimmte Reihenfolge)"/>
+<text n="133" t="Diese Option löscht Dateien von der Festplatte!&#xD;Diese sind nicht wiederherstellbar. Falls es&#xD;keine Backups der Dateien gibt, bitte diese Option&#xD;nicht verwenden.&#xD;&#xD;Dateien wirklich löschen, sobald&#xD;sie komprimiert wurden?"/>
+<text n="134" t="Sicher?"/>
+<text n="135" t="Ordner mit den ROMs auswählen:"/>
+<text n="136" t="Ordner für die archivierten ROMs auswählen:"/>
+<text n="137" t="Ordner für temporäre Dateien auswählen:"/>
+<text n="138" t="Keine verwendbaren Entpacker gefunden."/>
+<text n="139" t="Bitte erst ein ROM-Set auswählen."/>
+<text n="140" t="Bitte die Vorgaben überprüfen, dann nochmals auf 'Jetzt Mergen' klicken."/>
+<text n="141" t="Die Wörterbuchgröße für den Max Modus muss mindestens 1 sein. Bitte 'max. RAM' vergrößern."/>
+<text n="142" t="Das Quellverzeichnis existiert nicht."/>
+<text n="143" t="Das Arbeitsverzeichnis existiert nicht."/>
+<text n="144" t="Maximale RAM-Nutzung"/>
+<text n="145" t="für ihre Beiträge danken.&#xD;Und selbstverständlich, ohne Cowerings harte Arbeit bei der Erstellung der GoodTools würde es dieses Programm gar nicht erst geben.&#xD;Weitere Informationen und Datenbanken können unter der folgenden Adresse gefunden werden:"/>
+<text n="146" t="Sprache zurücksetzen"/>
+<text n="147" t="$PRG fragt beim nächsten Start nach der zu verwendenden Sprache."/>
+<text n="148" t="Verwendung"/>
+<text n="149" t="set"/>
+<text n="150" t="version"/>
+<text n="151" t="options"/>
+<text n="152" t="ist das zu verarbeitende ROM-Set (der Teil des Namens nach 'Good')."/>
+<text n="153" t="ist die Version des jeweiligen GoodTools (0.999.5, 2.02, etc.)."/>
+<text n="154" t="ist eine Kombination aus:"/>
+<text n="155" t="Da die Ausgabe-Dateien komprimiert sein müssen, kann ohne entsprechenden Packer nicht fortgefahren werden (siehe 'Andere Orte')."/>
+<text n="156" t=", oder 'none' für unkomprimierte Dateien. $PRG sucht NUR nach ROMs in dem ausgewählten Format. Ist ein Format hier nicht verfügbar, so konnte $PRG den passenden Entpacker nicht finden (siehe 'Andere Orte')."/>
+<text n="157" t=". Standardmäßig sucht $PRG nach unkoprimierten ROMs mit korrekten Dateierweiterungen. Ist dieser Parameter angegeben, sicht es stattdessen nur in Archiven des spezifizierten Typs."/>
+<text n="158" t="RAM in MB"/>
+<text n="159" t="Der maximal zu verwendende Arbeitsspeicher in MB, den 7-Zip benutzen soll. Es sollten wenigstens 64MB für das Betriebssystem vorhanden bleiben. Diese Option ist nur nötig, wenn $PRG die Größe des RAMs nicht feststellen konnte, oder Extra-RAM für andere Zwecke reserviert werden soll. Standardmäßig ist dieses Maximum die Gesamtgröße des RAMs minus 114MB. Dies ist nur bei der Verwendung von 7-zip zur Ausgabe nötig."/>
+<text n="160" t="Default ist"/>
+<text n="161" t="Pfad zu Ordner"/>
+<text n="162" t="Pfad zu Datei"/>
+<text n="163" t="Pfade sollten in Anführungszeichen stehen und keinen abschließenden Backslash haben."/>
+<text n="164" t="Have.txt existiert nicht."/>
+<text n="165" t="der aktuelle Ordner."/>
+<text n="166" t="Minimales Fenster - macht das Log-Fenster kleiner."/>
+<text n="167" t="Voransichts-Modus - überspringt die Kompression und führt direkt zur Dateiliste."/>
+<text n="168" t="$PRG - Kommandozeile"/>
+<text n="169" t="Über $PRG"/>
+</language>
+
+<language name="English">
+<!--Author: q^-o|o-^p-->
+<font face="Trebuchet MS" size="9.75"/>
+<size scale-x="6" scale-y="16"/>
+<zonetext n="A" t="Australia(n)"/>
+<zonetext n="Br" t="Brazil(ian)"/>
+<zonetext n="Ca" t="Canada/Canadian"/>
+<zonetext n="Cn" t="China/Chinese"/>
+<zonetext n="E" t="Europe"/>
+<zonetext n="En" t="English"/>
+<zonetext n="F" t="France/French"/>
+<zonetext n="G" t="German(y)"/>
+<zonetext n="I" t="Italy/Italian"/>
+<zonetext n="J" t="Japan(ese)"/>
+<zonetext n="K" t="Korea(n)"/>
+<zonetext n="No" t="Norway/Norwegian"/>
+<zonetext n="S" t="Spain/Spanish"/>
+<zonetext n="Sw" t="Sweden/Swedish"/>
+<zonetext n="U" t="United States"/>
+<text n="1" t="Error"/>
+<text n="2" t="Your current security settings will not allow this program to run properly&#xD;from a network share.&#xD;&#xD;Please run it from a local hard disk (ex. c:)."/>
+<text n="3" t="Invalid type: "/>
+<text n="4" t="Invalid argument: "/>
+<text n="5" t="Unknown argument: "/>
+<text n="6" t="Input directory does not exist."/>
+<text n="7" t="Working directory does not exist."/>
+<text n="8" t="ROMs list file does not exist."/>
+<text n="9" t="Could not find"/>
+<text n="10" t="You do not have enough memory to use the current settings&#xD;(or $PRG could not determine the amount of RAM in your system)."/>
+<text n="11" t="Initializing"/>
+<text n="12" t="Waiting…"/>
+<text n="13" t="Total time elapsed, excluding time while paused."/>
+<text n="14" t="Approximate time remaining.&#xD;Far from exact, due to the variable nature of compression.&#xD;Only updated after each archive operation."/>
+<text n="15" t="Number of archives created so far / total archives to create."/>
+<text n="16" t="Ratio of output bytes to input bytes.&#xD;Same value as '% of original' in the statistics output,&#xD;updated continually. A smaller value is better."/>
+<text n="17" t="Projected final size of the merged output.&#xD;Generally smaller than the actual output due to certain file groups,&#xD;such as Public Domain. Always accurate after merge is complete."/>
+<text n="18" t="Background priority mode status.&#xD;Double-click to toggle."/>
+<text n="19" t="&amp;Cancel"/>
+<text n="20" t="&amp;Save Log"/>
+<text n="21" t="Pa&amp;use"/>
+<text n="22" t="&amp;Minimal"/>
+<text n="23" t="Log Output"/>
+<text n="24" t="Files Output"/>
+<text n="25" t="Log Files"/>
+<text n="26" t="&amp;Copy to Clipboard"/>
+<text n="27" t="Copy &amp;Entire Node"/>
+<text n="28" t="Finished"/>
+<text n="29" t="&amp;Close"/>
+<text n="30" t="Contin&amp;ue"/>
+<text n="31" t="Pausing will occur after the current group of files is compressed."/>
+<text n="32" t="Paused"/>
+<text n="33" t="An error occurred while trying to write to disk.&#xD;File: "/>
+<text n="34" t="Message: "/>
+<text n="35" t="Are you sure you wish to cancel?&#xD;($PRG will automatically resume&#xD;an interrupted operation.)"/>
+<text n="36" t="Cancel"/>
+<text n="37" t="&amp;Save List"/>
+<text n="38" t="BP: On"/>
+<text n="39" t="BP: Off"/>
+<text n="40" t="Elapsed: "/>
+<text n="41" t="Remaining: "/>
+<text n="42" t="Set"/>
+<text n="43" t="version"/>
+<text n="44" t="not found."/>
+<text n="45" t="Parsing"/>
+<text n="46" t="Invalid XML."/>
+<text n="47" t=" No extensions specified."/>
+<text n="48" t=" No flags specified."/>
+<text n="49" t="Warning - unknown bias zone found: "/>
+<text n="50" t="Success."/>
+<text n="51" t="Could not parse expected count from first line."/>
+<text n="52" t="Populating files tree… "/>
+<text n="53" t="Done."/>
+<text n="54" t=" files will be stored in "/>
+<text n="55" t=" archives (see Files Output page)."/>
+<text n="56" t="Could not empty temporary folder."/>
+<text n="57" t="Using a maximum of "/>
+<text n="58" t="MB RAM."/>
+<text n="59" t="Could not create output folder."/>
+<text n="60" t="Could not execute process."/>
+<text n="61" t="Failure in process."/>
+<text n="62" t="Could not parse output from decompressor:"/>
+<text n="63" t="bytes in"/>
+<text n="64" t="file"/>
+<text n="65" t="files"/>
+<text n="66" t="already compressed to"/>
+<text n="67" t="Could not create temporary folder."/>
+<text n="68" t="Decompressing… "/>
+<text n="69" t="Could not create temporary file."/>
+<text n="70" t="Duplicate files found."/>
+<text n="71" t="Could not write to temporary file."/>
+<text n="72" t="Could not access file system."/>
+<text n="73" t="No ROMs found matching"/>
+<text n="74" t="Could not close temporary file."/>
+<text n="75" t="Arguments: "/>
+<text n="76" t="compressed to…"/>
+<text n="77" t="External (Command line -- "/>
+<text n="78" t="% of original"/>
+<text n="79" t="Deleting files… "/>
+<text n="80" t="Could not delete"/>
+<text n="81" t="Could not delete temporary file."/>
+<text n="82" t="Cancelled at "/>
+<text n="83" t="Statistics"/>
+<text n="84" t="files were compressed into"/>
+<text n="85" t="in"/>
+<text n="86" t="Warning - duplicate: "/>
+<text n="87" t="bytes"/>
+<text n="88" t="Could not delete temporary folder."/>
+<text n="89" t="Merge N&amp;ow"/>
+<text n="90" t="&amp;Next Page &gt;"/>
+<text n="91" t="&lt; &amp;Previous Page"/>
+<text n="92" t="All Files"/>
+<text n="93" t="ROM Set"/>
+<text n="94" t="File Locations"/>
+<text n="95" t="Compression"/>
+<text n="96" t="Advanced"/>
+<text n="97" t="Other Locations"/>
+<text n="98" t="About"/>
+<text n="99" t="Welcome to $PRG!"/>
+<text n="100" t="This program will help you get the most out of your ROM sets by creating highly compressed and usable archives. Simply verify the settings on each page, then click the Merge Now button to begin. Your settings will be saved when you exit, so most of the time you will only need to check this page and the next.&#xD;&#xD;If this is your first time running $PRG, be sure to take a look at the Bias Zone Priority box on the Advanced Options page.&#xD;&#xD;The box to the left shows all the sets whose databases have been installed. To get started, first choose which ROM set to work with, then click the Next Page button to move on."/>
+<text n="101" t="&amp;Refresh ROM Sets"/>
+<text n="102" t="Source Folder"/>
+<text n="103" t="Default"/>
+<text n="104" t="Browse…"/>
+<text n="105" t="This folder currently contains all of your ROM files. Note that $PRG does not search subfolders, so be sure to use 'rename' and not 'rename dirs' when you scan your ROMs."/>
+<text n="106" t="Output Folder"/>
+<text n="107" t="This is where you want all the merged archive files to end up. The folder will be created if it does not exist. If it does, it must be empty or contain a canceled merge."/>
+<text n="108" t="Have.txt File"/>
+<text n="109" t="Set this to the *have.txt file that corresponds with the ROM set you wish to merge. Be sure that this file is accurate and up-to-date, or you will encounter errors."/>
+<text n="110" t="Source Compression"/>
+<text n="111" t="Choose the format that your files are currently stored in"/>
+<text n="112" t="Output Compression"/>
+<text n="113" t="Choose the compression type you wish to use for merging."/>
+<text n="114" t="7-Zip Options"/>
+<text n="115" t=" MB Max RAM"/>
+<text n="116" t=" MB 'Max' Dict"/>
+<text n="117" t=" MB 'Ultra' Dict"/>
+<text n="118" t="&amp;Reset to Default"/>
+<text n="119" t="This is the maximum amount of RAM that 7-zip will use and the maximum dictionary sizes that result. Because a larger dictionary results in greater savings than using Ultra Mode, $PRG will use the larger dictionary in Max Mode when there is not enough RAM for the same in Ultra Mode."/>
+<text n="120" t="Use Background Priority"/>
+<text n="121" t="Causes your computer to be more responsive while merging, but also causes the merging process to take a bit longer."/>
+<text n="122" t="Show Compression Arguments"/>
+<text n="123" t="Includes the arguments passed to the compressor in the log window. This is most useful to see the actual dictionary sizes used for 7-zip."/>
+<text n="124" t="Delete Source Files"/>
+<text n="125" t="Deletes uncompressed files after they have been successfully merged. This option is only available if the source compression is set to 'none.'"/>
+<text n="126" t="Working Folder"/>
+<text n="127" t="$PRG will use this folder for all temporary files."/>
+<text n="128" t="Bias Zone Priority"/>
+<text n="129" t="The above list contains all the bias zones known to $PRG. For any game with different names in different regions, the name with the highest priority bias zone (closest to the top) will be used as the archive name. For example, a game with different names in USA and Japan will merge to the USA name if USA is above Japan in the list."/>
+<text n="130" t="Command Line"/>
+<text n="131" t="Version"/>
+<text n="132" t="$PRG has seen many changes throughout its lifetime, and many people have contributed to the project. The author would like to thank (in no order whatsoever)"/>
+<text n="133" t="This option will remove files from your system!&#xD;These files will not be recoverable. If you do&#xD;not have backups of your files, please do not&#xD;use this option.&#xD;&#xD;Are you sure you wish to delete files&#xD;once they have been compressed?"/>
+<text n="134" t="Are you sure?"/>
+<text n="135" t="Select the folder containing your ROMs:"/>
+<text n="136" t="Select the folder to store merged ROMs:"/>
+<text n="137" t="Select the folder for temporary files:"/>
+<text n="138" t="No valid decompressors were found."/>
+<text n="139" t="You must select a ROM set."/>
+<text n="140" t="Please verify that the defaults are acceptable, then click 'Merge Now' again."/>
+<text n="141" t="The 'Max Mode' dictionary size must be at least 1. Increase the Max RAM amount."/>
+<text n="142" t="Source Folder does not exist."/>
+<text n="143" t="Working Folder does not exist."/>
+<text n="144" t="Maximum RAM Usage"/>
+<text n="145" t="for their contributions.&#xD;&#xD;And of course, were it not for Cowering's hard work producing the GoodTools, this program could not even exist.&#xD;&#xD;Additional information and databases can be found at the following address:"/>
+<text n="146" t="Reset Language"/>
+<text n="147" t="Causes $PRG to prompt you to set the language on the next startup."/>
+<text n="148" t="Usage"/>
+<text n="149" t="set"/>
+<text n="150" t="version"/>
+<text n="151" t="options"/>
+<text n="152" t="is the ROM set to process (the part that comes after 'Good')."/>
+<text n="153" t="is the version of the GoodTool (0.999.5, 2.02, etc.)."/>
+<text n="154" t="is any combination of the following:"/>
+<text n="155" t="Since the output files must be compressed, you will not be able to proceed if no compressors are found. See the Program Locations page."/>
+<text n="156" t=", or 'none' if they are uncompressed. $PRG will search ONLY the chosen format when looking for valid ROMs. If a format is unavailable, $PRG was unable to find the appropriate decompressor."/>
+<text n="157" t=". By default, $PRG will search for uncompressed ROMs with correct extensions. If this argument is specified, it will instead search only within archives of the specified type."/>
+<text n="158" t="RAM in MB"/>
+<text n="159" t="The maximum amount of RAM in MB that 7-Zip should use. Do not forget to allow at least 64MB for the operating system. This option should only be necessary if $PRG cannot determine your system's RAM for some reason, or you wish to reserve extra RAM for your own usage. By default, this maximum is your total RAM minus 114MB. Note that this only applies when using 7z for output."/>
+<text n="160" t="The default is"/>
+<text n="161" t="path to folder"/>
+<text n="162" t="path to file"/>
+<text n="163" t="Paths should be quoted if necessary and should not have a trailing backslash."/>
+<text n="164" t="Have.txt file does not exist."/>
+<text n="165" t="the current folder."/>
+<text n="166" t="Minimal Window - Makes the log window smaller by hiding the output pages."/>
+<text n="167" t="Preview Mode - Skips the compression and takes you straight to the files listing."/>
+<text n="168" t="$PRG - Command Line"/>
+<text n="169" t="About $PRG"/>
+</language>
+
+<language name="Español">
+<!--Author: JailDesigner-->
+<font face="Trebuchet MS" size="9.75"/>
+<size scale-x="6" scale-y="16"/>
+<zonetext n="A" t="Australia"/>
+<zonetext n="Br" t="Brasil"/>
+<zonetext n="Ca" t="Canada"/>
+<zonetext n="Cn" t="China"/>
+<zonetext n="E" t="Europa"/>
+<zonetext n="En" t="Inglaterra"/>
+<zonetext n="F" t="Francia"/>
+<zonetext n="G" t="Alemania"/>
+<zonetext n="I" t="Italia"/>
+<zonetext n="J" t="Japon"/>
+<zonetext n="K" t="Korea"/>
+<zonetext n="No" t="Noruega"/>
+<zonetext n="S" t="España"/>
+<zonetext n="Sw" t="Suecia"/>
+<zonetext n="U" t="Estados Unidos"/>
+<text n="1" t="Error"/>
+<text n="2" t="Tu configuración actual de seguridad no permite ejecturar este programa adecuadamente&#xD;desde un acceso de red compartido.&#xD;&#xD;Por favor, ejecutalo desde un disco duro local (p.e. C:)."/>
+<text n="3" t="Tipo inválido: "/>
+<text n="4" t="Argumento inválido: "/>
+<text n="5" t="Argumento desconocido: "/>
+<text n="6" t="El directorio de entrada no existe."/>
+<text n="7" t="El directorio de trabajo no existe."/>
+<text n="8" t="El fichero con la lista de ROMs no existe."/>
+<text n="9" t="No se puede encontrar"/>
+<text n="10" t="No tienes suficiente memoria para usar la configuración actual&#xD;(o $PRG no puedde determinar la cantidad de RAM de tu sistema)."/>
+<text n="11" t="Inicializando"/>
+<text n="12" t="Esperando?"/>
+<text n="13" t="Tiempo total transcurrido, sin contar el tiempo mientras ha estado pausado."/>
+<text n="14" t="Tiempo restante aproximado.&#xD;Lejos de ser exacto, debido a la natural variabilidad de la compresion.&#xD;Sólo se actualiza al finalizar una operación de archivo."/>
+<text n="15" t="Número de archivos creados de momento / Total de archivos para crear."/>
+<text n="16" t="Relación de bytes de salida respecto a bytes de entrada.&#xD;El mismo valor que '% del original' en la salida de estadísticas,&#xD;actualizado continuamente. Cuanto más pequeño sea el valor, mejor."/>
+<text n="17" t="Tamaño final estimado.&#xD;Generalmente mas pequeño que el actual debido ciertos grupos de ficheros,&#xD;como los de Dominio Público (PD). Siempre es más exacto una vez que la operación se ha completado."/>
+<text n="18" t="Estado del modo de prioridad en segundo plano.&#xD;Doble-click para cambiarlo."/>
+<text n="19" t="&amp;Cancelar"/>
+<text n="20" t="&amp;Guardar"/>
+<text n="21" t="Pa&amp;usar"/>
+<text n="22" t="&amp;Pequeño"/>
+<text n="23" t="Resumen"/>
+<text n="24" t="Ficheros"/>
+<text n="25" t="Resumen de ficheros"/>
+<text n="26" t="&amp;Copia al Portapapeles"/>
+<text n="27" t="Copia el &amp;Nodo entero"/>
+<text n="28" t="Terminado"/>
+<text n="29" t="&amp;Cerrar"/>
+<text n="30" t="Contin&amp;ar"/>
+<text n="31" t="El programá se pausará cuando se termine de comprimir el grupo de ficheros actual."/>
+<text n="32" t="Pausado"/>
+<text n="33" t="Ha ocurrido un error mientras se trataba de escribir en el disco.&#xD;Fichero: "/>
+<text n="34" t="Mensaje: "/>
+<text n="35" t="Estas seguro de que quieres cancelar?&#xD;($PRG automaticamente reanudará&#xD;una operación interrumpida.)"/>
+<text n="36" t="Cancelar"/>
+<text n="37" t="&amp;Guardar lista"/>
+<text n="38" t="PSP: Activada."/>
+<text n="39" t="PSP: Desactivada."/>
+<text n="40" t="Tiempo transcurrido: "/>
+<text n="41" t="Tiempo restante: "/>
+<text n="42" t="Set"/>
+<text n="43" t="versión"/>
+<text n="44" t="no encontrada."/>
+<text n="45" t="Analizando"/>
+<text n="46" t="XML inválido:"/>
+<text n="47" t=" Extensiones no especificadas."/>
+<text n="48" t=" 'flags' no especificados."/>
+<text n="49" t="Cuidado - encontrada una zona de nombre desconocida"/>
+<text n="50" t="Correcto."/>
+<text n="51" t="No se ha podido analizar la cuenta esperada desde la primera linea."/>
+<text n="52" t="Rellendando estructura de ficheros... "/>
+<text n="53" t="Hecho."/>
+<text n="54" t=" ficheros seran almacenados en "/>
+<text n="55" t=" archivos (mira la página Ficheros de Salida)."/>
+<text n="56" t="No se ha podido vaciar el directorio temporal."/>
+<text n="57" t="Usando un máximo de "/>
+<text n="58" t="MB RAM."/>
+<text n="59" t="No se ha podido crear el directorio de salida."/>
+<text n="60" t="No se ha podido ejecutar el proceso."/>
+<text n="61" t="Fallo en el proceso."/>
+<text n="62" t="No se ha podido analizar la salida del descompresor:"/>
+<text n="63" t="bytes en"/>
+<text n="64" t="fichero"/>
+<text n="65" t="ficheros"/>
+<text n="66" t="ya comprimidos en"/>
+<text n="67" t="No se ha podido crear el directorio temporal."/>
+<text n="68" t="Descomprimiendo... "/>
+<text n="69" t="No se ha podido crear el fichero temporal."/>
+<text n="70" t="Se han encontrado ficheros duplicados."/>
+<text n="71" t="No se ha podido escribir en el fichero temporal."/>
+<text n="72" t="No se ha podido acceder al sistema de ficheros."/>
+<text n="73" t="No se han encontrado ROMs que encajen"/>
+<text n="74" t="No se ha podido cerrar el fichero temporal."/>
+<text n="75" t="Argumentos: "/>
+<text n="76" t="comprimidos en..."/>
+<text n="77" t="Externo (Linea de comandos -- "/>
+<text n="78" t="% del original"/>
+<text n="79" t="Borrar ficheros... "/>
+<text n="80" t="No se ha podido borrar"/>
+<text n="81" t="No se ha podido borrar el fichero temporal."/>
+<text n="82" t="Cancelado al "/>
+<text n="83" t="Estadisticas"/>
+<text n="84" t="ficheros fueron comprimidos en"/>
+<text n="85" t="en"/>
+<text n="86" t="Atención - duplicado: "/>
+<text n="87" t="bytes"/>
+<text n="88" t="No se ha podido borrar el directorio temporal."/>
+<text n="89" t="&amp;Unir Ahora"/>
+<text n="90" t="&amp;Siguiente &gt;"/>
+<text n="91" t="&lt; &amp;Anterior"/>
+<text n="92" t="Todos los ficheros"/>
+<text n="93" t="Sets"/>
+<text n="94" t="Ubicaciones"/>
+<text n="95" t="Compresión"/>
+<text n="96" t="Avanzado"/>
+<text n="97" t="Otras ubicaciones"/>
+<text n="98" t="Acerca de"/>
+<text n="99" t="Bienvenido a $PRG!"/>
+<text n="100" t="Este programa te ayudará a almacenar de la mejor forma tus sets de ROMs creando archivos utilies y con una gran compresión. Simplemente comprueba los parametros de cada página y luego pulsa el botón de 'Unir Ahora' para empezar. Tus preferencias se guardan al salir, así que la mayoría de las veces solo tendras que comprobar esta página y la siguiente.&#xD;&#xD;Si es la primera vez que ejecutas $PRG, asegurate de echar un vistazo a configuración de 'Prioridad de Nombres de Zona' en la página de opciones avanzadas.&#xD;&#xD;El cuadro de la izquierda muestra todos los sets cuya base de datos ha sido instalada. Para empezar escoge con qué set de ROMs vas a trabajar. A continuación pulsa el botón 'Siguiente' para continuar."/>
+<text n="101" t="&amp;Actualizar"/>
+<text n="102" t="Directorio de origen"/>
+<text n="103" t="Defecto"/>
+<text n="104" t="Buscar?"/>
+<text n="105" t="Este directorio es el que contiene todas tus ROMs. $PRG no busca en subdirectorios, así que asegurate de usar 'rename' y no 'rename dirs' cuando escanees tus ROMs."/>
+<text n="106" t="Directorio de salida"/>
+<text n="107" t="Aquí es donde van a terminar todos tus archivos unidos. Si el directorio no existe, se creará. Si existe, debe estar vacio o contener una unión cancelada."/>
+<text n="108" t="Fichero Have.txt"/>
+<text n="109" t="Pon aquí el fichero *have.txt que corresponde con el set de ROMs que deseas unir. Asegurate de que el fichero es correcto y está actualizado, de lo contrario pueden aparecer errores."/>
+<text n="110" t="Compresión de origen"/>
+<text n="111" t="Escoge el formato en el cual estan actualmente almacenados tus ficheros"/>
+<text n="112" t="Compresión de salida"/>
+<text n="113" t="Escoge el tipo de compresión deseado para unir."/>
+<text n="114" t="Opciones de 7-Zip"/>
+<text n="115" t=" MB Max RAM"/>
+<text n="116" t=" MB 'Max' Dict"/>
+<text n="117" t=" MB 'Ultra' Dict"/>
+<text n="118" t="&amp;Valores por defecto"/>
+<text n="119" t="Esta es la cantidad máxima de RAM que 7-zip usará y el tamaño de diccionario máximo que resultará. Usando tamaños grandes de diccionario se obtienen mejores resultados que usando el 'Modo Ultra', $PRG usará el diccionario grande en 'Max Mode' cuando haya suficiente RAM para lo mismo en el 'Modo Ultra'."/>
+<text n="120" t="Usar Prioridad en Segundo Plano"/>
+<text n="121" t="Hace que tu ordenador responda mejor mientras se une, pero también hace que el proceso de unión se alargue un poco mas."/>
+<text n="122" t="Mostrar los Argumentos de Compresión"/>
+<text n="123" t="Incluye los argumentos pasados al compresor en la ventana de resumen. Es realmente útil para ver el diccionario que está usando el 7-zip."/>
+<text n="124" t="Borrar Ficheros Originales"/>
+<text n="125" t="Borra los ficheros sin comprimir una vez que han sido unidos con éxito. Solo está disponible si la compresión original esta puesta en 'none'"/>
+<text n="126" t="Directorio de trabajo"/>
+<text n="127" t="$PRG usará este directorio para todos los ficheros temporales."/>
+<text n="128" t="Prioridad de Nombres de Zona"/>
+<text n="129" t="La lista de arriba contiene todas las 'Zonas de Nombres' conocidas por $PRG. Para cualquier juego con diferentes nombres en las distintas regiones, el nombre con mayor prioridad de 'Nombre de Zona' (el de mas arriba) es el que será usado en el nombre de archivo."/>
+<text n="130" t="Linea de comando"/>
+<text n="131" t="Version"/>
+<text n="132" t="$PRG ha cambiado muchas veces durante su vida y mucha gente a contribuido al proyecto. El autor quisiera agradecer (sin ningún orden en particular) a"/>
+<text n="133" t="Esta opción borrará los ficheros de tu ordenador!&#xD;Estos ficheros no seran recuperables.&#xD;Si no tienes copias de seguridad, por favor no uses&#xD;esta opción.&#xD;&#xD;Estas seguro de que deseas borrar los ficheros&#xD;una vez hayan sido comprimidos?"/>
+<text n="134" t="Estas seguro?"/>
+<text n="135" t="Selecciona el directorio que contiene tus ROMs:"/>
+<text n="136" t="Selecciona el directorio donde almacenar las ROMs unidas:"/>
+<text n="137" t="Selecciona el directorio para los ficheros temporales:"/>
+<text n="138" t="No se encontró ningún descompresor válido."/>
+<text n="139" t="Debes seleccionar algún set de ROMs."/>
+<text n="140" t="Por favor, comprueba que las opciones por defecto son aceptables, luego pulsa 'Unir Ahora' de nuevo."/>
+<text n="141" t="El tamaño de diccionario 'Max Mode' debe ser al menos 1. Aumenta la cantidad máxima de RAM."/>
+<text n="142" t="El directorio de origen no existe."/>
+<text n="143" t="El directorio de trabajo no existe."/>
+<text n="144" t="Máximo uso de RAM"/>
+<text n="145" t="por sus contribuiciones.&#xD;&#xD;Y por supuesto, si no fuese por el durisimo trabajo de Cowering creando las GoodTools, este programa ni siquiera existiría.&#xD;&#xD;Puedes encontrar información y bases de datos adicionales en esta página:"/>
+<text n="146" t="Lenguaje por defecto"/>
+<text n="147" t="Hace que $PRG te pregunte que lenguaje quieres usar la próxima vez que se inicie."/>
+<text n="148" t="Modo de utilización"/>
+<text n="149" t="set"/>
+<text n="150" t="versión"/>
+<text n="151" t="opciones"/>
+<text n="152" t="es el set de ROMs a procesar (la parte que aparece justo despues de 'Good')."/>
+<text n="153" t="es la versión del GoodTool (0.999.5, 2.02, etc.)."/>
+<text n="154" t="es cualquier combinación de las siguientes:"/>
+<text n="155" t="Debido a que los ficheros de salida deben ser comprimidos, no seras capaz de proceder si no se encuentra ningún compresor. Mira la página 'Otras ubicaciones'."/>
+<text n="156" t=", o 'none' si estan sin comprimir. $PRG SOLAMENTE buscará el formato elegido cuando busque ROMs válidas. Si algún formato no está disponible es porque $PRG fue incapaz de encontrar el descompresor apropiado."/>
+<text n="157" t=". Por defecto, $PRG buscará ROMs sin comprimir con las extensiones adecuadas. Si este argumento es especificado, solo buscará archivos del tipo especificado."/>
+<text n="158" t="RAM en MB"/>
+<text n="159" t="La máxima cantindad de RAM que el 7-zip debe de usar. No olvides de dejar por lo menos 64MB para el sistema operativo. Esta opción solo es necesaria si el $PRG no puede determinar la cantidad de RAM de tu sistema por alguna razón o quieres reservar RAM extra para tu propio uso. Por defecto, este máximo es tu cantidad total de RAM menos 114MB. Ten en cuenta que esto solo se aplica cuando se usa 7z para la salida."/>
+<text n="160" t="Por defecto es"/>
+<text n="161" t="Ruta al directorio"/>
+<text n="162" t="Ruta al fichero"/>
+<text n="163" t="Las rutas deben ser entrecomilladas si es necesario y no deben tener la contrabarra al final."/>
+<text n="164" t="El fichero 'Have.txt' no existe."/>
+<text n="165" t="el actual directorio."/>
+<text n="166" t="Ventana pequeña - Hace la ventana de resumen mas pequeña, ocultando las páginas de salida."/>
+<text n="167" t="Modo de previsualización - Salta la compresión y te lleva directo al listado de ficheros."/>
+<text n="168" t="$PRG - Linea de comandos"/>
+<text n="169" t="Acerca de $PRG"/>
+</language>
+
+<language name="Français">
+<!--Author: BRaiNL3Ss-->
+<font face="Tahoma" size="9.50"/>
+<size scale-x="6" scale-y="16"/>
+<zonetext n="A" t="Australie(n)"/>
+<zonetext n="Br" t="Brezil(ien)"/>
+<zonetext n="Ca" t="Canada/Canadien"/>
+<zonetext n="Cn" t="Chine/Chinois"/>
+<zonetext n="E" t="Europe"/>
+<zonetext n="En" t="Anglais"/>
+<zonetext n="F" t="France/Français"/>
+<zonetext n="G" t="Allemagne/Allemand"/>
+<zonetext n="I" t="Italie(n)"/>
+<zonetext n="J" t="Japon(ais)"/>
+<zonetext n="K" t="Coree(n)"/>
+<zonetext n="No" t="Norvege/Norvegien"/>
+<zonetext n="S" t="Espagne/Espagnol"/>
+<zonetext n="Sw" t="Suede/Suedois"/>
+<zonetext n="U" t="Etats Unis"/>
+<text n="1" t="Erreur"/>
+<text n="2" t="Vos parametres de securite ne permette pas au logiciel de fonctionner normalement&#xD;a partir d'un disque reseau.&#xD;&#xD;Executez le a partir d'un disque local (ex. c:)."/>
+<text n="3" t="Entree Invalidee: "/>
+<text n="4" t="Argument Invalide: "/>
+<text n="5" t="Argument Inconnu: "/>
+<text n="6" t="Le répertoire d'entrée n'existe pas."/>
+<text n="7" t="Le répertoire de travail n'existe pas."/>
+<text n="8" t="Le fichier de la liste des ROMs n'existe pas."/>
+<text n="9" t="Introuvable!"/>
+<text n="10" t="Vous n'avez pas assez de mémoire pour les paramètres actuels&#xD;(ou $PRG ne peut determiner la RAM totale du systeme)."/>
+<text n="11" t="Démarrage"/>
+<text n="12" t="Veuillez attendre…"/>
+<text n="13" t="Temps Total ecoulé, les temps de Pause sont exclue."/>
+<text n="14" t="Temps restant Approximatif.&#xD;loin d'être exact due la nature de la compression.&#xD;Mis-à-jour aprés chaque nouvelle achive."/>
+<text n="15" t="Nombre total d'archives crées / nombre total restant a créer."/>
+<text n="16" t="Ratio des entrées/sorties en bytes.&#xD;Meme valeur que '% de l'original' dans les statistiques de sortie,&#xD;Mise-à-jour continuellement. Une valeur plus petite est préeferable."/>
+<text n="17" t="Taille finale prévue pour la fusion.&#xD;Généralement plus petite que la taille actuelle prévue due à certains groupes de fichiers,&#xD;comme dans le Domaine Public. Toujours plus juste apres la fusion complète."/>
+<text n="18" t="Status de la priorité en arriere plan.&#xD;Double-cliquez pour changer."/>
+<text n="19" t="&amp;Annule"/>
+<text n="20" t="&amp;Sauve le Journal"/>
+<text n="21" t="Pa&amp;use"/>
+<text n="22" t="&amp;Minimum"/>
+<text n="23" t="Journal de Sortie"/>
+<text n="24" t="Fichiers de Sortie"/>
+<text n="25" t="Fichiers Journaux"/>
+<text n="26" t="&amp;Copier vers le Presse-papier"/>
+<text n="27" t="Copie &amp;Complète"/>
+<text n="28" t="Terminé"/>
+<text n="29" t="&amp;Fermer"/>
+<text n="30" t="Contin&amp;uer"/>
+<text n="31" t="La pause sera effective après la compression du groupe de fichiers actuels."/>
+<text n="32" t="Pause"/>
+<text n="33" t="Une erreur est survenue lors de l'écriture sur le disque.&#xD;Fichier: "/>
+<text n="34" t="Message: "/>
+<text n="35" t="Voulez-vous vraiment abandonner?&#xD;($PRG résumera automatiquement&#xD;une operation interrompue.)"/>
+<text n="36" t="Annule"/>
+<text n="37" t="&amp;Sauve la Liste"/>
+<text n="38" t="BP: On"/>
+<text n="39" t="BP: Off"/>
+<text n="40" t="Ecoulé: "/>
+<text n="41" t="Restant: "/>
+<text n="42" t="Set"/>
+<text n="43" t="version"/>
+<text n="44" t="Non trouvé."/>
+<text n="45" t="Analyse"/>
+<text n="46" t="XML Invalide."/>
+<text n="47" t=" Pas d'extension specifiée."/>
+<text n="48" t=" Pas d'element specifié."/>
+<text n="49" t="Attention - Zone de préférence inconnue: "/>
+<text n="50" t="Réussi."/>
+<text n="51" t="Impossible d'analyser le compte espére à partir de la 1ere ligne."/>
+<text n="52" t="Création de la hierarchie des fichiers… "/>
+<text n="53" t="Fini."/>
+<text n="54" t=" Les fichiers vont etre enregistrés dans "/>
+<text n="55" t=" archives (voir la page 'Répertoires')."/>
+<text n="56" t="Impossible de vider le répertoire temporaire."/>
+<text n="57" t="La Mémoire max. utilisee est "/>
+<text n="58" t="MB RAM."/>
+<text n="59" t="Impossible de créer le répertoire de sortie."/>
+<text n="60" t="Impossible d'executer les processus."/>
+<text n="61" t="Erreur dans le processus."/>
+<text n="62" t="Impossible de générer les sorties à partir du Compresseur:"/>
+<text n="63" t="bytes dans"/>
+<text n="64" t="fichier"/>
+<text n="65" t="fichiers"/>
+<text n="66" t="déjà compressés dans"/>
+<text n="67" t="Impossible de créer le répertoire temporaire."/>
+<text n="68" t="Décompression… "/>
+<text n="69" t="Impossible de créer le fichier temporaire."/>
+<text n="70" t="Copie de fichier existante."/>
+<text n="71" t="Impossible d'écrire dans le fichier temporaire."/>
+<text n="72" t="Impossible d'accèder au système de fichiers."/>
+<text n="73" t="Aucune ROM correspondante trouvée"/>
+<text n="74" t="Impossible de fermer le fichier temporaire."/>
+<text n="75" t="Arguments: "/>
+<text n="76" t="compresser vers…"/>
+<text n="77" t="Externe (ligne de commande -- "/>
+<text n="78" t="% de l'original"/>
+<text n="79" t="Suppression des fichierss… "/>
+<text n="80" t="Impossible de supprimer"/>
+<text n="81" t="Impossible de supprimer le fichier temporaire."/>
+<text n="82" t="Annulé a "/>
+<text n="83" t="Statistiques"/>
+<text n="84" t="Les Fichiers ont été compressés dans"/>
+<text n="85" t="dans"/>
+<text n="86" t="Attention - double: "/>
+<text n="87" t="bytes"/>
+<text n="88" t="Impossible de supprimer le répertoire temporaire."/>
+<text n="89" t="&amp;Fusionner"/>
+<text n="90" t="&amp;Suivante &gt;"/>
+<text n="91" t="&lt; &amp;Précédente"/>
+<text n="92" t="Tous les fichiers"/>
+<text n="93" t="Sets de ROM"/>
+<text n="94" t="Répertoires"/>
+<text n="95" t="Formats"/>
+<text n="96" t="Configuration"/>
+<text n="97" t="Paramètres"/>
+<text n="98" t="A Propos"/>
+<text n="99" t="Bienvenue dans $PRG!"/>
+<text n="100" t="Ce Programme va vous aider à tirer le meilleur de vos Sets de ROMS avec des archives hautement compressées facile à utiliser. Vérifez simplement les paramètres de chaque page, puis cliquez sur le Bouton 'Fusionner' pour commencer. Vos paramètres seront enregistrés lorsque vous quitterez, donc la plupard du temps vous aurez juste à vérifier cette page et la suivante.&#xD;&#xD;Si c'est la première fois que vous lancez $PRG, veuillez vérifier la boìte de la 'Zone de Préférence Prioritaire' de la page 'Configuration'.&#xD;&#xD;La boite de gauche montre tout les Sets installés de la base de donnée. Pour démarrer commencez par selectionner quel Set de ROMs vous voulez traiter, puis cliquez sur le bouton page 'Suivante' pour avancer."/>
+<text n="101" t="&amp;Recharger la Liste"/>
+<text n="102" t="Répertoire Source"/>
+<text n="103" t="Défaut"/>
+<text n="104" t="Parcourir…"/>
+<text n="105" t="Ce répertoire contient toutes vos ROMS. Attention, $PRG ne cherche pas dans les sous-répertoires, Utilisez 'rename' et non 'rename dirs' quand vous scannez vos ROMS."/>
+<text n="106" t="Répertoire de Sortie"/>
+<text n="107" t="C'est le répertoire ou vont être crées les archives. Le répertoire sera crée s'il n'existe pas. Sinon, il doìt être vide ou contenir une fusion déja démarré et précédemment arreté."/>
+<text n="108" t="Fichier Have.txt"/>
+<text n="109" t="Fixer celui-ci aux fichiers *have.txt qui correspondent au Set de ROMS que vous voulez fusionner. Ce fichier doit être à jour et non retouché, ou des erreurs risquent de se produire."/>
+<text n="110" t="Format des fichiers Source"/>
+<text n="111" t="Choisir le format actuel de compression des fichiers sources"/>
+<text n="112" t="Format des fichiers de Sortie"/>
+<text n="113" t="Choisir le format cible souhaité pour la fusion."/>
+<text n="114" t="Options 7-Zip"/>
+<text n="115" t=" MB RAM Max."/>
+<text n="116" t=" MB Dict. 'Max'"/>
+<text n="117" t=" MB Dict. 'Ultra'"/>
+<text n="118" t="Pa&amp;ramètres par Défaut"/>
+<text n="119" t="C'est la Mémoire RAM maximum que 7-zip utilisera ainsi que la taille du dictionnaire. Un plus grand dictionnaire donne de meilleurs resultats plutôt que le mode 'Ultra', $PRG utilisera un dictionnaire plus grand en mode 'Max' s'il y a moins de RAM que dans le mode 'Ultra'."/>
+<text n="120" t="Priorité en Arrière plan"/>
+<text n="121" t="L'ordinateur sera plus disponible pour d'autres programmes mais la Fusion sera plus longue à effectuer."/>
+<text n="122" t="Montrer les Arguments de Compression"/>
+<text n="123" t="Ajoute les arguments donnés au compresseur dans la fenêtre du Journal. Permet de voir la taille du dictionnaire utilisé par 7-zip."/>
+<text n="124" t="Supprimer les Fichiers Source"/>
+<text n="125" t="Supprime les fichiers sources décompressés après la Fusion. Cette option n'est possible que si la compression est fixée à 'None' pour les fichiers sources."/>
+<text n="126" t="Répertoire de Travail"/>
+<text n="127" t="$PRG utilisera ce répertoire pour tout les fichiers temporaire."/>
+<text n="128" t="Zone de Préférence Prioritaire"/>
+<text n="129" t="La liste contient toutes les Zones connues par $PRG. Pour chaque jeu existant dans differentes regions, le nom correspondant à la Zone sera utilisée comme non de l'archive lors de la Fusion. Par ex : un Jeu avec différents noms selon la region USA ou JAP, le nom de la version USA sera choisi si USA est au dessus dans la liste des Zones de Préférence Prioritaires."/>
+<text n="130" t="Ligne de Commande"/>
+<text n="131" t="Version"/>
+<text n="132" t="$PRG a connu de nombreux changements depuis sa création, et de nombreuses personnes ont participées au projet. L'auteur voudrait les remercier (dans le désordre)"/>
+<text n="133" t="Cette option supprimera les fichiers du système!&#xD;Les fichiers ne pourront être récupéres. si, vous &#xD;n'avez pas de sauvegarde de ceux-ci, veuillez ne pas l'utiliser&#xD;Utiliser cette option.&#xD;&#xD;Voulez-vous vraiment supprimer les fichiers&#xD;Apres qu'il aient été compressés ?"/>
+<text n="134" t="Toujours sur de vous?"/>
+<text n="135" t="Selectionnez le répertoire contenant les ROMs:"/>
+<text n="136" t="Selectionnez le répertoire qui contiendra les ROMs Fusionnées:"/>
+<text n="137" t="Selectionnez le répertoire temporaire:"/>
+<text n="138" t="Aucun Décompresseur n'a été trouvé."/>
+<text n="139" t="Vous devez selectioner un Set de ROM."/>
+<text n="140" t="Verifiez que les paramètres sont bons, ensuite cliquez sur 'Fusionner' à nouveau."/>
+<text n="141" t="La taille du Dictionnaire en 'Mode Max' doit être au moins égale à 1. Augmentez la taille de la RAM Maximum."/>
+<text n="142" t="Le répertoire Source n'existe pas."/>
+<text n="143" t="Le répertoire de Travail n'existe pas."/>
+<text n="144" t="Taille Maximum de la RAM"/>
+<text n="145" t="pour leurs contributions.&#xD;&#xD;Et bien sur, sans le travail énorme réalisé par Cowering pour créer les GoodTools, ce programme n'existerait même pas.&#xD;&#xD;Pour des informations supplémentaires et les Bases de Données vous pouvez vous connecter ici :"/>
+<text n="146" t="Changer la Langue"/>
+<text n="147" t="Au prochain demarrage de $PRG le choix de la langue apparaitra à nouveau."/>
+<text n="148" t="Utilisation"/>
+<text n="149" t="set"/>
+<text n="150" t="version"/>
+<text n="151" t="options"/>
+<text n="152" t="est le set de ROM a traiter (la partie qui vient après 'Good')."/>
+<text n="153" t="est la version du GoodTool (0.999.5, 2.02, etc.)."/>
+<text n="154" t="est une combinaison de ce qui suit:"/>
+<text n="155" t="Sachant que les fichiers de sortie doivent être compressés, vous ne pourrez lancer l'opération que si un compresseur est sélectionné. Voir la page 'Paramètres'."/>
+<text n="156" t=", ou 'none' s'il sont décompressés. $PRG cherchera des ROMs valides SEULEMENT dans le format choisi. Si un format est indisponible, c'est que $PRG n'a pu localiser le programme de compression."/>
+<text n="157" t=". Par défaut, $PRG cherchera des ROMs non-compressées avec une extension correcte. Si l'argument est spécifié, il ne cherchera alors que dans des archives compressées du format specifié."/>
+<text n="158" t="RAM en MB"/>
+<text n="159" t="RAM maximum alloué à 7-zip. Ne pas oublier de laisser au moins 64Mb au Système. Cette option est nécessaire seulement si $PRG ne peut pas déterminer la taille de la RAM, ou si vous voulez laisser de la mémoire libre pour un autre programme. Par défaut, ce maximum est votre RAM totale moins 114MB. A noter que cela s'applique seulement avec 7zip comme programme de compression."/>
+<text n="160" t="Par défaut"/>
+<text n="161" t="Chemin vers Répertoire"/>
+<text n="162" t="Chemin vers fichier"/>
+<text n="163" t="Si necessaire mettre les chemins entre guillements et ajouter la barre oblique."/>
+<text n="164" t="Le fichier Have.txt n'existe pas."/>
+<text n="165" t="Dossier courant."/>
+<text n="166" t="Fenêtre Réduite - Fenêtre de log réduite pas d'apercu des sorties."/>
+<text n="167" t="Mode Prévisualisation - Passer la partie compression et aller directement à la liste des fichiers."/>
+<text n="168" t="$PRG - Ligne de Commande"/>
+<text n="169" t="A Propos de $PRG"/>
+</language>
+
+<language name="Português">
+<!--Author: SpkLeader-->
+<font face="Trebuchet MS" size="9.75"/>
+<size scale-x="6" scale-y="16"/>
+<zonetext n="A" t="Austrália"/>
+<zonetext n="Br" t="Brasil"/>
+<zonetext n="Ca" t="Canada"/>
+<zonetext n="Cn" t="China"/>
+<zonetext n="E" t="Europa"/>
+<zonetext n="En" t="Inglaterra"/>
+<zonetext n="F" t="França"/>
+<zonetext n="G" t="Alemanha"/>
+<zonetext n="I" t="Itália"/>
+<zonetext n="J" t="Japão"/>
+<zonetext n="K" t="Coreia"/>
+<zonetext n="No" t="Noruega"/>
+<zonetext n="S" t="Espanha"/>
+<zonetext n="Sw" t="Suécia"/>
+<zonetext n="U" t="Estados Unidos"/>
+<text n="1" t="Erro"/>
+<text n="2" t="Suas configurações atuais de segurança não permite que este programa seja executado corretamente&#xD;a partir de uma unidade de rede compartilhada.&#xD;&#xD;Por favor, execute-o do disco rígido local (ex. C:)."/>
+<text n="3" t="Tipo inválido: "/>
+<text n="4" t="Parâmetro inválido: "/>
+<text n="5" t="Parâmetro desconhecido: "/>
+<text n="6" t="O diretório de origem não existe."/>
+<text n="7" t="O diretório de trabalho não existe."/>
+<text n="8" t="O arquivo com a lista de ROMs não existe."/>
+<text n="9" t="Não pode ser encontrado"/>
+<text n="10" t="Memória insuficiente para utilizar a configuração atual&#xD;(uo o $PRG não pode determinar a quantidade de memória RAM de seu sistema)."/>
+<text n="11" t="Inicializando"/>
+<text n="12" t="Aguardando?"/>
+<text n="13" t="Tempo total decorrido, sem contar o tempo enquanto pausado."/>
+<text n="14" t="Tempo restante aproximado.&#xD;Incorreto, devido a variação natural da compressão.&#xD;Atualizado somente após o términdo de uma operação de compressão."/>
+<text n="15" t="Número de arquivos criados até agora / Total de arquivos a serem criados."/>
+<text n="16" t="Relação entre os bytes de entrada e de saída.&#xD;O mesmo valor de '% do tamanho original' na janela 'Visualizar processo',&#xD;atualizado constantemente. Quanto menor o número, melhor."/>
+<text n="17" t="Tamanho final estimado.&#xD;Geralmente inferior ao tamanho real devido a certos grupos de arquivos,&#xD;como os de Domínio Público (PD). Será exato assim que a operação estiver completa."/>
+<text n="18" t="Estado do modo de Prioridade em Segundo Plano.&#xD;Dê dois cliques para alterar."/>
+<text n="19" t="&amp;Cancelar"/>
+<text n="20" t="&amp;Salvar"/>
+<text n="21" t="Pa&amp;usar"/>
+<text n="22" t="&amp;Mínimo"/>
+<text n="23" t="Visualizar processo"/>
+<text n="24" t="Arquivos criados"/>
+<text n="25" t="Arquivo Log"/>
+<text n="26" t="&amp;Copiar para Área de Transferência"/>
+<text n="27" t="Copiar o &amp;grupo todo para Área de Transferência"/>
+<text n="28" t="Terminado"/>
+<text n="29" t="&amp;Fechar"/>
+<text n="30" t="Contin&amp;ar"/>
+<text n="31" t="O programa será pausado assim que terminar de comprimir o grupo de arquivos atual."/>
+<text n="32" t="Pausado"/>
+<text n="33" t="Ocorreu um erro ao gravar no disco rígido.&#xD;Arquivo: "/>
+<text n="34" t="Mensagem: "/>
+<text n="35" t="Tem certeza de que deseja cancelar?&#xD;($PRG continuará automaticamente&#xD;uma operação interrompida.)"/>
+<text n="36" t="Cancelar"/>
+<text n="37" t="&amp;Salvar lista"/>
+<text n="38" t="PSP: Ativada."/>
+<text n="39" t="PSP: Desativada."/>
+<text n="40" t="Tempo decorrido: "/>
+<text n="41" t="Tempo restante: "/>
+<text n="42" t="Conjunto"/>
+<text n="43" t="versão"/>
+<text n="44" t="não encontrada."/>
+<text n="45" t="Analisando"/>
+<text n="46" t="XML inválido:"/>
+<text n="47" t=" Não foi especificada uma extenção."/>
+<text n="48" t=" 'flags' não especificados."/>
+<text n="49" t="Cuidado - encontrada uma região para o nome do arquivo desconhecida"/>
+<text n="50" t="Sucesso."/>
+<text n="51" t="Não foi possível processar a mensagem enviada pelo compressor."/>
+<text n="52" t="Lendo a estrutura dos arquivos... "/>
+<text n="53" t="Pronto."/>
+<text n="54" t=" arquivos serão armazenados em "/>
+<text n="55" t=" arquivos (veja a página dos Arquivos criados)."/>
+<text n="56" t="Não foi possível esvaziar o diretório temporário."/>
+<text n="57" t="Utilizando um máximo de "/>
+<text n="58" t="MB RAM."/>
+<text n="59" t="Não foi possível criar o diretório de destino."/>
+<text n="60" t="Não foi possível executar o processo."/>
+<text n="61" t="Falha no processo."/>
+<text n="62" t="Não foi possível analisar a mensagem do descompressor:"/>
+<text n="63" t="bytes em"/>
+<text n="64" t="arquivo"/>
+<text n="65" t="arquivos"/>
+<text n="66" t="já compactados em"/>
+<text n="67" t="Não foi possível criar o diretório temporário."/>
+<text n="68" t="Descomprimindo... "/>
+<text n="69" t="Não foi possível criar o arquivo temporário."/>
+<text n="70" t="Foram encontrados arquivos duplicados."/>
+<text n="71" t="Não foi possível gravar no arquivo temporário."/>
+<text n="72" t="Não foi possível acessar o sistema de arquivos."/>
+<text n="73" t="Não foram encontrados os ROMS especificados na base de dados atual"/>
+<text n="74" t="Não foi possível excluir o arquivo temporário."/>
+<text n="75" t="Parâmetros: "/>
+<text n="76" t="comprimidos em..."/>
+<text n="77" t="Externo (Linha de comandos -- "/>
+<text n="78" t="% da quantidade original"/>
+<text n="79" t="Excluindo arquivo(s)... "/>
+<text n="80" t="Não foi possível excluir"/>
+<text n="81" t="Não foi possível excluir o arquivo temporário."/>
+<text n="82" t="Processo cancelado em "/>
+<text n="83" t="Estatísticas"/>
+<text n="84" t="arquivo(s) foram comprimidos em"/>
+<text n="85" t="em"/>
+<text n="86" t="Atenção - duplicado: "/>
+<text n="87" t="bytes"/>
+<text n="88" t="Não foi possível excluir o diretório temporário."/>
+<text n="89" t="&amp;Unir Agora"/>
+<text n="90" t="&amp;Próxima &gt;"/>
+<text n="91" t="&lt; &amp;Anterior"/>
+<text n="92" t="Todos os arquivos"/>
+<text n="93" t="Conjunto de ROMs"/>
+<text n="94" t="Configurações"/>
+<text n="95" t="Compressão"/>
+<text n="96" t="Avançado"/>
+<text n="97" t="Mais"/>
+<text n="98" t="Sobre"/>
+<text n="99" t="Bem-vindo ao a $PRG!"/>
+<text n="100" t="Este programa ajudará você a armazenar da melhor forma seus conjuntos de ROMS criando arquivos úteis e com uma alta taxa de compressão. Simplemente verifique as configurações de cada página e clique no botão 'Unir Agora' para começar. Suas configurações são salvas ao sair do programa, deste modo, na maioria das vezes você só terá que verificar as configurações desta página e da próxima.&#xD;&#xD;Se esta é a primeira vez que você utiliza o $PRG, certifique-se de definir a ordem de 'Prioridade de Nomes pelo País' na página 'Avançado'.&#xD;&#xD;O quadro da esquerda mostra todos os conjuntos de roms cuja base de dados foi instalada. Para começar, escolha o conjunto de ROMS que deseja trabalhar. A seguir, clique no botão 'Próxima' para continuar."/>
+<text n="101" t="&amp;Atualizar lista"/>
+<text n="102" t="Diretório de origem"/>
+<text n="103" t="Padrão"/>
+<text n="104" t="Procurar"/>
+<text n="105" t="Este é o diretório onde estão todas as suas ROMs. O $PRG não procura em subdiretórios, sendo assim, assegure-se de utilizar 'rename' e não 'rename dirs' quando escanear suas ROMs."/>
+<text n="106" t="Diretório de destino"/>
+<text n="107" t="Aqui é onde ficarão seus arquivos unidos. Se este diretório não existir, será criado. Se existir, deve estar vazio ou conter uma operação de união cancelada de uma mesma base de dados."/>
+<text n="108" t="Arquivo 'Have.txt'"/>
+<text n="109" t="Indique aqui o caminho do arquivo *have.txt correspondente ao Conjunto de ROMs que deseja unir. Certifique-se de que o arquivo está correto e atualizado, ou poderá ocorrer erros."/>
+<text n="110" t="Formato de origem"/>
+<text n="111" t="Escolha o formato em que suas roms estão atualmente"/>
+<text n="112" t="Formato de saída"/>
+<text n="113" t="Escolha o tipo de compressão desejado para unir."/>
+<text n="114" t="Opções do 7-Zip"/>
+<text n="115" t=" MB Max RAM"/>
+<text n="116" t=" MB 'Max' Dict"/>
+<text n="117" t=" MB 'Ultra' Dict"/>
+<text n="118" t="&amp;Valor padrão"/>
+<text n="119" t="Esta é a quantidade de máxima de RAM e o tamanho do dicionário final que o 7-Zip utilizará. Como um dicionário maior obtem um melhor resultado que o modo Ultra, o $PRG irá utilizar o maior dicionário no modo 'Max' quando não houver RAM suficiente para o processo no modo 'Ultra'."/>
+<text n="120" t="Usar prioridade em segundo plano"/>
+<text n="121" t="Faz com que seu computador responda melhor durante o processo de união, mas também aumenta o tempo necessário para a operação."/>
+<text n="122" t="Mostrar os Parâmetros de Compressão"/>
+<text n="123" t="Mostra os parâmetros utilizados no compressor na janela de resumo. Útil para ver o dicionário que o 7-Zip esta utilizando."/>
+<text n="124" t="Excluir arquivos originais"/>
+<text n="125" t="Exclui os arquivos sem compressão uma vez que estes tenham sido unidos com êxito. Disponível apenas se o formato de origem estiver em 'none'"/>
+<text n="126" t="Diretório de trabalho"/>
+<text n="127" t="O $PRG utilizará este diretório para todos os arquivos temporários."/>
+<text n="128" t="Prioridade de Nomes por País"/>
+<text n="129" t="A lista acima contém todas as 'Zonas de Nomes' conhecidas pelo $PRG. Para qualquer jogo com nome diferente em países distintos, o nome com maior prioridade na 'Região para o nome do arquivo' (o mais acima) será o utilizado para dar nome ao arquivo."/>
+<text n="130" t="Linha de comando do"/>
+<text n="131" t="Versão"/>
+<text n="132" t="$PRG foi atualizado muitas vezes durante seu desenvolvimento e muita gente contribuiu para o projeto. O autor gostaria de agradecer (sem nenhuma ordem específica) a"/>
+<text n="133" t="Esta opção aparagá os arquivos de seu computador!&#xD;Estes arquivos não poderão ser recuperados.&#xD;Se você não tiver uma cópia de segurança, &#xD;NÃO UTILIZE ESTA OPÇÃO.&#xD;&#xD;Tem certeza de que deseja excluir os arquivos&#xD;após serem comprimidos?"/>
+<text n="134" t="Tem certeza?"/>
+<text n="135" t="Selecione o diretório que contem as suas ROMs:"/>
+<text n="136" t="Selecione o diretório onde deseja armazenar as ROMs unidas:"/>
+<text n="137" t="Selecione o diretório para os arquivos temporários:"/>
+<text n="138" t="Não foi encontrado nenhum descompactador válido."/>
+<text n="139" t="Você deve selecionar um conjunto de ROMs."/>
+<text n="140" t="Favor verificar se as opções padrões são válidas e logo depois, clique em 'Unir Agora' novamente."/>
+<text n="141" t="O tamanho do dicionário 'Max Mode' deve ser ao menos 1. Aumente a quantidade máxima de RAM."/>
+<text n="142" t="O diretório de origem não existe."/>
+<text n="143" t="O diretório de trabalho não existe."/>
+<text n="144" t="Quantidade máxima de RAM"/>
+<text n="145" t="pelas suas contribuições.&#xD;&#xD;E ainda, se não fosse pelo árduo trabalho de Cowering criando os GoodTools, este programa nem sequer existiria.&#xD;&#xD;Para maiores informações e bases de dados adicionais, acesse o site do programa:"/>
+<text n="146" t="Idioma"/>
+<text n="147" t="Fazer que o $PRG pergunte qual idioma você deseja utilizar na próxima inicialização."/>
+<text n="148" t="Modo de utilização"/>
+<text n="149" t="Conjunto de ROMs"/>
+<text n="150" t="versão"/>
+<text n="151" t="opções"/>
+<text n="152" t="é o conjunto de ROMs a processar (a parte que aparece logo depois da palavra 'Good')."/>
+<text n="153" t="versão do programa GoodTool utilizado (0.999.5, 2.02, etc.)."/>
+<text n="154" t="qualquer combinação dos seguintes parâmetros:"/>
+<text n="155" t="Como os arquivos finais devem ser comprimidos, não será possível continuar sem um compressor. Configure o compressor na página 'Mais'."/>
+<text n="156" t=", ou 'none' se estiverem descomprimidas. O $PRG procurará por ROMs válidas SOMENTE no formato escolhido. Se algum formato não estiver disponível é porque o $PRG foi incapaz de encontrar o descompressor apropriado."/>
+<text n="157" t=". Por padrão, o $PRG procurará por ROMs sem compressão com as extensões corretas. Se este argumento for especificado, o programa utilizará somente arquivos que tenham a extensão especificada."/>
+<text n="158" t="RAM em MB"/>
+<text n="159" t="Determina a quantidade máxima de RAM que o 7-zip pode utilizar. Não se esqueça de deixar pelo menos 64MB para o sistema operacional. Esta opção será necessária somente quando o $PRG por algum motivo não conseguir identificar a quantidade de RAM em seu computador, ou se você deseja reservar RAM para seu próprio uso. Por padrão, o máximo é a quantidade total de RAM menos 114MB. Tem efeito somente quando utilizando o 7-Zip para compactar."/>
+<text n="160" t="O padrão é"/>
+<text n="161" t="Caminho do diretório"/>
+<text n="162" t="Caminho do arquivo"/>
+<text n="163" t="Os caminhos devem ser separados por vírgulas e não devem terminar em barra invertida."/>
+<text n="164" t="O arquivo 'Have.txt' não existe."/>
+<text n="165" t="o diretório atual."/>
+<text n="166" t="Botão Mínimo - Abre uma janela de menor, ocultando a página de visualização do processo."/>
+<text n="167" t="Modo de pré-visualização - Sai da janela de visualização do processo e mostra a lista de arquivos criados."/>
+<text n="168" t="$PRG - Linha de comandos"/>
+<text n="169" t="Sobre o $PRG"/>
+</language>
+
+<language name="Svenska">
+<!--Author: xphaze-->
+<font face="Trebuchet MS" size="9.00"/>
+<size scale-x="6" scale-y="16"/>
+<zonetext n="A" t="Australien/Australienska"/>
+<zonetext n="Br" t="Brasilien/Brasilianska"/>
+<zonetext n="Ca" t="Kanada/Kanadensiska"/>
+<zonetext n="Cn" t="Kina/Kinesiska"/>
+<zonetext n="E" t="Europa"/>
+<zonetext n="En" t="Engelska"/>
+<zonetext n="F" t="Frankrike/Franska"/>
+<zonetext n="G" t="Tyskland/Tyska"/>
+<zonetext n="I" t="Italien(ska)"/>
+<zonetext n="J" t="Japan(ska)"/>
+<zonetext n="K" t="Korea(nska)"/>
+<zonetext n="No" t="Norge/Norska"/>
+<zonetext n="S" t="Spanien/Spanska"/>
+<zonetext n="Sw" t="Sverige/Svenska"/>
+<zonetext n="U" t="USA"/>
+<text n="1" t="Fel"/>
+<text n="2" t="Dina nuvarande säkerhetsinställningar tillåter inte programmet att starta&#xD;från en nätverksenhet.&#xD;&#xD;Var god starta programmet från en lokal enhet.(T.ex. C:)"/>
+<text n="3" t="Felaktig filtyp: "/>
+<text n="4" t="Felaktigt argument: "/>
+<text n="5" t="Okänt argument: "/>
+<text n="6" t="Källmappen existerar inte."/>
+<text n="7" t="Arbetsmappen existerar inte."/>
+<text n="8" t="ROM-listan existerar inte."/>
+<text n="9" t="Kunde inte hitta"/>
+<text n="10" t="Du har inte tillräckligt med RAM för att kunna använda nuvarande inställningar.&#xD;(eller $PRG kunde inte bestämma RAM-storleken i din dator.)"/>
+<text n="11" t="Laddar"/>
+<text n="12" t="Väntar…"/>
+<text n="13" t="Total tid som gått, minus tiden i pausläge."/>
+<text n="14" t="Beräknad återstående tid.&#xD;Värdet är endast en fingervisning, eftersom komprimeringstiden är varierar beroende på innehållet i filen.&#xD; Uppdateras vid varje ny arkivoperation."/>
+<text n="15" t="Antal arkiv skapade. / Totalt antal arkiv att skapa."/>
+<text n="16" t="Komprimeringsratio.&#xD;Samma värde som  '% av originalet' i statistiken,&#xD;uppdateras fortlöpande. Ett mindre värde är bättre."/>
+<text n="17" t="Beräknad slutgiltig storlek.&#xD;Vanligtvis mindre än den verkliga storleken på utdatan på grund av vissa filgrupper.,&#xD;såsom Public Domain. Alltid exakt värde efter slutförd sammanslagning."/>
+<text n="18" t="Status bakgrundsprioritetsläge.&#xD;Dubbelklicka för att växla."/>
+<text n="19" t="Avbry&amp;t"/>
+<text n="20" t="Spara &amp;logg"/>
+<text n="21" t="Pau&amp;s"/>
+<text n="22" t="&amp;Minimera"/>
+<text n="23" t="Logga utdata"/>
+<text n="24" t="Utdata: filer"/>
+<text n="25" t="Loggfiler"/>
+<text n="26" t="&amp;Kopiera till Urklipp"/>
+<text n="27" t="Kopiera &amp;hela området"/>
+<text n="28" t="Klart"/>
+<text n="29" t="Stän&amp;g"/>
+<text n="30" t="Fort&amp;sätt"/>
+<text n="31" t="Pausen verkställs efter att nuvarande filgrupp komprimerats."/>
+<text n="32" t="Pausad"/>
+<text n="33" t="Ett fel inträffade vid försök att skriva till disk.&#xD;Fil: "/>
+<text n="34" t="Meddelande: "/>
+<text n="35" t="Är du säker på att du vill avbryta?&#xD;($PRG kommer automatiskt att återsuppta&#xD;en avbryten operation.)"/>
+<text n="36" t="Avbryt"/>
+<text n="37" t="Spara &amp;lista"/>
+<text n="38" t="BP: På"/>
+<text n="39" t="BP: Av"/>
+<text n="40" t="Förlöpt tid: "/>
+<text n="41" t="Återstående tid: "/>
+<text n="42" t="Set"/>
+<text n="43" t="version"/>
+<text n="44" t="hittades inte."/>
+<text n="45" t="Analyserar"/>
+<text n="46" t="Felaktig XML."/>
+<text n="47" t=" Inga filändelser specificerade."/>
+<text n="48" t=" Inga flaggor specificerade."/>
+<text n="49" t="Varning - okänd nationell betäckning funnen: "/>
+<text n="50" t="Slutfört."/>
+<text n="51" t="Kunde inte analysera förväntat antal från första raden."/>
+<text n="52" t="Fyller filträdet… "/>
+<text n="53" t="Färdigt."/>
+<text n="54" t=" Filer kommer sparas i "/>
+<text n="55" t="arkiv (se sidan Utdata filer)."/>
+<text n="56" t="Kunde inte tömma temporär mapp."/>
+<text n="57" t="Använder maximalt "/>
+<text n="58" t="MB RAM."/>
+<text n="59" t="Kunde inte skapa utdatamapp."/>
+<text n="60" t="Kunde inte starta process."/>
+<text n="61" t="Misslyckande: Process."/>
+<text n="62" t="Kunde inte analysera utdata från dekomprimeraren:"/>
+<text n="63" t="bytes i"/>
+<text n="64" t="fil"/>
+<text n="65" t="filer"/>
+<text n="66" t="redan komprimerat till"/>
+<text n="67" t="Kunde inte skapa temporär mapp."/>
+<text n="68" t="Packar upp… "/>
+<text n="69" t="Kunde inte skapa temporär fil."/>
+<text n="70" t="Fildubletter funna."/>
+<text n="71" t="Kunde inte skriva till temporär fil."/>
+<text n="72" t="Kunde inte få tillträde till filsystemet."/>
+<text n="73" t="Inga matchande ROMs funna."/>
+<text n="74" t="Kunde inte stänga temporär fil."/>
+<text n="75" t="Argument: "/>
+<text n="76" t="komprimerades till…"/>
+<text n="77" t="Externt (Command line -- "/>
+<text n="78" t="% av originalstorleken"/>
+<text n="79" t="Raderar filer… "/>
+<text n="80" t="Kunde inte radera"/>
+<text n="81" t="Kunde inte radera temporär fil."/>
+<text n="82" t="Avbryten vid "/>
+<text n="83" t="Statistik"/>
+<text n="84" t="filer blev komprimerade till"/>
+<text n="85" t="i"/>
+<text n="86" t="Varning - dublett: "/>
+<text n="87" t="bytes"/>
+<text n="88" t="Kunde inte radera temporär mapp."/>
+<text n="89" t="&amp;Starta"/>
+<text n="90" t="&amp;Nästa sida &gt;"/>
+<text n="91" t="&lt; &amp;Föregående sida"/>
+<text n="92" t="Alla filer"/>
+<text n="93" t="ROM set"/>
+<text n="94" t="Sökvägar till filer"/>
+<text n="95" t="Komprimering"/>
+<text n="96" t="Avancerat"/>
+<text n="97" t="Övriga sökvägar"/>
+<text n="98" t="Om"/>
+<text n="99" t="Välkommen till $PRG!"/>
+<text n="100" t="Detta program kommer hjälpa dig att få ut det mesta av dina ROMs, genom att skapa hårt komprimerade och lättanvända filer. Gå helt enkelt igenom alla inställningar vid varje flik, och klicka på 'Starta' för att påbörja komprimeringen. Dina inställningar kommer att sparas när du avslutar programmet.&#xD;&#xD;Om detta är första gången du startar $PRG; var god kontrollera inställningarna för regional prioritet vid fliken 'Avancerat'. &#xD;&#xD;Rutan till vänster visar vilka databaser som installerats. För att komma igång; välj databasen du vill arbeta med. Klicka sedan på 'Nästa sida' för att gå vidare…"/>
+<text n="101" t="&amp;Uppdatera"/>
+<text n="102" t="Källmapp"/>
+<text n="103" t="Standard"/>
+<text n="104" t="Bläddra…"/>
+<text n="105" t="Denna mapp skall innehålla dina ROM-filer. Uppmärksamma att $PRG inte söker igenom undermappar, så använd 'rename' och inte 'rename dirs' när du scannar dina ROMs."/>
+<text n="106" t="Utdatamapp"/>
+<text n="107" t="Här kommer dina sammanslagna filer sparas. Mappen skapas om den inte existerar. Om mappen redan existerar, måste den vara tom eller innehålla filer från en avbruten operation."/>
+<text n="108" t="Have.txt fil"/>
+<text n="109" t="Välj den *have.txt fil som hör till det ROM-settet du önskar behandla. Kontrollera att filen är felfri och hör till de filer som skall slås samman, annars kommmer fel uppstå."/>
+<text n="110" t="Källformat"/>
+<text n="111" t="Välj formatet dina filer för närvarande är lagrade i"/>
+<text n="112" t="Komprimering"/>
+<text n="113" t="Välj komprimeringsformatet $PRG skall spara sammanslagna arkiv i."/>
+<text n="114" t="7-Zip alternativ"/>
+<text n="115" t=" MB Max RAM"/>
+<text n="116" t=" MB 'Max' Ord"/>
+<text n="117" t=" MB 'Ultra' Ord"/>
+<text n="118" t="Åte&amp;rställ"/>
+<text n="119" t="Detta är den maximala mängden RAM 7-zip kommer använda, och motsvarande storlek på ordlistorna. Eftersom en större ordlista ger bättre resultat än 'Ultra Mode', kommer $PRG använda 'Max Mode' om det inte finns tillräckligt med RAM för 'Ultra Mode'."/>
+<text n="120" t="Använd bakgrundsprioritet"/>
+<text n="121" t="Använd denna inställning om du kommer använda datorn medan $PRG arbetar. Komprimeringen kommer dock ta längre tid."/>
+<text n="122" t="Visa komprimeringsargument"/>
+<text n="123" t="Inkluderar använda komprimeringsargument i loggfönstret. Detta är användbart om du vill se ordliststorleken som används till varje 7-Zip arkiv."/>
+<text n="124" t="Radera källfiler"/>
+<text n="125" t="Raderar okomprimerade källfiler efter en slutförd sammanslagning. Detta val är enbart tillgängligt om källfilsformatet är satt till 'none'."/>
+<text n="126" t="Arbetsmapp"/>
+<text n="127" t="$PRG kommer använda denna mapp till temporära filer."/>
+<text n="128" t="Regional prioritet"/>
+<text n="129" t="Listan ovanför visar regionala prioritetszoner. Vissa spel har olika namn i olika regioner. Regionen längst upp i listan kommer att prioriteras framför de andra (i fallande ordning) när arkivet skall namnges. T.ex. ett spel med olika namn i USA och Japan kommer använda det amerikanska namnet om USA är ovanför Japan i listan. "/>
+<text n="130" t="Command Line"/>
+<text n="131" t="Version"/>
+<text n="132" t="$PRG har gått igenom många förändringar under sin livstid, och många personer har bidragit till projektet. Upphovsmannen vill tacka (i ingen speciell ordning)"/>
+<text n="133" t="Detta alternativ kommer att radera filer!&#xD;Dessa kommer inte gå att återskapa. Om du&#xD; inte har säkerhetskopior på dina filer, använd&#xD;inte detta alternativ.&#xD;&#xD;Är du säker på att du vill radera filer&#xD;när de komprimerats?"/>
+<text n="134" t="Är du säker?"/>
+<text n="135" t="Välj den mapp som innehåller dina ROMs:"/>
+<text n="136" t="Välj den mapp som skall innehålla sammanslagna ROMs:"/>
+<text n="137" t="Välj mapp för temporära filer:"/>
+<text n="138" t="Ingen giltig dekomprimerare hittad."/>
+<text n="139" t="Du måste välja ROM set."/>
+<text n="140" t="Var god kontrollera att standardinställningarna är giltiga, klicka sedan 'Starta' igen."/>
+<text n="141" t="Storleken på 'Max Mode' ordlistan måste vara minst 1. Öka mängden Max RAM."/>
+<text n="142" t="Källmappen existerar inte."/>
+<text n="143" t="Arbetsmappen existerar inte."/>
+<text n="144" t="Maximal RAM-användning"/>
+<text n="145" t="för deras bidrag.&#xD;Naturligtvis skulle detta program inte ens existera om det inte vore för Cowerings hårda arbete med GoodTools. &#xD;Mer information och databaser hittas på följande adress:"/>
+<text n="146" t="Nollställ språk"/>
+<text n="147" t="$PRG kommer fråga vilket språk du vill använda vid nästa start."/>
+<text n="148" t="Användning"/>
+<text n="149" t="set"/>
+<text n="150" t="version"/>
+<text n="151" t="alternativ"/>
+<text n="152" t="är ROM-settet att behandla. (delen som kommer efter 'Good')."/>
+<text n="153" t="är GoodTool versionen (0.999.5, 2.02, etc.)."/>
+<text n="154" t="är någon kombination av följande"/>
+<text n="155" t="Eftersom de sammanslagna filerna måste komprimeras, kan du inte fortsätta om inget komprimeringsprogram hittats. Kontrollera inställningarna vid fliken 'Sökvägar'."/>
+<text n="156" t=", eller 'none' om de är okomprimerade. $PRG kommer enbart söka efter ROMs i formatet du valt. Om ett filformat inte visas i listan, så kan $PRG inte hitta rätt dekomprimerare."/>
+<text n="157" t=". Vanligtvis kommer $PRG söka efter okomprimerade ROMs med rätt filändelser. Om du väljer detta argument, kommer programmet enbart söka i arkiv efter specificerade filtyper."/>
+<text n="158" t="RAM i MB"/>
+<text n="159" t="Den maximala mängden RAM i MB som 7-Zip skall använda. Glöm inte att du behöver minst 64MB för ditt operativsystem. Detta val skall enbart vara nödvändigt om $PRG inte kan bestämma hur mycket RAM du har installerat, eller om du vill reservera minne för eget användande. Standardinställningen är totala mängden RAM minus 114MB. Kom ihåg att denna inställningen bara gäller 7-Zip komprimering."/>
+<text n="160" t="Standardinställningen är"/>
+<text n="161" t="sökvägen till mapp"/>
+<text n="162" t="sökvägen till fil"/>
+<text n="163" t="Sökvägar skall sättas inom situationstecken om nödvändigt, och inte innehålla ett avslutande bakåtlutande snedstreck."/>
+<text n="164" t="Have.txt filen existerar inte."/>
+<text n="165" t="aktuell mapp"/>
+<text n="166" t="Minimalt fönster - Gör loggfönstret mindre genom att dölja utdatasidor."/>
+<text n="167" t="Förhandsvisningsläge - Hoppar över komprimeringen och tar dig direkt till fil-listan."/>
+<text n="168" t="$PRG - Command Line"/>
+<text n="169" t="Om $PRG"/>
+</language>
+
+<language name="Türkçe">
+<!--Author: Bekir HIZ-->
+<font face="Trebuchet MS" size="9.25" />
+<size scale-x="5" scale-y="16" />
+<zonetext n="A" t="Australia(n)" />
+<zonetext n="Br" t="Brazil(ian)" />
+<zonetext n="Ca" t="Canada/Canadian" />
+<zonetext n="Cn" t="China/Chinese" />
+<zonetext n="E" t="Europe" />
+<zonetext n="En" t="English" />
+<zonetext n="F" t="France/French" />
+<zonetext n="G" t="German(y)" />
+<zonetext n="I" t="Italy/Italian" />
+<zonetext n="J" t="Japan(ese)" />
+<zonetext n="K" t="Korea(n)" />
+<zonetext n="No" t="Norway/Norwegian" />
+<zonetext n="S" t="Spain/Spanish" />
+<zonetext n="Sw" t="Sweden/Swedish" />
+<zonetext n="U" t="United States" />
+<text n="1" t="Hata" />
+<text n="2" t="Şu anki güvenlik ayarlarınız programın ağ paylaşımı üzerinden düzgün bir şekilde çalışmasına izin vermeyecek. Lütfen programı yerel bir diskten çalıştırın (örn. c:)." />
+<text n="3" t="Geçersiz tür: " />
+<text n="4" t="Geçersiz değişken: " />
+<text n="5" t="Bilinmeyen değişken: " />
+<text n="6" t="Girdi klasörü yok." />
+<text n="7" t="Çalışma klasörü bulunmuyor." />
+<text n="8" t="ROM liste dosyası yok." />
+<text n="9" t="Bulunamadı" />
+<text n="10" t="Ayarları kullanabilmek için yeterli hafızanız yok&#xD; (veya $PRG yeterli miktarda RAMi sisteminizde bulamadı)." />
+<text n="11" t="Başlatılıyor" />
+<text n="12" t="Bekliyor?" />
+<text n="13" t="Geçen toplam süre, duraklamalar dahil değil." />
+<text n="14" t="Yaklaşık kalan süre.&#xD; Olması gerekendenden farklı, sıkıştırmanın değişken doğasından dolayı.&#xD; Sadece her arşivlemeden sonra güncellenir." />
+<text n="15" t="Şimdiye kadar hazırlanan arşivler / Hazırlanacak arşivler." />
+<text n="16" t="Çıkan bytlerin giren bytlara oranı.&#xD; Same value as '% of original' in the statistics output,&#xD;updated continually. A smaller value is better." />
+<text n="17" t="Birleşmiş son proje boyutu.&#xD; genellikle tam  boyuttan daha küçük olur." />
+<text n="18" t="Arkaplan önceliği.&#xD; Değiştirmek için çift tıklayın." />
+<text n="19" t="&amp;İptal" />
+<text n="20" t="&amp;Günlük kaydet" />
+<text n="21" t="&amp;Duraklat" />
+<text n="22" t="&amp;Minimum" />
+<text n="23" t="Günlük çıkışı" />
+<text n="24" t="Dosya çıkışı" />
+<text n="25" t="Günlük dosyaları" />
+<text n="26" t="&amp;Panoya kopyala" />
+<text n="27" t="Tüm düğümü kopyala &amp;" />
+<text n="28" t="Bitti" />
+<text n="29" t="&amp;Kapat" />
+<text n="30" t="Devam&amp;" />
+<text n="31" t="Şu anki dosyalar sıkıştırılınca durdurulacak." />
+<text n="32" t="Durduruldu" />
+<text n="33" t="Diske yazılırken bir hata oluştu.&#xD;Dosya: " />
+<text n="34" t="Mesaj: " />
+<text n="35" t="İptal etmek istediğinize eminmisiniz?&#xD;($PRG yarıda kesilen işleme otomatik olarak devam edecek&#xD;.)" />
+<text n="36" t="İptal" />
+<text n="37" t="&amp;Listeyi kaydet" />
+<text n="38" t="Arkaplan Önceliği: Açık" />
+<text n="39" t="Arkaplan Önceliği: Kapalı" />
+<text n="40" t="Geçen süre: " />
+<text n="41" t="Kalan süre: " />
+<text n="42" t="Ayar" />
+<text n="43" t="Sürüm" />
+<text n="44" t="Bulunamadı." />
+<text n="45" t="Ayrıştırılıyor" />
+<text n="46" t="Geçersiz XML:" />
+<text n="47" t=" Uzantı belirli değil." />
+<text n="48" t=" Bayrak belirtilmedi." />
+<text n="49" t="Uyarı - Bilinmeyen eğilim bölgesi bulundu: " />
+<text n="50" t="Başarılı." />
+<text n="51" t="İlk satırdan beklenen sayı ayrıştırılamadı." />
+<text n="52" t="Dosya ağacı? " />
+<text n="53" t="Bitti." />
+<text n="54" t=" dosyalar burada depolanıyor" />
+<text n="55" t=" arşivler (Dosya Çıkış sayfasına bakın)." />
+<text n="56" t="Geçici klasör boşaltılamıyor." />
+<text n="57" t="Maksimum kullanılan" />
+<text n="58" t="MB RAM." />
+<text n="59" t="Çıkış klasörü yaratılamıyor." />
+<text n="60" t="İşlem uygulanamıyor." />
+<text n="61" t="İşlem hatası." />
+<text n="62" t="Dosyalar ayrıştırılamıyor:" />
+<text n="63" t="byte" />
+<text n="64" t="dosya" />
+<text n="65" t="dosyalar" />
+<text n="66" t="zaten sıkıştırıldı" />
+<text n="67" t="Geçici klasör yaratılamıyor." />
+<text n="68" t="Açılıyor? " />
+<text n="69" t="Geçici dosya yaratılamıyor." />
+<text n="70" t="Çift dosya bulundu." />
+<text n="71" t="Geçici dosyaya yazılamıyor." />
+<text n="72" t="Dosya sistemine ulaşılamıyor." />
+<text n="73" t="Eşleşen ROM bulunmadı" />
+<text n="74" t="Geçici dosya kapatılamıyor." />
+<text n="75" t="Savlar: " />
+<text n="76" t="sıkıştırıldı?" />
+<text n="77" t="Harici (Komut satırı -- " />
+<text n="78" t="% orijinal" />
+<text n="79" t="Dosyalar siliniyor? " />
+<text n="80" t="Silinemiyor" />
+<text n="81" t="Geçici dosya silinemiyor." />
+<text n="82" t="İptal edildi " />
+<text n="83" t="İstatistikler" />
+<text n="84" t="içine dosyalar sıkıştırıldı" />
+<text n="85" t="İçeri" />
+<text n="86" t="Uyarı - Kopya: " />
+<text n="87" t="byte" />
+<text n="88" t="Geçici dosya silinemiyor." />
+<text n="89" t="Şimdi birleştir&amp;" />
+<text n="90" t="&amp;Sonraki sayfa &gt;" />
+<text n="91" t="&lt; &amp;Önceki sayfa" />
+<text n="92" t="All Files" />
+<text n="93" t="ROM Ayarı" />
+<text n="94" t="Dosya konumları" />
+<text n="95" t="Sıkıştırma" />
+<text n="96" t="Gelişmiş" />
+<text n="97" t="Diğer konumlar" />
+<text n="98" t="Hakkında" />
+<text n="99" t="Hoşgeldiniz $PRG!" />
+<text n="100" t="Bu program size kullanılabilir arşivler ve yüksek derecede sıkıştırılmış dosyalar yaratarak ROM ayarlarnızı yapmanızı sağlar. Her sayfadaki ayarları basitçe onaylayın, ve sonra başlamak için 'Şimdi Birleştir' butonuna basın. Çıkarken ayarlarınız saklanacak, ve genellikle bu sayfayı sadece bir sonraki için kontrol edeceksiniz.&#xD;&#xD;Eğer $PRG ilk defa çalıştırıyorsanız, gelişmiş seçenekler kutusundaki eğilim bölge önceliğine bakmış olduğunuzdan emin olunuz.&#xD;&#xD;Soldaki kutu kimin veri tabanının yüklendiği ayarları gösterir. Başlamak için, üzerinde çalışacağınız ROM ayarını seçin, Sonra 'Sonraki Sayfa' butonunu tıklayın." />
+<text n="101" t="&amp;ROM ayarlarını yenile" />
+<text n="102" t="Kaynak Klasör" />
+<text n="103" t="Varsayılan" />
+<text n="104" t="Gözat?" />
+<text n="105" t="Bu klasör şu anda tüm ROM dosyalarınızı içermektedir. Ancak $PRG alt klasörleri aramaz, bu yüzden arama yaparken dosya path' leri yerine dosya isimlerini kullanın." />
+<text n="106" t="Çıkış Klasörü" />
+<text n="107" t="Burası arşiv dosyalarınızın bitmesini istediğiniz yerdir. Eğer burda böyle bir klasör yoksa oluşturulur. Eğer varsa, boş olmalı ve ya iptal edilmiş bir proje içermelidir." />
+<text n="108" t="Have.txt Dosyası" />
+<text n="109" t="Sıkıştırmada kullanmak istediğiniz Rom ayarlarına ilişkin ayarlamaları kullanmak için bunu *have.txt dosyasına ayarlayın. Bu dosyanın doğru ve güncel olduğundan emin olun, ." />
+<text n="110" t="Kaynak Sıkıştırma" />
+<text n="111" t="Dosyalarınızı saklamak istediğiniz formatı seçiniz" />
+<text n="112" t="Çıkış Sıkıştırması" />
+<text n="113" t="Birleştirmede kullanmak istediğiniz sıkıştırma türünü seçiniz." />
+<text n="114" t="7-Zip Seçenekleri" />
+<text n="115" t=" MB Maksimum RAM" />
+<text n="116" t=" MB 'Maksimum' Sözlük" />
+<text n="117" t=" MB 'Ultra' Sözlük" />
+<text n="118" t="&amp;Varsayılanlara geri al" />
+<text n="119" t="Bu 7-zip' in kullanacağı maksimum RAM değeri ile maksimum sözlük sonucunun boyutudur. Çünkü daha büyük bir sözlük Ultra Mod'dan daha büyük kayıtlarda, yeteri kadar RAM olmadığında Ultra Mod'da olduğu gibi, $PRG 'ın maksimum mod'dan daha büyük bir sözlük kullanması ile sonuçlanacak." />
+<text n="120" t="Arkaplan önceliğini kullanın." />
+<text n="121" t="Bilgisayarınızın birleştirme yaparken daha hassas davranmasını sağlar, fakat birleştirme işlemi biraz daha zaman alır." />
+<text n="122" t="Sıkıştırma değişkenlerini göstert" />
+<text n="123" t="Kayıt penceresinde sıkıştırılacak değişkenleri içerir. 7-zip için kullanılan gerçek sözlük boyutunu görmenin en kullanışlı yolu budur." />
+<text n="124" t="Kaynak Kodları Sil" />
+<text n="125" t="Dosyalar hatasız bir şekilde birleştirildikten sonra eski dosyalar silinir. Bu seçenek sadece kaynak sıkıştırma 'boş' olduğunda etkindir." />
+<text n="126" t="Çalışma Klasörü" />
+<text n="127" t="$PRG bütün geçici dosyalar için bu klasörü kullanır." />
+<text n="128" t="Eğilim bölgesi önceliği" />
+<text n="129" t="Yukarıdaki liste $PRG tarafından bilinen tüm eğilim bölgelerini listeler. Değişik bölge ve dildeki oyunlar için, arşiv ismi olarak en yüksek eğilim bölge önceliğine sahip isim (zirveye en yakın) kullanılacaktır." />
+<text n="130" t="Komut Satırı" />
+<text n="131" t="Sürüm" />
+<text n="132" t="$PRG üretim tarihinden bu yana pek çok değişikliğe uğradı, ve bir çok insanın projeye katkısı oldu. Projeye katkıda bulunan herkese teşekkürler." />
+<text n="133" t="Bu seçenek siteminizden dsoyalarınızı kaldırır.!&#xD;Bu dosyalar geri alınamaz. Eğer dosyalarınızın&#xD;yedeği yoksa, Bu seçeneği&#xD;kullanmayın.&#xD;&#xD;Dosyalarınızı bir kere sıkıştırdıktan sonra&#xD;silmek istediğinizden emin misiniz?" />
+<text n="134" t="Emin misiniz?" />
+<text n="135" t="ROMlarınızı içeren klasörü seçiniz:" />
+<text n="136" t="Birleştirilmiş ROMları saklamak için klasör seçiniz:" />
+<text n="137" t="Geçici dosyalarınız için klasör seçiniz:" />
+<text n="138" t="Geçerli ayrıştırıcılar bulunamadı." />
+<text n="139" t="Bir ROM ayarı seçmelisiniz." />
+<text n="140" t="Varsayılanların kabul edilebilirliğini onaylayın, sonra 'Şimdi Birleştir' butonunu tıklayın." />
+<text n="141" t="'Maksimum Mod' sözlük boyutu en az 1. İndirgenmiş Maksimum RAM değerinde olmalıdır." />
+<text n="142" t="Kaynak klasör bulunamadı." />
+<text n="143" t="Çalışma kasörü bulunamadı." />
+<text n="144" t="Maksimum RAM Kullanımı" />
+<text n="145" t="&#xD;&#xD;Elbette ki, GoodTools'un üretiminde Cowering' in yoğun çalışmaları olmasaydı, bu proje olmayacaktı.&#xD;&#xD;Daha fazla bilgi ve veriyi aşağıdaki adreslerden öğrenebilirsiniz.:" />
+<text n="146" t="Dili sıfırla" />
+<text n="147" t="$PRG'ın bir sonraki açılışında dili ayarlamanız için sizi uyarmasını sağlar." />
+<text n="148" t="Kullanım" />
+<text n="149" t="Ayarla" />
+<text n="150" t="Sürüm" />
+<text n="151" t="Seçenekler" />
+<text n="152" t="İşletmek için ROM ayarı ('İyi' den sonra gelen kısım)." />
+<text n="153" t="GoodTool sürümü (0.999.5, 2.02, vb.)." />
+<text n="154" t="Aşağıdakinin kombinasyonu:" />
+<text n="155" t="Dosyalarınız sıkıştırılana dek, sıkıştırıcı bulunamazsa işleminiz gerçekleştirilmeyecektir. Bu takdirde program konum sayfasına bakınız." />
+<text n="156" t="Eğer sıkıştırılmamışsa , ya da 'boş'. $PRG geçerli ROM' ları ararken SADECE seçilmiş formatta ki dosyaları arar. Eğer format uygun değilse, $PRG uygun ayrıştırmayı bulamayacaktır." />
+<text n="157" t=". Varsayılan olarak, $PRG sıkıştırılmamış doğru uzantılı ROM dosyalarını arar. Eğer değişken tanımlı değilse, bunun yerine sadece tanımlanmış türlerinin bulunduğu arşivleri arar." />
+<text n="158" t="RAM in MB" />
+<text n="159" t="7-Zip 'in kullanacağı maksimum RAM miktarı. Bu seçenek sadece $PRG sisteminizde ne kadar RAM bulunduğunu algılayamadı zaman kullanılır, ya da eğer isterseniz kendi kullanımınız için ekstra RAM ayırabilirsiniz. Varsayılan ayarlarda, en fazla toplam RAM 'iniz 114 MB çıkarılarak bulunan değerdir. Bu sadece çıkış olarak 7z kullanılıyorsa meydana gelir." />
+<text n="160" t="Varsayılan" />
+<text n="161" t="klasör yolu" />
+<text n="162" t="dosya yolu" />
+<text n="163" t="Yollar gerekirse tırnak içersine alınmalıdır ve ters slash içermemelidir." />
+<text n="164" t="Have.txt dosyası bulunamadı." />
+<text n="165" t="Şu an ki klasör." />
+<text n="166" t="Küçültülmüş Pencere - Çıkış penceresini saklayarak kayıt penceresini daha küçük yapar." />
+<text n="167" t="Önizleme Modu - Sıkıştırmayı atlar ve sizi direk olarak dosya listesine götürür." />
+<text n="168" t="$PRG - Komut Satırı" />
+<text n="169" t="$PRG Hakkında" />
+</language>
+
+<language name="繁體中文">
+<!--Author: CANI-->
+<font face="Trebuchet MS" size="9.75"/>
+<size scale-x="6" scale-y="16"/>
+<zonetext n="A" t="澳大利亞"/>
+<zonetext n="Br" t="巴西"/>
+<zonetext n="Ca" t="加拿大"/>
+<zonetext n="Cn" t="中國"/>
+<zonetext n="E" t="歐洲"/>
+<zonetext n="En" t="英國"/>
+<zonetext n="F" t="法國"/>
+<zonetext n="G" t="德國"/>
+<zonetext n="I" t="意大利"/>
+<zonetext n="J" t="日本"/>
+<zonetext n="K" t="韓國"/>
+<zonetext n="No" t="挪威"/>
+<zonetext n="S" t="西班牙"/>
+<zonetext n="Sw" t="瑞典"/>
+<zonetext n="U" t="美國"/>
+<text n="1" t="錯誤"/>
+<text n="2" t="您現在的安全設定將不會容許這個程式正常的執行&#xD;從一個網路分享.&#xD;&#xD;請從一個本機的硬碟中執行 (例如. c:)."/>
+<text n="3" t="無效的類型: "/>
+<text n="4" t="無效的參數: "/>
+<text n="5" t="未知的參數: "/>
+<text n="6" t="輸入的目錄路徑不存在."/>
+<text n="7" t="工作的目錄路徑不存在."/>
+<text n="8" t="ROMs 列表檔案不存在."/>
+<text n="9" t="找不到"/>
+<text n="10" t="您的記憶體不足以使用現行的設定&#xD;(或 $PRG 不能決定 RAM 在您的系統中的數量)."/>
+<text n="11" t="初始化…"/>
+<text n="12" t="請稍等…"/>
+<text n="13" t="總消耗時間，除了暫停的時間之外."/>
+<text n="14" t="大約的剩餘時間.&#xD;不準確的，由於變異的壓縮性質.&#xD;在每一個文件工作之後更新."/>
+<text n="15" t="至今新增的文件數量 / 新增文件的總數."/>
+<text n="16" t="輸出位元組和輸出位元組的比例.&#xD;等值於 '% 相對於原始的' 在統計的輸出,&#xD;繼續更新. 較小的值比較合適."/>
+<text n="17" t="最後合併輸出容量的預測.&#xD;由於某些檔案族群，一般來說小於實際的輸出,&#xD;像公共網域. 在合併完成後總是正確的."/>
+<text n="18" t="背景優先權模式的狀態.&#xD;連點兩下執行."/>
+<text n="19" t="取消"/>
+<text n="20" t="儲存記錄"/>
+<text n="21" t="暫停使用"/>
+<text n="22" t="縮小"/>
+<text n="23" t="記錄輸出"/>
+<text n="24" t="檔案輸出"/>
+<text n="25" t="記錄的檔案"/>
+<text n="26" t="複製到 Clipboard"/>
+<text n="27" t="複製全部的節點 "/>
+<text n="28" t="完成"/>
+<text n="29" t="關閉"/>
+<text n="30" t="繼續"/>
+<text n="31" t="在現行族群的檔案壓縮後會暫停."/>
+<text n="32" t="暫停"/>
+<text n="33" t="當嘗試寫入磁碟時產生錯誤.&#xD;檔案: "/>
+<text n="34" t="訊息: "/>
+<text n="35" t="您確定要取消？&#xD;($PRG 會自動的重新開始&#xD;一個中斷的動作.)"/>
+<text n="36" t="取消"/>
+<text n="37" t="儲存列表"/>
+<text n="38" t="BP: On"/>
+<text n="39" t="BP: Off"/>
+<text n="40" t="經過時間: "/>
+<text n="41" t="剩餘的: "/>
+<text n="42" t="設定"/>
+<text n="43" t="版本"/>
+<text n="44" t="沒找到."/>
+<text n="45" t="語法分析"/>
+<text n="46" t="無效的 XML."/>
+<text n="47" t="未指定延申檔名."/>
+<text n="48" t="未指定旗標."/>
+<text n="49" t="警告- 找到未知的偏向區域(bias zone) : "/>
+<text n="50" t="成功."/>
+<text n="51" t="無法從第一行找到語法分析用的計數."/>
+<text n="52" t="建立檔案樹狀組織… "/>
+<text n="53" t="完成."/>
+<text n="54" t="檔案將儲存在"/>
+<text n="55" t="文件(參考 [檔案 輸出] )."/>
+<text n="56" t="無法清除暫存目錄."/>
+<text n="57" t="使用最大的 "/>
+<text n="58" t="MB RAM."/>
+<text n="59" t="無法新增輸出目錄."/>
+<text n="60" t="無法執行程序."/>
+<text n="61" t="程序中的錯誤."/>
+<text n="62" t="無法從解壓縮程式中分析輸出:"/>
+<text n="63" t="位元組 於 "/>
+<text n="64" t="檔案"/>
+<text n="65" t="檔案"/>
+<text n="66" t="已經壓縮成"/>
+<text n="67" t="無法新增暫存目錄."/>
+<text n="68" t="解壓縮中… "/>
+<text n="69" t="無法新增暫存檔案."/>
+<text n="70" t="找到重複的檔案."/>
+<text n="71" t="無法寫入暫存檔案."/>
+<text n="72" t="無法存取檔案系統."/>
+<text n="73" t="未找到符合的 ROMs "/>
+<text n="74" t="無法關閉暫存的檔案."/>
+<text n="75" t="參數: "/>
+<text n="76" t="壓縮於…"/>
+<text n="77" t="外部指令 (命令列 -- "/>
+<text n="78" t="% 相對於原始的"/>
+<text n="79" t="刪除檔案… "/>
+<text n="80" t="無法刪除"/>
+<text n="81" t="無法刪除暫存檔案."/>
+<text n="82" t="取消於 "/>
+<text n="83" t="統計資料"/>
+<text n="84" t="檔案已壓縮為"/>
+<text n="85" t="在"/>
+<text n="86" t="警告 - 重複: "/>
+<text n="87" t="位元組"/>
+<text n="88" t="無法刪除暫存目錄."/>
+<text n="89" t="立即合併 "/>
+<text n="90" t="下一頁 &gt;"/>
+<text n="91" t="&lt; 上一頁"/>
+<text n="92" t="所有的檔案"/>
+<text n="93" t="ROM Set"/>
+<text n="94" t="檔案位置"/>
+<text n="95" t="壓縮"/>
+<text n="96" t="進階"/>
+<text n="97" t="其它位置"/>
+<text n="98" t="關於"/>
+<text n="99" t="歡迎來到 $PRG!"/>
+<text n="100" t="這個程式將會幫助您把您全部的 ROM sets 建立高度壓縮及可用的文件. 簡單地確認每一設定頁，然後按 [立即合併](Merge Now) 按鈕就可以開始了. 您的設定在您退出時會儲存，所以您大部份的時間只需要確認這頁和下一頁.&#xD;&#xD;如果這是您的第一次執行程式 $PRG, 記得看一下偏向地區(Bias Zone)優先權對話框，在[進階]選項的頁次。.&#xD;&#xD;左邊的對話框，顯示全部的sets的已安裝資料庫. 在要開始時, 首先選擇那一種 ROM set , 然後按 [下一頁] 按鈕."/>
+<text n="101" t="更新 ROM Sets"/>
+<text n="102" t="來源目錄"/>
+<text n="103" t="內定值"/>
+<text n="104" t="瀏覽…"/>
+<text n="105" t="這個目錄現在包含了您所有的 ROM 檔案. 附記  $PRG 並不搜尋子目錄，所以記得用 'rename' 而不要用 'rename dirs' 當您掃描您的 ROMs 時."/>
+<text n="106" t="輸出目錄"/>
+<text n="107" t="這是您要所有合併的檔案結束的地方. 目錄如果不存在的話將會被建立. 如果目錄存在, 目錄必須是空的或是包含了一個取消的合併."/>
+<text n="108" t="Have.txt 檔案"/>
+<text n="109" t="設定這為 *have.txt 檔案 且與您想要合併的ROM set 一致. 確定這個檔案是正確的且是最新的, 否則您將會遇到錯誤."/>
+<text n="110" t="來源 壓縮"/>
+<text n="111" t="選擇您現在儲存的檔案格式"/>
+<text n="112" t="輸出壓縮"/>
+<text n="113" t="選擇您想要合併的壓縮格式."/>
+<text n="114" t="7-Zip 選項"/>
+<text n="115" t=" MB Max RAM"/>
+<text n="116" t=" MB 'Max' Dict"/>
+<text n="117" t=" MB 'Ultra' Dict"/>
+<text n="118" t="回覆為預設值"/>
+<text n="119" t="這是RAM 最大的數量，並為7-zip 可以使用且是最大的字典容量所導致. 因為一個較大的字典導致較大的存取而超越使用Ultra Mode , $PRG 將會使用較大的字典在Max Mode 當RAM不夠同時使用在Ultra Mode ."/>
+<text n="120" t="使用背景優先權"/>
+<text n="121" t="致使您的電腦在合併時較不受影響，但也致使合併程序時間長一點."/>
+<text n="122" t="顯示壓縮參數"/>
+<text n="123" t="在記錄示窗中包含傳遞給壓縮軟體的參數. 這是使用7-zip看實際字典容量最有用的方法."/>
+<text n="124" t="刪除來源檔案"/>
+<text n="125" t="在成功合併之後，刪除未壓縮檔案.這個選項只有當來源壓縮設定為 'none'時才有作用."/>
+<text n="126" t="工作目錄"/>
+<text n="127" t="$PRG 將會使用這個目錄放置暫存檔案."/>
+<text n="128" t="偏向區域優先權"/>
+<text n="129" t="以上的列表包含了所有的已知偏向區域 $PRG. 為了給任何遊戲有不同的名字和不同的範圍，擁有最高優先權偏向區域(接近最高)將會被作用為文件名稱. 例如，一個遊戲在美國和日本有不一樣的名字會合併成美國的名字這是假設如果美國的列表是在日本上面. "/>
+<text n="130" t="命令列"/>
+<text n="131" t="版本"/>
+<text n="132" t="$PRG 在他的人生看到許多的改變, 且許多人對這個計劃有貢獻. 作者會想 (沒有順序無論什麼事)"/>
+<text n="133" t="這個選項會從您的系統中移除檔案!&#xD;這個檔案將會無法回復. 如果您沒有將&#xD;備份您的檔案，請不要&#xD; 使用這個選項.&#xD;&#xD;您確定要刪除檔案&#xD;曾經已壓縮過了"/>
+<text n="134" t="您確定嗎？"/>
+<text n="135" t="選擇包含您的ROMs的目錄:"/>
+<text n="136" t="選擇存取ROMs的目錄:"/>
+<text n="137" t="選擇暫存的目錄:"/>
+<text n="138" t="沒有找到有效的壓縮軟體."/>
+<text n="139" t="您必需選擇一個ROM set."/>
+<text n="140" t="請確認內定值都可以接受，然後再按 [立即合併] 一次."/>
+<text n="141" t="The 'Max Mode' 字典容量最少必須要是一. 增加 Max RAM 的數量."/>
+<text n="142" t="來源目錄不存在."/>
+<text n="143" t="工作目錄不存在."/>
+<text n="144" t="最大 RAM 的用法"/>
+<text n="145" t="由於他們的貢獻.&#xD;&#xD;且當然, 若不是Cowering的用功努力生產GoodTools的話, 這個程式不可能曾經存在.&#xD;&#xD;額外的資訊和資料庫可以在下列的位址找到:"/>
+<text n="146" t="重置語系"/>
+<text n="147" t="致使 $PRG 提示您去設定語系，當下一次開始的時候."/>
+<text n="148" t="用法"/>
+<text n="149" t="設定"/>
+<text n="150" t="版本"/>
+<text n="151" t="選項"/>
+<text n="152" t="是ROM set 程序 (在'Good' 之後的部份)."/>
+<text n="153" t="是GoodTool 的版本(0.999.5, 2.02, etc.)."/>
+<text n="154" t="是下列的任何組合:"/>
+<text n="155" t="當輸出檔案必需被壓縮, 如果沒有找到壓縮軟體您將不能執行. 參考[程式位置] 頁次."/>
+<text n="156" t=", 或是 'none' 如果它們都未壓縮. $PRG 將會只有搜尋所選擇的格式去找有效的ROMs. 如果一個格式找不到, $PRG 會無法找到合適的壓縮軟體."/>
+<text n="157" t=". 在內定值中, $PRG 將會搜尋未壓縮的ROMs 的正確延申檔名. 如果這個參數已指定, 它將會代替搜尋只有指定格式的文件."/>
+<text n="158" t="RAM in MB"/>
+<text n="159" t="最大數量的 RAM in MB 在 7-Zip 中使用著. 別忘了容許至少 64MB 給作業系統. 這個選項應該是必須的，如果 $PRG 不能決定您的系統的 RAM ，為了某些理由，或您希望去顛倒額外的RAM 為您自已的用途.在內定值中， 這個最大是您總共的RAM 減去114MB.附記這是應用在當使用7z為輸出時."/>
+<text n="160" t="內定值是"/>
+<text n="161" t="目錄的路徑"/>
+<text n="162" t="檔案的路徑"/>
+<text n="163" t="路徑應該被引用如果必需的話且不應該有延生的反斜線."/>
+<text n="164" t="Have.txt 檔案不存在."/>
+<text n="165" t="現在的目錄."/>
+<text n="166" t="縮小視窗 - 用隱藏輸出頁來讓記錄視窗變小."/>
+<text n="167" t="預視模式 - 保留壓縮讓您直接觀看檔案列表."/>
+<text n="168" t="$PRG - 命令列"/>
+<text n="169" t="關於 $PRG"/>
+</language>
+
+<language name="简体中文">
+<!--Author: Hakkk-->
+<font face="Trebuchet MS" size="9.25"/>
+<size scale-x="6" scale-y="16"/>
+<zonetext n="A" t="澳大利亚"/>
+<zonetext n="Br" t="巴西"/>
+<zonetext n="Ca" t="加拿大"/>
+<zonetext n="Cn" t="中国"/>
+<zonetext n="E" t="欧洲"/>
+<zonetext n="En" t="英国"/>
+<zonetext n="F" t="法国"/>
+<zonetext n="G" t="德国"/>
+<zonetext n="I" t="意大利"/>
+<zonetext n="J" t="日本"/>
+<zonetext n="K" t="韩国"/>
+<zonetext n="No" t="挪威"/>
+<zonetext n="S" t="西班牙"/>
+<zonetext n="Sw" t="瑞典"/>
+<zonetext n="U" t="美国"/>
+<text n="1" t="错误"/>
+<text n="2" t="您当前的安全设置不允许从网络共享文件夹上运行此程序。&#xD;&#xD;请从本地磁盘运行程序 (例如：C:)。"/>
+<text n="3" t="类型无效："/>
+<text n="4" t="参数无效："/>
+<text n="5" t="参数未知："/>
+<text n="6" t="输入文件夹不存在。"/>
+<text n="7" t="工作文件夹不存在。"/>
+<text n="8" t="ROMs 列表文件不存在。"/>
+<text n="9" t="无法找到"/>
+<text n="10" t="您没有足够存储空间来使用当前设置&#xD;(或者 $PRG 无法检测到您系统物理内存的大小)。"/>
+<text n="11" t="正在初始化"/>
+<text n="12" t="请稍候..."/>
+<text n="13" t="已经用去的总时间，不包括暂停时间。"/>
+<text n="14" t="估计剩余时间。&#xD;由于压缩率的变化，这个时间只是近似值。&#xD;每次压缩操作完毕后更新。"/>
+<text n="15" t="已经创建的压缩文件数 / 压缩文件总数。"/>
+<text n="16" t="输出与输入字节数之比。&#xD;统计输出大小占原始文件大小的百分比。&#xD;连续更新。该值越小越好。"/>
+<text n="17" t="预计合并输出文件总大小。&#xD;由于特定文件组，例如包含公共区域，这个预测值通常小于实际输出大小。&#xD;合并完成后将是准确值"/>
+<text n="18" t="后台模式状态。&#xD;双击切换。"/>
+<text n="19" t="取消 (&amp;C)"/>
+<text n="20" t="保存记录 (&amp;S)"/>
+<text n="21" t="暂停 (&amp;U)"/>
+<text n="22" t="精简视图 (&amp;M)"/>
+<text n="23" t="输出记录"/>
+<text n="24" t="输出文件"/>
+<text n="25" t="记录文件"/>
+<text n="26" t="复制到剪贴板 (&amp;C)"/>
+<text n="27" t="复制全部节点 (&amp;E)"/>
+<text n="28" t="完毕"/>
+<text n="29" t="关闭 (&amp;C)"/>
+<text n="30" t="继续 (&amp;U)"/>
+<text n="31" t="当前文件组压缩完毕后将暂停。"/>
+<text n="32" t="暂停"/>
+<text n="33" t="磁盘写入出错。&#xD;文件："/>
+<text n="34" t="消息："/>
+<text n="35" t="确定要取消？&#xD;($PRG 会自动继续中断的操作。)"/>
+<text n="36" t="取消"/>
+<text n="37" t="保存列表 (&amp;S)"/>
+<text n="38" t="后台模式：开"/>
+<text n="39" t="后台模式：关"/>
+<text n="40" t="已用时间："/>
+<text n="41" t="剩余时间："/>
+<text n="42" t="设置"/>
+<text n="43" t="版本"/>
+<text n="44" t="没有找到。"/>
+<text n="45" t="正在分析"/>
+<text n="46" t="无效的 XML："/>
+<text n="47" t=" 没有指定后缀。"/>
+<text n="48" t=" 没有指定标志。"/>
+<text n="49" t="警告 - 找到未知地区："/>
+<text n="50" t="成功。"/>
+<text n="51" t="无法分析第一行预期的计数。"/>
+<text n="52" t="正在建立文件树..."/>
+<text n="53" t="完毕。"/>
+<text n="54" t=" 个文件将被存储在 "/>
+<text n="55" t=" 个存档文件中 (见“输出文件”页面)。"/>
+<text n="56" t="无法清空临时文件夹。"/>
+<text n="57" t="最多使用 "/>
+<text n="58" t="MB 物理内存。"/>
+<text n="59" t="无法创建输出文件夹。"/>
+<text n="60" t="无法处理。"/>
+<text n="61" t="处理失败。"/>
+<text n="62" t="无法用解压程序分析输出："/>
+<text n="63" t="字节，包含"/>
+<text n="64" t="个文件"/>
+<text n="65" t="个文件"/>
+<text n="66" t="已经压缩到"/>
+<text n="67" t="无法创建临时文件夹。"/>
+<text n="68" t="正在解压..."/>
+<text n="69" t="无法创建临时文件。"/>
+<text n="70" t="找到重复文件。"/>
+<text n="71" t="无法写入临时文件。"/>
+<text n="72" t="无法访问文件系统。"/>
+<text n="73" t="未找到匹配的 ROMs "/>
+<text n="74" t="无法关闭临时文件。"/>
+<text n="75" t="参数："/>
+<text n="76" t="正在压缩..."/>
+<text n="77" t="外部错误 (命令行 -- "/>
+<text n="78" t="% 原始大小"/>
+<text n="79" t="正在删除文件..."/>
+<text n="80" t="无法删除"/>
+<text n="81" t="无法删除临时文件。"/>
+<text n="82" t="取消于 "/>
+<text n="83" t="统计"/>
+<text n="84" t="个文件已经压缩到"/>
+<text n="85" t="包含"/>
+<text n="86" t="警告 - 重复文件："/>
+<text n="87" t="字节"/>
+<text n="88" t="无法删除临时文件夹。"/>
+<text n="89" t="开始合并 (&amp;O)"/>
+<text n="90" t="下一页 (&amp;N) &gt;"/>
+<text n="91" t="&lt; 上一页 (&amp;P)"/>
+<text n="92" t="所有文件"/>
+<text n="93" t="ROM 集"/>
+<text n="94" t="文件定位"/>
+<text n="95" t="压缩"/>
+<text n="96" t="高级"/>
+<text n="97" t="程序定位"/>
+<text n="98" t="关于"/>
+<text n="99" t="欢迎使用 $PRG!"/>
+<text n="100" t="这个程序将帮助您把您所有 ROM 合并成高度压缩并且可用的存档文件。您只需要简单地确认每页的设置，然后点击“开始合并”按钮即可。当您退出时设置将被保存，所以大多数情况下您只需要设置这个页面和下一个页面。&#xD;&#xD;如果这是您第一次运行 $PRG，请检查“高级”页面的“地区优先级”列表框。&#xD;&#xD;左侧列表框显示了所有已经安装了数据库的 ROM 集合。请选择要整理的 ROM 集，然后点击“下一页”按钮继续。"/>
+<text n="101" t="更新 ROM 集 (&amp;R)"/>
+<text n="102" t="源文件夹"/>
+<text n="103" t="默认"/>
+<text n="104" t="浏览..."/>
+<text n="105" t="该文件夹包含了您所有的 ROM 文件。注意，$PRG 不搜索子文件夹，所以当您扫描您的 ROM 时请使用“rename”而不是“rename dirs”参数。"/>
+<text n="106" t="输出文件夹"/>
+<text n="107" t="该文件夹保存您合并的所有存档文件。如果该文件夹不存在将被自动创建。如果该文件夹存在，则必须为空文件夹或者仅包含过去取消合并操作后已完成的文件。"/>
+<text n="108" t="Have.txt 文件"/>
+<text n="109" t="将其指向您想要合并的 ROM 集对应的 *have.txt 文件。请确定这个文件是正确并且最新的，否则您将遇到错误。"/>
+<text n="110" t="源文件压缩格式"/>
+<text n="111" t="选择您源文件当前的压缩格式"/>
+<text n="112" t="输出文件压缩格式"/>
+<text n="113" t="选择您用来合并文件的压缩格式。"/>
+<text n="114" t="7-Zip 选项"/>
+<text n="115" t="M最大物理内存"/>
+<text n="116" t=" MB 'Max' Dict"/>
+<text n="117" t=" MB 'Ultra' Dict"/>
+<text n="118" t="重置为默认值 (&amp;R)"/>
+<text n="119" t="这是 7-zip 将使用的最大物理内存数量，以及由此决定的最大字典容量。因为最大模式下的字典比超级模式下更为节省空间，所以当没有足够物理内存运行超级模式时，$PRG 将在最大模式下使用更大容量的字典。"/>
+<text n="120" t="使用后台模式"/>
+<text n="121" t="当合并时降低系统资源消耗，使您的计算机能够顺利运行其他程序，但同时会延长合并时间。"/>
+<text n="122" t="显示压缩参数"/>
+<text n="123" t="在记录窗口中显示压缩参数。有助于看到 7-zip 压缩所用到的实际字典容量。"/>
+<text n="124" t="删除源文件"/>
+<text n="125" t="在合并成功后删除未压缩的源文件。该选项仅当源文件压缩格式设置为“none”时有效。"/>
+<text n="126" t="工作文件夹"/>
+<text n="127" t="$PRG 将用该文件夹保存所有临时文件。"/>
+<text n="128" t="地区优先级"/>
+<text n="129" t="上表包含了 $PRG 已知的所有地区。对于在不同地区使用不同名称的游戏，地区优先级高的名称 (靠近列表顶端) 将作为存档文件的名称。例如，当列表中美国位于日本上方时，一个美版和日版名称不同的游戏将按照美版名称合并。"/>
+<text n="130" t="命令行"/>
+<text n="131" t="版本"/>
+<text n="132" t="$PRG 已经进行了很多改动和升级，有许多人参与到了这个软件工程中。作者感谢 (排名不分先后)"/>
+<text n="133" t="选定该选项将从您的系统删除文件！&#xD;这些文件将无法恢复。如果您没有备份&#xD;您的文件，请不要选择这个选项。&#xD;&#xD;&#xD;您确定要在压缩后删除源文件吗？&#xD;"/>
+<text n="134" t="确认？"/>
+<text n="135" t="请选择包含您 ROMs 的文件夹："/>
+<text n="136" t="请选择保存合并 ROMs 的文件夹："/>
+<text n="137" t="请选择保存临时文件的文件夹："/>
+<text n="138" t="未找到有效的解压程序。"/>
+<text n="139" t="您必须选择 ROM 集。"/>
+<text n="140" t="请确认默认值是合适的，然后再次点击“开始合并”。"/>
+<text n="141" t="最大模式下字典容量至少为 1。请增加最大物理内存数量。"/>
+<text n="142" t="源文件夹不存在。"/>
+<text n="143" t="工作文件夹不存在。"/>
+<text n="144" t="使用物理内存最大值"/>
+<text n="145" t="为软件作出的贡献。&#xD;&#xD;当然，如果没有 Cowering 为编写 GoodTools 付出的努力，这个程序也就不会诞生了。&#xD;&#xD;其他信息和数据库可以通过下列地址获得："/>
+<text n="146" t="重设语言"/>
+<text n="147" t="使 $PRG 在下次运行时提示您选择语言。"/>
+<text n="148" t="语法"/>
+<text n="149" t="set"/>
+<text n="150" t="version"/>
+<text n="151" t="options"/>
+<text n="152" t="要处理的 ROM 集 (“Good”之后的部分)。"/>
+<text n="153" t="GoodTool 的版本号 (0.999.5、2.02等等)。"/>
+<text n="154" t="以下任意组合："/>
+<text n="155" t="由于输出文件必须压缩，如果没有压缩程序，您将不能执行合并操作。详见“程序定位”页。"/>
+<text n="156" t="，或者选择“none”表示它们未被压缩。$PRG 在查找有效 ROMs 时只搜索选定格式的文件。如果格式无效，$PRG 将无法找到合适的解压程序。"/>
+<text n="157" t="。默认情况下，$PRG 将搜索未压缩的具有后缀名的 ROMs。如果指定此参数，将只搜索指定类型的存档文件。"/>
+<text n="158" t="RAM in MB"/>
+<text n="159" t="7-zip 使用的物理内存最大值，以 MB 为单位。别忘了留下至少 64MB 给操作系统。只有当 $PRG 因为某些原因无法检测您系统的物理内存，或者您需要预留额外的物理内存时，才有必要设定这个选项。默认设置下，最大值等于您系统物理内存总数减去 114MB。注意这个选项只有使用 7z 输出时才有意义。"/>
+<text n="160" t="默认值是"/>
+<text n="161" t="path to folder"/>
+<text n="162" t="path to file"/>
+<text n="163" t="如果需要的话，路径应当用引号括起，并且不包含转义的反斜线。"/>
+<text n="164" t="Have.txt 文件不存在。"/>
+<text n="165" t="当前文件夹。"/>
+<text n="166" t="精简视图 - 隐藏输出页面，使记录窗口缩小。"/>
+<text n="167" t="预览模式 - 跳过压缩操作，直接得到文件列表。"/>
+<text n="168" t="$PRG - 命令行"/>
+<text n="169" t="关于 $PRG"/>
+</language>
+</languages>

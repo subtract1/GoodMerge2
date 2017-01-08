@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings SYSTEM "GoodMerge.dtd"[]>
+<settings>
+  <biaspriority>
+    <zone name="U" />
+    <zone name="En" />
+    <zone name="E" />
+    <zone name="A" />
+    <zone name="Ca" />
+    <zone name="J" />
+    <zone name="F" />
+    <zone name="G" />
+    <zone name="S" />
+    <zone name="I" />
+    <zone name="No" />
+    <zone name="Br" />
+    <zone name="Sw" />
+    <zone name="Cn" />
+    <zone name="K" />
+  </biaspriority>
+  <romset name="" version="" />
+  <compression source="none" output="7z" />
+  <ram mb="1934" />
+  <misc language="English" background="false" minimal="false" arguments="false" />
+  <windows>
+    <main x="335" y="282" />
+    <log x="0" y="0" width="0" height="0" />
+  </windows>
+  <program sevenzip="C:\Program Files\7-Zip\7za.exe" rar="" ace="" working="F:\bin\" />
+  <paths>
+    <setpath source="" have="" output="" name="" />
+  </paths>
+</settings>
