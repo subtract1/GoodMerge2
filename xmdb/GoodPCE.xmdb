@@ -1,0 +1,89 @@
+<?xml version="1.0"?><!DOCTYPE romsets SYSTEM "GoodMerge.dtd">
+<!--
+E-mail: Psych0phobiA@SoftHome.net
+IRC: q^-o|o-^p in #GoodMerge on irc.UnitedUsers.net
+Webpage: http://goodmerge.sourceforge.net
+-->
+
+<romsets>
+<set name="PCE" version="1.09a">
+<!--NEC PC Engine - TurboGrafx-16-->
+
+<options>
+<ext text="pce"/>
+<ext text="tgx"/>
+<ext text="sgx"/>
+<ext text="csc"/>
+<flag reg=" (\[[!A-Za-z][0-9a-z]?\]|\[T(\-|\+).+\])"/>
+<ignore reg=" \((U|J)\)"/>
+<ignore reg=" Sounds$"/>
+<ignore reg=" \((Prototype|Magea Chip|Tai Sang( Version)?)\)"/>
+</options>
+
+<parents>
+<!--Collections-->
+<parent name="Public Domain"><group reg="\(PD\)"/></parent>
+
+<!--Errors-->
+<parent name="Legend of Hero Tonma"><clone name="Legend of Hero Tonma,"/></parent>
+<parent name="Street Fighter II' - Champion Edition"><clone name="Street Fighter II' - Champion Edition (AvengAngels)[h1]"/></parent>
+
+<!--(SGX) Sounds-->
+<parent name="1941 - Counter Attack (SGX)"><clone name="1941 - Counter Attack"/></parent>
+<parent name="Aldynes (SGX)"><clone name="Aldynes"/></parent>
+<parent name="Battle Ace (SGX)"><clone name="Battle Ace"/></parent>
+<parent name="Daimakaimura (SGX)"><clone name="Daimakaimura"/></parent>
+<parent name="Darius Plus (SGX)"><clone name="Darius Plus"/></parent>
+<parent name="Madouou Granzort (SGX)"><clone name="Madouou Granzort"/></parent>
+
+<!--Versions, Hacks, etc.-->
+<parent name="CD-ROM System BIOS"><group reg="^CD-ROM System V"/><group reg="^Super CD-ROM2 System V"/></parent>
+<parent name="Final Soldier"><clone name="Final Soldier Special Version"/></parent>
+<parent name="Mahjong Gakuen - Toumasou Shirou Toujou"><clone name="Mahjong Gakuen Mild - Touma Soujirou Toujou"/></parent>
+<parent name="Nekketsu Koukou Dodgeball Bu PC Bangai Hen"><clone name="Nekketsu Koukou Dodgeball Bu"/></parent>
+<parent name="Override - Mission Code -Override-"><clone name="Override"/></parent>
+<parent name="Parodius Da! - Shinwa kara Owarai he"><clone name="Parodius Da!"/></parent>
+
+<!--biased-->
+<zoned><bias zone="U" name="Air Zonk"/><bias zone="J" name="PC Denjin - Punkic Cyborgs"/></zoned>
+<zoned><bias zone="U" name="Blazing Lazers"/><bias zone="J" name="Gunhed"/></zoned>
+<zoned><bias zone="U" name="Bloody Wolf"/><bias zone="J" name="Narazumo no Sentou Butai Bloody Wolf"/></zoned>
+<zoned><bias zone="U" name="Bonk's Adventure"/><bias zone="J" name="PC Genjin - Pithecanthropus Computerurus"/></zoned>
+<zoned><bias zone="U" name="Bonk's Revenge"/><bias zone="J" name="PC Genjin 2 - Pithecanthropus Computerurus"/></zoned>
+<zoned><bias zone="U" name="Bonk III - Bonk's Big Adventure"/><bias zone="J" name="PC Genjin 3 - Pithecanthropus Computerurus"/></zoned>
+<zoned><bias zone="U" name="Boxy Boy"/><bias zone="J" name="Soukoban World"/></zoned>
+<zoned><bias zone="U" name="Chew Man Fu"/><bias zone="J" name="Be Ball"/></zoned>
+<zoned><bias zone="U" name="China Warrior"/><bias zone="J" name="Kung Fu, The"/></zoned>
+<zoned><bias zone="U" name="Cratermaze"/><bias zone="J" name="Doraemon - Meikyuu Daisakusen"/></zoned>
+<zoned><bias zone="U" name="Dead Moon"/><bias zone="J" name="Dead Moon - Tsuki Sekai no Akumu"/></zoned>
+<zoned><bias zone="U" name="Deep Blue"/><bias zone="J" name="Deep Blue - Kaitei Shinwa"/></zoned>
+<zoned><bias zone="U" name="Devil's Crush"/><bias zone="J" name="Devil Crash"/></zoned>
+<zoned><bias zone="U" name="Drop Off"/><bias zone="J" name="Drop Rock Hora Hora"/></zoned>
+<zoned><bias zone="U" name="Galaga '90"/><bias zone="J" name="Galaga '88"/></zoned>
+<zoned><bias zone="U" name="J.J. &amp; Jeff"/><bias zone="J" name="Kato Chan &amp; Ken Chan"/></zoned>
+<zoned><bias zone="U" name="Jack Nicklaus' Turbo Golf"/><bias zone="J" name="Jack Nicklaus' Greatest 18 Holes of Major Champ. Golf"/></zoned>
+<zoned><bias zone="U" name="Jackie Chan's Action Kung Fu"/><bias zone="J" name="Jackie Chan"/></zoned>
+<zoned><bias zone="U" name="Keith Courage in Alpha Zones"/><bias zone="J" name="Majin Eiyuu Den Wataru"/></zoned>
+<zoned><bias zone="U" name="Legendary Axe, The"/><bias zone="J" name="Makyou Densetsu - The Legendary Axe"/></zoned>
+<zoned><bias zone="U" name="Legendary Axe II, The"/><bias zone="J" name="Ankuku Densetsu"/></zoned>
+<zoned><bias zone="U" name="Military Madness"/><bias zone="J" name="Nectaris"/></zoned>
+<zoned><bias zone="U" name="New Adventure Island"/><bias zone="J" name="Takahashi Meijin no Shin Bouken jima"/></zoned>
+<zoned><bias zone="U" name="Ninja Spirit"/><bias zone="J" name="Saigo no Nindou - Ninja Spirit"/></zoned>
+<zoned><bias zone="U" name="Psychosis"/><bias zone="J" name="Paranoia"/></zoned>
+<zoned><bias zone="U" name="Samurai Ghost"/><bias zone="J" name="Genpei Toumaden - Kan no Ni"/></zoned>
+<zoned><bias zone="U" name="ShockMan"/><bias zone="J" name="Kaizou Choujin Shubibinman 2 - Aratanaru Teki"/></zoned>
+<zoned><bias zone="U" name="Sinistron"/><bias zone="J" name="Violent Soldier"/></zoned>
+<zoned><bias zone="U" name="Somer Assault"/><bias zone="J" name="Mesopotamia"/></zoned>
+<zoned><bias zone="U" name="Sonic Spike - World Championship Beach Volleyball"/><bias zone="J" name="World Beach Volley"/></zoned>
+<zoned><bias zone="U" name="Takin' It to the Hoop"/><bias zone="J" name="USA Pro Basketball"/></zoned>
+<zoned><bias zone="U" name="Tiger Road"/><bias zone="J" name="Tora eno Michi - Tiger Road"/></zoned>
+<zoned><bias zone="U" name="Time Cruise"/><bias zone="J" name="Time Cruise II"/></zoned>
+<zoned><bias zone="U" name="Timeball"/><bias zone="J" name="Blodia"/></zoned>
+<zoned><bias zone="U" name="Tricky Kick"/><bias zone="J" name="Tricky"/></zoned>
+<zoned><bias zone="U" name="World Class Baseball"/><bias zone="J" name="Power League"/></zoned>
+<zoned><bias zone="U" name="World Court Tennis"/><bias zone="J" name="Pro Tennis World Court"/></zoned>
+<zoned><bias zone="U" name="World Sports Competition"/><bias zone="J" name="Power Sports"/></zoned>
+</parents>
+
+</set>
+</romsets>

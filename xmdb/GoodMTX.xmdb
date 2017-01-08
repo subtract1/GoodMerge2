@@ -1,0 +1,28 @@
+<?xml version="1.0"?><!DOCTYPE romsets SYSTEM "GoodMerge.dtd">
+<!--
+E-mail: Psych0phobiA@SoftHome.net
+IRC: q^-o|o-^p in #GoodMerge on irc.UnitedUsers.net
+Webpage: http://goodmerge.sourceforge.net
+-->
+
+<romsets>
+<set name="MTX" version="1.02">
+<!--Memotech MTX-->
+
+<options>
+<ext text="mtx"/>
+<ext text="mtb"/>
+<flag reg=" \[[!A-Za-z][0-9a-z]?\]"/>
+<ignore reg=" \((Loader|[A-Z]+[0-9])\)"/>
+</options>
+
+<parents>
+<!--Collections-->
+<parent name="Public Domain"><group reg="\(PD\)"/></parent>
+
+<!--Hacks, Versions, etc.-->
+<parent name="Qogo (1984-85) (Continental Software)"><clone name="Qogo (1984) (Continental Software)"/><clone name="Qogo (1985) (Continental Software)"/></parent>
+</parents>
+
+</set>
+</romsets>

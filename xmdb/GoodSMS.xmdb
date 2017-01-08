@@ -1,0 +1,82 @@
+<?xml version="1.0"?><!DOCTYPE romsets SYSTEM "GoodMerge.dtd">
+<!--
+E-mail: Psych0phobiA@SoftHome.net
+IRC: q^-o|o-^p in #GoodMerge on irc.UnitedUsers.net
+Webpage: http://goodmerge.sourceforge.net
+-->
+
+<romsets>
+<set name="SMS" version="3.13">
+<!--Sega Master System and Add-Ons-->
+
+<options>
+<ext text="sms"/>
+<ext text="sg"/>
+<ext text="sc"/>
+<ext text="mv"/>
+<ext text="sf7"/>
+<flag reg=" (\((U|UE|UEB|E|K|J|JU|JE|B|US|W|V[0-9]\.[0-9]|Prototype|M[0-9])\)|\[([abfhop][0-9]|[!S])\]|\[T[+-])"/>
+<hackflag reg=" \("/>
+<ignore reg=" \((J?U?E?|B|SG-1000|SG-1000 Card|SG-1000 Cart|SC-3000|SF-7000|MV)\)"/>
+<ignore reg=" \((Ver-[AB]|V[0-9]\.[0-9]|Side [1-2]|Demo|Display-Unit Cart|EP-MyCard|Prototype for '93)\)"/>
+</options>
+
+<parents>
+<!--Collections-->
+<parent name="Public Domain"><group reg="\(PD\)"/></parent>
+
+<!--Hacks, Versions, etc.-->
+<parent name="Assault City"><clone name="Assault City - Pad Version"/><clone name="Assault City - Light Phaser Version"/></parent>
+<parent name="Master of Darkness"><clone name="Vampire"/></parent>
+<parent name="Mick &amp; Mack as the Global Gladiators"><clone name="Global Gladiators"/></parent>
+<parent name="Phantasy Star"><group reg="^Phantasy Star "/></parent>
+<parent name="Sega BASIC"><group reg="^Sega BASIC Level "/></parent>
+<parent name="Sega Disk Basic"><group reg="^Sega Disk Basic v"/></parent>
+<parent name="Sonic the Hedgehog 2"><group reg="^Sonic the Hedgehog 2 "/><clone name="Sonic 2 Rebirth (Sonic 2 Hack)"/></parent>
+<parent name="Speedball"><group reg="^Speedball \("/></parent>
+<parent name="System BIOS"><group reg=" BIOS "/><clone name="SMS Prototype M404 BIOS"/><clone name="SMS Store Display Unit BIOS"/></parent>
+<parent name="Tom and Jerry - The Movie"><clone name="Tom and Jerry"/></parent>
+<parent name="Wonder Boy"><clone name="WB"/><clone name="Super Wonder Boy"/></parent>
+<parent name="Wonder Boy in Monster World"><clone name="Wonder Boy in MW"/></parent>
+<parent name="Xenon 2"><group reg="^Xenon 2 "/></parent>
+
+<zoned><bias zone="En" name="Alex Kidd in High Tech World"/><bias zone="J" name="Anmitsu Hime"/></zoned>
+<zoned><bias zone="En" name="Asterix and the Secret Mission"/><bias zone="Br" name="As Aventuras da TV Colosso"/></zoned>
+<zoned><bias zone="En" name="Astro Warrior"/><bias zone="Br" name="Sapo Xule SOS Lagoa Poluida"/></zoned>
+<zoned><bias zone="En" name="Black Belt"/><bias zone="J" name="Hokuto no Ken"/></zoned>
+<zoned><bias zone="En" name="Bubble Bobble"/><bias zone="J" name="Final Bubble Bobble"/></zoned>
+<zoned><bias zone="En" name="California Games"/><bias zone="Br" name="Jogos de Verao"/><clone name="Game Box Esportes Radicais"/></zoned>
+<zoned><bias zone="En" name="California Games II"/><bias zone="Br" name="Jogos de Verao II"/></zoned>
+<zoned><bias zone="En" name="Cyborg Hunter"/><bias zone="J" name="Chouon Senshi Borgman"/></zoned>
+<zoned><bias zone="En" name="F-16 Fighting Falcon"/><bias zone="E" name="F-16 Fighter"/></zoned>
+<zoned><bias zone="En" name="Fantasy Zone - The Maze"/><bias zone="J" name="Opa Opa"/></zoned>
+<zoned><bias zone="En" name="Ghost House"/><bias zone="J" name="Ghost House"/><bias zone="Br" name="Chapolim x Dracula - Um Duelo Assustador"/></zoned>
+<zoned><bias zone="En" name="Global Defense"/><bias zone="J" name="SDI"/></zoned>
+<zoned><bias zone="En" name="James 'Buster' Douglas Knockout Boxing"/><bias zone="E" name="Heavyweight Champ"/></zoned>
+<zoned><bias zone="En" name="Kung Fu Kid"/><bias zone="J" name="Makai Retsuden"/><bias zone="Br" name="Sapo Xule o Mestre Do Kung Fu"/></zoned>
+<zoned><bias zone="U" name="Maze Hunter 3D"/><bias zone="J" name="Maze Walker"/></zoned>
+<zoned><bias zone="En" name="Miracle Warriors - Seal of the Dark Lord"/><bias zone="J" name="Haja no Fuuin"/></zoned>
+<zoned><bias zone="En" name="My Hero"/><bias zone="J" name="Seishyun Scandal"/></zoned>
+<zoned><bias zone="En" name="Parlour Games"/><bias zone="J" name="Party Games"/></zoned>
+<zoned><bias zone="En" name="Power Strike"/><bias zone="J" name="Aleste"/></zoned>
+<zoned><bias zone="En" name="Pro Wrestling"/><bias zone="J" name="Gokuaku Doumei Dump Matsumoto"/></zoned>
+<zoned><bias zone="En" name="Psycho Fox"/><bias zone="Br" name="Sapo Xule vs. os Invasores do Brejo"/><clone name="Treinamento Do Mymo"/></zoned>
+<zoned><bias zone="En" name="Quartet"/><bias zone="J" name="Double Target"/></zoned>
+<zoned><bias zone="U" name="Rambo - First Blood Part 2"/><bias zone="E" name="Secret Commando"/><bias zone="J" name="Ashura"/></zoned>
+<zoned><bias zone="U" name="Reggie Jackson Baseball"/><bias zone="E" name="American Baseball"/><bias zone="J" name="American Baseball"/></zoned>
+<zoned><bias zone="En" name="Spellcaster"/><bias zone="J" name="Kujaku Ou"/></zoned>
+<zoned><bias zone="En" name="Teddy Boy"/><bias zone="J" name="Teddy Boy Blues"/><bias zone="Br" name="Felipe em Acao"/><clone name="T.Boy"/><clone name="Geraldinho"/><clone name="Teddy Boy e Geraldinho"/></zoned>
+<zoned><bias zone="En" name="Trans-Bot"/><bias zone="J" name="Astro Flash"/></zoned>
+<zoned><bias zone="En" name="Walter Payton Football"/><bias zone="E" name="American Pro Football"/></zoned>
+<zoned><bias zone="En" name="Wonder Boy in Monster Land"/><bias zone="J" name="Super Wonder Boy - Monster World"/><bias zone="Br" name="Monica no Castelo do Dragao"/><clone name="Wonder Boy in ML"/><clone name="Monster World III"/><clone name="Monica no Castelo"/></zoned>
+<zoned><bias zone="En" name="Wonder Boy III - The Dragon's Trap"/><bias zone="Br" name="Turma da Monica em - O Resgate"/><clone name="Wonder Boy III"/><clone name="WonderBoy 3"/></zoned>
+<zoned><bias zone="En" name="World Grand Prix"/><bias zone="J" name="Circuit, The"/></zoned>
+<zoned><bias zone="En" name="World Soccer"/><bias zone="J" name="Sports Pad Soccer"/><bias zone="Br" name="Super Futebol"/></zoned>
+<zoned><bias zone="En" name="Ys - The Vanished Omens"/><bias zone="J" name="Ys"/></zoned>
+<zoned><bias zone="En" name="Zillion"/><bias zone="J" name="Akai Koudan Zillion"/></zoned>
+<zoned type="deferred"><bias zone="En" name="Great Golf (J)"/><bias zone="J" name="Great Golf"/><group reg="^Great Golf \(J\)"/></zoned>
+<zoned type="deferred"><bias zone="En" name="Great Golf (UE)"/><bias zone="J" name="Master Golf"/><group reg="^Great Golf \(UE\)"/></zoned>
+</parents>
+
+</set>
+</romsets>

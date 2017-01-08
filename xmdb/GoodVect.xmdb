@@ -1,0 +1,37 @@
+<?xml version="1.0"?><!DOCTYPE romsets SYSTEM "GoodMerge.dtd">
+<!--
+E-mail: Psych0phobiA@SoftHome.net
+IRC: q^-o|o-^p in #GoodMerge on irc.UnitedUsers.net
+Webpage: http://goodmerge.sourceforge.net
+-->
+
+<romsets>
+<set name="Vect" version="1.06">
+<!--GCE Vectrex-->
+
+<options>
+<ext text="vec"/>
+<ext text="vex"/>
+<ext text="gam"/>
+<ext text="bin"/>
+<flag reg=" \[[!A-Za-z][0-9a-z]?\]"/>
+<ignore reg=" \((light pen|[A-Z a-z]+ ([Hh]ack|Version)|(Bugfixed )?Prototype)\)"/>
+</options>
+
+<parents>
+<!--Collections-->
+<parent name="Public Domain (Chris Salomon)"><group reg=" by Chris Salomon .*\(PD\)"/></parent>
+<parent name="Public Domain (Christopher Tumber)"><group reg=" Christopher Tumber .*\(PD\)"/></parent>
+<parent name="Public Domain (Jeff Woolsey)"><group reg=" by Jeff Woolsey .*\(PD\)"/><group reg=" by J\. Woolsey .*\(PD\)"/></parent>
+<parent name="Public Domain (Manu)"><group reg=" by Manu .*\(PD\)"/></parent>
+<parent name="Public Domain"><group reg="\(PD\)"/></parent>
+
+<!--Hacks, Versions, etc.-->
+<parent name="3-D Narrow Escape (1983)"><clone name="Narrow Escape (2-D Version by Fred Taft) (1983)"/></parent>
+<parent name="Patriots III - BALListics Busters by John Dondzila (1996-2002)"><clone name="Patriots III - BALListics Busters by John Dondzila (1996)"/><clone name="Patriots III - BALListics Busters by John Dondzila (2002)"/></parent>
+<parent name="VecSports Kingpin Bowling by Manu (2002)"><group reg="^VecSports Kingpin Bowling "/></parent>
+<parent name="Web Warp (1983)"><clone name="Web Wars (1983)"/></parent>
+</parents>
+
+</set>
+</romsets>

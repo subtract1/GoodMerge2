@@ -1,0 +1,132 @@
+<?xml version="1.0"?><!DOCTYPE romsets SYSTEM "GoodMerge.dtd">
+
+<!--
+GoodN64 3.14 XMDB by BIrvine
+Email: goodmerge@gmail.com
+-->
+
+<romsets>
+<set name="N64" version="3.14">
+<!--Nintendo 64-->
+
+<options>
+<ext text="v64"/>
+<ext text="n64"/>
+<ext text="z64"/>
+<ext text="rom"/>
+<ext text="jap"/>
+<ext text="usa"/>
+<ext text="pal"/>
+<ext text="bin"/>
+<ext text="u64"/>
+<ext text="ndd"/>
+<flag reg=" (\[[!A-Za-z][0-9a-z]?(C|IR?)?\]|\[T(\-|\+).+\])"/>
+<ignore reg=" \((J?U?E?F?G?D?A?S?I?|Unl|((Fre|Ger|Dut|Ita|Spa|Eng|Rng)+-?)*)\)( \(M[0-9][0-9]?(-...)?\))?"/>
+<ignore reg=" \(?V[0-9]\.[0-9]+[a-z]?\)?"/>
+<ignore reg=" \((.* Hack|GC|Alpha|Beta(-WIP)?|NTSC|PAL|Kiosk Demo|Debug Version|Prototype|N64DD)\)"/>
+<ignore reg=" - (Collector's Edition|Preview Demo|Shindou Edition)"/>
+</options>
+
+<parents>
+<!--Collections-->
+<parent name="Public Domain (Emulation)"><group reg="(Emu|GB)lator "/><group reg="^(MAME 64|Neon64|SNES 9X|UltraMSX2|UltraSMS|VNES64) "/></parent>
+<parent name="Public Domain (Demos)"><group reg="Demo .*\(PD\)"/></parent>
+<parent name="Public Domain (Intros)"><group reg="Intro .*\(PD\)"/></parent>
+<parent name="Public Domain (Tools)"><group reg="Boot ?[Ee]mu .*\(PD\)"/><group reg="SRAM[- ].*\(PD\)"/><group reg="V64[Jj]r .*\(PD\)"/><group reg="Test .*\(PD\)"/><group reg="^DS1 Manager .*\(PD\)"/><group reg="CD64 .*\(PD\)"/><group reg="^Mempack .*\(PD\)"/></parent>
+<parent name="Public Domain"><group reg="\(PD\)"/></parent>
+
+<!--Hacks, Versions, etc.-->
+<parent name="CD64 BIOS"><group reg="^CD64 BIOS "/></parent>
+<parent name="Doctor V64 BIOS"><group reg="^Doctor V64 BIOS "/></parent>
+<parent name="WideBoy BIOS"><group reg="^WideBoy BIOS "/></parent><parent name="GameShark Pro"><group reg="^GameShark Pro "/></parent>
+<parent name="Mario Kart 64"><clone name="Mario Kart 64 (Super W00ting Hack)"/></parent>
+<parent name="Mortal Kombat Trilogy"><clone name="Mortal Kombat"/></parent><parent name="NFL Blitz 2001"><clone name="NFL Blitz - Special Edition"/></parent>
+<parent name="Super Mario 64"><clone name="Super Irishley Drunk Giant WaLuigi 64"/><clone name="Super Mario Magic Plant Adventure 64"/><clone name="Super WaLuigi 64"/><group reg="^Super Wario 64 "/></parent>
+<parent name="Top Gear Rally 2"><clone name="TG Rally 2"/></parent>
+<parent name="Z64 BIOS"><group reg="^Z64 BIOS "/></parent>
+
+<!--Biased-->
+<zoned><bias zone="En" name="AeroFighters Assault"/><bias zone="J" name="Sonic Wings Assault"/></zoned>
+<zoned><bias zone="En" name="Automobili Lamborghini"/><bias zone="J" name="Super Speed Race 64"/></zoned>
+<zoned><bias zone="En" name="Banjo-Kazooie"/><bias zone="J" name="Banjo to Kazooie no Daibouken"/></zoned>
+<zoned><bias zone="En" name="Banjo-Tooie"/><bias zone="J" name="Banjo to Kazooie no Daibouken 2"/></zoned>
+<zoned><bias zone="U" name="Batman Beyond - Return of the Joker"/><bias zone="E" name="Batman of the Future - Return of the Joker"/></zoned>
+<zoned><bias zone="En" name="Beetle Adventure Racing!"/><bias zone="J" name="Beetle Adventure Racing!"/><bias zone="A" name="HSV Adventure Racing"/></zoned>
+<zoned><bias zone="U" name="Big Mountain 2000"/><bias zone="J" name="Snow Speeder"/></zoned>
+<zoned><bias zone="En" name="Blast Corps"/><bias zone="J" name="Blast Dozer"/></zoned>
+<zoned><bias zone="En" name="Bomberman 64"/><bias zone="J" name="Baku Bomberman"/></zoned>
+<zoned><bias zone="U" name="Bomberman 64 - The Second Attack!"/><bias zone="J" name="Baku Bomberman 2"/></zoned>
+<zoned><bias zone="En" name="Bomberman Hero"/><bias zone="J" name="Bomberman Hero - Mirian Oujo wo Sukue!"/></zoned>
+<zoned><bias zone="U" name="Bust-A-Move '99"/><bias zone="E" name="Bust-A-Move 3 DX"/><bias zone="J" name="Puzzle Bobble 64"/></zoned>
+<zoned><bias zone="En" name="Castlevania"/><bias zone="J" name="Akumajou Dracula Mokushiroku - Real Action Adventure"/></zoned>
+<zoned><bias zone="En" name="Castlevania - Legacy of Darkness"/><bias zone="J" name="Akumajou Dracula Mokushiroku Gaiden - Legend of Cornell"/></zoned>
+<zoned><bias zone="E" name="Centre Court Tennis"/><bias zone="J" name="Let's Smash Tennis"/></zoned>
+<zoned><bias zone="En" name="Chopper Attack"/><bias zone="J" name="Wild Choppers"/></zoned>
+<zoned><bias zone="En" name="Dark Rift"/><bias zone="J" name="Space Dynamites"/></zoned>
+<zoned><bias zone="U" name="Deadly Arts"/><bias zone="E" name="G.A.S.P!! Fighter's NEXTream"/><bias zone="J" name="G.A.S.P!! Fighter's NEXTream"/></zoned>
+<zoned><bias zone="U" name="Disney's Donald Duck - Goin' Quackers"/><bias zone="E" name="Donald Duck - Quack Attack"/></zoned>
+<zoned><bias zone="U" name="Duck Dodgers Starring Daffy Duck"/><bias zone="E" name="Looney Tunes - Duck Dodgers"/><clone name="Lt. Duck Dodgers"/></zoned>
+<zoned><bias zone="En" name="F-1 Pole Position 64"/><bias zone="J" name="Human Grand Prix - New Generation"/></zoned>
+<zoned><bias zone="En" name="FIFA - Road to World Cup 98"/><bias zone="J" name="FIFA - Road to World Cup 98 - World Cup heno Michi"/></zoned>
+<zoned><bias zone="En" name="Fighter's Destiny"/><bias zone="F" name="Fighter's Destiny"/><bias zone="G" name="Fighter's Destiny"/><bias zone="J" name="Fighting Cup"/></zoned>
+<zoned><bias zone="U" name="Fighter Destiny 2"/><bias zone="J" name="Kakutou Denshou - F-Cup Maniax"/></zoned>
+<zoned><bias zone="En" name="Flying Dragon"/><bias zone="J" name="Hiryuu no Ken Twin"/></zoned>
+<zoned><bias zone="U" name="Goemon's Great Adventure"/><bias zone="E" name="Mystical Ninja 2 Starring Goemon"/><bias zone="J" name="Ganbare Goemon - Derodero Douchuu Obake Tenkomori"/></zoned>
+<zoned><bias zone="En" name="GT 64 - Championship Edition"/><bias zone="J" name="City-Tour GP - Zennihon GT Senshuken"/></zoned>
+<zoned><bias zone="U" name="Harvest Moon 64"/><bias zone="J" name="Bokujou Monogatari 2"/></zoned>
+<zoned><bias zone="U" name="Hey You, Pikachu!"/><bias zone="J" name="Pikachu Genki Dechu"/></zoned>
+<zoned><bias zone="En" name="Iggy's Reckin' Balls"/><bias zone="J" name="Iggy-kun no Bura Bura Poyon"/></zoned>
+<zoned><bias zone="U" name="In-Fisherman Bass Hunter 64"/><bias zone="E" name="Bass Hunter 64"/></zoned>
+<zoned><bias zone="En" name="International Superstar Soccer '98"/><bias zone="J" name="Jikkyou World Soccer - World Cup France '98"/></zoned>
+<zoned><bias zone="En" name="International Superstar Soccer 2000"/><bias zone="J" name="Jikkyou J.League 1999 - Perfect Striker 2"/></zoned>
+<zoned><bias zone="En" name="International Superstar Soccer 64"/><bias zone="J" name="Jikkyou World Soccer 3"/></zoned>
+<zoned><bias zone="U" name="International Track &amp; Field 2000"/><bias zone="E" name="International Track &amp; Field Summer Games"/><bias zone="J" name="Ganbare Nippon! Olympics 2000"/></zoned>
+<zoned><bias zone="En" name="Jet Force Gemini"/><bias zone="J" name="Star Twins"/></zoned>
+<zoned><bias zone="En" name="Kirby 64 - The Crystal Shards"/><bias zone="J" name="Hoshi no Kirby 64"/></zoned>
+<zoned><bias zone="U" name="Kobe Bryant's NBA Courtside"/><bias zone="E" name="Kobe Bryant in NBA Courtside"/></zoned>
+<zoned><bias zone="En" name="Legend of Zelda, The - Majora's Mask"/><bias zone="J" name="Zelda no Densetsu - Mujura no Kamen"/></zoned>
+<zoned><bias zone="En" name="Legend of Zelda, The - Ocarina of Time"/><bias zone="J" name="Zelda no Densetsu - Toki no Ocarina"/><clone name="Legend of Zelda, The - Ocarina of Time - Master Quest"/><clone name="Zelda no Densetsu - Toki no Ocarina - Zelda Collection Version"/><clone name="Zelda no Densetsu - Toki no Ocarina GC"/><clone name="Zelda no Densetsu - Toki no Ocarina GC URA"/></zoned>
+<zoned><bias zone="En" name="Magical Tetris Challenge"/><bias zone="G" name="Magical Tetris Challenge"/><bias zone="J" name="Magical Tetris Challenge Featuring Mickey"/><bias zone="F" name="Defi au Tetris Magique"/></zoned>
+<zoned><bias zone="En" name="Mario Golf"/><bias zone="J" name="Mario Golf 64"/></zoned>
+<zoned><bias zone="En" name="Mario Tennis"/><bias zone="J" name="Mario Tennis 64"/></zoned>
+<zoned><bias zone="U" name="Mega Man 64"/><bias zone="J" name="Rockman Dash"/></zoned>
+<zoned><bias zone="E" name="Michael Owens WLS 2000"/><bias zone="F" name="Telefoot Soccer 2000"/><bias zone="G" name="RTL World League Soccer 2000"/></zoned>
+<zoned><bias zone="En" name="Mickey's Speedway USA"/><bias zone="J" name="Mickey no Racing Challenge USA"/></zoned>
+<zoned><bias zone="En" name="Mischief Makers"/><bias zone="J" name="Yuke Yuke!! Trouble Makers"/></zoned>
+<zoned><bias zone="U" name="Monaco Grand Prix"/><bias zone="E" name="Monaco Grand Prix - Racing Simulation 2"/><bias zone="G" name="Racing Simulation 2"/></zoned>
+<zoned><bias zone="En" name="Mystical Ninja Starring Goemon"/><bias zone="J" name="Ganbare Goemon - Neo Momoyama Bakufu no Odori"/></zoned>
+<zoned><bias zone="En" name="Nagano Winter Olympics '98"/><bias zone="J" name="Hyper Olympics Nagano 64"/></zoned>
+<zoned><bias zone="U" name="NBA In the Zone '98"/><bias zone="E" name="NBA Pro 98"/><bias zone="J" name="NBA In the Zone '98"/></zoned>
+<zoned><bias zone="U" name="NBA In the Zone '99"/><bias zone="E" name="NBA Pro 99"/><bias zone="J" name="NBA In the Zone 2"/></zoned>
+<zoned><bias zone="En" name="New Tetris, The"/><bias zone="J" name="Tetris 64"/></zoned>
+<zoned><bias zone="U" name="NHL Blades of Steel '99"/><bias zone="E" name="NHL Pro 99"/></zoned>
+<zoned><bias zone="En" name="Paper Mario"/><bias zone="J" name="Mario Story"/></zoned>
+<zoned><bias zone="En" name="Penny Racers"/><bias zone="J" name="Choro Q 64"/></zoned>
+<zoned><bias zone="U" name="Pokemon Snap"/><bias zone="E" name="Pokemon Snap"/><bias zone="J" name="Pocket Monsters Snap"/><clone name="Pokemon Snap Station"/></zoned>
+<zoned><bias zone="U" name="Pokemon Stadium"/><bias zone="E" name="Pokemon Stadium"/><bias zone="J" name="Pocket Monsters Stadium 2"/></zoned>
+<zoned><bias zone="U" name="Pokemon Stadium 2"/><bias zone="E" name="Pokemon Stadium 2"/><bias zone="J" name="Pocket Monsters Stadium Kin Gin"/></zoned>
+<zoned><bias zone="U" name="Quest 64"/><bias zone="E" name="Holy Magic Century"/><bias zone="J" name="Eltale Monsters"/></zoned>
+<zoned><bias zone="U" name="Rally Challenge 2000"/><bias zone="J" name="Rally '99"/></zoned>
+<zoned><bias zone="En" name="Resident Evil 2"/><bias zone="J" name="Biohazard 2"/></zoned>
+<zoned><bias zone="U" name="Rugrats - Scavenger Hunt"/><bias zone="E" name="Rugrats - Treasure Hunt"/><bias zone="F" name="Les Razmoket - La Chasse Aux Tresors"/><bias zone="G" name="Rugrats - Die grosse Schatzsuche"/></zoned>
+<zoned><bias zone="En" name="Snowboard Kids"/><bias zone="J" name="Snobow Kids"/></zoned>
+<zoned><bias zone="En" name="Snowboard Kids 2"/><bias zone="J" name="Chou Snobow Kids"/></zoned>
+<zoned><bias zone="U" name="Star Fox 64"/><bias zone="E" name="Lylat Wars"/><bias zone="A" name="Lylat Wars"/><bias zone="J" name="Star Fox 64"/></zoned>
+<zoned><bias zone="En" name="Star Wars - Rogue Squadron"/><bias zone="J" name="Star Wars - Shutsugeki! Rogue Chuutai"/></zoned>
+<zoned><bias zone="En" name="Star Wars - Shadows of the Empire"/><bias zone="J" name="Star Wars - Teikoku no Kage"/></zoned>
+<zoned><bias zone="U" name="Super Bowling 64"/><bias zone="J" name="Super Bowling"/></zoned>
+<zoned><bias zone="En" name="Super Smash Bros."/><bias zone="J" name="Nintendo All-Star! Dairantou Smash Brothers"/></zoned>
+<zoned><bias zone="U" name="Transformers - Beast Wars Transmetal"/><bias zone="J" name="Transformers - Beast Wars Metals 64"/></zoned>
+<zoned><bias zone="U" name="Turok - Dinosaur Hunter"/><bias zone="E" name="Turok - Dinosaur Hunter"/><bias zone="J" name="Tokisora Senshi Turok"/></zoned>
+<zoned><bias zone="En" name="Turok - Rage Wars"/><bias zone="G" name="Turok - Legenden des Verlorenen Landes"/></zoned>
+<zoned><bias zone="U" name="Turok 2 - Seeds of Evil"/><bias zone="E" name="Turok 2 - Seeds of Evil"/><bias zone="J" name="Violence Killer - Turok New Generation"/><clone name="Turok 2 - Seeds of Evil (Gore On Hack)"/></zoned>
+<zoned><bias zone="En" name="Twisted Edge Extreme Snowboarding"/><bias zone="J" name="King Hill 64 - Extreme Snowboarding"/></zoned>
+<zoned><bias zone="U" name="Vigilante 8 - 2nd Offense"/><bias zone="E" name="Vigilante 8 - 2nd Offence"/></zoned>
+<zoned><bias zone="En" name="Waialae Country Club - True Golf Classics"/><bias zone="J" name="Harukanaru Augusta Masters 98"/></zoned>
+<zoned><bias zone="U" name="WinBack - Covert Operations"/><bias zone="E" name="Operation WinBack"/><bias zone="J" name="WinBack"/></zoned>
+<zoned><bias zone="En" name="WWF WrestleMania 2000"/><bias zone="J" name="Virtual Pro Wrestling 2 - Oudou Keishou"/></zoned>
+<zoned><bias zone="En" name="Yoshi's Story"/><bias zone="J" name="Yoshi Story"/></zoned>
+</parents>
+
+</set>
+</romsets>

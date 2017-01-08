@@ -1,0 +1,41 @@
+<?xml version="1.0"?><!DOCTYPE romsets SYSTEM "GoodMerge.dtd">
+<!--
+GoodNGPx 3.14 XMDB by BIrvine
+Email: goodmerge@gmail.com
+-->
+
+<romsets>
+<set name="NGPx" version="3.14">
+<!--SNK NeoGeo Pocket/Pocket Color-->
+
+<options>
+<ext text="bin"/>
+<ext text="ngp"/>
+<ext text="ngc"/>
+<ext text="npc"/>
+<flag reg=" (\((J|U|UE|JE|W|As)\)|\[p1\])"/>
+<!--hackflag reg=" \("/-->
+<ignore reg=" (SAMPLE|Color|\(V[0-9][0-9]?\)|\(Beta\))"/>
+</options>
+
+<parents>
+<!--Collections-->
+<parent name="Public Domain"><group reg="\(PD\)"/></parent>
+
+<!--Hacks, Versions, etc.-->
+<parent name="Big Bang Pro Wrestling"><clone name="Wrestling Madness"/></parent>
+<parent name="Cool Cool Jam"><clone name="Cool Cool Jam SAMPLE"/></parent>
+<parent name="Dive Alert"><group reg="^Dive Alert - "/></parent>
+<parent name="NeoGeo Cup '98"><clone name="NeoGeo Cup '98 Plus"/></parent>
+<parent name="Pachisuro Aruze Oogoku Pocket Hanabi"><group reg="^Pachisuro Aruze Oogoku Pocket Hanabi V"/></parent>
+<parent name="SNK Vs. Capcom - Card Fighters Clash"><group reg="^SNK Vs. Capcom - Card Fighters Clash -"/></parent>
+
+<!--Biased-->
+<zoned><bias zone="U" name="Bust-A-Move Pocket"/><bias zone="J" name="Puzzle Bobble Mini"/></zoned>
+<zoned><bias zone="U" name="Evolution - Eternal Dungeons"/><bias zone="J" name="Evolution"/></zoned>
+<zoned><bias zone="U" name="Puzzle Link"/><bias zone="J" name="Puzzle Tsunagete Pon"/></zoned>
+<zoned><bias zone="U" name="Puzzle Link 2"/><bias zone="J" name="Puzzle Tsunagete Pon 2"/></zoned>
+</parents>
+
+</set>
+</romsets>

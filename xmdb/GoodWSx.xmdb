@@ -1,0 +1,30 @@
+<?xml version="1.0"?><!DOCTYPE romsets SYSTEM "GoodMerge.dtd">
+<!--
+GoodWSx 3.14 XMDB by BIrvine
+Email: goodmerge@gmail.com
+-->
+
+<romsets>
+<set name="WSx" version="3.14">
+<!--Bandai WonderSwan/WonderSwan Color-->
+
+<options>
+<ext text="ws"/>
+<ext text="wsc"/>
+<flag reg=" \((J|A|As)\)"/>
+</options>
+
+<parents>
+<!--Collections-->
+<parent name="Public Domain"><group reg="\(PD\)"/></parent>
+
+<!--Versions-->
+<parent name="Digimon Adventure"><group reg="^Digimon Adventure - "/><clone name="Digimon Digital Monsters - Anode &amp; Cathode Tamer - Veedramon Version"/></parent>
+<parent name="Digimon Tamers - Battle Spirit"><clone name="Digimon Tamers - Battle Spirit V1.5"/></parent>
+<parent name="Medarot - Perfect Edition"><group reg="^Medarot - Perfect Edition K"/></parent>
+<parent name="SD Gundam Eiyuuden"><group reg="^SD Gundam Eiyuuden - "/></parent>
+<parent name="Super Robot Taisen Compact 2"><group reg="^Super Robot Taisen Compact 2 - "/></parent>
+</parents>
+
+</set>
+</romsets>

@@ -1,0 +1,69 @@
+<?xml version="1.0"?><!DOCTYPE romsets SYSTEM "GoodMerge.dtd">
+<!--
+E-mail: Psych0phobiA@SoftHome.net
+IRC: q^-o|o-^p in #GoodMerge on irc.UnitedUsers.net
+Webpage: http://goodmerge.sourceforge.net
+-->
+
+<romsets>
+<set name="SamC" version="2.03">
+<!--Miles Gordon Technologies Sam Coupe-->
+
+<options>
+<ext text="dsk"/>
+<ext text="td0"/>
+<ext text="sad"/>
+<ext text="sdf"/>
+<ext text="gz"/>
+<flag reg=" (\[[!A-Za-z][0-9a-z]?\]|\[T(\-|\+).+\])"/>
+<ignore reg=" [Vv][0-9]\.[0-9]{1,3}(?= )"/>
+<ignore reg=" Disk [0-9]{1,2}(?= )"/>
+</options>
+
+<parents>
+<!--Collections-->
+<parent name="Public Domain"><group reg="\(PD\)"/></parent>
+
+<!--Errors-->
+
+<!--Collections, Versions, etc.-->
+<parent name="Allan Stevens (~1994)"><group reg="^Allan Stevens "/></parent>
+<parent name="Arcadia Disk Magazine (1991)"><group reg="^Arcadia Disk Magazine #[0-9]b?"/></parent>
+<parent name="Blitz Magazine (1997) (Persona)"><group reg="^Blitz Magazine Issue "/></parent>
+<parent name="ENCELADUS Magazine (1990-94) (Relion Software)"><group reg="^ENCELADUS "/><clone name="Best of ENCELADUS, Birthday Pack Edition (19xx) (Relion)"/></parent>
+<parent name="EXPLOSION (1996)"><group reg="^EXPLOSION "/></parent>
+<parent name="FRED Magazine (1990-97)"><group reg="^FRED Magazine "/></parent>
+<parent name="GamesMaster (19xx) (Betasoft)"><group reg="^GamesMaster 1."/></parent>
+<parent name="In Comet Format by Chris White (19xx)"><group reg="^In Comet Format (Master|Work Copy) V1.2 by Chris White"/></parent>
+<parent name="Lemmings (1992) (DMA-Chris White)"><group reg="^Lemmings "/></parent>
+<parent name="MasterDOS (19xx)"><group reg="^MasterDOS - "/></parent>
+<parent name="MasterDOS (19xx)"><group reg="^MasterDOS - "/></parent>
+<parent name="Metempsychosis (19xx)"><group reg="^Metempsychosis "/></parent>
+<parent name="Mike AJ (1991)"><group reg="^Mike AJ "/></parent>
+<parent name="Misc. Utilities (19xx)"><group reg="^Misc\. Utilities [0-9] "/></parent>
+<parent name="Network Sigma (1996) (Saturn Software)"><group reg="^Network Sigma Issue "/></parent>
+<parent name="Oh No More Lemmings (19xx) (Chris White)"><group reg="^Oh No More Lemmings - "/></parent>
+<parent name="Outlet - Sam &amp; Spectrum Mag (1990-92)"><group reg="Outlet - Sam &amp; Spectrum Mag Issue "/></parent>
+<parent name="Outwrite (1992) (Rj Will Kinson, Chezron Software)"><clone name="Outwrite V2 (1992) (Rj Will Kinson)"/><clone name="Outwrite (1992) (Chezron Software)"/></parent>
+<parent name="Prince of Persia (19xx) (Revelation, Chris White)"><group reg="^Prince of Persia "/></parent>
+<parent name="Sam Adventure Club (1991-93)"><group reg="^Sam Adventure Club "/></parent>
+<parent name="Sam Adventure System (1992) (Axxent Software)"><group reg="^Sam Adventure System "/></parent>
+<parent name="Sam Amateur Programming &amp; Electronics (1992)"><group reg="^Sam Amateur Programming &amp; Electronics Issue "/></parent>
+<parent name="Sam Demo Disk (1990)"><group reg="^Sam Demo Disk "/></parent>
+<parent name="Sam News Disk (1992) (SAM Computers LTD)"><group reg="^Sam News Disk "/></parent>
+<parent name="Sam Paper Magazine (19xx)"><group reg="^Sam Paper Magazine Issue "/></parent>
+<parent name="Sam Public Quarterly (19xx)"><group reg="^Sam Public Quarterly Issue "/></parent>
+<parent name="Sam Supplement Magazine (1990-95)"><group reg="^Sam Supplement Magazine "/></parent>
+<parent name="SamCo Birthday Packs (1991) "><group reg="^SamCo Birthday Pack "/></parent>
+<parent name="SamCo News Disk (1992)"><group reg="^SamCo News Disk "/></parent>
+<parent name="Screens Shots (1991)"><group reg="^Screens Shots [0-9] "/></parent>
+<parent name="Secretary Word Processor, The (1992) (A.N.Stevens)"><clone name="Misc. Text Files for Secretary Word Processor (19xx)"/></parent>
+<parent name="Simon Cooke (~1993)"><group reg="^Simon Cooke - "/></parent>
+<parent name="Spectrum Games Compilations (19xx)"><group reg="^Spectrum Games Compilation [0-9][0-9]"/></parent>
+<parent name="Spectrum &amp; SAM Computing (19xx)"><group reg="^Spectrum &amp; SAM Computing Issue "/></parent>
+<parent name="Visually (19xx) (Zenith Graphics)"><group reg="^Visually [0-9]"/></parent>
+<parent name="Zenith (19xx) (Zenith Graphics)"><group reg="^Zenith Edition [0-9]"/></parent>
+</parents>
+
+</set>
+</romsets>

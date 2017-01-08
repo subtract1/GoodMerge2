@@ -1,0 +1,528 @@
+<?xml version="1.0"?><!DOCTYPE romsets SYSTEM "GoodMerge.dtd">
+
+<romsets>
+<set name="GBA" version="3.14">
+<!--Nintendo Game Boy Advance-->
+
+<options>
+<ext text="gba"/>
+<ext text="agb"/>
+<ext text="mb"/>
+<ext text="bin"/>
+<ext text="e+"/>
+<flag reg=" (\(([AChEFGIJKNSU]{0,2}|Beta(-[0-9])?|.* ?Hack|iQue|Unl|MB(2GBA)?)\)|\[)"/>
+<hackflag reg=" \("/>
+<ignore reg=" \+ [0-9]{1,3} NES"/>
+</options>
+
+<parents>
+<!--Collections--><parent name="Videos (Angry Kid - Season 1)"><group reg="^Angry Kid - s01.*\[v"/></parent><parent name="Videos (Angry Kid - Season 2)"><group reg="^Angry Kid - s02.*\[v"/></parent><parent name="Videos (Aqua Teen Hunger Force - Season 1)"><group reg="^Aqua Teen Hunger Force - s01.*\[v"/></parent>
+<parent name="Videos (Aqua Teen Hunger Force - Season 2)"><group reg="^Aqua Teen Hunger Force - s02.*\[v"/></parent>
+<parent name="Videos (Aqua Teen Hunger Force - Season 3)"><group reg="^Aqua Teen Hunger Force - s03.*\[v"/></parent>
+<parent name="Videos (Aqua Teen Hunger Force - Season 4)"><group reg="^Aqua Teen Hunger Force - s04.*\[v"/></parent>
+<parent name="Videos (Aqua Teen Hunger Force - Season 5)"><group reg="^Aqua Teen Hunger Force - s05.*\[v"/></parent><parent name="Videos (Aqua Teen Hunger Force - Misc)"><group reg="^Aqua Teen Hunger Force .*\[v"/></parent>
+<parent name="Videos (Beavis and Butt-head)"><group reg="^Beavis and Butt-head - .*\[v"/></parent>
+<parent name="Videos (Bible Black)"><group reg="^Bible Black .*\[v"/></parent>
+<parent name="Videos (Cool Devices)"><group reg="^Cool Devices .*\[v"/></parent>
+<parent name="Videos (Darling)"><group reg="^Darling Page .*\[v"/></parent>
+<parent name="Videos (Doraemon)"><group reg="^Doraemon .*\[v"/></parent>
+<parent name="Videos (Duck Dodgers - Season 1)"><group reg="^Duck Dodgers .*\[v"/></parent>
+<parent name="Videos (Final Fantasy)"><group reg="Final Fantasy .*\[v"/></parent>
+<parent name="Videos (Futurama - Season 1)"><group reg="^Futurama - s1.*\[v"/><group reg="^We Luv Futurama 1 - PE Company Ad"/></parent>
+<parent name="Videos (Futurama - Season 2)"><group reg="^Futurama - s2.*\[v"/></parent>
+<parent name="Videos (Futurama - Season 3)"><group reg="^Futurama - s3.*\[v"/></parent>
+<parent name="Videos (Futurama - Season 4)"><group reg="^Futurama - s4.*\[v"/></parent>
+<parent name="Videos (G.Taste)"><group reg="^G.Taste .*\[v"/></parent>
+<parent name="Videos (Happy Tree Friends - Internet Season 1)"><group reg="^Happy Tree Friends - v01.*\[v"/></parent>
+<parent name="Videos (Harvey Birdman - Season 1)"><group reg="^Harvey Birdman - s01.*\[v"/></parent>
+
+
+<parent name="Videos (HiME)"><group reg="^HiME - .*\[v"/></parent>
+<parent name="Videos (JAY)"><group reg="^JAY - .*\[v"/></parent>
+<parent name="Videos (Lion King, The)"><group reg="Lion King.*\[v"/></parent>
+<parent name="Videos (Mr. Bean)"><group reg="^Mr. Bean .*\[v"/></parent>
+<parent name="Videos (MTV)"><group reg="MTV .*\[v"/></parent>
+<parent name="Videos (Night Shift Nurses)"><group reg="^Night Shift Nurses .*\[v"/></parent>
+<parent name="Videos (Robot Chicken - Season 1)"><group reg="^Robot Chicken s01.*\[v"/></parent>
+
+<parent name="Videos (Robotech)"><group reg="^Robotech .*\[v"/></parent>
+
+<parent name="Videos (Sealab 2021 - Season 1)"><group reg="^Sealab 2021 s01.*\[v"/></parent>
+<parent name="Videos (Shin Chan)"><group reg="^Shin Chan - .*\[v"/></parent>
+<parent name="Videos (Simpsons, The - Season 2)"><group reg="^Simpsons, The - s02.*\[v"/></parent>
+<parent name="Videos (Soul Calibur II)"><group reg="^Soul Calibur II - .*\[v"/></parent>
+<parent name="Videos (South Park - Season 8)"><group reg="^South Park - s08.*\[v"/></parent>
+<parent name="Videos (Space Ghost Coast to Coast - Season 1)"><group reg="^Space Ghost - Coast To Coast - v01.*\[v"/></parent>
+<parent name="Videos (SpongeBob SquarePants)"><group reg="^SpongeBob SquarePants .*\[v"/></parent>
+
+
+<parent name="Videos (Star)"><group reg="^Star .* \[v"/></parent>
+<parent name="Videos (Trailer Park Boys - Season 1)"><group reg="^Trailer Park Boys - s01.*\[v"/></parent><parent name="Videos (Trailer Park Boys - Season 2)"><group reg="^Trailer Park Boys - s02.*\[v"/></parent><parent name="Videos (Trailer Park Boys - Season 3)"><group reg="^Trailer Park Boys - s03.*\[v"/></parent><parent name="Videos (Trailer Park Boys - Season 4)"><group reg="^Trailer Park Boys - s04.*\[v"/></parent><parent name="Videos (Trailer Park Boys - Season 5)"><group reg="^Trailer Park Boys - s05.*\[v"/></parent><parent name="Videos (Trailer Park Boys - Season 6)"><group reg="^Trailer Park Boys - s06.*\[v"/></parent><parent name="Videos (Trailer Park Boys - Season 7)"><group reg="^Trailer Park Boys - s07.*\[v"/></parent><parent name="Videos (Trailer Park Boys - Christmas Special)"><group reg="^Trailer Park Boys - Christmas.*\[v"/></parent>
+
+<parent name="Videos ((0-9))"><group reg="^[0-9].*\[v"/></parent>
+<parent name="Videos ((A))"><group reg="^[Aa].*\[v"/></parent>
+<parent name="Videos ((B))"><group reg="^[Bb].*\[v"/></parent>
+<parent name="Videos ((C))"><group reg="^[Cc].*\[v"/></parent>
+<parent name="Videos ((D))"><group reg="^[Dd].*\[v"/></parent>
+<parent name="Videos ((E))"><group reg="^[Ee].*\[v"/></parent>
+<parent name="Videos ((F))"><group reg="^[Ff].*\[v"/></parent>
+<parent name="Videos ((G))"><group reg="^[Gg].*\[v"/></parent>
+<parent name="Videos ((H))"><group reg="^[Hh].*\[v"/></parent>
+<parent name="Videos ((I))"><group reg="^[Ii].*\[v"/></parent>
+<parent name="Videos ((J))"><group reg="^[Jj].*\[v"/></parent>
+<parent name="Videos ((K))"><group reg="^[Kk].*\[v"/></parent>
+<parent name="Videos ((L))"><group reg="^[Ll].*\[v"/></parent>
+<parent name="Videos ((M))"><group reg="^[Mm].*\[v"/></parent>
+<parent name="Videos ((N))"><group reg="^[Nn].*\[v"/></parent>
+<parent name="Videos ((O))"><group reg="^[Oo].*\[v"/></parent>
+<parent name="Videos ((P))"><group reg="^[Pp].*\[v"/></parent>
+<parent name="Videos ((Q))"><group reg="^[Qq].*\[v"/></parent>
+<parent name="Videos ((R))"><group reg="^[Rr].*\[v"/></parent>
+<parent name="Videos ((S))"><group reg="^[Ss].*\[v"/></parent>
+<parent name="Videos ((T))"><group reg="^[Tt].*\[v"/></parent>
+<parent name="Videos ((U))"><group reg="^[Uu].*\[v"/></parent>
+<parent name="Videos ((V))"><group reg="^[Vv].*\[v"/></parent>
+<parent name="Videos ((W))"><group reg="^[Ww].*\[v"/></parent>
+<parent name="Videos ((X))"><group reg="^[Xx].*\[v"/></parent>
+<parent name="Videos ((Y))"><group reg="^[Yy].*\[v"/></parent>
+<parent name="Videos ((Z))"><group reg="^[Zz].*\[v"/></parent>
+
+<parent name="E-reader Cards"><group reg="(-e | e\+).*\([UEJ]\)"/><group reg="^Pikumin Pazuru Kaadoi - "/></parent>
+<parent name="Emulation (AGI)"><group reg="^GBAGI V"/></parent>
+<parent name="Emulation (Arcade)"><group reg="^(BlackTiger Emu v|GreenBoy |Murdoc Emu V|Phoenix |Pleiads |Remudvance V|Renegade Emulator Advance |.* for Remudvance V|RGB Arcade V).* \(PD\)"/></parent>
+<parent name="Emulation (PCE)"><group reg="^PCEAdvance V"/></parent>
+<parent name="Emulation (SMS)"><group reg="^(DrSMS V|PocketSMS - |SMS Advance(-GCC| V)|Zoop GBA-SMS Demo)"/></parent>
+<parent name="Emulation (NES)"><group reg="^(FC2GBA - |UFCA - |NES on GBA - |Famicom Advance V|PocketNES [VX])"/><clone name="NES - Metroid"/></parent>
+<parent name="Emulation (ZX-Spectrum)"><group reg="^(FooN |ZX Advance Preview )"/></parent>
+<parent name="Emulation (ColecoVision)"><group reg="^Coleco on GBA - "/></parent>
+<parent name="Emulation (GBx)"><group reg="^(GB on GBA |Goomba [VCM]|PocketGB |VGB )"/></parent>
+<parent name="Emulation (WSx)"><group reg="^SwanAdvance V"/></parent>
+<parent name="Emulation (SNES)"><group reg="^(PocketSNES V|SNESAdvance|Snezziboy Emulator v)"/></parent>
+<parent name="Nintendo Promos and Demos"><group reg=" by Nintendo"/></parent>
+
+<parent name="Public Domain (Misc)"><group reg="^(Berzerk|Barbarian|Buffy|Cutegotchi Advance) .*\(PD\)"/></parent>
+<parent name="Public Domain (Audio Players)"><group reg="^(228 Elements of English Tongue Audio Part by LiYang|ADPCM|Adventures in Odyssey -|Air Pocket Advance Sound Test by Inside Cap|Apex Audio System|C.S.Lewis -|Chinese Music|Chyi Chin Songs|Coal Chamber - Darkest Days 2002 - Mpa2 Pack by buZz|Compressed Audio Player Demo -|D12 - D12 World|Engine Software's GBA Sound&amp;Music Replayer V1\.92f Demo|Esofttech\.com Audio Demo|F\.R\.A\.S\. - Free Realtime Audio System|GBA Audio - 9min of HQAudio by Predator Development|GBA MP3|GBalpha|GBASID|GroovyAudio\.com|GSM Player -|Gu Ji GBA MP3 Player|Gundam Seed MP3 Music|Higurashi Sound Test by Air Pocket|KMNZ Sound Test|Krawall Soundsystem|LibAFMTest by Darkfader|Music Box - Macintosh Power Book G3|Music Player Advance -|Organya Demo|Play Mod|PlaySamples|Shakira [12]|Sound Demo - Meridan Dance &amp; A Curious Tale|Sound Engine|SPCemu|SplamSID|ST-Sound Advance by Leonard|Time to Come GBA WAV|Unknown Zombie Audio Story by newwise\.com Part [012][0-9]|WAVPlay) .*\(PD\)"/><group reg="\(4757 Music Box\) \(PD\)"/></parent>
+<parent name="Public Domain (Book Reader Advance)"><group reg="^Book Reader .* by Pat Crowe"/><group reg="\[eb\]"/><group reg="\[ebb\]"/></parent>
+<parent name="Public Domain (E-Book Advance)"><group reg="^GBA E-Book V.* by Dan Cotter"/><group reg="\[eba\]"/><group reg="^PM-Cook \(PD\)"/></parent>
+<parent name="Public Domain (GoodBook Advance)"><group reg="^GoodBook Advance "/></parent>
+<parent name="Public Domain (PictureBoy)"><group reg="^PictureBoy "/></parent>
+<parent name="Public Domain (ReadBoy)"><group reg="^ReadBoy "/></parent>
+<parent name="Public Domain (Slideshows)"><group reg="^((GBA )?JPEG Viewer|Cartoon Girls \(PD\))"/><group reg="(Slideshow|by Titney)"/></parent>
+<parent name="Public Domain (Text Reader)"><group reg="^Text Reader "/></parent>
+<parent name="Public Domain (HAM Development)"><group reg="^(HAM |HAMlib |PE Visual HAM |VHam |HEL Library V)"/></parent>
+<!-- This is highly inaccurate, but I'm not going to bother with it. -->
+<parent name="Public Domain (Demos and Examples)"><group reg="(Demo | Example| Test).*\(PD\)"/><group reg=" (ARM|Thumb) Version"/><group reg="^YAGBAT "/><group reg="^(CSAGBLib|Java4GBA by Torlus|Mode|SGADE|Pern Project, The -|PogoShell) .*\(PD\)"/></parent>
+<!-- Moved to the very bottom so (Intro|Trainer) can be processed. -->
+<!--parent name="Public Domain (Misc)"/><group reg="\(PD\)"/></parent-->
+
+<!--GameCube Rips-->
+<parent name="Animal Crossing (GameCube)"><group reg="^Animal Crossing - "/></parent>
+<parent name="Billy Hatcher (GameCube)"><group reg="^Billy Hatcher - "/><clone name="Puyo Pop - Endless Version"/></parent>
+<parent name="Dakar 2 (GameCube)"><group reg="^Dakar 2 - "/></parent>
+<parent name="Final Fantasy Crystal Chronicles (GameCube)"><group reg="^Final Fantasy Crystal Chronicles - "/></parent><parent name="Gameboy Player (GameCube)"><group reg="^Gameboy Player - "/></parent>
+<parent name="Harry Potter and The Chamber of Secrets (GameCube)"><group reg="^Harry Potter and The Chamber of Secrets - "/></parent>
+<parent name="Harry Potter and The Prisoner of Azkaban (GameCube)"><group reg="^Harry Potter and The Prisoner of Azkaban - "/></parent>
+<parent name="Legend of Zelda, The - Four Swords (GameCube)"><group reg="^Legend of Zelda, The - Four Swords "/></parent>
+<parent name="Legend of Zelda, The - The Wind Waker (GameCube)"><group reg="^Legend of Zelda, The - The Wind Waker - "/><group reg="^GameCube MiniGame - Zelda "/></parent>
+<parent name="Mario Kart Double Dash (GameCube)"><group reg="^Mario Kart Double Dash - "/></parent>
+<parent name="Mr. Driller - Drill Land (GameCube)"><group reg="^Mr. Driller - Drill Land "/></parent>
+<parent name="Nintendo Puzzle Collection (GameCube)"><group reg="^Nintendo Puzzle Collection Controller GC "/></parent>
+<parent name="Pac-Man Vs (GameCube)"><group reg="^Pac-Man Vs - Controller "/></parent><parent name="Sonic Adventure DX Directors Cut (GameCube)"><group reg="^Sonic Adventure DX Directors Cut - "/><group reg="^Sonic DX - "/></parent>
+<parent name="Sonic Adventure 2 Battle (GameCube)"><group reg="^Sonic Adventure 2 - Tiny Chao Garden "/><clone name="Tiny Chao Garden"/><clone name="Chao no Petit Garden"/></parent>
+<parent name="Sonic Adventure DX Directors Cut (GameCube)"><group reg="^Sonic Adventure DX Directors Cut - "/></parent>
+<parent name="Sonic DX (GameCube)"><group reg="^Sonic DX - "/></parent>
+<parent name="Tom Clancy's Splinter Cell - Pandora Tomorrow (GameCube)"><group reg="^Tom Clancy's Splinter Cell - Pandora Tomorrow Map Loader"/></parent>
+<parent name="WarioWare Inc. (GameCube)"><group reg="^WarioWare Inc. - "/></parent>
+
+<!--Intros and Menus (Many more in the zoned section)-->
+<parent name="Advance Wars 2 - Black Hole Rising"><group reg="^Advance Wars 2 - Black Hole Rising (Intro|Trainer)"/></parent>
+<parent name="An American Tail - Fievel's Gold Rush"><group reg="^An American Tail - Fievel's Gold Rush (Intro|Trainer)"/></parent>
+<parent name="Army Men Advance"><group reg="^Army Men Advance (Intro|Trainer)"/></parent>
+<parent name="Asterix &amp; Obelix - PAF! Them All!"><group reg="^Asterix &amp; Obelix - PAF! Them All! (Intro|Trainer)"/></parent>
+<parent name="Atlantis - The Lost Empire"><group reg="^Atlantis - The Lost Empire (Intro|Trainer)"/></parent>
+<parent name="Baldur's Gate - Dark Alliance"><group reg="^Baldur's Gate - Dark Alliance (Intro|Trainer)"/></parent>
+<parent name="Barbie Groovy Games"><group reg="^Barbie Groovy Games (Intro|Trainer)"/></parent>
+<parent name="Batman - Rise of Sin Tzu"><group reg="^Batman - Rise of Sin Tzu (Intro|Trainer)"/></parent>
+<parent name="Blender Bros."><group reg="^Blender Bros\. (Intro|Trainer)"/></parent>
+<parent name="Bookworm"><group reg="^Bookworm (Intro|Trainer)"/></parent>
+<parent name="Bouken Yuuki PluStar World - Densetsu no Plusto Gate"><group reg="^Bouken Yuuki PluStar World - Densetsu no Plusto Gate (Intro|Trainer)"/></parent>
+<parent name="Bouken Yuuki PluStar World - Plaston GP"><group reg="^Bouken Yuuki PluStar World - Plaston GP (Intro|Trainer)"/></parent>
+<parent name="Breath of Fire"><group reg="^Breath of Fire (Intro|Trainer)"/></parent>
+<parent name="Bubble Bobble - Old &amp; New"><group reg="^Bubble Bobble - Old &amp; New (Intro|Trainer)"/></parent>
+<parent name="Butt-Ugly Martians - B.K.M. Battles"><group reg="^Butt-Ugly Martians - B\.K\.M\. Battles (Intro|Trainer)"/></parent>
+<parent name="Chessmaster"><group reg="^Chessmaster (Intro|Trainer)"/></parent>
+<parent name="Crazy Chase"><group reg="^Crazy Chase (Intro|Trainer)"/></parent>
+<parent name="Dan Doh!! Xi"><group reg="^Dan Doh!! Xi (Intro|Trainer)"/></parent>
+<parent name="Danny Phantom - The Ultimate Enemy"><group reg="^Danny Phantom - The Ultimate Enemy - (Intro|Trainer)"/></parent>
+<parent name="Dark Arena"><group reg="^Dark Arena (Intro|Trainer)"/></parent>
+<parent name="Dexter's Lab - Deesaster Strikes!"><group reg="^Dexter's Lab - Deesaster Strikes! (Intro|Trainer)"/></parent>
+<parent name="Disney Sports - Motocross"><group reg="^Disney Sports - Motocross (Intro|Trainer)"/></parent>
+<parent name="Disney's Magical Quest"><group reg="^Disney's Magical Quest (Intro|Trainer)"/></parent>
+<parent name="Donald Duck Advance"><group reg="^Donald Duck Advance (Intro|Trainer)"/></parent>
+<parent name="Doom"><group reg="^Doom (Intro|Trainer)"/></parent>
+<parent name="Dora the Explorer - Super Spies"><group reg="^Dora the Explorer - Super Spies (Intro|Trainer)"/></parent>
+<parent name="Dora the Explorer - The Search for Pirate Pig's Treasure"><group reg="^Dora the Explorer - The Search for Pirate Pig's Treasure (Intro|Trainer)"/></parent>
+<parent name="Double Dragon Advance"><group reg="^(Double Dragon Advance (Intro|Trainer)|Shuang Jie Long He Ji)"/></parent>
+<parent name="Dr. Muto"><group reg="^Dr. Muto (Intro|Trainer)"/></parent>
+<parent name="Dragon Ball Z - Taiketsu"><group reg="^Dragon Ball Z - Taiketsu (Intro|Trainer)"/></parent>
+<parent name="Dual Blades"><group reg="^Dual Blades (Intro|Trainer)"/></parent>
+
+<parent name="Eragon"><group reg="^Eragon (Intro|Trainer)"/></parent><parent name="Flintstones, The - Big Trouble in Bedrock"><group reg="^Flintstones, The - Big Trouble in Bedrock (Intro|Trainer)"/></parent>
+<parent name="Flushed Away"><group reg="^Flushed Away (Intro|Trainer)"/></parent>
+<parent name="Garfield and His Nine Lives"><group reg="^Garfield and His Nine Lives - (Intro|Trainer)"/></parent>
+<parent name="Godzilla Domination"><group reg="^Godzilla Domination (Intro|Trainer)"/></parent>
+<parent name="Harry Potter - Quidditch World Cup"><group reg="^Harry Potter - Quidditch World Cup (Intro|Trainer)"/></parent>
+<parent name="Hi Hi Puffy AmiYumi - Kaznapped!"><group reg="^Hi Hi Puffy AmiYumi - Kaznapped! - (Intro|Trainer)"/></parent>
+<parent name="Hot Potato!"><group reg="^Hot Potato! (Intro|Trainer)"/></parent>
+<parent name="International Karate Advanced"><group reg="^International Karate Advanced (Intro|Trainer)"/></parent>
+<parent name="Incredible Hulk, The"><group reg="^Incredible Hulk, The - (Intro|Trainer)"/></parent>
+<parent name="Jurassic Park III - Park Builder"><group reg="^Jurassic Park III - Park Builder (Intro|Trainer)"/></parent>
+<parent name="Justice League Heroes - The Flash"><group reg="^Justice League Heroes - The Flash (Intro|Trainer)"/></parent>
+<parent name="Kong - King of Atlantis"><group reg="^Kong - King of Atlantis - (Intro|Trainer)"/></parent>
+<parent name="Kong - The Animated Series"><group reg="^Kong - The Animated Series (Intro|Trainer)"/></parent>
+<parent name="Kuru Kuru Kururin"><group reg="^Kuru Kuru Kururin (Intro|Trainer)"/></parent>
+<parent name="LEGO Bionicle - Matoran Adventures"><group reg="^LEGO Bionicle - Matoran Adventures (Intro|Trainer)"/></parent>
+<parent name="Lunar Legend"><group reg="^Lunar Legend (Intro|Trainer)"/></parent>
+<parent name="Medal of Honor - Infiltrator"><group reg="^Medal of Honor - Infiltrator (Intro|Trainer)"/></parent>
+<parent name="Medal of Honor - Underground"><group reg="^Medal of Honor - Underground (Intro|Trainer)"/></parent>
+<parent name="Mission Impossible - Operation Surma"><group reg="^Mission Impossible - Operation Surma (Intro|Trainer)"/></parent>
+<parent name="Mortal Kombat Advance"><group reg="^Mortal Kombat Advance (Intro|Trainer)"/></parent>
+<parent name="Muscular Ranking"><group reg="^Muscular Ranking (Intro|Trainer)"/></parent>
+<parent name="Monster Force"><group reg="^Monster Force (Intro|Trainer)"/></parent>
+<parent name="Mr. Driller 2"><group reg="^Mr\. Driller 2 (Intro|Trainer)"/></parent>
+<parent name="Mucha Lucha! - Mascaritas of the Lost Code"><group reg="^Mucha Lucha! - Mascaritas of the Lost Code (Intro|Trainer)"/></parent>
+<parent name="Muppets - On With The Show!"><group reg="^Muppets - On With The Show! (Intro|Trainer)"/></parent>
+<parent name="Need for Speed - Underground"><group reg="^Need for Speed - Underground (Intro|Trainer)"/></parent>
+<parent name="No Rules Get Phat"><group reg="^No Rules Get Phat (Intro|Trainer)"/></parent>
+<parent name="Onimusha Tactics"><group reg="^Onimusha Tactics (Intro|Trainer)"/></parent>
+<parent name="Operation Armored Liberty"><group reg="^Operation Armored Liberty (Intro|Trainer)"/></parent>
+<parent name="Polly Pocket - Super Splash Island"><group reg="^Polly Pocket! "/></parent><parent name="Pitfall - The Mayan Adventure"><group reg="^Pitfall - The Mayan Adventure (Intro|Trainer)"/></parent>
+<parent name="Prince of Persia - The Sands of Time"><group reg="^Prince of Persia - The Sands of Time (Intro|Trainer)"/></parent>
+<parent name="Rayman Advance"><group reg="^Rayman Advance (Intro|Trainer)"/></parent>
+
+<parent name="Rayman - Raving Rabbids"><group reg="^Rayman - Raving Rabbids (Intro|Trainer)"/></parent><parent name="Rocky"><group reg="^Rocky (Intro|Trainer)"/></parent>
+<parent name="Santa Claus Saves the Earth"><group reg="^Santa Claus Saves the Earth (Intro|Trainer)"/></parent>
+<parent name="Scooby-Doo! and The Cyber Chase"><group reg="^Scooby-Doo! and The Cyber Chase (Intro|Trainer)"/></parent>
+<parent name="SD Gundam - G Generation Advance"><group reg="^SD Gundam - G Generation Advance (Intro|Trainer)"/></parent>
+<parent name="Shin Kisekae Monogatari"><group reg="^Shin Kisekae Monogatari (Intro|Trainer)"/></parent>
+<parent name="Shrek - Reekin' Havoc"><group reg="^Shrek - Reekin' Havoc (Intro|Trainer)"/></parent>
+<parent name="Simple 2960 Tomodachi Series Vol. 2 - The Block Kuzushi"><group reg="^Simple 2960 Tomodachi Series Vol. 2 - The Block Kuzushi (Intro|Trainer)"/></parent>
+<parent name="Simpsons, The - Road Rage"><group reg="^Simpsons, The - Road Rage (Intro|Trainer)"/></parent>
+<parent name="Smuggler's Run"><group reg="^Smuggler's Run (Intro|Trainer)"/></parent>
+<parent name="Sonic the Hedgehog - Genesis"><group reg="^Sonic the Hedgehog - Genesis (Intro|Trainer)"/></parent>
+
+<parent name="Spider-Man - Battle For New York"><group reg="^Spider-Man - Battle For New York (Intro|Trainer)"/></parent><parent name="SSX 3"><group reg="^SSX 3 (Intro|Trainer)"/></parent>
+<parent name="Strike Force Hydra"><group reg="^Strike Force Hydra (Intro|Trainer)"/></parent>
+
+<parent name="Superman Returns - Fortress of Solitude"><group reg="^Superman Returns - Fortress of Solitude (Intro|Trainer)"/></parent><parent name="Tekken Advance"><group reg="^Tekken Advance (Intro|Trainer)"/></parent>
+<parent name="Tennis Masters Series 2003"><group reg="^Tennis Masters Series 2003 (Intro|Trainer)"/></parent>
+<parent name="Terminator 3 - Rise of The Machines"><group reg="^Terminator 3 - Rise of The Machines (Intro|Trainer)"/></parent>
+<parent name="Tiger Woods PGA Tour 2004"><group reg="^Tiger Woods PGA Tour 2004 (Intro|Trainer)"/></parent>
+<parent name="Tomb Raider - The Prophecy"><group reg="^Tomb Raider - The Prophecy (Intro|Trainer)"/></parent>
+<parent name="Tony Hawk's Underground"><group reg="^Tony Hawk's Underground (Intro|Trainer)"/></parent>
+<parent name="Top Gun Firestorm Advance"><group reg="^Top Gun Firestorm (Intro|Trainer)"/></parent>
+<parent name="Turok Evolution"><group reg="^Turok Evolution (Intro|Trainer)"/></parent>
+<parent name="Ultimate Spider-Man"><group reg="^Ultimate Spider-Man - (Intro|Trainer)"/></parent>
+<parent name="Wing Commander - Prophecy"><group reg="^Wing Commander - Prophecy (Intro|Trainer)"/></parent>
+<parent name="X-Men - The Official Game"><group reg="^X-Men - The Official Game - (Intro|Trainer)"/></parent>
+<parent name="xXx"><group reg="^xXx (Intro|Trainer)"/></parent>
+<parent name="Zapper"><group reg="^Zapper (Intro|Trainer)"/></parent>
+
+<!--Other hacks/versions, etc-->
+<parent name="Bakuten Shoot Beyblade 2002 Team Battle!"><group reg="^Bakuten Shoot Beyblade 2002 Team Battle! "/></parent>
+<parent name="Bomberman Max 2"><group reg="^Bomberman Max 2 - "/></parent>
+<parent name="Card E-Reader"><clone name="Card E-Reader+"/></parent>
+<parent name="Digimon - Battle Spirit 2"><clone name="56-in-1 - Digimon - Battle Spirit 2"/></parent>
+<parent name="Dragon Ball - Advanced Adventure"><clone name="Dragon Ball - Advanced Adventure - Sonic The Fighter"/></parent>
+<parent name="Dragon Quest Characters - Torneko no Daibouken 3 Advance - Fushigi no Dungeon"><group reg="^Dragon Quest Characters - Torneko no Daibouken 3 Advance "/></parent><parent name="Duel Masters 2"><clone name="Duel Masters 2 - Kirifuda Shoubu Version"/></parent><parent name="EZ-Talk"><group reg="^EZ-Talk "/></parent><parent name="FIFA Football 2004"><group reg="^FIFA 2004 "/></parent>
+<parent name="Gachasute! Dino Device 2"><group reg="^Gachasute! Dino Device 2 "/></parent>
+<parent name="Gachasute! Dino Device"><group reg="^Gachasute! Dino Device "/></parent>
+<parent name="GBA BIOS"><group reg="^GBA BIOS "/></parent>
+<parent name="GBA TV Tuner"><clone name="GBA TV Tuner V1.3"/></parent>
+<parent name="Grand Theft Auto Advance"><clone name="Grand Theft Auto Advance Sample"/></parent><parent name="Hajimete no Orusuban"><group reg="^Hajimete no Orusuban Voice-Spec "/></parent><parent name="Hikaru no Go"><group reg="^Hikaru no Go - Taikenban "/></parent><parent name="Kagetsu Touya"><clone name="Kagetsu Tohya"/></parent>
+<parent name="Invader"><clone name="Kaisertal - Fight the Necronis War"/><group reg="^Invader (Intro|Trainer)"/></parent>
+<parent name="Keitai Denjuu Telefang 2"><group reg="^Keitai Denjuu Telefang 2 - "/></parent>
+<parent name="King of Fighters EX2, The - Howling Blood"><group reg="^King of Fighters EX2, The - Howling Blood V"/></parent>
+<parent name="Kizuato"><clone name="Nin-Kizuato Hentai"/></parent><parent name="Koukou Juken Advance Series"><group reg="^Koukou Juken Advance Series - "/>
+<clone name="Eigo Koubunhen"/><group reg="^Eigo Kobuhen "/></parent><parent name="Lizzie McGuire 2 - Lizzie Diaries"><group reg="^Lizzie McGuire 2 - Lizzie Diaries "/></parent>
+<parent name="Medarot Navi"><group reg="^Medarot Navi - "/></parent><parent name="Metroid - Zero Mission"><group reg="^Metroid - Disturbance "/></parent>
+
+<parent name="Monster Maker 4"><group reg="^Monster Maker 4 "/></parent>
+<parent name="Shin Megami Tensei - Devil Children - Hi no Sho &amp; Hoono no Sho"><clone name="Shin Megami Tensei - Hi no Sho"/><clone name="Shin Megami Tensei - Hoono no Sho"/></parent>
+<parent name="Shingata Medarot"><group reg="^Shingata Medarot "/></parent>
+<parent name="Shonen Jump's - Shaman King - Legacy of the Spirits"><group reg="^Shonen Jump's - Shaman King - Legacy of the Spirits - "/></parent>
+<parent name="Sonic Advance 3"><clone name="Sonic Advance 3 - Extreem Manseckz"/></parent>
+<parent name="Strawberry Shortcake - Summertime Adventure"><group reg="^Strawberry Shortcake - Summertime Adventure "/></parent><parent name="Suika"><clone name="Kodama Suika"/></parent>
+
+<parent name="Super Robot Taisen - Original Generation 2"><group reg="^Super Robot Taisen - Original Generation 2 "/></parent>
+
+<parent name="Super Robot Taisen A"><group reg="^Super Robot Taisen A "/></parent><parent name="Super Robot Taisen J"><group reg="^Super Robot Taisen J "/></parent><parent name="Tennis no Ouji-sama 2003"><group reg="^Tennis no Ouji-sama 2003 "/></parent>
+<parent name="Tennis no Ouji-sama 2004"><group reg="^Tennis no Ouji-sama 2004 "/></parent>
+<parent name="Tsukihime"><group reg="^Tsukihime Demo"/></parent>
+
+<!--Biased-->
+<zoned><bias zone="U" name="007 - Everything or Nothing"/><bias zone="J" name="James Bond 007 - Everything or Nothing"/></zoned>
+<zoned><bias zone="F" name="2 Games in 1 - Disney Princesse &amp; Frere des Ours"/><bias zone="I" name="2 Games in 1 - Disney Principesse &amp; Koda, Fratello Orso"/><bias zone="G" name="2-in-1 - Baerenbrueder &amp; Disney's Prinzessinnen"/><bias zone="S" name="2-in-1 - Hermano Oso &amp; Disney Princesas"/></zoned>
+<zoned><bias zone="U" name="2-in-1 - Crash Bandicoot Purple - Ripto's Rampage &amp; Spyro Orange - The Cortex Conspiracy"/><bias zone="E" name="2 Games in 1 - Crash Bandicoot - Fusion &amp; Spyro - Fusion"/></zoned>
+<zoned><bias zone="En" name="2 Games in 1 - Disney Princess &amp; Lizzie McGuire"/><bias zone="S" name="2 Games in 1 - Disney Princesas &amp; Lizzie McGuire"/></zoned>
+<zoned><bias zone="U" name="2-in-1 - Monsters Inc. &amp; Disney's Finding Nemo"/><bias zone="E" name="Disney's Pixar Pack"/><bias zone="S" name="2 Games in 1 - Monstrous SA &amp; Buscando a Nemo"/><bias zone="F" name="2 Games in 1 - Monstres et Cie &amp; Le Monde de Nemo"/><bias zone="I" name="2 Games in 1 - Monsters &amp; Co. &amp; Alla ricerca di Nemo"/><bias zone="G" name="2 Games in 1 - Die Monster AG &amp; Findet Nemo"/><bias zone="D" name="2 Games in 1 - Monsters en Co. &amp; Finding Nemo (D) (M4)"/></zoned>
+<zoned><bias zone="U" name="Dr. Mario &amp; Puzzle League"/><bias zone="E" name="2 Games in 1 - Dr. Mario &amp; Puzzle League"/><bias zone="J" name="Dr. Mario &amp; Panel de Pon"/></zoned>
+<zoned><bias zone="U" name="2-in-1 - Golden Nugget Casino &amp; Texas Hold'em Poker"/><bias zone="E" name="2 Games in 1 - Gambling Gamepack - Golden Nugget &amp; Texas Hold'em"/></zoned>
+<zoned><bias zone="U" name="2-in-1 - Hot Wheels - Velocity X &amp; Hot Wheels - World Race"/><bias zone="E" name="2 Games in 1 - Hot Wheels - Velocity X &amp; Hot Wheels - World Race"/></zoned>
+<zoned><bias zone="En" name="2 Games in 1 - Disney's Lion King &amp; Disney Princess"/><bias zone="F" name="2 Games in 1 - Le Roi Lion &amp; Disney Princesse"/><bias zone="I" name="2 Games in 1 - Disney's Il Re Leone &amp; Disney Principesse"/><bias zone="G" name="2 Games in 1 - Disney's Koenig der Loewen &amp; Disney's Prinzessinnen"/><bias zone="S" name="2-in-1 - El Rey Leon &amp; Disney Princesas"/></zoned>
+<zoned><bias zone="E" name="2 Games in 1 - Disney's Finding Nemo &amp; Finding Nemo - The Continuing Adventures"/><bias zone="G" name="2-in-1 - Disney's Gamepack - Findet Nemo &amp; Findet Nemo - Das Abenteuer geht weiter"/><clone name="2 Games in 1 - Nemo 1 &amp; 2"/></zoned>
+<zoned><bias zone="E" name="2 Games in 1 - Disney's Finding Nemo &amp; The Incredibles"/><bias zone="G" name="2-in-1 - Disney's Gamepack - Findet Nemo &amp; Die Unglaublichen"/><bias zone="I" name="2 Games in 1 - Alla Ricerca di Nemo &amp; Gli Incredibili"/><bias zone="S" name="2 Games in 1 - Buscando a Nemo &amp; Los Increibles"/></zoned>
+<zoned><bias zone="U" name="2-in-1 - Power Rangers - Ninja Storm &amp; Power Rangers - Time Force"/><bias zone="E" name="2 Games in 1 - Power Rangers - Ninja Storm &amp; Power Rangers - Time Force"/><bias zone="G" name="2 Games in 1 - Power Rangers - Ninja Storm &amp; Power Rangers - Time Force"/><bias zone="F" name="2 Games in 1 - Power Rangers - Ninja Storm &amp; Power Rangers - La Force du Temps"/></zoned>
+<zoned><bias zone="U" name="2-in-1 - Shark Tale &amp; Shrek 2"/><bias zone="E" name="2 Games in 1 - Shrek 2 &amp; Shark Tale"/></zoned>
+<zoned><bias zone="E" name="2 Games in 1 - Sonic Advance &amp; Chu Chu Rocket!"/><bias zone="J" name="Double Pack - Sonic Advance &amp; Chu Chu Rocket"/></zoned><zoned><bias zone="E" name="2 Games in 1 - Sonic Advance &amp; Sonic Pinball Party"/><bias zone="J" name="2-in-1 - Sonic Gamepack - Sonic Pinball Party &amp; Sonic Advance"/></zoned>
+<zoned><bias zone="E" name="2 Games in 1 - Sonic Battle &amp; Sonic Advance"/><bias zone="J" name="2-in-1 - Sonic Gamepack - Sonic Battle &amp; Sonic Advance"/></zoned>
+<zoned><bias zone="E" name="2 Games in 1 - Sonic Pinball Party &amp; Sonic Battle"/><bias zone="J" name="2-in-1 - Sonic Gamepack - Sonic Pinball Party &amp; Sonic Battle"/></zoned><zoned><bias zone="U" name="2-in-1 - Cartoon Network - Block Party &amp; Cartoon Network - Speedway"/><bias zone="E" name="2 Games in 1 - Cartoon Network - Block Party &amp; Cartoon Network - Speedway"/></zoned><zoned><bias zone="U" name="2-in-1 - Castlevania Double Pack - Harmony of Dissonance &amp; Aria of Sorrow"/><bias zone="E" name="2 Games in 1 - Castlevania Double Pack - Harmony of Dissonance &amp; Aria of Sorrow"/></zoned><zoned><bias zone="U" name="2-in-1 - Looney Tunes - Double Pack"/><bias zone="E" name="Looney Tunes Gamepack Vol. 1"/></zoned><zoned><bias zone="U" name="2-in-1 - Monster Trucks &amp; Quad Desert Fury"/><bias zone="E" name="2 Games in 1 - Offroad Gamepack - Monster Trucks &amp; Quad Desert Fury"/></zoned><zoned><bias zone="U" name="2-in-1 - Madagascar - Operation Penguin &amp; Shrek 2"/><bias zone="E" name="2 Games in 1 - Madagascar - Operation Penguin &amp; Shrek 2"/>
+</zoned><zoned><bias zone="U" name="2-in-1 - Madagascar &amp; Shrek 2"/><bias zone="E" name="2 Games in 1 - Madagascar &amp; Shrek 2"/>
+</zoned><zoned><bias zone="U" name="2-in-1 - Pac-Man Gamepack - Pac-Man World &amp; Ms. Pac-Man - Maze Madness"/><bias zone="E" name="2 Games in 1 - Pac-Man Gamepack - Pac-Man World &amp; Ms. Pac-Man - Maze Madness"/></zoned><zoned><bias zone="U" name="2-in-1 - Paperboy &amp; Rampage"/><bias zone="E" name="2 Games in 1 - Paperboy &amp; Rampage"/></zoned><zoned><bias zone="U" name="2-in-1 - Scooby Doo! - The Movie &amp; Scooby-Doo! 2 - Monsters Unleashed"/><bias zone="E" name="2 Games in 1 - Scooby Doo! - The Movie &amp; Scooby Doo! 2 - Monster's Unleashed"/><bias zone="F" name="2 Games in 1 - Scooby Doo! - Les Film &amp; Scooby-Doo! 2 - Les Monstres Se Dechainent"/><bias zone="S" name="2-in-1 - Scooby Doo! &amp; Scooby Doo! 2 - Desatado"/></zoned><zoned><bias zone="U" name="2-in-1 - Scooby-Doo! - Mystery Mayhem &amp; Scooby-Doo! and the Cyber Chase"/><bias zone="E" name="2 Games in 1 - Scooby-Doo! - Mystery Mayhem &amp; Scooby-Doo! and the Cyber Chase"/></zoned><zoned><bias zone="U" name="2-in-1 - Spider-Man &amp; Spider-Man 2"/><bias zone="E" name="2 Games in 1 - Spider-Man &amp; Spider-Man 2"/></zoned><zoned><bias zone="U" name="2-in-1 - SpongeBob SquarePants - SuperSponge &amp; Revenge of the Flying Dutchman"/><bias zone="E" name="2 Games in 1 - SpongeBob SquarePants - SuperSponge &amp; Revenge of the Flying Dutchman"/></zoned><zoned><bias zone="En" name="2 Games in 1 - SpongeBob SquarePants - SuperSponge &amp; Rugrats - Go Wild"/><bias zone="F" name="2 Games in 1 - SpongeBob SquarePants - SuperSponge &amp; Les Razmoket - Recontrent Les Delajungle"/></zoned><zoned><bias zone="U" name="2-in-1 - Spy Hunter &amp; Super Sprint"/><bias zone="E" name="2 Games in 1 - Spy Hunter &amp; Super Sprint"/></zoned><zoned><bias zone="U" name="2-in-1 - Uno &amp; Skin Bo"/><bias zone="E" name="2 Games in 1 - Uno &amp; Skip-Bo"/></zoned><zoned><bias zone="U" name="Adventures of Jimmy Neutron Boy Genius vs. Jimmy Negatron, The"/><bias zone="G" name="Jimmy Neutron vs. Jimmy Negatron"/></zoned><zoned>
+<bias zone="U" name="Adventures of Jimmy Neutron Boy Genius, The - Attack of the Twonkies"/><bias zone="F" name="Jimmy Neutron - Attaque Des Twonkies"/></zoned><zoned><bias zone="U" name="Aero the Acro-Bat - Rascal Rival Revenge"/><bias zone="J" name="Acrobat Kid"/><group reg="^Aero the Acro-Bat - Rascal Rival Revenge (Intro|Trainer)"/></zoned>
+<zoned><bias zone="U" name="Airforce Delta Storm"/><bias zone="E" name="Deadly Skies"/><bias zone="J" name="Airforce Delta II"/><group reg="^Airforce Delta Storm (Intro|Trainer)"/></zoned>
+<zoned><bias zone="U" name="American Bass Challenge"/><bias zone="E" name="Super Black Bass Advance"/><bias zone="J" name="Super Black Bass Advance"/></zoned>
+<zoned><bias zone="U" name="American Idol"/><bias zone="E" name="Pop Idol"/><bias zone="G" name="Deutschland sucht den Superstar"/></zoned><zoned><bias zone="U" name="Arthur and the Invisibles"/>
+<bias zone="E" name="Arthur and the Minimoys"/></zoned><zoned><bias zone="En" name="Astro Boy - Omega Factor"/><bias zone="J" name="Astro Boy - Tetsuwan Atom"/><group reg="^Astro Boy - (Omega Factor|Tetsuwan Atom) (Intro|Trainer)"/></zoned><zoned><bias zone="U" name="Avatar - The Last Airbender"/><bias zone="E" name="Avatar - The Legend of Aang"/>
+</zoned><zoned><bias zone="U" name="Ballistic - Ecks vs. Sever"/><bias zone="E" name="Ecks vs. Sever 2 - Ballistic"/></zoned>
+<zoned><bias zone="U" name="Barbie - The Princess and the Pauper"/><bias zone="E" name="Barbie as the Princess and the Pauper"/></zoned>
+<zoned><bias zone="U" name="Baseball Advance"/><bias zone="E" name="Greatest Nine"/><group reg="^Baseball Advance (Intro|Trainer)"/></zoned>
+<zoned><bias zone="U" name="Battle B-Daman"/><bias zone="J" name="B-Densetsu! Battle B-Daman Moero! B-Kon"/></zoned>
+<zoned><bias zone="U" name="Battle B-Daman - Fire Spirits!"/><bias zone="J" name="B-Legend Battle B-Daman Fire Spirit"/></zoned>
+<zoned><bias zone="U" name="Boktai - The Sun is in Your Hand"/><bias zone="J" name="Bokura no Taiyou"/><group reg="^Bokura no Taiyou (Intro|Trainer)"/></zoned>
+<zoned><bias zone="En" name="Boktai 2 - Solar Boy Django"/><bias zone="J" name="Zoku Bokura no Taiyou - Taiyou Shounen Django"/><group reg="^Zoku Bokura no Taiyou - Taiyou Shounen Django (Intro|Trainer)"/></zoned>
+<zoned><bias zone="En" name="Banjo-Kazooie - Grunty's Revenge"/><bias zone="S" name="Banjo-Kazooie - La Venganza de Grunty"/><bias zone="I" name="Banjo-Kazooie - La Vendetta di Grunty"/></zoned>
+<zoned><bias zone="U" name="Bomberman Tournament"/><bias zone="J" name="Bomberman Story"/><group reg="^Bomberman (Intro|Trainer)"/></zoned>
+<zoned><bias zone="En" name="Breath of Fire II"/><bias zone="J" name="Breath of Fire II - Shimei no Ko"/></zoned>
+<zoned><bias zone="U" name="Buffy - The Vampire Slayer"/><bias zone="F" name="Buffy Contre Les Vampires - La Colere de Darkhul"/><bias zone="G" name="Buffy - Im Bann der Daemonen"/></zoned>
+<zoned><bias zone="U" name="Car Battler Joe"/><bias zone="J" name="Gekitou! Car Battler Go!!"/></zoned><zoned><bias zone="U" name="Cartoon Network Collection - Platinum Edition"/><bias zone="F" name="Cartoon Network Collection - Edition Premium"/></zoned><zoned><bias zone="U" name="Cartoon Network Collection - Premium Edition"/>
+<bias zone="F" name="GBA Video - Cartoon Network Collection - Premium Edition"/></zoned><zoned><bias zone="U" name="Cartoon Network Collection - Special Edition"/><bias zone="F" name="Cartoon Network Collection - Edition Speciale"/></zoned><zoned><bias zone="En" name="Castlevania - Aria of Sorrow"/><bias zone="J" name="Castlevania - Akatsuki no Minuet"/><clone name="Castlevania - Akatsuki no Minuet Plus!"/></zoned>
+<zoned><bias zone="U" name="Castlevania - Circle of the Moon"/><bias zone="E" name="Castlevania"/><bias zone="J" name="Akumajou Dracula - Circle of the Moon"/><group reg="^Castlevania (Intro|Trainer)"/></zoned>
+<zoned><bias zone="En" name="Castlevania - Harmony of Dissonance"/><bias zone="J" name="Castlevania - Byakuya no Concerto"/><group reg="^Castlevania - Harmony of Dissonance (Intro|Trainer)"/></zoned>
+<zoned><bias zone="U" name="Catz"/><bias zone="J" name="Nakayoshi Pet Advance Series 3 - Kawaii Koneko"/></zoned>
+<zoned><bias zone="U" name="CIMA - The Enemy"/><bias zone="J" name="Frontier Stories"/></zoned>
+<zoned><bias zone="U" name="Classic NES Series - Bomberman"/><bias zone="J" name="Famicom Mini - Vol. 09 - Bomberman"/></zoned>
+<zoned><bias zone="U" name="Classic NES Series - Castlevania"/><bias zone="J" name="Famicom Mini - Vol. 29 - Akumajou Dracula"/></zoned>
+<zoned><bias zone="U" name="Classic NES Series - Donkey Kong"/><bias zone="J" name="Famicom Mini - Vol. 02 - Donkey Kong"/><group reg="^Famicom Mini - Vol\. 02 - Donkey Kong (Intro|Trainer)"/></zoned>
+<zoned><bias zone="U" name="Classic NES Series - Dr. Mario"/><bias zone="J" name="Famicom Mini - Vol. 15 - Dr. Mario"/></zoned>
+<zoned><bias zone="U" name="Classic NES Series - Excitebike"/><bias zone="J" name="Famicom Mini - Vol. 04 - Excitebike"/></zoned>
+<zoned><bias zone="U" name="Classic NES Series - Ice Climber"/><bias zone="J" name="Famicom Mini - Vol. 03 - Ice Climber"/></zoned>
+<zoned><bias zone="U" name="Classic NES Series - Metroid"/><bias zone="J" name="Famicom Mini - Vol. 23 - Metroid"/></zoned>
+<zoned><bias zone="U" name="Classic NES Series - Pac-Man"/><bias zone="J" name="Famicom Mini - Vol. 06 - Pac-Man"/></zoned>
+<zoned><bias zone="U" name="Classic NES Series - Super Mario Bros."/><bias zone="J" name="Famicom Mini - Vol. 01 - Super Mario Bros."/></zoned>
+<zoned><bias zone="U" name="Classic NES Series - The Legend of Zelda"/><bias zone="J" name="Famicom Mini - Vol. 05 - Zelda no Densetsu"/></zoned>
+<zoned><bias zone="U" name="Classic NES Series - Xevious"/><bias zone="J" name="Famicom Mini - Vol. 07 - Xevious"/></zoned>
+<zoned><bias zone="U" name="Classic NES Series - Zelda II - The Adventure of Link"/><bias zone="J" name="Famicom Mini - Vol. 25 - The Legend of Zelda 2 - Link no Bouken"/></zoned>
+<zoned><bias zone="U" name="Code Breaker"/><bias zone="E" name="Xploder Advance"/></zoned>
+<zoned><bias zone="En" name="Contra Advance - The Alien Wars EX"/><bias zone="J" name="Contra Hard Spirits"/><bias zone="Cn" name="Hun Dou Luo"/><group reg="^(Contra Advance - The Alien Wars EX (Intro|Trainer)|Hun Dou Luo)"/></zoned>
+<zoned><bias zone="U" name="Crash Bandicoot - The Huge Adventure"/><bias zone="E" name="Crash Bandicoot XS"/><bias zone="J" name="Crash Bandicoot Advance"/></zoned>
+<zoned><bias zone="U" name="Crash Bandicoot Purple - Ripto's Rampage"/><bias zone="E" name="Crash Bandicoot Fusion"/><bias zone="J" name="Crash Bandicoot Advance - Wakuwaku Tomodachi Daisakusen!"/></zoned>
+<zoned><bias zone="En" name="Crash Bandicoot 2 - N-Tranced"/><bias zone="J" name="Crash Bandicoot Advance 2 - Gurugurusaimin Dai Panic!"/></zoned>
+<zoned><bias zone="En" name="Crash Nitro Kart"/><bias zone="J" name="Crash Bandicoot - Bakusou! Nitro Kart"/></zoned>
+<zoned><bias zone="J" name="Crayon Shin-chan - Arashi no Yobu Cinema-Land no Daibouken"/><bias zone="S" name="Shinchan - Aventuras en Cineland"/></zoned>
+<zoned><bias zone="J" name="Crayon Shin-chan - Densetsu wo Yobu Omake no Miyako Shockgaan"/><bias zone="S" name="Shinchan - Contra los Munecos de Shock gahn"/></zoned><zoned><bias zone="U" name="CT Special Forces 2 - Back in The Trenches"/><bias zone="E" name="CT Special Forces 2 - Back to Hell"/></zoned><zoned><bias zone="U" name="Danny Phantom - Urban Jungle"/><bias zone="G" name="Danny Phantom - Dschungelstadt"/></zoned>
+<zoned type="deferred"><bias zone="U" name="DemiKids"/><bias zone="J" name="Shin Megami Tensei - Devil Children - Hikari no Sho &amp; Yami no Sho"/><group reg="^DemiKids - "/><clone name="Shin Megami Tensei - Hikari no Sho"/><clone name="Shin Megami Tensei - Yami no Sho"/></zoned>
+<zoned><bias zone="U" name="Disney Princess"/><bias zone="G" name="Disney's Prinzessinnen"/><bias zone="F" name="Disney Princesse"/><bias zone="S" name="Disney Princesas"/><bias zone="I" name="Disney Principesse"/></zoned>
+<zoned><bias zone="U" name="Disney Sports - American Football"/><bias zone="J" name="Disney's Sports American Football"/></zoned>
+<zoned><bias zone="U" name="Disney Sports - Soccer"/><bias zone="E" name="Disney Sports - Football"/><bias zone="J" name="Disney Sports - Soccer"/></zoned>
+<zoned><bias zone="En" name="Disney Sports - Skateboarding"/><bias zone="J" name="Disney's All-Star Sports Skateboarding"/></zoned>
+<zoned><bias zone="En" name="Disney's Finding Nemo"/><bias zone="J" name="Disney's Finding Nemo"/><bias zone="G" name="Disney's Findet Nemo"/></zoned>
+<zoned><bias zone="En" name="Disney's Finding Nemo - The Continuing Adventures"/><bias zone="J" name="Disney's Finding Nemo - Arata Naru Bouken"/></zoned>
+<zoned><bias zone="En" name="Disney's Kim Possible 2 - Drakken's Demise"/><bias zone="J" name="Disney's Kim Possible"/></zoned>
+<zoned type="deferred"><bias zone="En" name="Disney's Lilo &amp; Stitch"/><bias zone="J" name="Disney's Lilo &amp; Stitch (UE)"/><group reg="^Disney's Lilo &amp; Stitch \([UE]\)"/></zoned>
+<zoned type="deferred"><bias zone="U" name="Disney's Lilo &amp; Stitch 2 - Haemsterviel Havoc"/><bias zone="E" name="Disney's Lilo &amp; Stitch 2"/><bias zone="J" name="Disney's Lilo &amp; Stitch (J)"/><group reg="^Disney's Lilo &amp; Stitch \(J\)"/><clone name="Disney's Lilo &amp; Stitch 2 - Haemsterviel Havoc"/><clone name="Disney's Lilo &amp; Stitch 2"/></zoned>
+<zoned><bias zone="U" name="Disney's Magical Quest 2"/><bias zone="E" name="Disney's Magical Quest 2 Starring Mickey &amp; Minnie"/><bias zone="J" name="Disney's Magical Quest 2"/><group reg="^Disney's Magical Quest 2 (Intro|Trainer)"/></zoned>
+<zoned><bias zone="En" name="Disney's Magical Quest 3 Starring Mickey &amp; Donald"/><bias zone="J" name="Disney's Mickey to Donald no Magical Quest 3"/><group reg="^Disney's Magical Quest 3 Starring Mickey &amp; Donald (Intro|Trainer)"/></zoned>
+<zoned><bias zone="U" name="Disney's Party"/><bias zone="J" name="Disney's Mickey no Pocket Resort"/></zoned><zoned><bias zone="En" name="Disney's Tarzan - Return to the Jungle"/><bias zone="F" name="Disney's Tarzan - L'Appel de la Jungle"/><bias zone="G" name="Disney's Tarzan - Rueckkehr in den Dschungel"/></zoned>
+<zoned><bias zone="U" name="Disney's The Jungle Book"/><bias zone="E" name="Disney's The Jungle Book 2"/></zoned>
+<zoned><bias zone="U" name="Disney's The Lion King 1.5"/><bias zone="E" name="Disney's The Lion King"/></zoned>
+<zoned><bias zone="En" name="DK - King of Swing"/><bias zone="J" name="Bura Bura Donkey"/></zoned>
+<zoned><bias zone="U" name="Dogz"/><bias zone="J" name="Kawaii Koinu Wonderful"/></zoned>
+<zoned><bias zone="En" name="Dokapon Monster Hunter"/><bias zone="J" name="Dokapon Q Monster Hunter"/></zoned>
+<zoned><bias zone="En" name="Donkey Kong Country"/><bias zone="J" name="Super Donkey Kong"/></zoned>
+<zoned><bias zone="En" name="Donkey Kong Country 2"/><bias zone="J" name="Super Donkey Kong 2"/></zoned>
+<zoned><bias zone="En" name="Donkey Kong Country 3"/><bias zone="J" name="Super Donkey Kong 3"/></zoned>
+<zoned><bias zone="U" name="Dr. Seuss' The Cat in the Hat - Super Stoop"/><bias zone="E" name="Dr. Seuss' The Cat in the Hat"/><group reg="^Dr. Seuss' The Cat in the Hat (Intro|Trainer)"/></zoned>
+<zoned><bias zone="En" name="Dragon Ball Z - Supersonic Warriors"/><bias zone="J" name="Dragon Ball Z - Bukuu Tougeki"/><bias zone="K" name="Dragon Ball Z - Bukuu Tougeki"/><group reg="^Dragon Ball Z - Bukuu Tougeki (Intro|Trainer)"/></zoned>
+<zoned><bias zone="En" name="Dragon Ball Z - The Legacy of Goku II"/><bias zone="J" name="Dragon Ball Z - The Legacy of Goku II - International"/></zoned>
+<zoned><bias zone="U" name="Drill Dozer"/><bias zone="J" name="Screw Breaker - Goushin Dorirurero"/></zoned>
+<zoned><bias zone="En" name="Dynasty Warriors Advance"/><bias zone="J" name="Shin Sangoku Musou Advance"/></zoned>
+<zoned><bias zone="U" name="Egg Mania"/><bias zone="E" name="Eggo Mania"/><bias zone="J" name="Egg Mania"/></zoned>
+<zoned><bias zone="En" name="ESPN Final Round Golf 2002"/><bias zone="J" name="JGTO Official Golf Master"/><clone name="Golf Masters"/></zoned>
+<zoned><bias zone="U" name="ESPN Great Outdoor Games - Bass 2002"/><bias zone="E" name="ESPN Great Outdoor Games - Bass Tournament"/><bias zone="J" name="Exciting Bass"/></zoned>
+<zoned><bias zone="U" name="ESPN International Winter Sports 2002"/><bias zone="E" name="ESPN International Winter Sports"/><bias zone="J" name="Hyper Sports 2002 Winter"/></zoned>
+<zoned><bias zone="U" name="ESPN Winter X-Games Snowboarding 2002"/><bias zone="E" name="ESPN Winter X-Games Snowboarding 2"/><bias zone="J" name="ESPN Winter X-Games Snowboarding 2002"/></zoned>
+<zoned><bias zone="En" name="F-Zero - Maximum Velocity"/><bias zone="J" name="F-Zero"/><bias zone="Cn" name="Jisu F-ZERO Weilai Saiche"/><group reg="^F-Zero (Intro|Trainer)"/></zoned>
+<zoned><bias zone="En" name="F-Zero GP Legend"/><bias zone="J" name="F-Zero - Falcon Densetsu"/></zoned>
+<zoned><bias zone="U" name="Fairly Odd Parents!, The - Shadow Showdown"/><bias zone="G" name="Cosmo &amp; Wanda - Wenn Elfen helfen"/></zoned>
+<zoned><bias zone="En" name="Final Fantasy I &amp; II - Dawn of Souls"/><bias zone="J" name="Final Fantasy I &amp; II Advance"/><group reg="^Final Fantasy I &amp; II Advance (Intro|Trainer)"/></zoned>
+<zoned><bias zone="U" name="Fire Emblem"/><bias zone="J" name="Fire Emblem - Rekka no Ken"/><group reg="^Fire Emblem (Intro|Trainer)"/></zoned>
+<zoned><bias zone="U" name="Fire Emblem - The Sacred Stones"/><bias zone="J" name="Fire Emblem - Seima no Kouseki"/></zoned>
+<zoned><bias zone="U" name="Fire Pro Wrestling 2"/><bias zone="J" name="Final Fire Pro Wrestling - Yume no Dantai Unei!"/></zoned>
+<zoned><bias zone="En" name="Frogger's Adventures 2 - The Lost Wand"/><bias zone="J" name="Frogger - Mahou no Kuni no Daibouken"/></zoned>
+<zoned><bias zone="U" name="Frogger's Journey - The Forgotten Relic"/><bias zone="J" name="Frogger Kodaibunmei no Nazo"/></zoned>
+<zoned><bias zone="J" name="From TV Animation - One Piece - Going Baseball - Kaizoku Yakyuu"/><bias zone="K" name="One Piece - Going Baseball - Haejeok Yaku"/></zoned>
+<zoned><bias zone="J" name="From TV Animation - One Piece - Nanatsu Shima no Daihihou"/><bias zone="K" name="One Piece - Nanatsu Shima no Daihihou"/></zoned>
+<zoned type="deferred"><bias zone="U" name="Gadget Racers"/><bias zone="E" name="Penny Racers"/><bias zone="J" name="Choro Q Advance"/><group reg="^Gadget Racers \(U\)"/><clone name="Penny Racers"/><clone name="Choro Q Advance"/></zoned>
+<zoned><bias zone="U" name="Game &amp; Watch Gallery 4"/><bias zone="E" name="Game &amp; Watch Gallery Advance"/></zoned>
+<zoned><bias zone="U" name="Game Shark GBA"/><bias zone="U" name="Action Replay"/><bias zone="J" name="Pro Action Replay"/><group reg="^Game Shark GBA "/><group reg="^Action Replay "/></zoned>
+<zoned><bias zone="U" name="Gem Smashers"/><bias zone="J" name="Pazunin - Uminin no Puzzle de Nimu"/></zoned>
+<zoned><bias zone="En" name="Golden Sun"/><bias zone="I" name="Golden Sun"/><bias zone="S" name="Golden Sun"/><bias zone="G" name="Golden Sun"/><bias zone="F" name="Golden Sun"/><bias zone="J" name="Ougon no Taiyou - Hirakareshi Fuuin"/></zoned>
+<zoned><bias zone="En" name="Golden Sun - The Lost Age"/><bias zone="J" name="Ougon no Taiyou - Ushinawareshi Toki"/><bias zone="S" name="Golden Sun - La Edad Perdida"/><bias zone="I" name="Golden Sun - L'era Perduta"/><bias zone="F" name="Golden Sun - L'Age Perdu"/><bias zone="G" name="Golden Sun - Die Vergessene Epoche"/></zoned>
+<zoned><bias zone="U" name="Gradius Galaxies"/><bias zone="E" name="Gradius Advance"/><bias zone="J" name="Gradius Generation"/></zoned>
+<zoned><bias zone="En" name="GT Advance 2 - Rally Racing"/><bias zone="J" name="Advance Rally"/></zoned>
+<zoned><bias zone="En" name="GT Advance 3 - Pro Concept Racing"/><bias zone="J" name="Advance GT2"/><group reg="^GT Advance 3 - Pro Concept Racing (Intro|Trainer)"/></zoned>
+<zoned><bias zone="U" name="GT Championship Racing"/><bias zone="J" name="Advance GTA"/></zoned>
+<zoned><bias zone="U" name="Gunstar Super Heroes"/><bias zone="J" name="Gunstar Super Heroes"/><bias zone="E" name="Gunstar Future Heroes"/></zoned>
+<zoned><bias zone="En" name="Hamtaro - Ham-Ham Games"/><bias zone="J" name="Tottoko Hamutarou Hamuhamu Sports"/></zoned>
+<zoned><bias zone="En" name="Hamtaro - Ham-Ham Heartbreak"/><bias zone="J" name="Tottoko Hamutarou 3"/></zoned>
+<zoned><bias zone="En" name="Hamtaro - Rainbow Rescue"/><bias zone="J" name="Tottoko Hamutarou 4 - Nijiiro Daikoushin Dechu"/></zoned><zoned><bias zone="U" name="Harlem Globetrotters - World Tour"/><bias zone="E" name="Original Harlem Globetrotters"/></zoned>
+<zoned><bias zone="En" name="Harry Potter and The Chamber of Secrets"/><bias zone="J" name="Harry Potter to Himitsu no Heya"/><group reg="^Harry Potter and The Chamber of Secrets - "/></zoned>
+<zoned><bias zone="U" name="Harry Potter and The Prisoner of Azkaban"/><bias zone="J" name="Harry Potter to Azkaban no Shuujin"/><group reg="^Harry Potter and The Prisoner of Azkaban - "/></zoned>
+<zoned><bias zone="U" name="Harry Potter and The Sorcerer's Stone"/><bias zone="J" name="Harry Potter to Kenja no Ishi"/></zoned>
+<zoned><bias zone="U" name="Harvest Moon - Friends of Mineral Town"/><bias zone="J" name="Bokujou Monogatari - Mineral Town no Nakama-tachi"/><clone name="112-in-1 - Harvest Moon - Friends of Mineral Town"/></zoned>
+<zoned><bias zone="U" name="Harvest Moon - More Friends of Mineral Town"/><bias zone="J" name="Bokujou Monogatari - Mineral Town no Nakama-tachi for Girl"/></zoned>
+<zoned><bias zone="En" name="Hobbit, The"/><bias zone="J" name="Hobbit no Bouken - Lord of the Rings - Hajimari no Monogatari"/></zoned>
+<zoned><bias zone="U" name="Horsez"/><bias zone="E" name="Horse &amp; Pony - My Stud Farm"/></zoned><zoned><bias zone="En" name="Hot Wheels - Burnin' Rubber"/><bias zone="J" name="Hot Wheels Advance"/></zoned>
+<zoned><bias zone="En" name="Incredibles, The"/><bias zone="J" name="Mr. Incredible"/><bias zone="S" name="Increibles, Los"/><bias zone="G" name="Unglaublichen, Die"/><bias zone="I" name="Incredibili, Gli - Una 'Normale' Famiglia di Supereroi"/></zoned>
+<zoned><bias zone="E" name="Incredibles, The - Rise of the Underminer"/><bias zone="J" name="Mr. Incredible Kyouteki Under Miner Toujyou"/></zoned>
+<zoned><bias zone="E" name="International Superstar Soccer"/><bias zone="J" name="Jikkyou World Soccer Pocket"/></zoned>
+<zoned><bias zone="E" name="International Superstar Soccer Advance"/><bias zone="J" name="Jikkyou World Soccer Pocket 2"/></zoned>
+<zoned><bias zone="U" name="Jackie Chan Adventures - Legend of The Dark Hand"/><bias zone="F" name="Les Adventures de Jackie Chan"/></zoned>
+<zoned><bias zone="U" name="Jet Grind Radio"/><bias zone="E" name="Jet Set Radio"/></zoned>
+<zoned><bias zone="En" name="Jurassic Park III - The DNA Factor"/><bias zone="J" name="Jurassic Park III - Ushinawareta Idenshi"/></zoned>
+<zoned><bias zone="U" name="Jurassic Park III - Island Attack"/><bias zone="E" name="Jurassic Park III - Dino Attack"/><bias zone="J" name="Jurassic Park III - Advanced Action"/><group reg="^Jurassic Park III - Island Attack (Intro|Trainer)"/></zoned>
+<zoned><bias zone="En" name="Kirby &amp; The Amazing Mirror"/><bias zone="J" name="Hoshi no Kirby - Kagami no Daimeikyuu"/></zoned>
+<zoned><bias zone="En" name="Kirby - Nightmare in Dreamland"/><bias zone="J" name="Hoshi no Kirby - Yume no Izumi Deluxe"/></zoned>
+<zoned><bias zone="U" name="Klonoa 2 - Dream Champ Tournament"/><bias zone="J" name="Kaze no Klonoa G2"/></zoned>
+<zoned><bias zone="U" name="Kong - The 8th Wonder of the World"/><bias zone="E" name="King Kong"/></zoned>
+<zoned><bias zone="En" name="Krazy Racers"/><bias zone="J" name="Wai Wai Racing"/><group reg="^Krazy Racers (Intro|Trainer)"/></zoned>
+<zoned><bias zone="En" name="Legend of Zelda, The - A Link To The Past Four Swords"/><bias zone="J" name="Legend of Zelda, The - God's Triforce &amp; Four Swords"/><group reg="^Legend of Zelda, The - A Link To The Past Four Swords (Intro|Trainer)"/></zoned>
+<zoned><bias zone="En" name="Legend of Zelda, The - The Minish Cap"/><bias zone="J" name="Zelda no Densetsu - Fushigi no Boushi"/></zoned>
+<zoned><bias zone="En" name="LEGO Star Wars - The Video Game"/><bias zone="J" name="LEGO Star Wars"/></zoned>
+<zoned><bias zone="En" name="Lemony Snicket's A Series of Unfortunate Events"/><bias zone="I" name="Lemony Snicket - Una serie di sfortunati eventi"/><bias zone="G" name="Lemony Snicket - Raetselhafte Ereignisse"/></zoned>
+<zoned><bias zone="U" name="Let's Ride! - Dreamer"/><bias zone="E" name="Pippa Funnell 2"/><bias zone="G" name="Horse &amp; Pony - Let's Ride 2"/><bias zone="D" name="Paard Pony - Paard in Galop"/></zoned>
+<zoned><bias zone="U" name="Let's Ride! - Sunshine Stables"/><bias zone="E" name="Pippa Funnell - Stable Adventure"/><bias zone="G" name="Pferd &amp; Pony - Mein Pferdehof"/><bias zone="D" name="Paard Pony - Mijn Manege"/></zoned>
+<zoned><bias zone="U" name="Lizzie McGuire - On the Go!"/><bias zone="E" name="Lizzie McGuire"/></zoned>
+<zoned><bias zone="En" name="Lord of the Rings, The - The Return of the King"/><bias zone="J" name="Lord of the Rings, The - Ou no Kikan"/></zoned>
+<zoned><bias zone="En" name="Lord of the Rings, The - The Third Age"/><bias zone="J" name="Lord of the Rings, The - Nakatsukuni Daisanki"/></zoned>
+<zoned><bias zone="En" name="Lord of the Rings, The - The Two Towers"/><bias zone="J" name="Lord of the Rings, The - Futatsu no Tou"/></zoned>
+<zoned><bias zone="U" name="Lufia - The Ruins of Lore"/><bias zone="J" name="Estopolis Densetsu"/></zoned>
+<zoned><bias zone="En" name="Madagascar - Operation Penguin"/><bias zone="S" name="Madagascar - Operacion Pinguino"/></zoned>
+<zoned><bias zone="En" name="Mario &amp; Luigi - Superstar Saga"/><bias zone="J" name="Mario &amp; Luigi RPG"/></zoned>
+<zoned><bias zone="En" name="Mario Kart Super Circuit"/><bias zone="J" name="Mario Kart Advance"/><clone name="48-in-1 - Mario Kart Super Circuit"/><group reg="^Mario Kart Super Circuit (Intro|Trainer)"/></zoned>
+<zoned><bias zone="U" name="Mario Pinball Land"/><bias zone="J" name="Super Mario Ball"/><bias zone="E" name="Super Mario Ball"/></zoned>
+<zoned><bias zone="U" name="Mario Tennis Advance - Power Tour"/><bias zone="J" name="Mario Tennis Advance"/></zoned>
+<zoned><bias zone="U" name="Max Payne"/><bias zone="E" name="Max Payne Advance"/></zoned>
+<zoned><bias zone="En" name="Mech Platoon"/><bias zone="J" name="Kikaika Gunta - Mech Platoon"/></zoned>
+<zoned type="deferred"><bias zone="En" name="Medabots"/><bias zone="J" name="Medarot 2 Core"/><group reg="^Medabots - "/><group reg="^Medarot 2 Core - "/></zoned>
+<zoned type="deferred"><bias zone="En" name="Medabots AX"/><bias zone="J" name="Medarot G"/><group reg="^Medabots AX - "/><group reg="^Medarot G - "/></zoned>
+<zoned><bias zone="En" name="Megaman &amp; Bass"/><bias zone="J" name="Rockman &amp; Forte"/><group reg="^Megaman &amp; Bass (Intro|Trainer)"/></zoned>
+<zoned><bias zone="En" name="Megaman Battle Chip Challenge"/><bias zone="J" name="Rockman EXE - Battlechip GP"/></zoned>
+<zoned><bias zone="En" name="Megaman Battle Network"/><bias zone="J" name="Rockman EXE"/></zoned>
+<zoned><bias zone="En" name="Megaman Battle Network 2"/><bias zone="J" name="Battle Network Rockman EXE 2"/></zoned>
+<zoned type="deferred"><bias zone="En" name="Megaman Battle Network 3"/><bias zone="J" name="Rockman EXE 3"/><group reg="^Megaman Battle Network 3 "/><clone name="Rockman EXE 3"/><clone name="Battle Network Rockman EXE 3 Black"/></zoned>
+<zoned><bias zone="En" name="Megaman Battle Network 4"/><bias zone="J" name="Rockman EXE 4"/><group reg="^Megaman Battle Network 4 - "/><group reg="^Rockman EXE 4 - "/></zoned>
+<zoned><bias zone="En" name="Megaman Battle Network 5"/><bias zone="J" name="Rockman EXE 5"/><group reg="^Megaman Battle Network 5 - "/><group reg="^Rockman EXE 5 - "/></zoned>
+<zoned><bias zone="En" name="Megaman Battle Network 6"/><bias zone="J" name="Rockman EXE 6"/><group reg="^Megaman Battle Network 6 - "/><group reg="^Rockman EXE 6 - "/></zoned>
+<zoned><bias zone="En" name="Megaman Zero"/><bias zone="J" name="Rockman Zero"/></zoned>
+<zoned><bias zone="En" name="Megaman Zero 2"/><bias zone="J" name="Rockman Zero 2"/><group reg="^Trainer Menu by Cezar"/></zoned>
+<zoned><bias zone="En" name="Megaman Zero 3"/><bias zone="J" name="Rockman Zero 3"/><group reg="^Rockman Zero 3 (Intro|Trainer)"/></zoned>
+<zoned><bias zone="En" name="Megaman Zero 4"/><bias zone="J" name="Rockman Zero 4"/></zoned><zoned><bias zone="G" name="Meine Tierarztpraxis"/><bias zone="D" name="Mijn Dierenpraktijk"/></zoned>
+<zoned><bias zone="En" name="Metroid - Zero Mission"/><bias zone="J" name="Metroid - Zero Mission"/><bias zone="Cn" name="Miteluode - Lingdian Renwu"/></zoned>
+<zoned><bias zone="En" name="Metroid Fusion"/><bias zone="J" name="Metroid Fusion"/><bias zone="Cn" name="Miteluode Ronghe"/><clone name="Metroid Fusion - Completion Bonus"/></zoned>
+<zoned><bias zone="U" name="Mobile Suit Gundam Seed - Battle Assault"/><bias zone="J" name="Kidou Senshi Gundam Seed Destiny"/></zoned>
+<zoned><bias zone="U" name="Monster Rancher Advanced"/><bias zone="J" name="Monster Farm Advance"/></zoned>
+<zoned><bias zone="U" name="Monster Rancher Advanced 2"/><bias zone="J" name="Monster Farm Advance 2"/></zoned>
+<zoned><bias zone="En" name="Monsters Inc."/><bias zone="J" name="Monsters Inc."/><bias zone="G" name="Monsters AG, Die"/></zoned><zoned><bias zone="U" name="Moto Racer Advance"/><bias zone="E" name="Motoracer Advance"/></zoned>
+<zoned><bias zone="U" name="Motocross Maniacs Advance"/><bias zone="E" name="Maniac Racers Advance"/><bias zone="J" name="Motocross Maniacs Advance"/></zoned>
+<zoned><bias zone="F" name="Napoleon - L'Aigle de Guerrre"/><bias zone="J" name="Napoleon"/></zoned>
+<zoned><bias zone="U" name="Naruto - Ninja Council"/><bias zone="J" name="Naruto - Ninjutsu Zenkai! Saikyou Ninja Daikesshuu"/></zoned>
+<zoned><bias zone="U" name="Naruto - Ninja Council 2"/><bias zone="J" name="Naruto - Ninjutsu Zenkai! Saikyou Ninja Daikesshuu 2"/></zoned><zoned><bias zone="U" name="Nicktoons - Battle for Volcano Island"/><bias zone="E" name="SpongeBob SquarePants and Friends - Battle for Volcano Island"/></zoned>
+<zoned><bias zone="U" name="Nicktoons - Freeze Frame Frenzy"/><bias zone="E" name="SpongeBob SquarePants and Friends - Freeze Frame Frenzy"/></zoned>
+<zoned><bias zone="U" name="Nicktoons Unite!"/><bias zone="E" name="SpongeBob SquarePants and Friends Unite!"/></zoned>
+<zoned><bias zone="U" name="Ninja Five-0"/><bias zone="E" name="Ninja Cop"/></zoned><zoned><bias zone="U" name="Nintendogs + Super Mario 64 DS - Trainer Expansion for NDS"/><bias zone="F" name="Dog Trainer 2"/></zoned>
+<zoned><bias zone="U" name="Over the Hedge"/><bias zone="G" name="Ab durch die Hecke"/><bias zone="S" name="Vecinos Invasores"/><bias zone="I" name="La Gang del Bosco"/><bias zone="D" name="Over the Hedge - Beesten Bij de Buren (D)"/></zoned>
+<zoned><bias zone="U" name="Paws and Claws - Pet Resort"/><bias zone="E" name="My Pet Hotel"/><bias zone="F" name="Lea Passion Veterinaire"/><bias zone="D" name="Mijn Dierenpension"/></zoned>
+<zoned><bias zone="U" name="Piglet's Big Game"/><bias zone="E" name="Disney's Piglet's Big Game"/></zoned>
+<zoned><bias zone="U" name="Pink Panther Pinkadelic Pursuit"/><bias zone="E" name="Pink Panther"/><group reg="^Pink Panther Pinkadelic Pursuit (Intro|Trainer)"/></zoned>
+<zoned><bias zone="U" name="Pinobee - Wings of Adventure"/><bias zone="J" name="Pinobee - Quest of Heart"/></zoned>
+<zoned><bias zone="U" name="Pocket Dogs"/><bias zone="J" name="Poke Inu - Poket Dogs"/></zoned>
+<zoned><bias zone="U" name="Pocky &amp; Rocky with Becky"/><bias zone="J" name="Kiki Kaikai Advance"/></zoned>
+<zoned type="deferred"><bias zone="U" name="Pokemon - Emerald Version"/><bias zone="J" name="Pokemon - Emerald"/><bias zone="S" name="Pokemon - Edicion Esmeralda"/><bias zone="G" name="Pokemon - Smaragd-Edition"/><bias zone="F" name="Pokemon - Version Emeraude"/><bias zone="I" name="Pokemon - Versione Smeraldo"/><clone name="Pokemon - Emerald Version"/><clone name="Pokemon - Emerald"/><clone name="Pokemon - Edicion Esmeralda"/><clone name="Pokemon - Smaragd-Edition"/><clone name="Pokemon - Version Emeraude"/><clone name="Pokemon - Versione Smeraldo"/><clone name="Emerald"/></zoned>
+<zoned type="deferred"><bias zone="U" name="Pokemon - Leaf Green Version &amp; Fire Red Version"/><bias zone="J" name="Pokemon - Leaf Green &amp; Fire Red"/><bias zone="S" name="Pokemon - Edicion Rojo Fuego &amp; Verda Hoja"/><bias zone="G" name="Pokemon - Blattgruene Edition &amp; Feuerrote Edition"/><bias zone="F" name="Pokemon - Version Vert Feuille &amp; Version Rouge Feu"/><bias zone="I" name="Pokemon - Versione Verde Foglia &amp; Versione Rosso Fuoco"/><group reg="^Pokemon Fire Red "/><clone name="Pokemon - Leaf Green Version"/><clone name="Pokemon - Fire Red Version"/><clone name="Pokemon - Leaf Green"/><clone name="Pokemon - Fire Red"/><clone name="Pokemon - Edicion Rojo Fuego"/><clone name="Pokemon - Verde Hoja"/><clone name="Pokemon - Blattgruene Edition"/><clone name="Pokemon - Feuerrote Edition"/><clone name="Pokemon - Version Rouge Feu"/><clone name="Pokemon - Version Vert Feuille"/><clone name="Pokemon - Versione Verde Foglia"/><clone name="Pokemon - Versione Rosso Fuoco"/><clone name="Fire Red"/><clone name="Leaf Green"/><clone name="Pokemon - Leaf Green Cake"/><clone name="Pokemon - Leaf Green Cake V2"/></zoned><zoned><bias zone="U" name="Pokemon Mystery Dungeon - Red Rescue Team"/><bias zone="J" name="Pokemon - Fushigi no Dungeon Aka no Kyuujotai"/></zoned>
+<zoned type="deferred"><bias zone="U" name="Pokemon - Ruby Version &amp; Sapphire Version"/><bias zone="J" name="Pokemon - Ruby &amp; Sapphire"/><bias zone="S" name="Pokemon - Edicion Rubi &amp; Edicion Zafiro"/><bias zone="G" name="Pokemon - Rubin-Edition &amp; Saphir-Edition"/><bias zone="F" name="Pokemon - Version Rubis &amp; Version Saphir"/><bias zone="I" name="Pokemon - Versione Rubino &amp; Versione Zaffiro"/><clone name="Pokemon - Ruby Version"/><clone name="Pokemon - Sapphire Version"/><clone name="Pokemon - Ruby"/><clone name="Pokemon - Sapphire"/><clone name="Pokemon - Edicion Rubi"/><clone name="Pokemon - Edicion Zafiro"/><clone name="Pokemon - Rubin-Edition"/><clone name="Pokemon - Saphir-Edition"/><clone name="Pokemon - Version Rubis"/><clone name="Pokemon - Version Saphir"/><clone name="Pokemon - Versione Rubino"/><clone name="Pokemon - Versione Zaffiro"/><clone name="Ruby"/><clone name="Sapphire"/><clone name="Pokemon Ruby"/><clone name="Pokemon Sapphire"/><group reg="^Pokemon - Sapphire (Intro|Trainer)"/></zoned>
+<zoned><bias zone="E" name="Polarium"/><bias zone="J" name="Tsuukin Hitofude"/></zoned>
+<zoned><bias zone="U" name="Power Rangers - Time Force"/><bias zone="G" name="Power Rangers - Time Force"/><bias zone="F" name="Power Rangers - La Force du Temps"/></zoned><zoned><bias zone="U" name="Princess Natasha"/><bias zone="E" name="Princess Natasha - Student Secret Agent"/></zoned>
+<zoned><bias zone="U" name="WTA Tour Tennis"/><bias zone="E" name="Pro Tennis WTA Tour"/><bias zone="J" name="WTA Tour Tennis Pocket"/></zoned>
+<zoned><bias zone="U" name="Punch King - Arcade Boxing"/><bias zone="E" name="Punch King"/></zoned>
+<zoned><bias zone="U" name="Puyo Pop"/><bias zone="J" name="Minna de Puyo Puyo"/></zoned>
+<zoned><bias zone="E" name="Puyo Pop Fever"/><bias zone="J" name="Puyo Puyo Fever"/></zoned>
+<zoned><bias zone="U" name="Rave Master Special Attack Force"/><bias zone="J" name="Groove Adventure Rave 2"/></zoned>
+<zoned><bias zone="U" name="Razor Freestyle Scooter"/><bias zone="E" name="Freestyle Scooter"/></zoned>
+<zoned><bias zone="U" name="River City Ransom EX"/><bias zone="J" name="Downtown - Nekketsu Monogatari EX"/></zoned>
+<zoned><bias zone="U" name="Riviera - The Promised Land"/><bias zone="J" name="Riviera - Yakusoku no Chi Riviera"/></zoned>
+<zoned type="deferred"><bias zone="U" name="Robopon 2"/><bias zone="J" name="Robot Ponkotto 2"/><group reg="^Robopon 2 - "/><group reg="^Robot Ponkotto 2 - "/></zoned>
+<zoned><bias zone="U" name="Rocket Power - Dream Scheme"/><bias zone="F" name="Rocket Power - Le Cauchemar D'Otto"/></zoned>
+<zoned><bias zone="U" name="Rugrats - Go Wild"/><bias zone="F" name="Lez Razmoket - Recontrent les Delajungle"/><group reg="^Rugrats - Go Wild (Intro|Trainer)"/></zoned>
+<zoned><bias zone="U" name="Rugrats - Castle Capers"/><bias zone="F" name="Razmoket, Les - Voler N'est Pas Jouer"/><bias zone="S" name="Rugrats - Travesuras en el Castillo"/></zoned>
+<zoned><bias zone="U" name="Scrabble Blast!"/><bias zone="E" name="Scrabble Scramble"/></zoned><zoned><bias zone="U" name="Scurge Hive"/><bias zone="E" name="Scurge - Hive"/><group reg="^Scurge Hive (Intro|Trainer)"/></zoned>
+
+<zoned><bias zone="En" name="Shark Tale"/><bias zone="J" name="Shark Tale"/><bias zone="I" name="Shark Story"/></zoned>
+<zoned><bias zone="E" name="Sheep"/><bias zone="J" name="Sheep - Hitsuji no Kimochi"/></zoned>
+<zoned type="deferred"><bias zone="U" name="Shifting Gears - Road Trip"/><bias zone="E" name="Gadget Racers"/><bias zone="J" name="Choro Q Advance 2"/><clone name="Shifting Gears - Road Trip"/><group reg="^Gadget Racers \(E\)"/><clone name="Choro Q Advance 2"/></zoned>
+<zoned><bias zone="En" name="Shining Force - Resurrection of the Dark Dragon"/><bias zone="J" name="Shining Force - Kuroki Ryuu no Fukkatsu"/></zoned>
+<zoned><bias zone="U" name="Sims, The - Bustin' Out"/><bias zone="J" name="Sims, The"/><group reg="^Sims, The - Bustin' Out (Intro|Trainer)"/></zoned>
+<zoned><bias zone="U" name="Space Invaders"/><bias zone="J" name="Space Invaders EX"/></zoned>
+<zoned><bias zone="U" name="Spider-Man - The Movie"/><bias zone="F" name="Spider-Man - The Movie"/><bias zone="G" name="Spider-Man - Der Film"/></zoned>
+<zoned><bias zone="En" name="Spirit - Stallion of the Cimarron"/><bias zone="F" name="Spirit - L'Etalon Des Plaines"/><bias zone="G" name="Spirit - Der wilde Mustang"/></zoned>
+<zoned><bias zone="U" name="Spirits &amp; Spells"/><bias zone="E" name="Castleween"/><bias zone="J" name="Mahou no Pumpkin"/></zoned>
+<zoned><bias zone="U" name="Spyro - Attack of the Rhynocs"/><bias zone="E" name="Spyro Adventure"/></zoned>
+<zoned><bias zone="U" name="Spyro Orange - The Cortex Conspiracy"/><bias zone="E" name="Spyro Fusion"/><bias zone="J" name="Spyro Advance - Wakuwaku Tomodachi Daisakusen"/></zoned>
+<zoned><bias zone="En" name="Spyro - Season of Ice"/><bias zone="J" name="Spyro Advance"/><group reg="^Spyro (Intro|Trainer)"/></zoned>
+<zoned><bias zone="E" name="Steel Empire"/><bias zone="J" name="Kootetsu Teikoku from Hot-B"/></zoned>
+<zoned><bias zone="E" name="Steven Gerrard's Total Soccer 2002"/><bias zone="J" name="Total Soccer Advance"/></zoned>
+<zoned><bias zone="En" name="Street Fighter Alpha 3"/><bias zone="J" name="Street Fighter Zero 3 Upper"/></zoned><zoned><bias zone="U" name="Summon Night - Swordcraft Story 2"/><bias zone="J" name="Summon Night - Craft Sword Monogatari 2"/></zoned>
+<zoned><bias zone="U" name="Super Army War"/><bias zone="E" name="Glory Days - Essence of a War"/></zoned>
+<zoned><bias zone="En" name="Super Bust-A-Move"/><bias zone="J" name="Super Puzzle Bobble Advance"/></zoned>
+<zoned><bias zone="U" name="Super Ghouls 'N Ghosts"/><bias zone="J" name="Choh Makaimura R"/><group reg="^Super Ghouls 'N Ghosts (Intro|Trainer)"/></zoned>
+<zoned><bias zone="En" name="Super Mario Advance"/><bias zone="J" name="Super Mario Advance"/><bias zone="Cn" name="Chaoji Maliou 2"/></zoned>
+<zoned><bias zone="En" name="Super Mario Advance 2 - Super Mario World"/><bias zone="J" name="Super Mario Advance 2"/><clone name="Chaoji Maliou Shijie"/><clone name="100-in-1"/></zoned>
+<zoned><bias zone="En" name="Super Mario Advance 3 - Yoshi's Island"/><bias zone="J" name="Yoshi's Island - Super Mario Advance 3"/><bias zone="Cn" name="Yaoxi Dao"/><group reg="^Super Mario Advance 3 - Yoshi's Island (Intro|Trainer)"/></zoned>
+<zoned><bias zone="En" name="Super Mario Advance 4 - Super Mario Bros. 3"/><bias zone="J" name="Super Mario Advance 4"/><group reg="^Super Mario Advance 4 (Intro|Trainer)"/></zoned>
+<zoned><bias zone="En" name="Super Street Fighter II Turbo - Revival"/><bias zone="J" name="Super Street Fighter II X - Revival"/></zoned>
+<zoned><bias zone="U" name="Sword of Mana"/><bias zone="J" name="Shinyaku Seiken Densetsu"/><group reg="^Sword of Mana (Intro|Trainer)"/></zoned>
+<zoned><bias zone="U" name="Tactics Ogre - The Knight of Lodis"/><bias zone="J" name="Tactics Ogre Gaiden - The Knight of Lodis"/></zoned>
+<zoned><bias zone="U" name="Teenage Mutant Ninja Turtles - Volume 1"/><bias zone="F" name="Teenage Mutant Ninja Turtles - Le Demenagement - Volume 1"/></zoned><zoned><bias zone="U" name="Teenage Mutant Ninja Turtles Double Pack"/><bias zone="E" name="2-in-1 - Teenage Mutant Ninja Turtles Gamepack"/></zoned><zoned><bias zone="U" name="Tiny Toon Adventures - Scary Dreams"/><bias zone="E" name="Tiny Toon Adventures - Buster's Bad Dream"/></zoned>
+<zoned><bias zone="E" name="Tootuff - The Gagmachine"/><bias zone="F" name="Titeuf Ze Gagmachine"/></zoned>
+<zoned><bias zone="En" name="Top Gear GT Championship"/><bias zone="J" name="Top Gear All Japan GT Championship"/><clone name="GT Championship"/></zoned>
+<zoned><bias zone="U" name="Top Gear Rally"/><bias zone="E" name="TG Rally"/><bias zone="J" name="Top Gear Rally SP"/></zoned>
+<zoned><bias zone="En" name="Tweety and the Magic Gems"/><bias zone="G" name="Tweety and the Magic Gems"/><bias zone="F" name="Tweety and the Magic Gems"/><bias zone="J" name="Tweety and the Magical Jewel"/></zoned>
+<zoned><bias zone="U" name="Ultimate Beach Soccer"/><bias zone="E" name="Pro Beach Soccer"/></zoned>
+<zoned><bias zone="U" name="Ultimate Muscle - The Path of the Superhero"/><bias zone="J" name="Kinnikuman 2sei - Seigi Choujin he no Michi"/></zoned>
+<zoned><bias zone="En" name="Wario Land 4"/><bias zone="J" name="Wario Land Advance"/><bias zone="Cn" name="Wario Land Advance"/></zoned>
+<zoned><bias zone="En" name="WarioWare Inc."/><bias zone="J" name="Made in Wario"/><bias zone="Cn" name="Waliou Zhizao"/><group reg="^WarioWare Inc."/><group reg="^Made in Wario (Intro|Trainer)"/></zoned>
+<zoned><bias zone="U" name="WarioWare - Twisted!"/><bias zone="J" name="Mawaru - Made in Wario"/></zoned>
+<zoned><bias zone="En" name="Who Wants To Be A Millionaire"/><bias zone="F" name="Qui Veut Gagner des Millions"/><bias zone="G" name="Wer wird Millionaer"/><bias zone="I" name="Chi Vuol Essere Milionario"/><bias zone="S" name="Quiere ser Millonario"/><bias zone="D" name="Weekend Miljonairs (D)"/></zoned>
+<zoned><bias zone="U" name="Wild Thornberrys, The - Chimp Chase"/><bias zone="F" name="Famille De La Jungle, La"/><bias zone="G" name="Expedition der Stachelbeeren - Zoff im Zoo"/><group reg="^Wild Thornberrys, The - Chimp Chase (Intro|Trainer)"/></zoned>
+<zoned><bias zone="U" name="Wild Thornberrys, The - The Movie"/><bias zone="F" name="La Famille Delajungle - Le Film"/></zoned>
+<zoned><bias zone="U" name="X-Men 2 - Wolverine's Revenge"/><bias zone="F" name="X-Men 2 - La Vengeance de Wolverine"/></zoned><zoned><bias zone="U" name="Yggdra Union - We'll Never Fight Alone"/>
+<bias zone="J" name="Yggdra Union"/></zoned><zoned><bias zone="U" name="Yoshi Topsy-Turvy"/><bias zone="E" name="Yoshi's Universal Gravitation"/><bias zone="J" name="Yoshi no Banyuu Inryoku"/></zoned>
+<zoned><bias zone="U" name="Yu-Gi-Oh! - 7 Trials to Glory - World Championship Tournament 2005"/><bias zone="E" name="Yu-Gi-Oh! - Day of the Duelist - World Championship Tournament 2005"/><bias zone="J" name="Yu-Gi-Oh! - Duel Monsters - International Worldwide Edition 2"/></zoned>
+<zoned><bias zone="U" name="Yu-Gi-Oh! - Destiny Board Traveler"/><bias zone="J" name="Yu-Gi-Oh! - Sugoroku no Sugoroku"/></zoned>
+<zoned><bias zone="En" name="Yu-Gi-Oh! - GX Duel Academy"/><bias zone="J" name="Yu-Gi-Oh! - Duel Monsters GX - Mezase Duel King"/></zoned>
+<zoned><bias zone="En" name="Yu-Gi-Oh! - Reshef of Destruction"/><bias zone="J" name="Yu-Gi-Oh! - Duel Monsters 8 - Hametsu no Daijashin"/></zoned>
+<zoned><bias zone="En" name="Yu-Gi-Oh! - The Sacred Cards"/><bias zone="J" name="Yu-Gi-Oh! - Duel Monsters 7 Kettou Toshi Densetsu"/></zoned>
+<zoned><bias zone="U" name="Yu-Gi-Oh! - Ultimate Masters 2006"/><bias zone="E" name="Yu-Gi-Oh! - Ultimate Masters Edition World Championship Tournament 2006"/><bias zone="J" name="Yu-Gi-Oh! - Duel Monsters Expert 2006"/></zoned>
+<zoned><bias zone="En" name="Yu-Gi-Oh! - World Championship Tournament 2004"/><bias zone="J" name="Yu-Gi-Oh! - Duel Monsters Expert 3"/></zoned>
+<zoned><bias zone="En" name="Yu-Gi-Oh! - Worldwide Edition"/><bias zone="J" name="Yu-Gi-Oh! - Duel Monsters International"/><group reg="^Yu-Gi-Oh! - Duel Monsters International (Intro|Trainer)"/></zoned>
+<zoned><bias zone="U" name="ZatchBell! Electric Arena"/><bias zone="J" name="Konjiki no Gashbell!! - Unare! Yuujou no Zakeru"/><group reg="^ZatchBell! Electric Arena - (Intro|Trainer)"/></zoned>
+<zoned><bias zone="U" name="Zoids Legacy"/><bias zone="J" name="Zoids Saga II"/></zoned>
+<zoned><bias zone="En" name="Zone of The Enders - The Fist of Mars"/><bias zone="J" name="Z.O.E. 2173 Testament"/></zoned>
+<zoned><bias zone="E" name="Zooo"/><bias zone="J" name="Minna no Soft Series - Zooo"/></zoned>
+
+<zoned type="deferred"><bias zone="En" name="Public Domain (Misc)"/><group reg="\(PD\)"/></zoned>
+</parents>
+
+</set>
+</romsets>

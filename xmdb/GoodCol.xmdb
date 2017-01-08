@@ -1,0 +1,41 @@
+<?xml version="1.0"?><!DOCTYPE romsets SYSTEM "GoodMerge.dtd">
+<!--
+GoodCol 3.14 XMDB by BIrvine
+Email: goodmerge@gmail.com
+-->
+
+<romsets>
+<set name="Col" version="3.14">
+<!--Coleco ColecoVision-->
+
+<options>
+<ext text="rom"/>
+<ext text="col"/>
+<ext text="bin"/>
+<flag reg=" ?\[[!A-Za-z][0-9a-z]?\]"/>
+<hackflag reg=" \("/>
+<ignore reg=" \(Proto(type)?\)"/>
+<ignore reg=" \([0-9]{2}k\)"/>
+</options>
+
+<parents>
+<!--Collections-->
+<parent name="Public Domain"><group reg="\(PD\)"/></parent>
+
+<!--Hacks, Versions, etc.-->
+<parent name="Search for the Stolen Crown Jewels 2 (2007) (Philipp Klaus Krause)"><group reg="^Search for the Stolen Crown Jewels 2"/></parent>
+<parent name="Bump 'N' Jump (1982) (Mattel, Data East)"><group reg="^Bump 'N' Jump"/></parent>
+<parent name="Burgertime (1982) (Mattel, Data East)"><group reg="^Burgertime"/></parent>
+<parent name="ColecoVision BIOS (1982)"><group reg="^ColecoVision BIOS"/></parent>
+<parent name="Donkey Kong (1982) (Nintendo)"><clone name="Donkey Kong for Adam (1982) (Nintendo)"/></parent>
+<parent name="Donkey Kong Arcade (2005) (Eduardo Mello)"><group reg="^Donkey Kong Arcade"/></parent>
+<parent name="Jumpman Junior (1984) (Epyx)"><clone name="Jumpman Jr."/></parent>
+<parent name="Schlange CV (2005-06) (Philipp Klaus Krause)"><group reg="^Schlange CV"/></parent>
+<parent name="Search for the Stolen Crown Jewels (2005-06) (Philipp Klaus Krause)"><group reg="^Search for the Stolen Crown Jewels"/></parent>
+<parent name="Space Hunter (2005) (Guy Foster)"><clone name="Space Hunter (Final) (2005) (Guy Foster)"/></parent>
+<parent name="Space Invaders Collection (2002) (Taito-Opcade)"><group reg="^Space Invaders Collection"/></parent>
+<parent name="Spaz Attak (2006) (Howard Uman)"><clone name="Spaz Attak Teaser (2006) (Howard Uman)"/></parent>
+</parents>
+
+</set>
+</romsets>

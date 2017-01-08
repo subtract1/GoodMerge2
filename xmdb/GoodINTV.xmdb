@@ -1,0 +1,41 @@
+<?xml version="1.0"?><!DOCTYPE romsets SYSTEM "GoodMerge.dtd">
+<!--
+E-mail: Psych0phobiA@SoftHome.net
+IRC: q^-o|o-^p in #GoodMerge on irc.UnitedUsers.net
+Webpage: http://goodmerge.sourceforge.net
+-->
+
+<romsets>
+<set name="INTV" version="2.03">
+<!--Mattel Intellivision-->
+
+<options>
+<ext text="itv"/>
+<ext text="bin"/>
+<ext text="int"/>
+<ext text="rom"/>
+<flag reg=" ?\[[!A-Za-z][0-9a-z]?\]"/>
+<ignore reg=" \(Prototype\)"/>
+<ignore reg=" (Beta|V|\#)[0-9](\.[0-9])?"/>
+</options>
+
+<parents>
+<!--Collections-->
+<parent name="Public Domain"><group reg="\(PD\)"/></parent>
+<parent name="INTV - Intelligent TV Demos (1978-83) (Mattel)"><group reg="^INTV - Intelligent TV Demo"/></parent>
+<parent name="SDK-1600 (2002) (Joseph Zbiciak)"><group reg="^SDK-1600 "/></parent>
+<parent name="Song Player (1999-2001) (Joseph Zbiciak)"><group reg="^Song Player "/></parent>
+
+<!--Hacks, Versions, etc.-->
+<parent name="4-TRIS (2000-01) (Joseph Zbiciak)"><group reg="^4-TRIS "/></parent>
+<parent name="Advanced D&amp;D - Treasure of Tarmin (1981-82) (Mattel)"><clone name="Advanced D&amp;D - Treasure of Tarmin (1982) (Mattel)"/><clone name="Minotaur (1981) (Mattel)"/><clone name="Treasure of Tarmin"/></parent>
+<parent name="Advanced Dungeons and Dragons (1982) (Mattel)"><clone name="Adventure (AD&amp;D - Cloudy Mountain) (1982) (Mattel)"/></parent>
+<parent name="BIOS ROM (1978)"><clone name="Executive ROM, The (1978) (Mattel)"/><clone name="Sears Super Video Arcade BIOS (1978) (Sears)"/></parent>
+<parent name="BurgerTime! (1982) (Mattel)"><clone name="BurgerTime! - New Levels Hack (2002) (David Harley)"/></parent>
+<parent name="Duncan's Thin Ice (1983) (Mattel)"><clone name="Thin Ice (1983) (Intv Corp)"/></parent>
+<parent name="TRON - Deadly Discs (1981-87) (Mattel, Intv Corp)"><clone name="TRON - Deadly Discs (1981) (Mattel)"/><clone name="TRON - Deadly Discs - Deadly Dogs (1987) (Intv Corp)"/></parent>
+<parent name="World Cup Football (1983-85) (Mattel, Nice Ideas)"><clone name="World Cup Football (1985) (Nice Ideas)"/><clone name="Super Soccer (1983) (Mattel)"/></parent>
+</parents>
+
+</set>
+</romsets>

@@ -1,0 +1,96 @@
+<?xml version="1.0"?><!DOCTYPE romsets SYSTEM "GoodMerge.dtd">
+<!--
+E-mail: Psych0phobiA@SoftHome.net
+IRC: q^-o|o-^p in #GoodMerge on irc.UnitedUsers.net
+Webpage: http://goodmerge.sourceforge.net
+-->
+
+<romsets>
+<set name="CPC" version="2.02">
+<!--Amstrad CPC-->
+
+<options>
+<ext text="dsk"/>
+<ext text="cpr"/>
+<flag reg=" \([A-Z][A-Z]?(,[A-Z][A-Z]?)*\)"/>
+<ignore reg=" [Vv][0-9](\.[0-9][0-9]?)?$"/>
+</options>
+
+<parents>
+<!--Errors-->
+<parent name="Cid, El"><clone name="El Cid"/></parent>
+<parent name="Escape From the Planet of the Robot Monsters"><clone name="Escape From Planet of Robot Monsters"/></parent>
+<parent name="Freddy Hardest in South Manhattan"><clone name="Freddy Hardest in South Manhatten"/></parent>
+<parent name="Manoir du Comte Frozarda, Le"><clone name="Manoir du Comte Frozarda. Le"/></parent>
+<parent name="Marauder, Le"><clone name="Marauder"/></parent>
+<parent name="Mundial de Futbol"><clone name="Mundeal de Futbol"/></parent>
+<parent name="Myrddin Flight Simulation"><clone name="Myradin Flight Simulation"/></parent>
+<parent name="Sito Pons 500cc Grand Prix"><clone name="Sito Pons 500xx"/></parent>
+
+<!--Possible Errors-->
+<parent name="6128 Games Selection 1"><clone name="Amsoft Pack 1"/><clone name="Amsoft Pack 2"/></parent>
+<parent name="Admiral Graf Spee"><clone name="Graf Spee"/></parent>
+<parent name="Affaire Santa Fe, L'"><clone name="Affaire Santa Vera Fe, L'"/></parent>
+<parent name="Dark Star 1 - Time of Changes"><clone name="Dark Star"/></parent>
+<parent name="Dark Star 3 - Forbidden Planet"><clone name="Forbidden Planet"/></parent>
+<parent name="Donald's Alphabet Chase"><clone name="Donald Alphabet Chase"/></parent>
+<parent name="Energy Warrior"><clone name="Energy"/></parent>
+<parent name="Fifth Quadrant, The"><clone name="5th Quadrant, The"/></parent>
+<parent name="Mad Mix 2"><clone name="Madmix 2"/></parent>
+<parent name="Saga of Erik The Viking, The"><clone name="Erik The Viking"/></parent>
+<parent name="Scooby Doo in the Castle Mystery"><clone name="Scooby Doo"/></parent>
+<parent name="Table Football"><clone name="Baby Foot - Table Football"/></parent>
+
+<!--Collections-->
+<parent name="Unknown (ZZZ)"><group reg="^ZZZ_UNK"/></parent>
+<parent name="Unknown (DISC)"><group reg="^DISC[0-9][0-9][0-9][AB]$"/><group reg="^DISC[0-9][0-9][0-9][AB] \[a[0-9]\]$"/></parent>
+<parent name="Public Domain"><group reg="\(PD\)"/></parent>
+<parent name="Amstrad Action"><group reg="^Amstrad Action "/></parent>
+<parent name="AMS'Cercle"><group reg="^AMS'Cercle #"/><group reg="^Am'Cercle "/></parent>
+<parent name="Audio Compilation Disks"><group reg="^Audio Compilation Disk "/></parent>
+<parent name="Big Disk"><group reg="^Big Disk "/></parent>
+<parent name="Compilation Volumes"><group reg="^Compilation Vol "/></parent>
+<parent name="CPC-Gooding (Crack Intro)"><group reg="^CPC-Gooding \(crack intro\) "/></parent>
+<parent name="CPC-Gooding"><group reg="^CPC-Gooding "/></parent>
+<parent name="CPC-Mag"><group reg="^CPC-Mag "/></parent>
+<parent name="Disque CPC"><group reg="^Disque CPC "/><group reg="^Programmes des CPC "/></parent>
+<parent name="LMC Software Collection"><group reg="^LMC Software Collection "/></parent>
+<parent name="Micro Fun Club"><group reg="^Micro Fun Club Vol "/></parent>
+<parent name="Unix Like Tools"><group reg="^Unix Like Tools Volume "/></parent>
+<parent name="Game Compilations"><group reg="\([^\)]+ &amp; [^\(]+\)"/><clone name="Les Battants Compilation 2"/><clone name="Les Geants d'Arcade 2"/><clone name="Les Geants du Sport"/><clone name="Les Justiciers"/><clone name="Wheels of Fire"/><clone name="Compilation Max"/></parent>
+<parent name="Multi-Game Disks"><group reg=" &amp; [^&amp;]+ &amp; "/><group reg="^[^(]+ &amp; [^(]+$"/><group reg="\) &amp; "/><group reg="\] &amp; "/><clone name="American Football, Jump Jet, Tank Busters"/><clone name="Balldozer, Cool World, Last of the Smileys, RC Quest 1.1, Vicki"/><clone name="Chevalier Blanc, Le, SlapShot, Spindizzy, Titus Classiques II"/><clone name="Turrican 2, Enduro, 3D Pool Compilation"/><clone name="Gatecrasher, Into The Eagle's Nest, Target Renegade"/><clone name="Switchblade &amp; Highway Encounter"/><clone name="Sweevo's World &amp; Monty on the Run"/><clone name="Renegade 3 &amp; Skate Ball"/><clone name="One Man and His Droid &amp; Le Millionnaire"/><clone name="Off Shore Warrior &amp; Tensions"/><clone name="Moon Buggy &amp; Super Ski"/><clone name="Mercenary 1 and 2 &amp; Dames 3D Champion"/><clone name="Meltdown &amp; Control Reactor"/><clone name="Light Corridor, The &amp; Turbo Cup"/><clone name="Gryzor &amp; Combat School Demo"/><clone name="Gilligan's Gold &amp; Jimmy Business"/><clone name="Gatecrasher &amp; Xenon"/><clone name="Exolon &amp; SuperSki"/><clone name="Enduro Racer &amp; Tarot"/><clone name="Driller &amp; Total Eclipse"/><clone name="Dark Side &amp; Karateka"/><clone name="Dandare &amp; Infernal Runner"/><clone name="Continental Circus &amp; Double Dragon (1989)"/><clone name="Bounder &amp; Starquake"/><clone name="BMX Simulator &amp; Titus Classiques I"/><group reg="^Barbarian 2 &amp; Hoppin' Mad"/><clone name="Avenger &amp; Space Crusade"/><clone name="3D Stunt Rider &amp; Phantis"/></parent>
+
+<!--Versions, Split Disks, etc.-->
+<parent name="Advanced Art Studio"><clone name="Advanced Art Studio Plus"/><clone name="Advanced Art Studio V2.4, The"/><clone name="Advanced OCP Art Studio V2.4, The"/></parent>
+<parent name="BCPL"><group reg="^BCPL for "/></parent>
+<parent name="Baloncesto"><clone name="Baloncesto (6128+)"/></parent>
+<parent name="Black Land"><group reg="^Black Land "/></parent>
+<parent name="Bloodwych"><clone name="Bloodwych Maps"/></parent>
+<parent name="CPM Plus"><group reg="^CPM Plus "/></parent>
+<parent name="Gauntlet II"><clone name="Gauntlet 2"/></parent>
+<parent name="Hero Quest 2 - Return of the Witch Lord"><clone name="Hero Quest 2 - Return of the Witch Lord CPC128"/></parent>
+<parent name="Mike &amp; Moko"><group reg="^Mike &amp; Moko "/></parent>
+<parent name="Seymour at the Movies"><clone name="Seymour at the Movies for CPC128+"/></parent>
+<parent name="Speech!"><clone name="Speech 1.1"/></parent>
+<parent name="Turbo Pascal"><group reg="^Turbo Pascal "/></parent>
+<parent name="Untouchables, The"><group reg="^Untouchables, The "/></parent>
+<parent name="Zap't'balls"><clone name="Zap't'balls Passwords"/></parent>
+<parent name="Vengeur, Le"><clone name="Vengeur Preview, Le"/></parent>
+<parent name="Zombi"><group reg="^Zombi "/></parent>
+
+<!--Biased-->
+<zoned><bias zone="En" name="Alienstorm"/><bias zone="F" name="Alien Storm"/></zoned>
+<zoned><bias zone="En" name="Animal, Vegetable, Mineral"/><bias zone="F" name="Animal, Vegetal, Mineral"/><bias zone="S" name="Animal, Vegetal, Mineral"/></zoned>
+<zoned><bias zone="En" name="Battle of Britain"/><bias zone="S" name="Batalla De Inglaterra"/></zoned>
+<zoned><bias zone="En" name="Battle of Midway, The"/><bias zone="F" name="Battle for Midway"/></zoned>
+<zoned><bias zone="En" name="Discology"/><bias zone="F" name="Discologie"/><group reg="^Discology "/><group reg="^Discologie "/></zoned>
+<zoned><bias zone="En" name="Master Chess"/><bias zone="F" name="Jeu D'Echecs"/></zoned>
+<zoned><bias zone="En" name="Meltdown"/><bias zone="F" name="Meltdown - Le Syndrome"/></zoned>
+<zoned><bias zone="En" name="Red Heat - Double Detente"/><bias zone="F" name="Double Detente"/></zoned>
+<zoned><bias zone="En" name="Steve McQueen Westphaser"/><bias zone="F" name="Westphaser"/></zoned>
+<zoned><bias zone="En" name="Sultan's Maze"/><bias zone="S" name="Laberinto Sultan"/></zoned>
+<zoned><bias zone="En" name="Vera Cruz Affair, The"/><bias zone="F" name="Affaire Vera Cruz, L'"/></zoned>
+</parents>
+
+</set>
+</romsets>

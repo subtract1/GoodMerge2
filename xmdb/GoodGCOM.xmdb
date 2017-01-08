@@ -1,0 +1,23 @@
+<?xml version="1.0"?><!DOCTYPE romsets SYSTEM "GoodMerge.dtd">
+<!--
+GoodGCOM 3.14 XMDB by BIrvine
+Email: goodmerge@gmail.com
+-->
+
+<romsets>
+<set name="GCOM" version="3.14">
+<!--Tiger Game.com-->
+
+<options>
+<ext text="tgc"/>
+<ext text="bin"/>
+<flag reg=" \[[!A-Za-z][0-9a-z]?\]"/>
+<ignore reg="Internal |External "/>
+</options>
+
+<parents>
+<!--None-->
+</parents>
+
+</set>
+</romsets>

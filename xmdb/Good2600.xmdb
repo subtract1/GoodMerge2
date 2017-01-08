@@ -1,0 +1,642 @@
+<?xml version="1.0"?><!DOCTYPE romsets SYSTEM "GoodMerge.dtd">
+<!--
+Good2600 3.14 XMDB by BIrvine
+Email: goodmerge@gmail.com
+-->
+
+<romsets>
+<set name="2600" version="3.14">
+<!--Atari 2600-->
+
+<options>
+<ext text="a26"/>
+<ext text="bin"/>
+<flag reg=" [\(\[]"/>
+<hackflag reg=" \("/>
+<ignore reg=" Preview$"/>
+</options>
+
+<parents>
+<!--Collections-->
+<parent name="Public Domain - Games"><clone name="19x19"/><group reg="^Ants v"/><group reg="^Ants 2k"/><clone name="Atari 2600 Soccer v0.9"/><group reg="^Belling the Mouse"/><group reg="^Bevious"/><group reg="^Bobby Needs Food"/><group reg="^Boulder Dash"/><group reg="^Catacombs of Mu"/><group reg="^Cereal Killer"/><clone name="Chess"/><clone name="Chetiry"/><group reg="^Col-Gems"/><group reg="^Colors.. All 128"/><group reg="^Connect the Dots"/><group reg="^Construction V"/><group reg="^Crash 'n Dive"/><group reg="^Dipstick"/><group reg="^Draw Maze"/><clone name="Eric Bergstrom's KC-135"/><clone name="Evil Eye"/><group reg="^Final Defense"/><group reg="^Fishies"/><clone name="Flow"/><clone name="Globe Trotter Demo"/><clone name="Go Down"/><group reg="^Hack'Em!"/><group reg="^Hangly-Man"/><clone name="Homsar2"/><group reg="^Hunt the Wumpus"/><clone name="Humans"/><group reg="^Igame"/><group reg="^Incoming"/><clone name="Jgame"/><clone name="Jtest2"/><clone name="Jturbo"/><clone name="JetMan"/><clone name="JetMan v0.1"/><clone name="Jitter"/><group reg="^Jumper"/><group reg="^Jumpman"/><group reg="^KC Munchkin"/><group reg="^Kenjutsu"/><group reg="^King the Jump 2K"/><group reg="^Knight Jumper"/><clone name="Labyrinth v08"/><group reg="^Laserman Stage"/><group reg="^Lead 1k"/><group reg="^Lead 8k"/><clone name="Little Seven Color Paint Program"/><group reg="^M-4"/><clone name="Man Goes Down"/><clone name="Mantra"/><group reg="^Marble Solitaire"/><clone name="Marble Jumper"/><group reg="^MasterMind Deluxe"/><clone name="Matchie2"/><clone name="Minigame"/><group reg="^Moth"/><group reg="^Night Rider"/><group reg="^Mr. Flanksteak"/><group reg="^Ooze v"/><clone name="Outta My Way"/><group reg="^Paladin 0"/><group reg="^Paradroid"/><group reg="^Pop Spikes"/><group reg="^Porate"/><group reg="^Primate Plunge"/><group reg="^Quest for the Lost Pyramids of Atlantis"/><clone name="Rally S"/><group reg="Reflex V"/><group reg="^Road Blaster"/><group reg="^Robot Finds Kitten 2600"/><clone name="Robotron Demo"/><group reg="^Ruins 200"/><clone name="Run! v1.0"/><clone name="Running Man"/><clone name="Running Santa"/><group reg="^Save Yourself"/><group reg="^Soccer Kernel"/><group reg="^Spaced Out"/><clone name="Splatform 2600"/><group reg="^Star Box"/><clone name="Stellar Doomsday Interceptor"/><group reg="^Stellar Fortress"/><group reg="^Super Maria Sisters"/><group reg="^TomInv"/><group reg="^Tone Toy"/><clone name="Tom's Invaders Demo V0.1"/><group reg="^Turbo Demo"/><group reg="^Twisty Passages"/><clone name="Weapons of Past Distractions"/><clone name="Wscroll"/><clone name="Zblocks"/><group reg="^Zirconium"/><group reg="^ZYX"/></parent>
+
+<parent name="Public Domain - Greeting Carts"><group reg="^Greeting Cart "/><clone name="White Thong Pic"/></parent>
+
+<parent name="MultiGame Pirate Cartridges"><group reg="^2-in-1"/><group reg="^4 Pak"/><group reg="^128-in-1 Junior Console"/><clone name="Motocross and Pole Position"/></parent>
+
+<parent name="Dark Mage (2000) (Homebrew)"><group reg="^Dark Mage"/></parent>
+<parent name="Gunfight (2001) (Homebrew)"><group reg="^Gunfight 2600"/></parent>
+<parent name="Joust Pong (2004) (Homebrew)"><group reg="^Joust Pong"/></parent>
+<parent name="Marble Craze (2002) (Homebrew)"><group reg="^Marble Craze"/></parent>
+
+<parent name="Public Domain - Miscellaneous"><group reg="\((PD|MP|CT|AD|Joe Grand|Glenn Saunders|Paul Slocum|Billy Eno|Roger Williams|Greg Troutman|Chris Cracknell|B\. Watson)\)?"/><group reg="^..[^s].*\(Eckhard Stolberg\)"/><group reg="^(Qb|Space Treat|Death Derby|Star Fire|Warring Worms|Dark Mage|SCSIcide) "/><group reg="^(Balls|Bounce)!.*\(Fabrizio Zavagli\)"/><group reg="^(Boulderdash Demo|Image|Invaders Demo|JtzBall|Robot City|Thrust|TomInv|Trick 12|Turbo) .*\(TJ\)"/><clone name="DiscoTech"/><clone name="Nick Bensema Demo"/><clone name="RIOT RAM Test"/><clone name="Scrolling Playfield With Score"/><clone name="Vertically Scrolling Playfield"/><clone name="Sprite Test"/><group reg="^?\(BAtari\)"/><group reg="^4 Voice"/><clone name="Mario Interlaced Demo"/><clone name="Mario RGB_ICC Demo"/><clone name="Marquee Demo"/><clone name="Missile Sprite Demo"/><group reg="^Mobile 48"/><clone name="SCRPG 20060317"/><clone name="SCTest"/><group reg="^SI-11 v0.0"/><clone name="SoundX"/><clone name="SoundX6"/><group reg="^TRON - Man"/><group reg="^TRON arcade"/><group reg="^TRON2L"/><clone name="TRON3"/><group reg="^Tunes 200"/><group reg="Wizards &amp; Warriors Theme"/>    
+
+</parent>
+
+<!--Prototypes, Hacks, Versions-->
+
+<parent name="2 Pak Special (Black) - Challenge, Surfing (1990) (HES)"><group reg="^2 Pak Special \(Black\)"/></parent>
+<parent name="2 Pak Special (Blue) - Dungeon Master, Creature Strike (1992) (HES)"><group reg="^2 Pak Special \(Blue\)"/></parent>
+<parent name="2 Pak Special (Dark Blue) - Planet Patrol, Wall-Defender (1990) (HES)"><group reg="^2 Pak Special \(Dark Blue\)"/></parent>
+<parent name="2 Pak Special (Light Green) - Hoppy, Alien Force (1992) (HES)"><group reg="^2 Pak Special \(Light Green\)"/></parent>
+<parent name="2 Pak Special (Green) - Dolphin, Pigs 'N Wolf (1990) (HES)"><group reg="^2 Pak Special \(Green\)"/></parent>
+<parent name="2 Pak Special (Magenta) - Cavern Blaster, City War (1992) (HES)"><group reg="^2 Pak Special \(Magenta\)"/></parent>
+<parent name="2 Pak Special (Orange) - Space Voyage, Fire Alert (1992) (HES)"><group reg="^2 Pak Special \(Orange\)"/></parent>
+<parent name="2 Pak Special (Red) - Motocross, Boom Bang (1990) (HES)"><group reg="^2 Pak Special \(Red\)"/></parent>
+<parent name="2 Pak Special (Yellow) - Star Warrior, Frogger (1990) (HES)"><group reg="^2 Pak Special \(Yellow\)"/></parent>
+<parent name="32-in-1 (1988) (Atari)"><group reg="^32-in-1"/></parent>
+<parent name="3-D Tic-Tac-Toe (1978) (Atari)"><group reg="^3-D Tic-Tac-Toe"/></parent>
+<parent name="A-Team, The (1984) (Atari)"><clone name="A-Team"/><clone name="A-Team, The"/><clone name="Saboteur"/></parent>
+<parent name="Acid Drop (1992) (Salu)"><clone name="Acid Drop"/></parent>
+<parent name="Adventure (1978) (Atari)"><clone name="Adventure"/><clone name="Adventure 2"/><clone name="Adventure FREE by Nukey Shay"/></parent>
+<parent name="Adventures of Tron (1983) (Mattel)"><clone name="Adventures of Tron"/><clone name="Adventures on GX-12"/></parent>
+<parent name="Air Raiders (1982) (Mattel)"><clone name="Air Raiders"/><clone name="Bogey Blaster"/><clone name="Top Gun"/></parent>
+<parent name="Air Raid (1982) (Men-A-Vision)"><clone name="Air Raid"/></parent>
+<parent name="Airlock (1982) (Data Age)"><clone name="Airlock"/></parent>
+<parent name="Air-Sea Battle (1977) (Atari)"><clone name="Air-Sea Battle"/></parent>
+<parent name="Alien (1982) (20th Century Fox)"><clone name="Alien"/><group reg="^Alien 8k"/></parent>
+<parent name="Alien's Return (1983) (ITT Family Games)"><clone name="Alien's Return"/><clone name="Col 'N"/></parent>
+<parent name="Alligator People (1983) (20th Century Fox)"><clone name="Alligator People"/></parent>
+<parent name="Alpha Beam with Ernie (1983) (Atari)"><clone name="Alpha Beam with Ernie"/></parent>
+<parent name="Amidar (1983) (Parker Bros)"><clone name="Im Reich der Spinne"/><clone name="Spiderdroid"/><clone name="Amidar"/></parent>
+<parent name="Aquaventure (1983) (Atari)"><clone name="Aquaventure"/></parent>
+<parent name="Armor Ambush (1982) (Mattel)"><clone name="Armor Ambush"/></parent>
+<parent name="Artillery Duel (1983) (Xonox)"><clone name="Artillery Duel"/></parent>
+<parent name="Assault (1983) (Bomb)"><clone name="Assault"/><clone name="Balthazar"/><clone name="Fire Birds"/><clone name="Monster aus dem All"/></parent>
+<parent name="AStar (2006) (Homebrew)"><group reg="^AStar"/></parent>
+<parent name="Asteroids (1981) (Atari)"><clone name="Asteroids"/></parent>
+<parent name="Astroblast (1982) (Mattel)"><clone name="Astroblast"/></parent>
+<parent name="Atari Flashback 2 (2005) (Atari)"><group reg="^?\(Flashback 2 Version\)"/></parent>
+<parent name="Atari Video Cube (1982) (Atari)"><clone name="Video Cube"/><clone name="Rubik's Cube"/><clone name="Atari Video Cube"/></parent>
+<parent name="Atlantis (1982) (Imagic)"><clone name="Strahlen der Teufelsvoegel"/><clone name="Ocean City Defender"/><clone name="Ocean City"/><clone name="Atlantis II"/><clone name="Krieg Der Sterne"/><clone name="Atlantis"/></parent>
+<parent name="A-VCS-tec Challenge (2006) (Homebrew)"><group reg="^A-VCS-tec"/><group reg="^AVCSTec"/></parent>
+<parent name="Bachelor(ette) Party (1982) (Mystique)"><clone name="Bachelor Party"/><clone name="Bachelorette Party"/></parent>
+<parent name="Backfire (2003) (Homebrew)"><group reg="^Backfire"/></parent>
+<parent name="Backgammon (1978) (Atari)"><clone name="Backgammon"/></parent>
+<parent name="Bank Heist (1983) (20th Century Fox)"><clone name="Bank Heist"/><clone name="Skull Island"/></parent>
+<parent name="Barnstorming (1982) (Activision)"><clone name="Barnstorming"/></parent>
+<parent name="Basic Math (1977) (Atari)"><clone name="Basic Math"/><clone name="Fun With Numbers"/></parent>
+<parent name="BASIC Programming (1978) (Atari)"><clone name="BASIC Programming"/></parent>
+<parent name="Basketball (1978) (Atari)"><clone name="Basketball"/></parent>
+<parent name="Battlezone (1983) (Atari)"><clone name="Battlezone"/><clone name="Battlezone TC by Thomas Jentzsch"/></parent>
+<parent name="Beamrider (1983) (Activision)"><clone name="Beamrider"/></parent>
+<parent name="Beany Bopper (1982) (20th Century Fox)"><clone name="Beany Bopper"/></parent>
+<parent name="Beat 'Em and Eat 'Em (1982) (Mystique)"><clone name="Beat 'Em and Eat 'Em"/><clone name="Philly Flasher"/><clone name="Beat' Em and Eat 'Em"/></parent>
+<parent name="Berenstain Bears (1983) (Coleco)"><clone name="Berenstain Bears"/></parent>
+<parent name="Bermuda Triangle (1982) (Data Age)"><clone name="Bermuda Triangle"/></parent>
+<parent name="Berzerk (1982) (Atari)"><clone name="Berzerk"/><clone name="Bezerk"/><clone name="Berzek"/></parent>
+<parent name="Big Bird's Egg Catch (1983) (Atari)"><clone name="Big Bird's Egg Catch"/></parent>
+<parent name="Bionic Breakthrough (1984) (Atari)"><clone name="Bionic Breakthrough"/></parent>
+<parent name="Blackjack (1977) (Atari)"><clone name="Blackjack"/></parent>
+<parent name="Blueprint (1983) (CBS Electronics)"><clone name="Blueprint"/></parent>
+<parent name="BMX Air Master (1989) (TNT Games)"><clone name="BMX Air Master"/></parent>
+<parent name="Bobby is Going Home (1983) (Bitcorp)"><clone name="Bobby geht nach Hause"/><clone name="Bobby Vai Para Casa"/><clone name="Jumping Jack"/><clone name="Felix Return"/><clone name="Bobby is Going Home"/></parent>
+<parent name="Boggle (1978) (Atari)"><clone name="Boggle"/></parent>
+<parent name="Boing! (1983) (First Star Software)"><clone name="Boing!"/><clone name="Boing! 2004"/></parent>
+<parent name="Bowling (1978) (Atari)"><clone name="Bowling"/><clone name="Bowling Black by neotokeo2001"/></parent>
+<parent name="Boxing (1981) (Activision)"><clone name="Boxing"/><clone name="Boxen"/></parent>
+<parent name="Brain Games (1978) (Atari)"><clone name="Brain Games"/></parent>
+<parent name="Breakout - Breakaway IV (1978) (Atari)"><clone name="Breakout - Breakaway IV"/><group reg="^ROL Out"/></parent>
+<parent name="Bridge (1981) (Activision)"><clone name="Bridge"/></parent>
+<parent name="Buck Rogers - Planet of Zoom (1983) (Sega)"><clone name="Buck Rogers - Planet of Zoom"/></parent>
+<parent name="Bugs (1982) (Data Age)"><clone name="Bugs"/></parent>
+<parent name="Bugs Bunny (1983) (Atari)"><clone name="Bugs Bunny"/><clone name="Bugs Bunny V2"/></parent>
+<parent name="Bump 'N' Jump (1983) (Mattel)"><clone name="Bump 'N' Jump"/></parent>
+<parent name="Bumper Bash (1983) (Spectravideo)"><clone name="Bumper Bash"/></parent>
+<parent name="Burgertime (1982) (Mattel)"><clone name="Burgertime"/></parent>
+<parent name="Burning Desire (1982) (Playaround)"><clone name="Burning Desire"/><clone name="Jungle Fever"/></parent>
+<parent name="Cakewalk (1983) (CommaVid)"><clone name="Cakewalk"/><clone name="Cakewalk - Alarm in der Backstube"/></parent>
+<parent name="California Games (1988) (Epyx)"><clone name="California Games"/></parent>
+<parent name="Canyon Bomber (1978) (Atari)"><clone name="Canyon Bomber"/></parent>
+<parent name="Carebear (1983) (Parker Bros)"><clone name="Carebear"/></parent>
+<parent name="Carnival (1982) (Coleco)"><clone name="Carnival"/><clone name="Schiessbude"/><clone name="Festival"/><clone name="Target Practice"/></parent>
+<parent name="Casino (1978) (Atari)"><clone name="Casino"/></parent>
+<parent name="Cat Trax (1983) (UA Ltd)"><clone name="Cat Trax"/></parent>
+<parent name="Cathouse Blues (1982) (Mystique)"><clone name="Cathouse Blues"/><clone name="Gigolo"/></parent>
+<parent name="Centipede (1982) (Atari)"><clone name="Centipede"/><clone name="Centipede 2k"/></parent>
+<parent name="Challenge (1983) (Zellers)"><clone name="Challenge"/><clone name="Mein Weg"/></parent>
+<parent name="Challenge of...NEXAR (1982) (Spectravideo)"><clone name="Challenge of...NEXAR"/><clone name="Galactic"/></parent>
+<parent name="Championship Soccer (1980) (Atari)"><clone name="Championship Soccer"/><clone name="Pele's Soccer"/></parent>
+<parent name="Chase the Chuckwagon (1983) (Spectravideo)"><clone name="Chase the Chuckwagon"/></parent>
+<parent name="Checkers (1980) (Activision)"><clone name="Checkers"/></parent>
+<parent name="China Syndrome (1982) (Spectravideo)"><clone name="China Syndrome"/></parent>
+<parent name="Chopper Command (1982) (Activision)"><clone name="Chopper Command"/><clone name="Pyramid War"/><clone name="Spy vs. Spy"/></parent>
+<parent name="Chuck Norris Superkicks (1983) (Xonox)"><clone name="Chuck Norris Superkicks"/><clone name="Super Kung-Fu"/><clone name="Kung Fu Superkicks"/></parent>
+<parent name="Circus Atari (1978) (Atari)"><clone name="Circus Atari"/><clone name="See Saw"/><clone name="Super Circus"/><clone name="Circus Atari Black"/><clone name="Circus"/></parent>
+<parent name="Climber 5 (2004) (Homebrew)"><group reg="^Climber 5"/></parent>
+<parent name="Coco Nuts (1982) (Telesys)"><clone name="Coco Nuts"/></parent>
+<parent name="Code Breaker (1978) (Atari)"><clone name="Code Breaker"/></parent>
+<parent name="Colony 7 (2007) (Homebrew)"><group reg="^Colony 7"/></parent>
+<parent name="Color Bar Generator (1984) (Videosoft)"><clone name="Color Bar Generator"/></parent>
+<parent name="Combat (1977) (Atari)"><clone name="Combat"/><clone name="Tank Plus"/><clone name="Titans"/><clone name="Combat TC"/><clone name="Combat - Tank AI"/><clone name="Combat AI"/><clone name="Combat Black by neotokeo2001"/><clone name="Combat Redux Black by neotokeo2001"/></parent>
+<parent name="Combat II (1982) (Atari)"><clone name="Combat II"/></parent>
+<parent name="Combat Rock (2001) (Hozer Video Games)"><clone name="Combat Rock"/></parent>
+<parent name="Commando (1988) (Activision)"><clone name="Commando"/></parent>
+<parent name="Commando Raid (1982) (US Games)"><clone name="Commando Raid"/><clone name="Landung in der Normandie"/></parent>
+<parent name="Communist Mutants From Space (1982) (Starpath)"><clone name="Communist Mutants From Space"/></parent>
+<parent name="Compumate (1983) (Spectravideo &amp; Universum)"><clone name="Compumate"/></parent>
+<parent name="Computer Chess (1978) (Atari)"><clone name="Computer Chess"/></parent>
+<parent name="Condor Attack (1983) (Funvision)"><clone name="Condor Attack"/><clone name="Year 1999, The"/><group reg="^Galactic \(AKA Condor Attack\)"/><clone name="Space Monster"/></parent>
+<parent name="Confrontation (1983) (Answer Software)"><clone name="Confrontation"/></parent>
+<parent name="Congo Bongo (1983) (Sega)"><clone name="Congo Bongo"/></parent>
+<parent name="Conquest of Mars (2006) (Homebrew)"><group reg="^Conquest of Mars"/></parent>
+<parent name="Cookie Monster Munch (1983) (Atari)"><clone name="Cookie Monster Munch"/></parent>
+<parent name="Cosmic Ark (1982) (Imagic)"><clone name="Cosmic Ark"/><clone name="Black Hole"/><clone name="Cosmic Ark Stars"/></parent>
+<parent name="Cosmic Corridor (1983) (Zimag)"><clone name="Space Tunnel"/><clone name="Cosmic Corridor"/><group reg="^Weltraum Tunnel"/><clone name="Space Tunnel - Le Tunnel de L'Estace"/></parent>
+<parent name="Cosmic Commuter (1984) (Activision)"><clone name="Cosmic Commuter"/></parent>
+<parent name="Cosmic Creeps (1982) (Telesys)"><clone name="Cosmic Creeps"/></parent>
+<parent name="Cosmic Swarm (1982) (CommaVid)"><clone name="Cosmic Swarm"/></parent>
+<parent name="Crack'ed (1988) (Atari)"><clone name="Crack'ed"/></parent>
+<parent name="Crackpots (1983) (Activision)"><clone name="Crackpots"/><clone name="Boom Bang"/></parent>
+<parent name="Crash Dive (1983) (20th Century Fox)"><clone name="Crash Dive"/></parent>
+<parent name="Crazy Balloon (2005) (Homebrew)"><group reg="^Crazy Balloon"/></parent>
+<parent name="Crazy Climber (1983) (Atari)"><group reg="^Crazy Climber \(1983\)"/><clone name="Crazy Climber Arcade"/></parent>
+<parent name="Crazy Valet (2000) (Hozer Video Games)"><group reg="^Crazy Valet"/></parent>
+<parent name="Cross Force (1982) (Spectravision)"><clone name="Cross Force"/></parent>
+<parent name="Crossbow (1987) (Atari)"><clone name="Crossbow"/></parent>
+<parent name="Crypts of Chaos (1982) (20th Century Fox)"><group reg="^Crypts of Chaos"/></parent>
+<parent name="Crystal Castles (1984) (Atari)"><clone name="Crystal Castles"/></parent>
+<parent name="Cubicolor (1982) (Imagic)"><clone name="Cubicolor"/><clone name="Cubo Magico"/></parent>
+<parent name="Custer's Revenge (1982) (Mystique)"><clone name="Custer's Revenge"/><clone name="Westward Ho"/><clone name="General Re-Treat"/></parent>
+<parent name="Dancing Plates (1983) (BitCorp)"><clone name="Dancing Plates"/><clone name="Teller-Jonglieren!"/><clone name="Dishaster"/></parent>
+<parent name="Dark Cavern (1982) (Mattel)"><clone name="Dark Cavern"/><clone name="Night Stalker"/><clone name="Dark Cavern Black"/></parent>
+<parent name="Dark Chambers (1988) (Atari)"><clone name="Dark Chambers"/></parent>
+<parent name="Deadly Duck (1982) (20th Century Fox)"><clone name="Deadly Duck"/></parent>
+<parent name="Death Trap (1983) (Avalon Hill)"><clone name="Death Trap"/></parent>
+<parent name="Decathlon (1983) (Activision)"><clone name="Decathlon"/></parent>
+<parent name="Defender (1981) (Atari)"><clone name="Defender"/><clone name="Earth Attack"/></parent>
+<parent name="Demolition Herby (1983) (Telesys)"><clone name="Demolition Herby"/></parent>
+<parent name="Demon Attack (1982) (Imagic)"><clone name="Demon Attack"/><group reg="^Demon Attack fix"/></parent>
+<parent name="Demons to Diamonds (1982) (Atari)"><clone name="Demons to Diamonds"/></parent>
+<parent name="Desert Falcon (1987) (Atari)"><clone name="Desert Falcon"/></parent>
+<parent name="Stand Alone Test Cart (SALT) Diagnostics V2.6 (1982) (Atari)"><group reg="^Stand Alone Test Cart"/><clone name="Diagnostic Stella 2600-7800"/></parent>
+<parent name="Dice Puzzle (1983) (Panda)"><clone name="Dice Puzzle"/><clone name="Bingo"/></parent>
+<parent name="Dig Dug (1983) (Atari)"><clone name="Dig Dug"/></parent>
+<parent name="Disney's Snow White (1983) (Atari)"><clone name="Disney's Snow White"/></parent>
+<parent name="Dodge 'em (1980) (Atari)"><clone name="Dodge 'em"/></parent>
+<parent name="Dolphin (1983) (Activision)"><clone name="Dolphin"/><clone name="Tuby Bird"/></parent>
+<parent name="Donald Duck's Speedboat (1983) (Atari)"><clone name="Donald Duck's Speedboat"/></parent>
+<parent name="Donkey Kong (1982) (Coleco)"><clone name="Donkey Kong"/><clone name="Donkey Kong Take 2 by Feralstorm"/></parent>
+<parent name="Donkey Kong Junior (1983) (Coleco)"><clone name="Donkey Kong Junior"/></parent>
+<parent name="Double Dragon (1989) (Atari)"><clone name="Double Dragon"/></parent>
+<parent name="Double Dunk (1989) (Atari)"><clone name="Double Dunk"/></parent>
+<parent name="Dragon Defender (1983)"><clone name="Dragon Defender"/><clone name="Im Schutz der Drachen"/></parent>
+<parent name="Dragonfire (1982) (Imagic)"><clone name="Dragonfire"/><clone name="Cheese 98"/><clone name="King Arthur"/><group reg="^Dragonfire Easy"/></parent>
+<parent name="Dragonstomper (1982) (Starpath)"><clone name="Dragonstomper"/><clone name="Excalibur 39"/><clone name="Excalibur Demo"/></parent>
+<parent name="Dragster (1980) (Activision)"><clone name="Dragster"/></parent>
+<parent name="Duck Shoot (1983) (Starsoft)"><clone name="Duck Shoot"/></parent>
+<parent name="Dukes of Hazzard (1984) (Atari)"><clone name="Dukes of Hazzard"/><clone name="Better Dukes of Hazzard"/></parent>
+<parent name="Dumbo's Flying Circus (1983) (Atari)"><clone name="Dumbo's Flying Circus"/></parent>
+<parent name="Dune (1984) (Atari)"><clone name="Dune"/></parent>
+<parent name="E.T. The Extra-Terrestrial (1982) (Atari)"><clone name="E.T. The Extra-Terrestrial"/><clone name="E.T."/><clone name="E.T. The Extra-Terrestrial Pits by Scott Stilphen"/></parent>
+<parent name="Earth Dies Screaming (1983) (20th Century Fox)"><clone name="Earth Dies Screaming"/></parent>
+<parent name="Edtris 2600 (1995) (Homebrew)"><clone name="Edtris"/></parent>
+<parent name="Eggomania (1982) (US Games)"><clone name="Eggomania"/></parent>
+<parent name="Elevator Action (1983) (Atari)"><clone name="Elevator Action"/></parent>
+<parent name="Elevators Amiss (2007) (Homebrew)"><group reg="^Elevators Amiss"/></parent>
+<parent name="Eli's Ladder (1982) (Simage)"><clone name="Eli's Ladder"/></parent>
+<parent name="Elk Attack (1987) (Atari)"><clone name="Elk Attack"/></parent>
+<parent name="Encounter at L-5 (1982) (Data Age)"><clone name="Encounter at L-5"/></parent>
+<parent name="Enduro (1983) (Activision)"><clone name="Enduro"/><clone name="Super Ferrari"/><group reg="^Enduro Big Cars"/></parent>
+<parent name="Entity, The (1982) (20th Century Fox)"><clone name="Entity, The"/></parent>
+<parent name="Entombed (1982) (US Games)"><clone name="Entombed"/></parent>
+<parent name="Escape from the Mindmaster (1982) (Starpath)"><clone name="Escape from the Mindmaster"/><clone name="Labyrinth"/></parent>
+<parent name="Espial (1983) (Tigervision)"><clone name="Espial"/></parent>
+<parent name="Euchre (2002) (Homebrew)"><clone name="Euchre"/></parent>
+<parent name="Exocet (1983) (Panda)"><clone name="Exocet"/><clone name="Radar"/><clone name="Cruise Missile"/></parent>
+<parent name="Fall Down (2005) (Homebrew)"><clone name="Fall Down"/><clone name="Fall Down Real Final Version"/></parent>
+<parent name="Fantastic Voyage (1982) (20th Century Fox)"><clone name="Fantastic Voyage"/></parent>
+<parent name="Fast Eddie (1982) (20th Century Fox)"><clone name="Fast Eddie"/><clone name="Mr. T"/></parent>
+<parent name="Fast Food (1982) (Telesys)"><clone name="Fast Food"/><clone name="Der Vielfrass"/></parent>
+<parent name="Fatal Run (1989) (Atari)"><clone name="Fatal Run"/></parent>
+<parent name="Fathom (1983) (Imagic)"><clone name="Fathom"/></parent>
+<parent name="Final Approach (1982) (Apollo)"><clone name="Final Approach"/></parent>
+<parent name="Fire Fighter (1982) (Imagic)"><clone name="Fire Fighter"/><clone name="Feuerwehr im Einsatz"/></parent>
+<parent name="Fire Fly (1983) (Mythicon)"><clone name="Fire Fly"/></parent>
+<parent name="Fire Spinner (-) (Emag)"><clone name="Fire Spinner"/></parent>
+<parent name="Fireball (1982) (Starpath)"><clone name="Fireball"/></parent>
+<parent name="Fishing Derby (1980) (Activision)"><clone name="Fishing Derby"/><clone name="Angling"/></parent>
+<parent name="Flag Capture (1978) (Atari)"><clone name="Flag Capture"/><clone name="Flag Capture Black"/></parent>
+<parent name="Flash Gordon (1983) (20th Century Fox)"><clone name="Flash Gordon"/></parent>
+<parent name="Football (1878) (Atari)"><clone name="Football"/></parent>
+<parent name="Forest (1983) (Sancho)"><clone name="Forest"/></parent>
+<parent name="Four-Play (2006) (Homebrew)"><group reg="^Four-Play "/></parent>
+<parent name="Frankenstein's Monster (1983) (Data Age)"><clone name="Frankenstein's Monster"/></parent>
+<parent name="Freeway (1981) (Activision)"><clone name="Freeway"/><clone name="Bloody Human Freeway"/><group reg="^Freeway Randomizer"/></parent>
+<parent name="Frog Demo (1983) (CommaVid)"><clone name="Frog Demo"/></parent>
+<parent name="Frog Pond (1982) (Atari)"><clone name="Frog Pond"/></parent>
+<parent name="Frogger (1982) (Parker Bros)"><clone name="Frogger"/></parent>
+<parent name="Frogger II - Threedeep! (1983) (Parker Bros)"><clone name="Frogger II - Threedeep!"/></parent>
+<parent name="Frogs and Flies (1982) (Mattel)"><clone name="Frogs and Flies"/><clone name="Die Hungrigen Froesche"/></parent>
+<parent name="Frontline (1982) (Coleco)"><clone name="Front Line"/></parent>
+<parent name="Frostbite (1983) (Activision)"><clone name="Frostbite"/><clone name="Der kleine Baer"/></parent>
+<parent name="Funky Fish (1983) (UA Ltd)"><clone name="Funky Fish"/></parent>
+<parent name="G.I. Joe - Cobra Strike (1983) (Parker Bros)"><clone name="G.I. Joe - Cobra Strike"/><clone name="Action Force"/></parent>
+<parent name="Galaxian (1983) (Atari)"><clone name="Galaxian"/><clone name="Galaxian by Jess Ragan"/></parent>
+<parent name="Gangster Alley (1982) (Spectravision)"><clone name="Gangster Alley"/><clone name="Stopp die Gangster"/><clone name="Task Force"/><clone name="Mafia"/></parent>
+<parent name="Garfield (1984) (Atari)"><clone name="Garfield"/></parent>
+<parent name="Gas Hog (1983) (Spectravideo)"><clone name="Gas Hog"/></parent>
+<parent name="Gauntlet (1983) (Answer Software)"><clone name="Gauntlet"/></parent>
+<parent name="Ghost Manor (1983) (Xonox)"><clone name="Ghost Manor"/></parent>
+<parent name="Ghostbusters (1985) (Activision)"><clone name="Ghostbusters"/></parent>
+<parent name="Ghostbusters II (1992) (Salu)"><clone name="Ghostbusters II"/></parent>
+<parent name="Glacier Patrol (1989) (Telegames)"><clone name="Glacier Patrol"/></parent>
+<parent name="Glib (1983) (Selchow &amp; Righter)"><clone name="Glib"/></parent>
+<parent name="Go Fish! (2005) (Homebrew)"><group reg="^Go Fish!"/></parent>
+<parent name="Golf (1980) (Atari)"><clone name="Golf"/></parent>
+<parent name="Gopher (1982) (US Games)"><clone name="Gopher"/><clone name="Farmer Dan"/><clone name="Die Ratte und die Karotten"/></parent>
+<parent name="Gorf (1982) (CBS Electronics)"><clone name="Gorf"/></parent>
+<parent name="GoSub (2007) (Homebrew)"><group reg="^GoSub"/></parent>
+<parent name="Grand Prix (1982) (Activision)"><clone name="Grand Prix"/><clone name="Autorennen"/><clone name="Gramd Priks"/></parent>
+<parent name="Gravitar (1983) (Atari)"><clone name="Gravitar"/></parent>
+<parent name="Graz (2004) (Homebrew)"><group reg="^Graz 2004"/></parent>
+<parent name="Great Escape (1983) (Bomb)"><clone name="Great Escape"/><clone name="Time Machine"/></parent>
+<parent name="Gremlins (1984) (Atari)"><clone name="Gremlins"/></parent>
+<parent name="Grover's Music Maker (-) (Atari)"><clone name="Grover's Music Maker"/></parent>
+<parent name="Guardian (1982) (Apollo)"><clone name="Guardian"/></parent>
+<parent name="Gyruss (1984) (Parker Bros)"><clone name="Gyruss"/></parent>
+<parent name="H.E.R.O. (1984) (Activision)"><group reg="^H.E.R.O"/></parent>
+<parent name="Halloween (1983) (Wizard Video)"><clone name="Halloween"/></parent>
+<parent name="Hangman (1978) (Atari)"><clone name="Hangman"/></parent>
+<parent name="Haunted House (1981) (Atari)"><clone name="Haunted House"/></parent>
+<parent name="Hole Hunter (1983)"><clone name="Hole Hunter"/><clone name="Gefaehrliche Maeusejagt"/></parent>
+<parent name="Holey Moley (1983) (Atari)"><clone name="Holey Moley"/></parent>
+<parent name="Home Run (1978) (Atari)"><clone name="Home Run"/></parent>
+<parent name="Hot Action Pak - Ghostbusters, Tennis, Plaque Attack (1990) (HES)"><group reg="^Hot Action Pak -"/></parent>
+<parent name="Human Cannonball (1979) (Atari)"><clone name="Human Cannonball"/></parent>
+<parent name="Hunchy II (2005) (Homebrew)"><group reg="^Hunchy"/></parent>
+<parent name="Hunt &amp; Score (1978) (Atari)"><clone name="Hunt &amp; Score"/><clone name="Concentration"/></parent>
+<parent name="I Robot (1978) (Atari)"><clone name="I Robot"/></parent>
+<parent name="I.Q. 180 (-) (Homevision)"><clone name="I.Q. 180"/><clone name="I.Q. Memory Teaser"/></parent>
+<parent name="Ice Hockey (1981) (Activision)"><clone name="Ice Hockey"/><clone name="Eishockey-Fieber"/></parent>
+<parent name="Ikari Warriors (1990) (Atari)"><clone name="Ikari Warriors"/></parent>
+<parent name="Imagic Selector (1982) (Imagic)"><clone name="Imagic Selector"/></parent>
+<parent name="Immies &amp; Aggies (1983) (Emag)"><clone name="Immies &amp; Aggies"/></parent>
+<parent name="Inca Gold (1983) (Zellers)"><clone name="Spider-Maze"/><clone name="Pac Kong"/><clone name="Spider Maze"/><clone name="Spider Kong"/><clone name="Inca Gold"/></parent>
+<parent name="Indy 500 (1978) (Atari)"><clone name="Indy 500"/></parent>
+<parent name="Infiltrate (1982) (Apollo)"><clone name="Infiltrate"/><clone name="Die Springteufel"/></parent>
+<parent name="International Soccer (1982) (Mattel)"><clone name="International Soccer"/><group reg="^Football \(AKA Fussball\)"/></parent>
+<parent name="INV+ (2004) (Homebrew)"><group reg="^INV+"/><clone name="Inv Demo 3"/></parent>
+<parent name="I Want My Mommy (1983) (Zimag)"><clone name="I Want My Mommy"/><clone name="Sesam, Oeffne Dich"/><clone name="Abre-te, Sesamo!"/><clone name="Apples and Dolls"/><clone name="Open, Sesame!"/><clone name="Teddy Apple"/></parent>
+<parent name="Ixion (1984) (Sega)"><clone name="Ixion"/></parent>
+<parent name="James Bond 007 (1983) (Parker Bros)"><clone name="James Bond 007"/></parent>
+<parent name="Jammed (2001) (Homebrew)"><clone name="Jammed"/><clone name="Jammed Demo"/></parent>
+<parent name="Jawbreaker (1982) (Tigervision)"><clone name="Jawbreaker"/></parent>
+<parent name="Journey - Escape (1982) (Data Age)"><clone name="Journey - Escape"/></parent>
+<parent name="Joust (1982) (Atari)"><clone name="Joust"/></parent>
+<parent name="Jr. Pac-Man (1984) (Atari)"><clone name="Jr. Pac-Man"/><clone name="Jr. Pac-Man Speed Throttle by Nukey Shay"/></parent>
+<parent name="Jungle Hunt (1982) (Atari)"><clone name="Jungle Hunt"/><clone name="Canguru"/></parent>
+<parent name="Kabobber (1983) (Activision)"><clone name="Kabobber"/></parent>
+<parent name="Kaboom! (1981) (Activision)"><clone name="Kaboom!"/><clone name="Kaboom! Black by neotokeo2001"/></parent>
+<parent name="Kamikaze Saucers (1983) (Syncro)"><clone name="Kamikaze Saucers"/></parent>
+<parent name="Kangaroo (1983) (Atari)"><clone name="Kangaroo"/><clone name="Canguru"/></parent>
+<parent name="Karate (1982)"><clone name="Karate"/><clone name="Kung Fu"/></parent>
+<parent name="Keystone Kapers (1983) (Activision)"><clone name="Keystone Kapers"/><clone name="Wachroboter Jagt Jupy"/><clone name="Keystone Keypers"/><clone name="Kaystone Kapers"/><clone name="Busy Police"/><clone name="Hey! Stop!"/></parent>
+<parent name="Killer Satellites (1982) (Starpath)"><clone name="Killer Satellites"/></parent>
+<parent name="King Kong (1982) (Tigervision)"><clone name="King Kong"/></parent>
+<parent name="Klax (1990) (Atari)"><clone name="Klax"/></parent>
+<parent name="Knight on the Town (1982) (Playaround)"><clone name="Lady in Wading"/><clone name="Knight on the Town"/></parent>
+<parent name="Kool Aid Man (1982) (Mattel)"><group reg="^Kool Aid Man"/></parent>
+<parent name="Krull (1983) (Atari)"><clone name="Krull"/></parent>
+<parent name="Kung Fu Master (1984) (Activision)"><clone name="Kung Fu Master"/></parent>
+<parent name="Kyphus (1982) (Apollo)"><clone name="Kyphus"/></parent>
+<parent name="Lady Bug (2006) (Homebrew)"><group reg="^Lady Bug"/></parent>
+<parent name="Laser Base (1983) (ITT Family Games)"><clone name="Laser Base"/><clone name="World End"/></parent>
+<parent name="Laser Blast (1981) (Activision)"><clone name="Laser Blast"/></parent>
+<parent name="Laser Gates (1983) (Imagic)"><clone name="Laser Gates"/><clone name="Laser Volley"/><clone name="Laser Gate"/><group reg="^Weltraum Tunnel \(Starsoft\)"/></parent>
+<parent name="Lilly Adventure (1983) (Starsoft)"><clone name="Lilly Adventure"/><clone name="Alice's Abenteuer"/></parent>
+<parent name="Lochjaw (1982) (Apollo)"><clone name="Lochjaw"/><clone name="Shark Attack"/></parent>
+<parent name="Lock 'N' Chase (1982) (Mattel)"><clone name="Lock 'N' Chase"/><clone name="Pygmy"/></parent>
+<parent name="London Blitz (1983) (Avalon Hill)"><clone name="London Blitz"/></parent>
+<parent name="Looping (1983) (Coleco)"><clone name="Looping"/></parent>
+<parent name="Lord of The Rings (1983) (Parker Bros)"><clone name="Lord of The Rings"/></parent>
+<parent name="Lost Luggage (1981) (Apollo)"><clone name="Lost Luggage"/></parent>
+<parent name="M.A.D. (1982) (US Games)"><clone name="M.A.D."/><clone name="Angriff der Luftflotten"/></parent>
+<parent name="M.A.S.H. (1982) (20th Century Fox)"><clone name="M.A.S.H."/><group reg="^River Raid II \(AKA Katastrophen-Einsatz\)"/></parent>
+<parent name="Magicard (1982) (CommaVid)"><group reg="^Magicard"/></parent>
+<parent name="Malagai (1983) (Answer Software)"><clone name="Malagai"/></parent>
+<parent name="Mangia' (1983) (Spectravideo)"><group reg="^Mangia'"/></parent>
+<parent name="Marauder (1982) (Tigervision)"><clone name="Marauder"/></parent>
+<parent name="Marine Wars (1983) (Konami)"><clone name="Marine Wars"/></parent>
+<parent name="Mario Bros. (1983) (Atari)"><clone name="Mario Bros."/></parent>
+<parent name="Master Builder (1983) (Spectravideo)"><clone name="Master Builder"/></parent>
+<parent name="Masters of the Universe - The Power of He-Man (1983) (Mattel)"><clone name="Masters of the Universe - The Power of He-Man"/></parent>
+<parent name="Math Gran Prix (1982) (Atari)"><clone name="Math Gran Prix"/><clone name="Corrida da Matematica"/></parent>
+<parent name="Maze Craze (1978) (Atari)"><clone name="Maze Craze"/><clone name="Puzzled World"/><group reg="^Maze Craze"/><group reg="^Labyrinth \(Starsoft\)"/></parent>
+<parent name="McDonald's (1983) (Parker Bros)"><clone name="McDonald's"/></parent>
+<parent name="Medieval Mayhem (2006) (Homebrew)"><group reg="^Medieval Mayhem"/></parent>
+<parent name="Mega Force (1982) (20th Century Fox)"><clone name="Mega Force"/><clone name="Moto Laser"/></parent>
+<parent name="Mega Funpak - PacMan, Planet Patrol, Skeet Shoot, Battles of Gorf (-) (HES)"><group reg="^Mega Funpak - PacMan"/></parent>
+<parent name="Megaboy (-) (Dynacom)"><clone name="Megaboy"/></parent>
+<parent name="Megamania (1982) (Activision)"><clone name="Megamania"/><clone name="Space Raid"/></parent>
+<parent name="Melbourne Tatty (2007) (Homebrew)"><group reg="^Melbourne Tatty"/></parent>
+<parent name="Meltdown (1983) (20th Century Fox)"><clone name="Meltdown"/></parent>
+<parent name="Mental Kombat (2002) (Homebrew)"><clone name="Mental Kombat"/></parent>
+<parent name="Merlin's Walls (1999) (Homebrew)"><clone name="Merlin's Walls - Standard Edition"/></parent>
+<parent name="Meteor Defense (1983) (ITT Family Games)"><clone name="Meteor Smasher"/><clone name="Missile War"/><clone name="Meteor Defense"/><clone name="Comitoid"/><group reg="^Comitoid Beta "/><clone name="Astrowar"/></parent>
+<parent name="Meteroids (1982) (Starpath)"><clone name="Meteroids"/><clone name="Suicide Mission"/></parent>
+<parent name="Midnight Magic (1984) (Atari)"><clone name="Midnight Magic"/></parent>
+<parent name="Millipede (1984) (Atari)"><clone name="Millipede"/></parent>
+<parent name="Mind Maze (1984) (Atari)"><clone name="Mind Maze"/></parent>
+<parent name="Miner 2049er (1982) (Tigervision)"><clone name="Miner 2049er"/></parent>
+<parent name="Miner 2049er Volume II (1983) (Tigervision)"><clone name="Miner 2049er Volume II"/></parent>
+<parent name="Mines of Minos (1982) (CommaVid)"><clone name="Mines of Minos"/></parent>
+<parent name="Miniature Golf (1979) (Atari)"><clone name="Miniature Golf"/><clone name="Arcade Golf"/><clone name="Texas Golf"/></parent>
+<parent name="Miss Piggy's Wedding (1983) (Atari)"><clone name="Miss Piggy's Wedding"/></parent>
+<parent name="Missile Command (1981) (Atari)"><clone name="Missile Command"/><group reg="^Missile Command"/><clone name="Robot Fight"/><clone name="Space Robot"/></parent>
+<parent name="Missile Control (1983) (Ariola)"><clone name="Missile Control"/></parent>
+<parent name="Mission 3000 A.D. (1983) (BitCorp)"><clone name="Mission 3000 A.D."/></parent>
+<parent name="Mission Survive (1983) (Video Gems)"><clone name="Mission Survive"/></parent>
+<parent name="Mogul Maniac (1983) (Amiga)"><clone name="Mogul Maniac"/></parent>
+<parent name="Monstercise (1984) (Atari)"><clone name="Monstercise"/></parent>
+<parent name="Montezuma's Revenge - Starring Panama Joe (1983) (Parker Bros)"><clone name="Montezuma's Revenge - Starring Panama Joe"/><clone name="Montezuma's Revenge"/></parent>
+<parent name="Moon Patrol (1983) (Atari)"><clone name="Moon Patrol"/></parent>
+<parent name="Moonsweeper (1983) (Imagic)"><clone name="Moonsweeper"/><clone name="Resgate Espacial"/></parent>
+<parent name="Motocross (1983) (Starsoft)"><clone name="Motocross"/></parent>
+<parent name="Motocross Racer (1983) (Xonox)"><clone name="Motocross Racer"/><clone name="Motocross Racer - Joystick"/></parent>
+<parent name="Motorodeo (1990) (Atari)"><clone name="Motorodeo"/></parent>
+<parent name="Mountain King (1983) (CBS Electronics)"><clone name="Mountain King"/></parent>
+<parent name="Mouse Trap (1982) (Coleco)"><clone name="Mouse Trap"/></parent>
+<parent name="Mr. Do! (1983) (CBS Electronics)"><clone name="Mr. Do!"/></parent>
+<parent name="Mr. Do!'s Castle (1984) (Parker Bros)"><clone name="Mr. Do!'s Castle"/></parent>
+<parent name="Mr. Postman (1983) (BitCorp)"><clone name="Mr. Postman"/><clone name="Mr. Postman - O Carteiro"/><clone name="Der Geheimkurier"/></parent>
+<parent name="Ms. Pac-Man (1982) (Atari)"><clone name="Ms. Pac-Man"/><clone name="Miss Pack Man"/><clone name="Ms. Pac-Man Black"/><group reg="^Ms. Hack"/></parent>
+<parent name="Music Machine, The (1983) (Sparrow)"><clone name="Music Machine, The"/></parent>
+<parent name="My Golf (1990) (HES)"><clone name="My Golf"/></parent>
+<parent name="Misterious Thief (1983) (CCE)"><clone name="Criminal Pursuit"/><clone name="Eddy Langfinger, der Museumsdieb"/><clone name="Misterious Thief, A"/></parent>
+<parent name="Mystery (-) (Activision)"><clone name="Mystery"/></parent>
+<parent name="Name This Game (1982) (US Games)"><clone name="Name This Game"/><clone name="Octopus"/></parent>
+<parent name="Night Driver (1978) (Atari)"><clone name="Night Driver"/></parent>
+<parent name="Nightmare (1983) (Sancho)"><clone name="Nightmare"/></parent>
+<parent name="No Escape! (1983) (Imagic)"><clone name="No Escape!"/></parent>
+<parent name="Nuts (1983) (Technovision)"><clone name="Nuts"/><clone name="Fox &amp; Goat"/></parent>
+<parent name="Obelix (1983) (Atari)"><clone name="Obelix"/></parent>
+<parent name="Off Your Rocker (1983) (Amiga)"><clone name="Off Your Rocker"/></parent>
+<parent name="Off the Wall (1989) (Atari)"><clone name="Off the Wall"/></parent>
+<parent name="Oink! (1983) (Activision)"><clone name="Oink!"/><clone name="Fuchs &amp; Schweinchen Schlau"/></parent>
+<parent name="Omega Race (1983) (CBS Electronics)"><clone name="Omega Race"/><clone name="Omega Race JS"/></parent>
+<parent name="Oscar's Trash Race (1983) (Atari)"><clone name="Oscar's Trash Race"/></parent>
+<parent name="Othello (1978) (Atari)"><clone name="Othello"/></parent>
+<parent name="Out of Control (1983) (Avalon Hill)"><clone name="Out of Control"/></parent>
+<parent name="Outlaw (1978) (Atari)"><clone name="Outlaw"/><clone name="Gangster"/></parent>
+<parent name="Pac-Man (1981) (Atari)"><clone name="Pac-Man"/><group reg="^Pac-Man 4k"/><group reg="^Pac-Man 4K"/></parent>
+<parent name="Panda Chase (1983) (Homevision)"><clone name="Panda Chase"/><clone name="Der hungrige Panda"/></parent>
+<parent name="Parachute (1983) (HomeVision)"><clone name="Parachute"/><clone name="Vom Himmel durch die Hoelle"/></parent>
+<parent name="Party Mix (1982) (Starpath)"><clone name="Party Mix"/></parent>
+<parent name="Peek-A-Boo (1984) (Atari)"><clone name="Peek-A-Boo"/></parent>
+<parent name="Pengo (1984) (Atari)"><clone name="Pengo"/><clone name="Pengo - 1 Player Only"/></parent>
+<parent name="Pete Rose Baseball (1988) (Absolute)"><clone name="Pete Rose Baseball"/><clone name="Baseball"/></parent>
+<parent name="Peter Penguin (1983) (ITT Family Games)"><clone name="Peter Penguin"/><clone name="Brick Kick"/></parent>
+<parent name="Phantom II - Pirate (2006) (Homebrew)"><group reg="^Phantom II"/><clone name="Pirate"/><clone name="Pirate beta 4"/>
+</parent>
+<parent name="Pharaoh's Curse (1983) (TechnoVision)"><clone name="Pharaoh's Curse"/></parent>
+<parent name="Phaser Patrol (1982) (Starpath)"><clone name="Phaser Patrol"/></parent>
+<parent name="Phoenix (1982) (Atari)"><clone name="Phoenix"/><clone name="Fire Bird"/></parent>
+<parent name="Pick 'n Pile (1990) (Salu)"><clone name="Pick 'n Pile"/></parent>
+<parent name="Pick Up (1983) (20th Century Fox)"><clone name="Pick Up"/></parent>
+<parent name="Picnic (1982) (US Games)"><clone name="Picnic"/></parent>
+<parent name="Piece o' Cake (1982) (US Games)"><clone name="Piece o' Cake"/></parent>
+<parent name="Pigs in Space starring Miss Piggy (1986) (Atari)"><clone name="Pigs in Space starring Miss Piggy"/><clone name="Pigs in Space"/></parent>
+<parent name="Pitfall! (1982) (Activision)"><clone name="Tom Boy"/><clone name="Dschungle Boy"/><clone name="Pitfall Unlimited"/><clone name="Peetfal"/><clone name="Pitfall!"/></parent>
+<parent name="Pitfall II - Lost Caverns (1984) (Activision)"><clone name="Pitfall II - Lost Caverns"/><clone name="Pitfall II"/></parent>
+<parent name="Pizza Chef (1983) (CCE)"><clone name="Pizza Chef"/></parent>
+<parent name="Planet of the Apes (1983) (20th Century Fox)"><clone name="Planet of the Apes"/></parent>
+<parent name="Planet Patrol (1982) (Spectravision"><clone name="Planet Patrol"/></parent>
+<parent name="Plaque Attack (1983) (Activision)"><clone name="Plaque Attack"/><clone name="Schnapp die Apfeldiebe"/><clone name="Catch Time"/></parent>
+<parent name="Pleiades (-) (UA Ltd)"><clone name="Pleiades"/></parent>
+<parent name="Polaris (1983) (Tigervision)"><clone name="Polaris"/></parent>
+<parent name="Pole Position (1983) (Atari)"><clone name="Pole Position"/></parent>
+<parent name="Polo (-) (Atari)"><clone name="Polo"/></parent>
+<parent name="Pompeii (1983) (Apollo)"><clone name="Pompeii"/></parent>
+<parent name="Pooyan (1982) (Konami-Gakken)"><clone name="Pooyan"/><clone name="Die Ente und der Wolf"/></parent>
+<parent name="Popeye (1983) (Parker Bros)"><clone name="Popeye"/></parent>
+<parent name="Porky's (1983) (20th Century Fox)"><clone name="Porky's"/></parent>
+<parent name="Pressure Cooker (1983) (Activision)"><clone name="Pressure Cooker"/></parent>
+<parent name="Pressure Gauge (1999) (Homebrew)"><group reg="^Pressure Gauge"/></parent>
+<parent name="Private Eye (1983) (Activision)"><clone name="Private Eye"/></parent>
+<parent name="Q-bert (1983) (Parker Bros)"><clone name="Q-bert"/></parent>
+<parent name="Q-bert's QUBES (1983) (Parker Bros)"><clone name="Q-bert's QUBES"/></parent>
+<parent name="Quadrun (1983) (Atari)"><clone name="Quadrun"/></parent>
+<parent name="Quest for Quintana Roo (1989) (Telegames)"><clone name="Quest for Quintana Roo"/></parent>
+<parent name="Quick Step! (1983) (Imagic)"><clone name="Quick Step!"/><clone name="Kwibble"/></parent>
+<parent name="Hell Driver (1983) (ITT Family Games)"><clone name="Traffic"/><clone name="Hell Driver"/></parent>
+<parent name="Ram It (1982) (Telesys)"><clone name="Ram It"/><clone name="Hot Wave"/></parent>
+<parent name="Rabbit Transit (1982) (Starpath)"><clone name="Rabbit Transit"/></parent>
+<parent name="Racquetball (1981) (Apollo)"><clone name="Racquetball"/><clone name="Hili Ball"/></parent>
+<parent name="Rad Action Pak - Kung-Fu, Frostbite, Freeway (1990) (HES)"><group reg="^Rad Action Pak"/></parent>
+<parent name="Radar Lock (1989) (Atari)"><clone name="Radar Lock"/></parent>
+<parent name="Raft Rider (1982) (US Games)"><clone name="Raft Rider"/></parent>
+<parent name="Raiders of the Lost Ark (1982) (Atari)"><clone name="Raiders of the Lost Ark"/></parent>
+<parent name="Rampage! (1989) (Activision)"><clone name="Rampage!"/></parent>
+<parent name="Raster Fahndung (2006) (Homebrew)"><clone name="Raster Fahndung 2006"/></parent>
+<parent name="Raumpatrouille (1983) (Starsoft)"><clone name="Raumpatrouille"/></parent>
+<parent name="Reactor (1982) (Parker Bros)"><clone name="Reactor"/></parent>
+<parent name="RealSports Baseball (1982) (Atari)"><clone name="RealSports Baseball"/><group reg="^Super Baseball \(CCE\)"/></parent>
+<parent name="RealSports Basketball (1983) (Atari)"><clone name="RealSports Basketball"/></parent>
+<parent name="RealSports Boxing (1987) (Atari)"><clone name="RealSports Boxing"/><clone name="Super Box"/></parent>
+<parent name="RealSports Football (1982) (Atari)"><clone name="RealSports Football"/><group reg="^Super Futebol \(AKA RealSports Football\)"/></parent>
+<parent name="RealSports Soccer (1983) (Atari)"><clone name="RealSports Soccer"/><group reg="^Super Futebol \(AKA RealSports Soccer\)"/><group reg="^Super Soccer \(AKA RealSports Soccer\)"/></parent>
+<parent name="RealSports Tennis (1983) (Atari)"><clone name="RealSports Tennis"/></parent>
+<parent name="RealSports Volleyball (1982) (Atari)"><clone name="RealSports Volleyball"/><clone name="Super VoleyBall"/><clone name="Volleyball"/></parent>
+<parent name="Red Vs Blue (1981) (Atari)"><clone name="Red Vs Blue"/></parent>
+<parent name="Rescue Terra I (1982) (Venture Vision)"><clone name="Rescue Terra I"/></parent>
+<parent name="Revenge of the Beefsteak Tomatoes (1983) (20th Century Fox)"><clone name="Revenge of the Beefsteak Tomatoes"/></parent>
+<parent name="Riddle of the Sphinx (1982) (Imagic)"><clone name="Riddle of the Sphinx"/></parent>
+<parent name="River Patrol (1984) (Tigervision)"><clone name="River Patrol"/></parent>
+<parent name="River Raid (1982) (Activision)"><clone name="River Raid"/><clone name="Bermuda"/><clone name="Ground Zero"/><clone name="River Raid III"/><clone name="Harbor Escape"/><clone name="Rover Raid"/><clone name="River Raid by SpkSoft"/><clone name="River Raid by SpkSoft 98"/><clone name="River Raid Hacked"/><group reg="^River Raid v"/></parent>
+<parent name="River Raid II (1988) (Activision)"><clone name="River Raid II"/></parent>
+<parent name="Road Runner (1989) (Atari)"><clone name="Road Runner"/></parent>
+<parent name="Robin Hood (1983) (Xonox)"><clone name="Robin Hood"/></parent>
+<parent name="Robot Tank (1983) (Activision)"><clone name="Robot Tank"/></parent>
+<parent name="Roc n' Rope (1984) (Coleco)"><clone name="Roc n' Rope"/></parent>
+<parent name="Rocky &amp; Bullwinkle (1983) (Mattel)"><clone name="Rocky &amp; Bullwinkle"/></parent>
+<parent name="Room of Doom (1982) (CommaVid)"><clone name="Room of Doom"/></parent>
+<parent name="Rubik's Cube 3D (1982) (Atari)"><group reg="^Rubik's Cube 3D"/></parent>
+<parent name="Rush Hour (1983) (CommaVid)"><clone name="Rush Hour"/></parent>
+<parent name="Save Mary (1990) (Atari)"><clone name="Save Mary"/></parent>
+<parent name="Save Our Ship (1983) (Xonox)"><clone name="Save Our Ship"/><group reg="^Robin Hood \(Starsoft\)"/></parent>
+<parent name="Save the Whales (1983) (20th Century Fox)"><clone name="Save the Whales"/></parent>
+<parent name="Schussel, der Polizistenschreck (1983) (Starsoft)"><clone name="Schussel, der Polizistenschreck"/></parent>
+<parent name="Scuba Diver (1983) (Panda)"><clone name="Scuba Diver"/><clone name="Fisher Price"/><group reg="^Bi! Bi!"/><clone name="Sea Hunt"/><clone name="Skindiver"/></parent>
+<parent name="Sea Battle (1982) (Mattel)"><clone name="Sea Battle"/></parent>
+<parent name="Sea Hawk (1987) (Froggo-Zellers)"><clone name="Sea Hawk"/><clone name="Marineflieger"/></parent>
+<parent name="Sea Monster (1983) (BitCorp)"><clone name="Sea Monster"/><clone name="Seamonster - Monstre des Mers"/></parent>
+<parent name="Seaquest (1983) (Activision)"><clone name="Seaquest"/><clone name="Die Unterwasser-Bestien"/></parent>
+<parent name="Secret Agent (1983) (Data Age)"><clone name="Secret Agent"/></parent>
+<parent name="Secret Quest (1989) (Atari)"><clone name="Secret Quest"/></parent>
+<parent name="Sentinel (1990) (Atari)"><clone name="Sentinel"/></parent>
+<parent name="Shootin' Gallery (1982) (Imagic)"><clone name="Shootin' Gallery"/></parent>
+<parent name="Shooting Arcade (1989) (Atari)"><group reg="^Shooting Arcade"/></parent>
+<parent name="Shuttle Orbiter (1983) (Avalon Hill)"><clone name="Shuttle Orbiter"/></parent>
+<parent name="Sinistar (1984) (Atari)"><clone name="Sinistar"/></parent>
+<parent name="Sir Lancelot (1983) (Xonox)"><clone name="Sir Lancelot"/></parent>
+<parent name="Skate Boardin' (1987) (Absolute)"><clone name="Skate Boardin'"/></parent>
+<parent name="Skeet Shoot (1981) (Apollo)"><clone name="Skeet Shoot"/></parent>
+<parent name="Skeleton(+) (2003) (Homebrew)"><clone name="Skeleton"/><group reg="^Skeleton+"/></parent>
+<parent name="Ski Hunt (1983) (Homevision)"><clone name="Ski Hunt"/><clone name="Mountain Man"/></parent>
+<parent name="Ski Run (1983) (Funvision)"><clone name="Ski Run"/></parent>
+<parent name="Skiing (1980) (Activision)"><clone name="Skiing"/></parent>
+<parent name="Sky Diver (1978) (Atari)"><clone name="Sky Diver"/><clone name="Sky Diver Deluxe"/></parent>
+<parent name="Sky Jinks (1982) (Activision)"><clone name="Sky Jinks"/><clone name="River Barron"/></parent>
+<parent name="Sky Patrol (1982) (Imagic)"><clone name="Sky Patrol"/></parent>
+<parent name="Sky Skipper (1983) (Parker Bros)"><clone name="Sky Skipper"/></parent>
+<parent name="Slot Machine (1979) (Atari)"><clone name="Slot Machine"/></parent>
+<parent name="Slot Racers (1978) (Atari)"><clone name="Slot Racers"/></parent>
+<parent name="Smash Hit Pak - Frogr, Stampede, Seaquest, Boxing, Skiing (-) (HES)"><group reg="^Smash Hit Pak -"/></parent>
+<parent name="Smurfs - Rescue in Gargamel's Castle (1982) (Coleco)"><clone name="Smurfs - Rescue in Gargamel's Castle"/></parent>
+<parent name="Smurfs Save the Day (1983) (Coleco)"><clone name="Smurfs Save the Day"/></parent>
+<parent name="Snail Against Squirrel (1983) (BitCorp)"><clone name="Schnecke und Eichhoernchen"/><clone name="Snail Against Squirrel"/></parent>
+<parent name="Sneak 'n Peek (1982) (US Games)"><clone name="Sneak 'n Peek"/></parent>
+<parent name="Snoopy and the Red Baron (1983) (Atari)"><clone name="Snoopy and the Red Baron"/><clone name="Snoopy"/></parent>
+<parent name="Solar Fox (1983) (CBS Electronics)"><clone name="Solar Fox"/><clone name="Solar Fox Remix"/></parent>
+<parent name="Solar Plexus (2005) (Homebrew)"><group reg="^Solar Plexus"/></parent>
+<parent name="Solar Storm (1983) (Imagic)"><clone name="Solar Storm"/></parent>
+<parent name="Solaris (1986) (Atari)"><clone name="Solaris"/><clone name="Last Starfighter, The"/></parent>
+<parent name="Sorcerer (1983) (Mythicon)"><clone name="Sorcerer"/></parent>
+<parent name="Sorcerer's Apprentice (1983) (Atari)"><clone name="Sorcerer's Apprentice"/></parent>
+<parent name="Space Attack (1982) (Mattel)"><clone name="Space Attack"/></parent>
+<parent name="Space Battle (2006) (Homebrew)"><group reg="^Space Battle"/></parent>
+<parent name="Space Cavern (1981) (Apollo)"><clone name="Space Cavern"/><clone name="Space Canyon"/></parent>
+<parent name="Space Chase (1981) (Apollo)"><clone name="Space Chase"/></parent>
+<parent name="Space Invaders (1978) (Atari)"><clone name="Space Invaders"/><clone name="Beast Invaders"/><clone name="Space Invaders Hack Demo"/><clone name="DUP Space Invaders"/><clone name="Better Space Invaders"/><clone name="Space Invaders Deluxe"/><group reg="^Space Invaders Deluxe"/><clone name="Pepsi Invaders - Coke Wins"/><clone name="Pepsi Invaders"/></parent>
+<parent name="Space Jockey (1982) (US Games)"><clone name="Space Jockey"/><clone name="Time Race"/><clone name="Gefecht im All"/></parent>
+<parent name="Space Master X-7 (1983) (20th Century Fox)"><clone name="Space Master X-7"/></parent>
+<parent name="Space Shuttle - Journey into Space (1983) (Activision)"><clone name="Space Shuttle - Journey into Space"/></parent>
+<parent name="Space War (1978) (Atari)"><clone name="Space War"/><clone name="Space War Black"/></parent>
+<parent name="Spider Fighter (1983) (Activision)"><clone name="Spider Fighter"/><clone name="Phantom UFO"/></parent>
+<parent name="Spider-Man (1982) (Parker Bros)"><group reg="^Spider-Man"/></parent>
+<parent name="Spike's Peak (1983) (Xonox)"><clone name="Spike's Peak"/></parent>
+<parent name="Spitfire Attack (1983) (Milton Bradley)"><clone name="Spitfire Attack"/></parent>
+<parent name="Sports Action Pak - Enduro, Ice Hockey, Fish, Dragster (1988) (HES)"><group reg="^Sports Action Pak"/></parent>
+<parent name="Springer (1982) (Tigervision)"><clone name="Springer"/></parent>
+<parent name="Sprint Master (1988) (Atari)"><clone name="Sprint Master"/></parent>
+<parent name="Spy Hunter (1983) (Sega)"><clone name="Spy Hunter"/></parent>
+<parent name="Squeeze Box (1982) (US Games)"><clone name="Squeeze Box"/></parent>
+<parent name="Squoosh (1983) (Apollo)"><clone name="Squoosh"/></parent>
+<parent name="Sssnake (1982) (Data Age)"><clone name="Sssnake"/></parent>
+<parent name="Stampede (1981) (Atari)"><clone name="Stampede"/><clone name="Super-Cowboy beim Rodeo"/><clone name="Rodeo Champ"/></parent>
+<parent name="Star Fox (198) (Mythicon)"><clone name="Star Fox"/></parent>
+<parent name="Star Gunner (1982) (Telesys)"><clone name="Star Gunner"/></parent>
+<parent name="Star Raiders (1982) (Atari)"><clone name="Star Raiders"/></parent>
+<parent name="Star Ship (1977) (Atari)"><clone name="Star Ship"/></parent>
+<parent name="Star Strike (1982) (Mattel)"><clone name="Star Strike"/></parent>
+<parent name="Star Voyager (1982) (Imagic)"><clone name="Star Voyager"/><clone name="Viagem Espacial"/></parent>
+<parent name="Star Trek - Strategic Operations Simulator (1983) (Sega)"><clone name="Star Trek - Strategic Operations Simulator"/><clone name="Star Trek - SOS"/></parent>
+<parent name="Star Wars - Jedi Arena (1983) (Parker Bros)"><clone name="Star Wars - Jedi Arena"/></parent>
+<parent name="Star Wars - Return of the Jedi - Death Star Battle (1983) (Parker Bros)"><clone name="Star Wars - Return of the Jedi - Death Star Battle"/></parent>
+<parent name="Star Wars - Return of the Jedi - Ewok Adventure (1983) (Parker Bros)"><clone name="Star Wars - Return of the Jedi - Ewok Adventure"/></parent>
+<parent name="Star Wars - The Arcade Game (1983) (Parker Bros)"><group reg="^Star Wars - The Arcade Game"/></parent>
+<parent name="Star Wars - The Empire Strikes Back (1982) (Parker Bros)"><group reg="^Star Wars - The Empire Strikes Back"/><clone name="Star Wars - The Empire Strikes Back"/></parent>
+<parent name="Stargate (1984) (Atari)"><clone name="Stargate"/><clone name="Defender II"/></parent>
+<parent name="Starmaster (1982) (Activision)"><clone name="Starmaster"/><clone name="Cosmic Avenger"/></parent>
+<parent name="Steeple Chase (1983) (Video Gems)"><clone name="Steeple Chase"/></parent>
+<parent name="Steeplechase (1980) (Sears)"><clone name="Steeplechase"/></parent>
+<parent name="Stellar Track (1980) (Sears)"><clone name="Stellar Track"/></parent>
+<parent name="Stell-A-Sketch (1997) (Homebrew)"><clone name="Stell-A-Sketch"/></parent>
+<parent name="Stone Age (1983) (CCE)"><clone name="Stone Age"/></parent>
+<parent name="Strat-O-Gems (2005) (Homebrew)"><group reg="^Strat-O-Gems"/></parent>
+<parent name="Strategy X (1982) (Konami)"><clone name="Strategy X"/><clone name="Landungskommando"/></parent>
+<parent name="Strawberry Shortcake - Musical Match-Ups (1983) (Parker Bros)"><clone name="Strawberry Shortcake - Musical Match-Ups"/></parent>
+<parent name="Street Racer (1978) (Atari)"><group reg="^Street Racer"/></parent>
+<parent name="Stronghold (1983) (CommaVid)"><clone name="Stronghold"/></parent>
+<parent name="Stunt Cycle (1980) (Atari)"><clone name="Stunt Cycle"/><group reg="^Dukes of Hazzard \(Stunt Cycle Version\)"/></parent>
+<parent name="Sub Scan (1983) (Sega)"><clone name="Sub Scan"/></parent>
+<parent name="Submarine Commander (1982) (Sears)"><clone name="Submarine Commander"/></parent>
+<parent name="Subterrenea (1983) (Imagic)"><clone name="Subterrenea"/></parent>
+<parent name="Summer Games (1987) (Epyx)"><clone name="Summer Games"/></parent>
+<parent name="Super Action Pak - Pitfall, Grand Prix, Laser Blast, Barnstorming (1988) (Activision)"><group reg="^Super Action Pak"/></parent>
+<parent name="Super Baseball (1988) (Atari)"><clone name="Super Baseball"/></parent>
+<parent name="Super Breakout (1978) (Atari)"><clone name="Super Breakout"/></parent>
+<parent name="Super Challenge Baseball (1982) (Mattel)"><clone name="Super Challenge Baseball"/><group reg="^Baseball \(AKA Super Challenge Baseball\)"/></parent>
+<parent name="Super Challenge Football (1982) (Mattel)"><clone name="Super Challenge Football"/></parent>
+<parent name="Super Cobra (1982) (Parker Bros)"><clone name="Super Cobra"/></parent>
+<parent name="Super Football (1988) (Atari)"><clone name="Super Football"/></parent>
+<parent name="Super Hit Pak - River Raid, Grand Prix, Fishing, Sky Jinks, Checkers (-) (Activision)"><group reg="^Super Hit Pak"/></parent>
+<parent name="SuperCharger BIOS (1982) (Starpath)"><clone name="SuperCharger BIOS"/></parent>
+<parent name="Superman (1978) (Atari)"><clone name="Superman"/></parent>
+<parent name="Surfer's Paradise - But Danger Below! (1983) (Video Gems)"><clone name="Surfer's Paradise - But Danger Below!"/></parent>
+<parent name="Surf's Up (1983) (Amiga)"><clone name="Surf's Up"/></parent>
+<parent name="Surround (1978) (Atari)"><clone name="Surround"/><clone name="Surround - Black by neotokeo2001"/></parent>
+<parent name="Survival Island (1983) (Starpath)"><group reg="^Survival Island"/></parent>
+<parent name="Survival Run (1983) (Milton Bradley)"><clone name="Survival Run"/></parent>
+<parent name="Sweat! - The Decathalon Game (1982) (Starpath)"><clone name="Sweat! - The Decathalon Game"/></parent>
+<parent name="Swoops! (2005) (Homebrew)"><clone name="Swoops!"/></parent>
+<parent name="Sword Fight (2000) (Intellevision Productions)"><clone name="Sword Fight"/></parent>
+<parent name="Sword of Saros (1983) (Starpath)"><clone name="Sword of Saros"/></parent>
+<parent name="SwordQuest - Earthworld (1982) (Atari)"><clone name="SwordQuest - Earthworld"/></parent>
+<parent name="SwordQuest - Fireworld (1982) (Atari)"><clone name="SwordQuest - Fireworld"/></parent>
+<parent name="SwordQuest - Waterworld (1983) (Atari)"><clone name="SwordQuest - Waterworld"/></parent>
+<parent name="Tac Scan (1983) (Sega)"><group reg="^Tac Scan"/></parent>
+<parent name="Tanks But No Tanks (1983) (Zimag)"><clone name="Phantom Tank"/><clone name="Tanks But No Tanks"/><clone name="Tank Brigade"/><clone name="Labyrint"/></parent>
+<parent name="Tape Worm (1982) (Spectravideo)"><clone name="Tape Worm"/></parent>
+<parent name="Tapper (1983) (Sega)"><clone name="Tapper"/></parent>
+<parent name="Tax Avoiders (1982) (American Videogame)"><clone name="Tax Avoiders"/></parent>
+<parent name="Taz (1983) (Atari)"><clone name="Taz"/><clone name="Asterix"/></parent>
+<parent name="Telepathy (1983) (Atari)"><clone name="Telepathy"/></parent>
+<parent name="Tempest (1984) (Atari)"><clone name="Tempest"/></parent>
+<parent name="Tennis (1981) (Activision)"><clone name="Tennis"/></parent>
+<parent name="Texas Chainsaw Massacre, The (1983) (Wizard Video)"><group reg="^Texas Chainsaw Massacre Redux"/><clone name="Texas Chainsaw Massacre, The"/><clone name="Texas Chainsaw Massacre"/></parent>
+<parent name="Threshold (1982) (Tigervision)"><clone name="Threshold"/></parent>
+<parent name="Thunderground (1983) (Sega)"><clone name="Thunderground"/><clone name="Phantompanzer II"/></parent>
+<parent name="Thwocker (1984) (Activision)"><clone name="Thwocker"/></parent>
+<parent name="Time Pilot (1983) (Coleco)"><clone name="Time Pilot"/></parent>
+<parent name="Time Warp (1983) (Zellers)"><clone name="Time Warp"/><clone name="Astro Attack"/><clone name="UFO Patrol"/><clone name="Time Race 2"/></parent>
+<parent name="Title Match Pro Wrestling (1987) (Absolute)"><clone name="Title Match Pro Wrestling"/><clone name="Pro Wrestling"/></parent>
+<parent name="Tomarc the Barbarian (1983) (Xonox)"><clone name="Tomarc the Barbarian"/></parent>
+<parent name="Tomcat - The F-14 Flight Simulator (1988) (Absolute)"><clone name="Tomcat - The F-14 Flight Simulator"/><clone name="Fighter Pilot"/></parent>
+<parent name="Tom's Eierjagd (1983) (Starsoft)"><clone name="Tom's Eierjagd"/><clone name="Farmyard Fun"/></parent>
+<parent name="Tooth Protectors (1983) (DSD-Camelot)"><clone name="Tooth Protectors"/></parent>
+<parent name="Towering Inferno (1982) (US Games)"><clone name="Towering Inferno"/><clone name="Infernal Tower"/></parent>
+<parent name="Track and Field (1984) (Atari)"><clone name="Track and Field"/></parent>
+<parent name="Treasure Below (-) (Video Gems)"><clone name="Treasure Below"/></parent>
+<parent name="Trick Shot (1982) (Imagic)"><clone name="Trick Shot"/><clone name="Billard"/></parent>
+<parent name="TRON - Deadly Discs (1983) (Mattel)"><clone name="TRON - Deadly Discs"/></parent>
+<parent name="Tunnel Runner (1983) (CBS Electronics)"><clone name="Tunnel Runner"/></parent>
+<parent name="Turmoil (1982) (20th Century Fox)"><clone name="Turmoil"/><clone name="Turmoill"/><clone name="Termool"/></parent>
+<parent name="Tutankham (1983) (Parker Bros)"><clone name="Tutankham"/></parent>
+<parent name="Universal Chaos (1989) (Telegames)"><clone name="Universal Chaos"/><clone name="Targ"/></parent>
+<parent name="Unknown Activision1 (-) (Activision)"><clone name="Unknown Activision1"/></parent>
+<parent name="Unknown Activision2 (-) (Activision)"><clone name="Unknown Activision2"/></parent>
+<parent name="Unknown Game #2 (1983) (Datatech)"><clone name="Unknown Game #2"/></parent>
+<parent name="Unknown Universal (-) (Unknown Manufacturer)"><clone name="Unknown Universal"/></parent>
+<parent name="Up 'n Down (1983) (Sega)"><clone name="Up 'n Down"/></parent>
+<parent name="Vanguard (1982) (Atari)"><clone name="Vanguard"/></parent>
+<parent name="Vault Assault (2001) (Homebrew)"><clone name="Vault Assault"/></parent>
+<parent name="Venetian Blinds Demo (-) (Activision)"><clone name="Venetian Blinds Demo"/></parent>
+<parent name="Venture (1982) (Coleco)"><clone name="Venture"/></parent>
+<parent name="Video Checkers (1978) (Atari)"><clone name="Video Checkers"/></parent>
+<parent name="Video Chess (1978) (Atari)"><clone name="Video Chess"/></parent>
+<parent name="Video Jogger (1983) (Exus)"><clone name="Video Jogger"/></parent>
+<parent name="Video Life (1981) (CommaVid)"><clone name="Video Life"/></parent>
+<parent name="Video Olympics (1978) (Atari)"><clone name="Video Olympics"/><clone name="Video Olympics Black by neotokeo2001"/></parent>
+<parent name="Video Pinball (1980) (Atari)"><clone name="Video Pinball"/><clone name="Flippern"/><clone name="Pimball"/><clone name="New Video Pinball"/></parent>
+<parent name="Video Reflex (1983) (Exus)"><clone name="Video Reflex"/></parent>
+<parent name="Video Simon (-) (Homebrew)"><clone name="Video Simon"/></parent>
+<parent name="Wabbit (1982) (Apollo)"><clone name="Wabbit"/></parent>
+<parent name="Wall Ball (1983) (Avalon Hill)"><clone name="Wall Ball"/></parent>
+<parent name="Wall-Defender (1983) (Bomb)"><clone name="Wall Break"/><clone name="Breakdown"/><clone name="Wall-Defender"/></parent>
+<parent name="Wing War (1983) (Imagic)"><clone name="Wing War"/></parent>
+<parent name="Wings (1983) (CBS Electronics)"><clone name="Wings"/></parent>
+<parent name="Winter Games (1987) (Epyx)"><clone name="Winter Games"/></parent>
+<parent name="Wizard (-) (Atari)"><clone name="Wizard"/></parent>
+<parent name="Wizard of Wor (1982) (CBS Electronics)"><clone name="Wizard of Wor"/></parent>
+<parent name="Warlords (1981) (Atari)"><clone name="Warlords"/></parent>
+<parent name="Warplock (1982) (Data Age)"><clone name="Warplock"/></parent>
+<parent name="Word Zapper (1982) (US Games)"><clone name="Word Zapper"/></parent>
+<parent name="Words Attack (1983) (Sancho)"><clone name="Words Attack"/></parent>
+<parent name="Worm War I (1982) (20th Century Fox)"><clone name="Worm War I"/></parent>
+<parent name="Xevious (1983) (Atari)"><clone name="Xevious"/></parent>
+<parent name="X-Man (1983) (CosmoVision-Universal Gamex)"><clone name="X-Man"/></parent>
+<parent name="Xenophobe (1990) (Atari)"><clone name="Xenophobe"/><clone name="Xeno Plus"/></parent>
+<parent name="Yahtzee (2000) (Homebrew)"><clone name="Yahtzee"/></parent>
+<parent name="Yars' Revenge (1981) (Atari)"><clone name="Yars' Revenge"/></parent>
+<parent name="Zaxxon (1983) (CBS Electronics)"><clone name="Zaxxon"/></parent>
+<parent name="Z-Tack (1983) (Bomb)"><clone name="Z-Tack"/><clone name="Cosmic Town"/><clone name="Base Attack"/></parent>
+<parent name="Zoo Fun (1983) (HomeVision)"><clone name="Zoo Fun"/><clone name="Aufruhr im Zoo"/></parent>
+<parent name="Zoo Keeper Sounds (1984)"><clone name="Zoo Keeper Sounds"/></parent>
+
+
+</parents>
+
+</set>
+</romsets>

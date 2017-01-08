@@ -1,0 +1,27 @@
+<?xml version="1.0"?><!DOCTYPE romsets SYSTEM "GoodMerge.dtd">
+<!--
+E-mail: Psych0phobiA@SoftHome.net
+IRC: q^-o|o-^p in #GoodMerge on irc.UnitedUsers.net
+Webpage: http://goodmerge.sourceforge.net
+-->
+
+<romsets>
+<set name="VBoy" version="2.01">
+<!--Nintendo Virtual Boy-->
+
+<options>
+<ext text="vb"/>
+<flag reg=" \((J|U|JU)\)"/>
+</options>
+
+<parents>
+<!--Collections-->
+<parent name="Public Domain"><group reg="\(PD\)"/></parent>
+
+<!--Biased-->
+<zoned><bias zone="U" name="Golf"/><bias zone="J" name="T&amp;E Virtual Golf"/></zoned>
+<zoned><bias zone="U" name="Virtual League Baseball"/><bias zone="J" name="Virtual Pro Yakyuu '95"/></zoned>
+</parents>
+
+</set>
+</romsets>

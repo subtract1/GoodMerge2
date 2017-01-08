@@ -1,0 +1,29 @@
+<?xml version="1.0"?><!DOCTYPE romsets SYSTEM "GoodMerge.dtd">
+<!--
+GoodCoCo 3.14 XMDB by BIrvine
+Email: goodmerge@gmail.com
+-->
+
+<romsets>
+<set name="CoCo" version="3.13">
+<!--Radio Shack Color Computer-->
+
+<options>
+<ext text="rom"/>
+<ext text="ccc"/>
+<ext text="bin"/>
+<flag reg=" \[[!A-Za-z][0-9a-z]?\]"/>
+<ignore reg=" \([0-9]{2}-[0-9x]{4}\)"/>
+</options>
+
+<parents>
+<!--Hacks, Versions, etc.-->
+<parent name="Bustout (1980-81) (Radio Shack)"><group reg="^Bustout"/></parent>
+<parent name="Doodle Bug (1982) (Computerware)"><group reg="^Doodle Bug"/></parent>
+<parent name="Downland (1983) (Tandy)"><group reg="^Downland"/></parent>
+<parent name="JDOS (1983-85) (J&amp;M Systems)"><group reg="^JDOS V"/></parent>
+<parent name="Videotex (1981) (Tandy)"><group reg="^Videotex"/></parent>
+</parents>
+
+</set>
+</romsets>

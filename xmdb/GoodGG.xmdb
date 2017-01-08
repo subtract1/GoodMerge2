@@ -1,0 +1,52 @@
+<?xml version="1.0"?><!DOCTYPE romsets SYSTEM "GoodMerge.dtd">
+<!--
+Good2600 3.13 XMDB by BIrvine
+Email: goodmerge@gmail.com
+-->
+
+<romsets>
+<set name="GG" version="3.13">
+<!--Sega Game Gear-->
+
+<options>
+<ext text="gg"/>
+<flag reg=" (\((U|UE|E|K|J|JU|V[0-9]\.[0-9]|Prototype|(Aug|Mar) [0-9]{4}|M[0-9])\)|\[([abhot][0-9]|[!S])\]|\[T[+-])"/>
+<hackflag reg=" \("/>
+</options>
+
+<parents>
+<!--Collections-->
+<parent name="Public Domain ROMs (Demos)"><group reg="^(Chaos 89|GG Demo by Charles|GG Hicolor Demo|GG Hi-Res Graphics|Sega Tween|Simple Text Demo|SMSC Gamegear Demo|Twisty by Charles|Windows for GG)"/></parent>
+
+<parent name="Public Domain ROMs (Games)"><group reg="^(Fire Track|Frogs by Charles|GG Nibbles|GG Turrican|Zoop'em Up)"/></parent>
+
+<parent name="Public Domain ROMs (Music)"><group reg="^MOD2PSG"/></parent>
+
+
+<!--Hacks, Versions, etc-->
+<parent name="Jeopardy!"><clone name="Jeopardy! - Sports Edition"/></parent>
+
+<!--Biased-->
+<zoned><bias zone="U" name="Baku Baku Animal"/><bias zone="J" name="Baku Baku Animal - Sekai Shiikugakari Senshu-ken"/></zoned> 
+<zoned><bias zone="En" name="Batter Up"/><bias zone="J" name="Gear Stadium"/><clone name="Gear Stadium Heiseiban"/></zoned>
+<zoned><bias zone="U" name="Bust-A-Move"/><bias zone="J" name="Puzzle Bobble"/></zoned>
+<zoned><bias zone="U" name="Crystal Warriors"/><bias zone="J" name="Arliel - Crystal Densetsu"/></zoned>
+<zoned><bias zone="U" name="Defenders of Oasis"/><bias zone="J" name="Shadam Crusader"/></zoned>
+<zoned><bias zone="U" name="Ecco - The Tides of Time"/><bias zone="J" name="Ecco II - The Tides of Time"/></zoned>
+<zoned><bias zone="U" name="Factory Panic"/><bias zone="J" name="Ganbare Gorby!"/></zoned>
+<zoned><bias zone="U" name="Revenge of Drancon"/><bias zone="E" name="Wonder Boy"/><bias zone="J" name="Wonder Boy"/></zoned>
+<zoned><bias zone="En" name="Samurai Shodown"/><bias zone="J" name="Samurai Spirits"/></zoned>
+<zoned><bias zone="En" name="Shining Force II - The Sword of Hajya"/><bias zone="J" name="Shining Force Gaiden II"/></zoned>
+<zoned><bias zone="En" name="Slider"/><bias zone="J" name="Skweek"/></zoned>
+<zoned><bias zone="En" name="Solitaire Poker"/><bias zone="J" name="Ryu Kyu"/></zoned>
+<zoned><bias zone="En" name="Sonic Chaos"/><bias zone="J" name="Sonic &amp; Tails"/></zoned>
+<zoned><bias zone="En" name="Sonic The Hedgehog - Triple Trouble"/><bias zone="J" name="Sonic &amp; Tails 2"/></zoned>
+<zoned><bias zone="En" name="Vampire - Master of Darkness"/><bias zone="J" name="In the Wake of Vampire"/></zoned>
+<zoned><bias zone="U" name="Virtua Fighter Animation"/><bias zone="J" name="Virtua Fighter Mini"/></zoned>
+<zoned><bias zone="E" name="Wonder Boy - The Dragon's Trap"/><bias zone="J" name="Monster World II - Dragon no Wana"/></zoned>
+<zoned><bias zone="En" name="World Series Baseball '95"/><bias zone="J" name="Nomo's World Series Baseball"/></zoned>
+<zoned><bias zone="U" name="World Cup Soccer"/><bias zone="J" name="Kick &amp; Rush"/></zoned>
+</parents>
+
+</set>
+</romsets>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?><!DOCTYPE romsets SYSTEM "GoodMerge.dtd">
+<!--
+E-mail: Psych0phobiA@SoftHome.net
+IRC: q^-o|o-^p in #GoodMerge on irc.UnitedUsers.net
+Webpage: http://goodmerge.sourceforge.net
+-->
+
+<romsets>
+<set name="MSX2" version="0.999.3">
+<!--Microsoft Extension 2 Computers-->
+
+<options>
+<ext text="rom"/>
+<ext text="mx2"/>
+<flag reg=" \(J\)"/>
+<ignore reg=" \(Demo\)"/>
+</options>
+
+<parents>
+<!--Hacks, Versions, etc.-->
+<parent name="Japanese MSX-Write II (1988) (Ascii)"><group reg="\(For MSX-Write II\)"/></parent>
+<parent name="King's Valley 2 (1988) (Konami)"><clone name="King's Valley 2 - Edit Contest Version (1988) (Konami)"/></parent>
+<parent name="Quarth (1990) (Konami)"><clone name="Quarth - Demo Version (1990) (Konami)"/></parent>
+</parents>
+
+</set>
+</romsets>

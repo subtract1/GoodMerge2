@@ -1,0 +1,29 @@
+<?xml version="1.0"?><!DOCTYPE romsets SYSTEM "GoodMerge.dtd">
+<!--
+GoodChaF 3.13 XMDB by BIrvine
+Email: goodmerge@gmail.com
+-->
+
+<romsets>
+<set name="ChaF" version="3.13">
+<!--Fairchild/Zircon Channel F-->
+
+<options>
+<ext text="bin"/>
+<ext text="chf"/>
+<flag reg=" \[[!A-Za-z][0-9a-z]?\]"/>
+<ignore reg="-[0-9]{2}(?=\))"/>
+</options>
+
+<parents>
+<parent name="256K Channel F Multigame ROM (2004) (Sean Riddle)"><group reg="^256K"/></parent>
+<parent name="Fairchild Channel F BIOS (1976) (Fairchild)"><group reg="^Fairchild Channel F BIOS"/><group reg="^Hockey &amp; Tennis"/></parent>
+<parent name="Hangman (1978) (Fairchild)"><group reg="^Hangman"/></parent>
+<parent name="Lights Out (2004) (Sean Riddle)"><group reg="^Lights Out"/></parent>
+<parent name="Maze &amp; Jailbreak &amp; Blind Man's Bluff &amp; Trailblazer (1977) (Fairchild)"><group reg="^Maze"/></parent>
+<parent name="Multi-Cart Menu (2004) (Sean Riddle)"><group reg="^Multi-Cart Menu"/></parent>
+<parent name="Pac-Man Graphics Demo (2004) (Blackbird)"><group reg="^Pac-Man Graphics Demo"/></parent>
+</parents>
+
+</set>
+</romsets>

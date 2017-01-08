@@ -1,0 +1,34 @@
+<?xml version="1.0"?><!DOCTYPE romsets SYSTEM "GoodMerge.dtd">
+<!--
+E-mail: Psych0phobiA@SoftHome.net
+IRC: q^-o|o-^p in #GoodMerge on irc.UnitedUsers.net
+Webpage: http://goodmerge.sourceforge.net
+-->
+
+<romsets>
+<set name="MSX1" version="0.999.3">
+<!--Microsoft Extension 1 Computers-->
+
+<options>
+<ext text="rom"/>
+<ext text="mx1"/>
+<flag reg=" \(J\)"/>
+</options>
+
+<parents>
+<!--Hacks, Versions, etc.-->
+<parent name="3D Golf Simulation (1983-84) (T&amp;E Soft)"><group reg="^3D Golf Simulation - "/></parent>
+<parent name="Disk BASIC 1.0 (1985-89) (National, Panasonic, Sony)"><group reg="^Disk BASIC 1\.0 "/></parent>
+<parent name="F1 Spirit (1987) (Konami)"><clone name="A1 Spirit (1987) (Konami)"/></parent>
+<parent name="Flappy Limited (1984-85) (dB-Soft)"><group reg="^Flappy Limited "/></parent>
+<parent name="Gradius 2 (1987) (Konami)"><clone name="Gradius 2 - Demo Version (1987) (Konami)"/></parent>
+<parent name="Japanese MSX-Write (1986) (Ascii)"><group reg="\(For Jap\. MSX-Write\)"/></parent>
+<parent name="MSX Audio (1985-88) (Toshiba, Panasonic)"><group reg="^MSX Audio "/></parent>
+<parent name="MSX Baseball 1 (1984) (Panasoft)"><clone name="MSX Baseball (1) (1984) (Panasoft)"/></parent>
+<parent name="MSX-FAN Fandom Library (1988) (Tecnopolis Soft)"><group reg="^MSX-FAN Fandom Library "/></parent>
+<parent name="Shougi (1985) (Pony Cannon, Micro Cabin)"><group reg="^Shougi \(1985\) "/></parent>
+<parent name="Super Monitor (1985) (Emiiru)"><group reg="^Super Monitor 1\."/></parent>
+</parents>
+
+</set>
+</romsets>

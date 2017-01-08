@@ -1,0 +1,22 @@
+<?xml version="1.0"?><!DOCTYPE romsets SYSTEM "GoodMerge.dtd">
+<!--
+GoodSV 3.14 XMDB by BIrvine
+Email: goodmerge@gmail.com
+-->
+
+<romsets>
+<set name="SV" version="3.14">
+<!--Watara Supervision-->
+
+<options>
+<ext text="bin"/>
+<ext text="sv"/>
+<flag reg=" \[[!A-Za-z][0-9a-z]?\]"/>
+</options>
+
+<parents>
+<!--None-->
+</parents>
+
+</set>
+</romsets>

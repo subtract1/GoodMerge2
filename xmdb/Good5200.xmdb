@@ -1,0 +1,34 @@
+<?xml version="1.0"?><!DOCTYPE romsets SYSTEM "GoodMerge.dtd">
+<!--
+E-mail: Psych0phobiA@SoftHome.net
+IRC: q^-o|o-^p in #GoodMerge on irc.UnitedUsers.net
+Webpage: http://goodmerge.sourceforge.net
+-->
+
+<romsets>
+<set name="5200" version="2.01">
+<!--Atari 5200-->
+
+<options>
+<ext text="a52"/>
+<ext text="bin"/>
+<flag reg=" \[[!A-Za-z][0-9a-z]?\]"/>
+<hackflag reg=" \("/>
+<ignore reg=" \(Prototype\)"/>
+</options>
+
+<parents>
+<!--Collections-->
+<parent name="Public Domain"><group reg="\(PD\)"/></parent>
+
+<!--Hacks, Versions, etc.-->
+<parent name="Bounty Bob Strikes Back (1984) (Big Five Software)"><group reg="^Bounty Bob Strikes Back "/></parent>
+<parent name="Castle Blast (2002) (Ronen Habot)"><group reg="^Castle Blast "/></parent>
+<parent name="Diagnostics (1983) (Atari)"><clone name="PAM Diagnostics V2.0 (1983) (Atari)"/><clone name="Atari Diagnostics V2.3 (1983) (Atari)"/></parent>
+<parent name="Joust (1983-84) (Atari)"><clone name="Joust (1983) (Atari)"/><clone name="Joust (1984) (Atari)"/></parent>
+<parent name="Koffi - Yellow Kopter (2002) (Ron Lloyd)"><group reg="^Koffi - Yellow Kopter Demo-"/><clone name="FireFight (Koffi Yellow Kopter Demo) (2002) (Ron Lloyd)"/></parent>
+<parent name="Realsports Baseball (1983) (Atari)"><clone name="Barroom Baseball (1983) (Atari)"/></parent>
+</parents>
+
+</set>
+</romsets>

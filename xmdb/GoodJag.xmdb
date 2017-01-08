@@ -1,0 +1,34 @@
+<?xml version="1.0"?><!DOCTYPE romsets SYSTEM "GoodMerge.dtd">
+<!--
+E-mail: Psych0phobiA@SoftHome.net
+IRC: q^-o|o-^p in #GoodMerge on irc.UnitedUsers.net
+Webpage: http://goodmerge.sourceforge.net
+-->
+
+<romsets>
+<set name="Jag" version="2.01">
+<!--Atari Jaguar-->
+
+<options>
+<ext text="jag"/>
+<ext text="bin"/>
+<ext text="rom"/>
+<ext text="abs"/>
+<ext text="cof"/>
+<ext text="j64"/>
+<flag reg=" \[[!A-Za-z][0-9a-z]?\]"/>
+<ignore reg=" \((Alpha|Beta|bin|jag)\)"/>
+<ignore reg=" Demo(?= )"/>
+</options>
+
+<parents>
+<!--Collections-->
+<parent name="Public Domain"><group reg="\(PD\)"/></parent>
+
+<!--Hacks, Versions, etc.-->
+<parent name="Alien vs Predator (1994)"><clone name="Alien vs Predator"/></parent>
+<parent name="Music Demo (2002) (ScatoLOGIC)"><clone name="Music (2002) (ScatoLOGIC)"/></parent>
+</parents>
+
+</set>
+</romsets>

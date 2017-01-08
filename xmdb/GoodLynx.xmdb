@@ -1,0 +1,31 @@
+<?xml version="1.0"?><!DOCTYPE romsets SYSTEM "GoodMerge.dtd">
+<!--
+E-mail: Psych0phobiA@SoftHome.net
+IRC: q^-o|o-^p in #GoodMerge on irc.UnitedUsers.net
+Webpage: http://goodmerge.sourceforge.net
+-->
+
+<romsets>
+<set name="Lynx" version="2.01">
+<!--Atari Lynx-->
+
+<options>
+<ext text="lyx"/>
+<ext text="lnx"/>
+<ext text="o"/>
+<ext text="com"/>
+<flag reg=" \[[!A-Za-z][0-9a-z]?\]"/>
+<ignore reg=" \(Prototype\)"/>
+<ignore reg=" Demo(?= )"/>
+</options>
+
+<parents>
+<!--Collections-->
+<parent name="Public Domain"><group reg="\(PD\)"/></parent>
+
+<!--Hacks, Versions, etc.-->
+<parent name="Battle Wheels (1993) (Beyond Games)"><clone name="Battle Wheels (1993)"/></parent>
+</parents>
+
+</set>
+</romsets>

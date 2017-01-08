@@ -1,0 +1,197 @@
+<?xml version="1.0"?><!DOCTYPE romsets SYSTEM "GoodMerge.dtd">
+<!--
+GoodGen 3.14 XMDB by BIrvine
+Email: goodmerge@gmail.com
+-->
+
+<romsets>
+<set name="Gen" version="3.00">
+<!--Sega Genesis/MegaDrive/32X-->
+
+<options>
+<ext text="smd"/>
+<ext text="md"/>
+<ext text="bin"/>
+<ext text="32x"/>
+<ext text="gen"/>
+<flag reg=" \(([JUECBFGSKRWMP]{0,2}|Unl|Ch(-(Simple|Trad))?|V1.1|Prototype|Menu|Sample|Alpha|Beta( [12])?)\)| \[[Tphb]"/>
+<ignore reg=" \(?V[0-9x]\.[0-9Ix]{1,2}\)?"/>
+<ignore reg=" \(Hack\)"/>
+</options>
+
+<parents>
+<!--Collections-->
+<parent name="Public Domain"><group reg="\(PD\)"/></parent>
+
+<!--Hacks, Versions, etc.-->
+<parent name="Activator Command Demo"><clone name="Activator Command Demo 30 Hz"/><clone name="Activator Command Demo 60 Hz"/></parent>
+<parent name="Best of the Best - Championship Karate"><clone name="Kick Boxing, The"/></parent>
+<parent name="Crue Ball"><clone name="Twisted Flipper"/></parent>
+<parent name="Cyborg Justice"><clone name="Robot Wreckage"/></parent>
+<parent name="Dahna - Megami Tanjou"><clone name="Hercules"/></parent>
+<parent name="Exo-Squad"><group reg="^Exo-Squad"/></parent>
+<parent name="F1 World Championship"><clone name="F1 World Championship Edition"/></parent>
+<parent name="Fighting Masters"><clone name="Zionist Freedom Fighters by RyanVG"/></parent>
+<parent name="FIFA Soccer 95"><clone name="Futbol Argentino 98 - Pasion de Multitudes"/></parent>
+<parent name="FIFA Soccer 96"><clone name="FIFA Soccer 99"/></parent>
+<parent name="FIFA Soccer 97 Gold Edition"><clone name="FIFA Soccer 2000 Gold Edition"/></parent>
+<parent name="International Superstar Soccer Deluxe"><clone name="Ronaldinho 98"/></parent>
+<parent name="J. League Pro Striker"><clone name="J. League Pro Striker - Perfect Edition"/></parent>
+<parent name="Jeopardy!"><group reg="^Jeopardy! "/></parent>
+<parent name="John Madden Football '93"><clone name="John Madden Football '93 - Championship Edition"/></parent>
+<parent name="Mars Sample Program (32X)"><group reg="^Mars .* Program"/></parent>
+<parent name="Mega Bomberman"><clone name="Mega Bomberman - 8 Player Demo"/></parent>
+<parent name="OutRun 2019"><clone name="Junkers High"/></parent>
+<parent name="NHL 95"><clone name="NHL 95 Elitserien"/></parent>
+<parent name="NHL 96"><clone name="NHL 96 Elitserien"/></parent>
+<parent name="Phantasy Star II"><group reg="^Phantasy Star II - .*'s Adventure"/></parent>
+<parent name="Pro Action Replay"><clone name="Pro Action Replay 2"/></parent>
+<parent name="Sensible Soccer"><clone name="Sensible Soccer - International Edition"/></parent>
+<parent name="Sonic and Knuckles"><clone name="SK"/><group reg="^Sonic and Knuckles &amp; Sonic "/><clone name="Sonic Special Stages"/><group reg="Knuckles in Sonic 2 Green Hill Zone by Hivebrain V0.1"/></parent>
+<parent name="Sonic The Hedgehog"><clone name="S1"/><group reg="^Supersonic in South Island Adventure"/><clone name="Sonic Xmas"/><clone name="Sonic Weird"/><clone name="Sonic Ultima 1337"/><clone name="Sonic Tikal"/><clone name="Sonic The Hedgehog with Knuckles"/><clone name="Sonic Rich Rodgers"/><clone name="Sonic Psycho"/><clone name="Sonic Amy"/><clone name="Sonic in Paynt by Monkeyman"/><clone name="Sonic Dr IKS"/><clone name="Sonic Chao Walker"/><group reg="^Sonic The Hedgehog - "/><group reg="^Sonic 1 "/><group reg="^Sonic 2 Menu no Sonic 1"/></parent>
+<parent name="Sonic The Hedgehog 2"><clone name="S2"/><group reg="^Sonic The Hedgehog 2 - "/><group reg="^Sonic 2"/><group reg="^Sonic - More Than A Memory"/><group reg="Knuckles in Sonic 2 Green Hill Zone by Hivebrain V0.2"/></parent>
+<parent name="Sonic The Hedgehog 3"><group reg="^Sonic 3 "/></parent>
+<parent name="Super Donkey Kong 99"><clone name="Super King Kong 99"/></parent>
+
+<!--Biased-->
+<zoned><bias zone="U" name="Aerobiz"/><bias zone="J" name="Air Management - Oozora ni Kakeru"/></zoned>
+<zoned><bias zone="U" name="Aerobiz Supersonic"/><bias zone="J" name="Air Management II - Kouku Ou wo Mezase"/></zoned>
+<zoned><bias zone="U" name="Air Buster"/><bias zone="J" name="Aero Blasters"/></zoned>
+<zoned><bias zone="En" name="Alex Kidd in the Enchanted Castle"/><bias zone="J" name="Alex Kidd in the Enchanted Castle"/><bias zone="K" name="Alex Kidd - Cheongongmaseong"/></zoned>
+<zoned><bias zone="U" name="Altered Beast"/><bias zone="E" name="Altered Beast"/><bias zone="J" name="Juu-Ou-Ki"/></zoned>
+<zoned><bias zone="U" name="Arnold Palmer Tournament Golf"/><bias zone="J" name="Super Masters Golf"/></zoned>
+<zoned><bias zone="En" name="Art of Fighting"/><bias zone="J" name="Ryuuko no Ken"/></zoned>
+<zoned><bias zone="En" name="Atomic Runner"/><bias zone="J" name="Chelnov"/></zoned>
+<zoned><bias zone="U" name="B.O.B"/><bias zone="J" name="Space Funky B.O.B."/></zoned>
+<zoned><bias zone="U" name="Beast Wrestler"/><bias zone="J" name="Beast Warriors"/></zoned>
+<zoned><bias zone="U" name="Beyond Oasis"/><bias zone="E" name="Story of Thor, The - A Successor of The Light"/><bias zone="J" name="Story of Thor, The - A Successor of The Light"/></zoned>
+<zoned><bias zone="En" name="Bio-Hazard Battle"/><bias zone="J" name="Crying - Asia Seimei Sensou"/></zoned>
+<zoned><bias zone="E" name="Brian Lara Cricket"/><bias zone="A" name="Shane Warne Cricket"/></zoned>
+<zoned><bias zone="U" name="Bulls vs Blazers and the NBA Playoffs"/><bias zone="J" name="NBA Playoff - Bulls vs Blazers"/></zoned>
+<zoned><bias zone="U" name="Bulls vs Lakers and the NBA Playoffs"/><bias zone="J" name="NBA Pro Basketball - Bulls vs Lakers"/></zoned>
+<zoned><bias zone="En" name="Castle of Illusion Starring Mickey Mouse"/><bias zone="J" name="I Love Mickey Mouse - Fushigi no Oshiro Dai Bouken"/></zoned>
+<zoned><bias zone="U" name="Castlevania - Bloodlines"/><bias zone="E" name="Castlevania - The New Generation"/><bias zone="J" name="Vampire Killer"/></zoned>
+<zoned><bias zone="U" name="Championship Bowling"/><bias zone="J" name="Boogie Woogie Bowling"/></zoned>
+<zoned><bias zone="En" name="Chase HQ II"/><bias zone="J" name="Super HQ"/></zoned>
+<zoned><bias zone="U" name="Chi Chi's Pro Challenge"/><bias zone="J" name="Top Pro Golf 2"/></zoned>
+<zoned><bias zone="U" name="Columns III - Revenge of Columns"/><bias zone="J" name="Columns III - Taiketsu! Columns World"/></zoned>
+<zoned><bias zone="U" name="Contra - Hard Corps"/><bias zone="E" name="Probotector"/><bias zone="J" name="Contra - The Hard Corps"/></zoned>
+<zoned><bias zone="U" name="CrossFire"/><bias zone="J" name="Super Airwolf"/></zoned>
+<zoned><bias zone="U" name="Crusader of Centy"/><bias zone="E" name="Soleil"/><bias zone="J" name="Ragnacenty"/><bias zone="K" name="Shin Changsegi - Ragnacenty"/></zoned>
+<zoned><bias zone="U" name="Cyber-Cop"/><bias zone="E" name="Corporation"/><bias zone="J" name="Cyber-Cop"/></zoned>
+<zoned><bias zone="U" name="David Robinson's Supreme Court"/><bias zone="J" name="David Robinson Basketball"/></zoned>
+<zoned><bias zone="En" name="Deadly Moves"/><bias zone="J" name="Power Athlete"/></zoned>
+<zoned><bias zone="En" name="Decap Attack"/><bias zone="J" name="Magical Hat no Buttobi Turbo! Daibouken"/></zoned>
+<zoned><bias zone="U" name="Devilish - The Next Possession"/><bias zone="J" name="Bad Omen"/></zoned>
+<zoned><bias zone="U" name="Double Dribble - The Playoff Edition"/><bias zone="E" name="Hyper Dunk - The Playoff Edition"/></zoned>
+<zoned><bias zone="En" name="Dr. Robotnik's Mean Bean Machine"/><bias zone="J" name="Puyo Puyo"/></zoned>
+<zoned><bias zone="F" name="Dragon Ball Z - L'Appel du Destin"/><bias zone="J" name="Dragon Ball Z - Buyuu Retsuden"/></zoned>
+<zoned><bias zone="En" name="Dragon's Fury"/><bias zone="J" name="Devil Crash MD"/></zoned>
+<zoned><bias zone="En" name="Dune - The Battle for Arrakis"/><bias zone="G" name="Dune - Der Kampf um den Wuestenplaneten"/></zoned>
+<zoned><bias zone="U" name="ESWAT Cyber Police - City Under Siege"/><bias zone="J" name="ESWAT Cyber Police"/></zoned>
+<zoned><bias zone="U" name="Exile"/><bias zone="J" name="XZR"/></zoned>
+<zoned><bias zone="En" name="F-117 Night Storm"/><bias zone="J" name="F-117 Stealth - Operation Night Storm"/></zoned>
+<zoned><bias zone="U" name="F-22 Interceptor"/><bias zone="J" name="F-22 Interceptor - Advanced Tactical Fighter"/></zoned>
+<zoned><bias zone="En" name="Fatal Fury"/><bias zone="J" name="Garou Densetsu - Shukumei no Tatakai"/></zoned>
+<zoned><bias zone="En" name="Fatal Fury 2"/><bias zone="J" name="Garou Densetsu 2 - Arata-naru Tatakai"/></zoned>
+<zoned><bias zone="En" name="Fatal Rewind"/><bias zone="J" name="Killing Game Show, The"/><clone name="Killing Game Show, The - 1993 Remix"/></zoned>
+<zoned><bias zone="U" name="Ferrari Grand Prix Challenge"/><bias zone="J" name="F1 Hero MD"/></zoned>
+<zoned><bias zone="U" name="Fire Shark"/><bias zone="E" name="Fire Shark"/><bias zone="J" name="Same! Same! Same!"/></zoned>
+<zoned><bias zone="U" name="Gauntlet 4"/><bias zone="J" name="Gauntlet"/></zoned>
+<zoned><bias zone="U" name="GemFire"/><bias zone="J" name="Royal Blood"/></zoned>
+<zoned><bias zone="En" name="General Chaos"/><bias zone="J" name="Dai Konsen"/></zoned>
+<zoned><bias zone="U" name="Genghis Khan II - Clan of the Gray Wolf"/><bias zone="J" name="Aoki Ookami to Shiroki Meshika - Genchou Hishi"/></zoned>
+<zoned><bias zone="En" name="Ghouls 'N Ghosts"/><bias zone="J" name="Dai Makaimura"/></zoned>
+<zoned><bias zone="U" name="Great Circus Mystery, The - Starring Mickey &amp; Minnie"/><bias zone="J" name="Mickey Mouse - Minnie's Magical Adventure 2"/></zoned>
+<zoned><bias zone="En" name="GRIND Stormer"/><bias zone="J" name="V-Five"/></zoned>
+<zoned><bias zone="En" name="Growl"/><bias zone="J" name="Runark"/></zoned>
+<zoned><bias zone="U" name="Head-On Soccer"/><bias zone="E" name="Fever Pitch Soccer"/></zoned>
+<zoned><bias zone="U" name="High Seas Havoc"/><bias zone="E" name="Capt'n Havoc"/></zoned>
+<zoned><bias zone="En" name="James Bond 007 - The Duel"/><bias zone="J" name="007 Shitou"/></zoned>
+<zoned><bias zone="U" name="James Buster Douglas Knock Out Boxing"/><bias zone="J" name="Final Blow"/></zoned>
+<zoned><bias zone="U" name="Jennifer Capriati Tennis"/><bias zone="E" name="Grand Slam Tennis"/><bias zone="J" name="Grand Slam Tennis"/></zoned>
+<zoned><bias zone="U" name="Journey From Darkness - Strider Returns"/><bias zone="E" name="Strider II"/></zoned>
+<zoned><bias zone="U" name="Ka-Ge-Ki - Fists of Steel"/><bias zone="J" name="Ka-Ge-Ki"/></zoned>
+<zoned><bias zone="U" name="Kid Chameleon"/><bias zone="J" name="Chameleon Kid"/></zoned>
+<zoned><bias zone="U" name="Landstalker - The Treasures of King Nole"/><bias zone="E" name="Landstalker - The Treasures of King Nole"/><bias zone="F" name="Landstalker - The Treasures of King Nole"/><bias zone="G" name="Landstalker - The Treasures of King Nole"/><bias zone="J" name="Landstalker - Koutei no Zaihou"/></zoned>
+<zoned><bias zone="U" name="Last Battle"/><bias zone="J" name="Hokuto no Ken"/></zoned>
+<zoned><bias zone="U" name="Lightening Force - Quest for the Darkstar"/><bias zone="E" name="Thunder Force IV"/><bias zone="J" name="Thunder Force IV"/></zoned>
+<zoned><bias zone="U" name="M.U.S.H.A"/><bias zone="J" name="Musha Aleste - Full Metal Fighter Ellinor"/></zoned>
+<zoned><bias zone="U" name="Marvel Land"/><bias zone="E" name="Talmit's Adventure"/><bias zone="J" name="Marvel Land"/></zoned>
+<zoned><bias zone="U" name="Mazin Saga"/><bias zone="E" name="Mazin Wars"/><bias zone="J" name="Mazin Saga"/></zoned>
+<zoned><bias zone="E" name="Megaman - The Wily Wars"/><bias zone="J" name="Rockman Megaworld"/></zoned>
+<zoned><bias zone="En" name="Mystic Defender"/><bias zone="J" name="Kujaku Ou 2"/></zoned>
+<zoned><bias zone="U" name="Mystical Fighter"/><bias zone="J" name="Maou Renjishi"/></zoned>
+<zoned><bias zone="En" name="NBA Showdown 94"/><bias zone="J" name="NBA Pro Basketball '94"/></zoned>
+<zoned><bias zone="U" name="NHL Hockey"/><bias zone="E" name="EA Hockey"/><bias zone="J" name="Pro Hockey"/></zoned>
+<zoned><bias zone="U" name="Nobunaga's Ambition"/><bias zone="J" name="Nobunaga no Yabou - Zenkokuban"/></zoned>
+<zoned><bias zone="U" name="Operation Europe - Path to Victory 1939-1945"/><bias zone="J" name="Europa Sensen"/></zoned>
+<zoned><bias zone="U" name="Out of this World"/><bias zone="E" name="Another World"/></zoned>
+<zoned><bias zone="U" name="P.T.O. Pacific Theater of Operations"/><bias zone="J" name="Teitoku no Ketsudan"/></zoned>
+<zoned><bias zone="U" name="Pat Riley Basketball"/><bias zone="E" name="Super Real Basketball"/><bias zone="J" name="Super Real Basketball"/></zoned>
+<zoned><bias zone="En" name="Pebble Beach Golf Links"/><bias zone="J" name="Pebble Beach no Hatou"/></zoned>
+<zoned><bias zone="En" name="Phantasy Star III - Generations of Doom"/><bias zone="Br" name="Phantasy Star III - Generations of Doom"/><bias zone="J" name="Phantasy Star III - Toki no Keishousha"/></zoned>
+<zoned><bias zone="U" name="Powerball"/><bias zone="J" name="Wrestleball"/></zoned>
+<zoned><bias zone="U" name="Quad Challenge"/><bias zone="J" name="MegaTraX"/></zoned>
+<zoned><bias zone="En" name="Ranger-X"/><bias zone="J" name="Ex-Ranza"/></zoned>
+<zoned><bias zone="En" name="Risky Woods"/><bias zone="J" name="Draxos"/></zoned>
+<zoned><bias zone="En" name="Ristar"/><bias zone="J" name="Ristar - The Shooting Star"/></zoned>
+<zoned><bias zone="En" name="Rolo to the Rescue"/><bias zone="J" name="Zou! Zou! Zou! Rescue Daisenryaku"/></zoned>
+<zoned><bias zone="U" name="Romance of the Three Kingdoms II"/><bias zone="J" name="Sangokushi II"/></zoned>
+<zoned><bias zone="U" name="Romance of the Three Kingdoms III"/><bias zone="J" name="Sangokushi III"/></zoned>
+<zoned><bias zone="U" name="Rugby World Cup 1995"/><bias zone="E" name="Australian Rugby League"/><bias zone="J" name="Rugby World Cup 1995"/></zoned>
+<zoned><bias zone="U" name="Sagaia"/><bias zone="J" name="Darius II"/></zoned>
+<zoned><bias zone="En" name="Samurai Shodown"/><bias zone="J" name="Samurai Spirits"/></zoned>
+<zoned><bias zone="Cn" name="Sangokushi Retsuden"/><bias zone="J" name="Sangokushi Retsuden - Ransei no Eiyuu Tachi"/></zoned>
+<zoned type="deferred"><bias zone="U" name="Sega-CD BIOS"/><bias zone="E" name="Mega-CD BIOS"/><bias zone="J" name="Mega-CD BIOS"/><group reg="^Mega-CD .* BIOS "/><group reg="^Sega-CD.* BIOS "/><group reg="^CDX Pro BIOS"/></zoned>
+<zoned><bias zone="U" name="Shadow Blasters"/><bias zone="J" name="Shiten Myooh"/></zoned>
+<zoned><bias zone="En" name="Shining Force"/><bias zone="J" name="Shining Force - The Legacy of Great Intention"/></zoned>
+<zoned><bias zone="En" name="Shining Force II"/><bias zone="J" name="Shining Force II - Inishie no Fuuin"/></zoned>
+<zoned><bias zone="U" name="Shining in the Darkness"/><bias zone="J" name="Shining and the Darkness"/></zoned>
+<zoned><bias zone="En" name="Shinobi III - Return of the Ninja Master"/><bias zone="J" name="Super Shinobi II, The"/></zoned>
+<zoned><bias zone="U" name="Shove It! - The Warehouse Game"/><bias zone="J" name="Sokoban"/></zoned>
+<zoned><bias zone="En" name="Slaughter Sport"/><bias zone="J" name="Fatman"/></zoned>
+<zoned><bias zone="En" name="Socket"/><bias zone="J" name="Time Dominator 1st"/></zoned>
+<zoned><bias zone="U" name="Soldiers of Fortune"/><bias zone="E" name="Chaos Engine, The"/></zoned>
+<zoned><bias zone="U" name="Sorcerer's Kingdom"/><bias zone="J" name="Sorcer Kingdom"/></zoned>
+<zoned><bias zone="U" name="Space Invaders 91"/><bias zone="J" name="Space Invaders 90"/></zoned>
+<zoned><bias zone="U" name="Splatterhouse 3"/><bias zone="J" name="Splatterhouse Part 3"/></zoned>
+<zoned><bias zone="En" name="Steel Empire, The"/><bias zone="J" name="Koutetsu Teikoku"/></zoned>
+<zoned><bias zone="En" name="Street Fighter II' - Special Champion Edition"/><bias zone="J" name="Street Fighter II' Plus - Champion Edition"/><clone name="Street Fighter II' Turbo"/></zoned>
+<zoned><bias zone="En" name="Streets of Rage"/><bias zone="J" name="Bare Knuckle"/></zoned>
+<zoned><bias zone="En" name="Streets of Rage 2"/><bias zone="J" name="Bare Knuckle II"/></zoned>
+<zoned><bias zone="En" name="Streets of Rage 3"/><bias zone="J" name="Bare Knuckle III"/><group reg="^Streets of Rage 3 "/></zoned>
+<zoned><bias zone="En" name="Strider"/><bias zone="J" name="Strider Hiryuu"/></zoned>
+<zoned><bias zone="U" name="Syd of Valis"/><bias zone="J" name="Valis SD"/></zoned>
+<zoned><bias zone="U" name="Target Earth"/><bias zone="J" name="Assault Suits Leynos"/></zoned>
+<zoned><bias zone="En" name="Team USA Basketball"/><bias zone="J" name="Dream Team USA"/></zoned>
+<zoned><bias zone="U" name="Teenage Mutant Ninja Turtles - Tournament Fighters"/><bias zone="E" name="Teenage Mutant Hero Turtles - Tournament Fighters"/><bias zone="J" name="Teenage Mutant Ninja Turtles - Tournament Fighters"/></zoned>
+<zoned><bias zone="U" name="Teenage Mutant Ninja Turtles - The Hyperstone Heist"/><bias zone="E" name="Teenage Mutant Hero Turtles - The Hyperstone Heist"/><bias zone="J" name="Teenage Mutant Ninja Turtles - Return of the Shredder"/></zoned>
+<zoned><bias zone="En" name="Thunder Force II"/><bias zone="J" name="Thunder Force II MD"/></zoned>
+<zoned><bias zone="En" name="Toki - Going Ape Spit"/><bias zone="J" name="JuJu Densetsu"/></zoned>
+<zoned><bias zone="U" name="Tommy Lasorda Baseball"/><bias zone="E" name="Super League"/><bias zone="J" name="Super League"/></zoned>
+<zoned><bias zone="U" name="Traysia"/><bias zone="J" name="Minato no Toreijia"/></zoned>
+<zoned><bias zone="U" name="Trouble Shooter"/><bias zone="J" name="Battle Mania"/></zoned>
+<zoned><bias zone="U" name="Twin Cobra"/><bias zone="J" name="Kyuukyou Tiger"/></zoned>
+<zoned><bias zone="U" name="Two Crude Dudes"/><bias zone="J" name="Crude Buster"/></zoned>
+<zoned><bias zone="U" name="Tyrants - Fight Through Time"/><bias zone="E" name="Mega Lo Mania"/><bias zone="J" name="Mega Lo Mania"/></zoned>
+<zoned><bias zone="En" name="Ultimate Qix"/><bias zone="J" name="Volfied"/></zoned>
+<zoned><bias zone="U" name="Uncharted Waters"/><bias zone="J" name="Daikoukai Jidai"/></zoned>
+<zoned><bias zone="U" name="Uncharted Waters - New Horizons"/><bias zone="J" name="Daikoukai Jidai II"/></zoned>
+<zoned><bias zone="U" name="Vapor Trail"/><bias zone="J" name="Kuuga - Operation Vapor Trail"/></zoned>
+<zoned><bias zone="U" name="Wardner"/><bias zone="J" name="Wardner no Mori Special"/></zoned>
+<zoned><bias zone="U" name="Warrior of Rome"/><bias zone="J" name="Caesar no Yabo"/></zoned>
+<zoned><bias zone="En" name="Warrior of Rome II"/><bias zone="J" name="Caesar no Yabo II"/></zoned>
+<zoned><bias zone="U" name="Warsong"/><bias zone="J" name="Langrisser"/></zoned>
+<zoned><bias zone="U" name="Wings of Wor"/><bias zone="E" name="Gynoug"/><bias zone="J" name="Gynoug"/></zoned>
+<zoned><bias zone="En" name="Wonder Boy In Monster World"/><bias zone="J" name="Wonder Boy V - Monster World III"/><bias zone="Br" name="Turma da Monica na Terra Dos Monstros"/></zoned>
+<zoned><bias zone="U" name="World Championship Soccer"/><bias zone="E" name="World Cup Italia 90"/><bias zone="J" name="World Championship Soccer"/></zoned>
+<zoned><bias zone="U" name="World Championship Soccer II"/><bias zone="Br" name="Sport Games"/></zoned>
+<zoned><bias zone="En" name="World of Illusion Starring Mickey Mouse &amp; Donald Duck"/><bias zone="J" name="I Love Mickey &amp; Donald - Fushigi na Magic Box"/></zoned>
+<zoned><bias zone="U" name="World Trophy Soccer"/><bias zone="E" name="European Club Soccer"/><bias zone="J" name="J. League Champion Soccer"/></zoned>
+<zoned><bias zone="J" name="Yuu Yuu Hakusho - Makyou Toitsusen"/><bias zone="Br" name="Yuu Yuu Hakusho - Sunset Fighters"/></zoned>
+<zoned><bias zone="U" name="Zombies Ate My Neighbors"/><bias zone="E" name="Zombies"/></zoned>
+</parents>
+
+</set>
+</romsets>

@@ -1,0 +1,86 @@
+<?xml version="1.0"?><!DOCTYPE romsets SYSTEM "GoodMerge.dtd">
+<!--
+E-mail: Psych0phobiA@SoftHome.net
+IRC: q^-o|o-^p in #GoodMerge on irc.UnitedUsers.net
+Webpage: http://goodmerge.sourceforge.net
+-->
+
+<romsets>
+<set name="Oric" version="2.01">
+<!--Oric/Atmos/TeleStrat-->
+
+<options>
+<ext text="tap"/>
+<ext text="dsk"/>
+<ext text="ta1"/>
+<ext text="ta2"/>
+<ext text="ta3"/>
+<ext text="ta4"/>
+<ext text="ta5"/>
+<ext text="ta6"/>
+<ext text="ta7"/>
+<ext text="ta8"/>
+<ext text="ta9"/>
+<ext text="t10"/>
+<ext text="did"/>
+<ext text="rom"/>
+<flag reg=" \[[!A-Za-z][0-9a-z]?\]"/>
+<ignore reg=" \((UK|F|G|No|S|SW|UK,F)\)"/>
+<ignore reg=" \((Disk Version|One Parted|Oric-1|Atmos|Side A|Side B|Merged|Multifile)\)"/>
+<ignore reg=" \((File |Disk )?[0-9][0-9]? of [0-9][0-9]?\)"/>
+<ignore reg=" V[0-9]\.[0-9]{1,3}(?= )"/>
+<ignore reg=" ((Test|Demo|Loader)(?= )|\((Test|Demo|Loader)\))"/>
+<!--hackflag reg=" \("/-->
+</options>
+
+<parents>
+<!--Collections-->
+<parent name="Public Domain (French)"><group reg="\(F\).*\(PD\)"/></parent>
+<parent name="Public Domain (English)"><group reg="\(UK\).*\(PD\)"/></parent>
+<parent name="Public Domain (Other)"><group reg="\(PD\)"/></parent>
+
+<!--Errors-->
+<parent name="Feux Croises (1985)"><clone name="Tir Croise (1983)"/></parent>
+<parent name="Kryllys (1984)"><clone name="Krillys (1984)"/></parent>
+<parent name="Playground 21 (1985)"><clone name="Playground 21 (19xx)"/><clone name="No...Not Anothere Ladder Game! (1985)"/></parent>
+<parent name="Quack A Jack (1984)"><clone name="Quack (1984)"/><clone name="Quak A Jack (19xx)"/></parent>
+<parent name="Quest of The Holy Grail (1983)"><clone name="Quest of The Holy Grail (19xx)"/><clone name="Holy Grail (1983)"/><clone name="Mines of Moria, The (1983)"/></parent>
+<parent name="Trident De Neptune, Le (1984)"><clone name="Trident De Neptine, Le (1984)"/><clone name="Neptune (1984)"/></parent>
+
+<!--Hacks, Versions, etc.-->
+<parent name="Ammnukor Utilitaires (1984-86)"><group reg="^Ammnukor "/><clone name="Am-1 A Amnukor Travail (1984)"/><clone name="Objets Ok Ici Am-1_2 (1986)"/><clone name="Utilitaires Pour Obtf Et Listage Des Objets (1986)"/></parent>
+<parent name="BIOS"><group reg="^BASIC V"/><group reg="^TeleM"/><group reg="^Oric DOS V"/><group reg="^TeleAss"/><group reg="^Jasmin"/><group reg="^Cumana"/><group reg="^Stratoric"/></parent>
+<parent name="Bytes Voir Theoric (19xx)"><group reg="^Bytes Voir Theoric No "/></parent>
+<parent name="CEO Clip Art (19xx)"><group reg="^CEO Clip Art "/></parent>
+<parent name="Contract Bridge (1983)"><clone name="Contract Bridge Docs (1983)"/></parent>
+<parent name="Damsel in Distress (1985)"><group reg="Damsel in Distress"/></parent>
+<parent name="Diamant De L' ile Maudite, Le (1984)"><group reg="^Diamant De L' ile Maudite "/></parent>
+<parent name="Hu-Bert (1984)"><clone name="Hu-Bert Menu (1984)"/></parent>
+<parent name="Infocom Text Adventures"><group reg="^Infocom - "/><group reg="^Pinforic "/></parent>
+<parent name="JMOVIE (19xx)"><group reg="^JMOVIE[0-9]?"/></parent>
+<parent name="Morpion (1984)"><clone name="Morpion (Hebdogiciel Version) (19xx)"/></parent>
+<parent name="Morpion 10x10 (19xx)"><clone name="Morpion 10x10 (Proriciel) (19xx)"/></parent>
+<parent name="Mr. Wimpy (1984)"><group reg="^Wimpy(prg|scr)?"/></parent>
+<parent name="Mystere De Kikekankoi (1983-84)"><clone name="Mystere de Kikekankoi, Le (1983)"/><clone name="Mystere De Kikekankoi (1984)"/></parent>
+<parent name="Oriclisp (1986-95)"><clone name="Oriclisp for 24K (1986-95)"/></parent>
+<parent name="Protopus (1986)"><group reg="^Protopus "/></parent>
+<parent name="RANDOS (1983)"><clone name="RANDOS w-Utilities (1983)"/></parent>
+<parent name="Rat Splat (1983)"><clone name="Rat Splat 2c (1983)"/></parent>
+<parent name="Reversi by Paul B Kaufman (1983)"><clone name="Othello by Paul B Kaufman (1983)"/><clone name="Reverse (1983)"/></parent>
+<parent name="Secret of Kaipur (1984)"><group reg="Secret of Kaipur"/></parent>
+<parent name="Sedoric (1993-96)"><group reg="^Sedoric V"/></parent>
+<parent name="Story Book (1984)"><clone name="Story Book Example (Proverbs) (1984)"/></parent>
+<parent name="Tarakunda (19xx)"><clone name="Tarak (19xx)"/></parent>
+<parent name="Tenis (1983)"><group reg=" Tenis\)"/></parent>
+<parent name="Tyrann (1984)"><clone name="Master Tyrann Atmos, Le (1987)"/></parent>
+<parent name="Zorgon's Revenge (1983-84)"><clone name="Zorgon's Revenge (1983)"/><clone name="Zorgon's Revenge (1984)"/></parent>
+
+<zoned><bias zone="En" name="Arena 3000 (1984)"/><bias zone="F" name="Arena (1984)"/></zoned>
+<zoned><bias zone="En" name="Killing in Sark (19xx)"/><bias zone="F" name="MES2 (19xx)"/></zoned>
+<zoned><bias zone="En" name="Leopard Lord (19xx)"/><bias zone="No" name="Leopard Kongen (19xx)"/></zoned>
+<zoned><bias zone="En" name="Oric Driver (1983)"/><bias zone="F" name="Circuit Oric (1983)"/></zoned>
+<zoned><bias zone="En" name="Reversi Champion (1983)"/><bias zone="F" name="Reversi Champion (1984)"/></zoned>
+</parents>
+
+</set>
+</romsets>

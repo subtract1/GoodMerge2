@@ -1,0 +1,37 @@
+<?xml version="1.0"?><!DOCTYPE romsets SYSTEM "GoodMerge.dtd">
+<!--
+E-mail: Psych0phobiA@SoftHome.net
+IRC: q^-o|o-^p in #GoodMerge on irc.UnitedUsers.net
+Webpage: http://goodmerge.sourceforge.net
+-->
+
+<romsets>
+<set name="MO5" version="1.00">
+<!--Thomson MO5-->
+
+<options>
+<ext text="k7"/>
+<ext text="mo5"/>
+<flag reg=" \[[!A-Za-z][0-9a-z]?\]"/>
+<ignore reg=" \((Cart|M5|Italian Version)\)"/>
+<ignore reg=" \(Part [0-9]+ of [0-9]+\)"/>
+<ignore reg=" v[0-9]\.[0-9](?= )"/>
+</options>
+
+<parents>
+<!--Collections-->
+<parent name="Public Domain"><group reg="\(PD\)"/></parent>
+
+<!--Hacks, Versions, etc.-->
+<parent name="Carre Magique (1984) (CNDP, Nathan Ecoles)"><clone name="Carre Magique (1984) (CNDP)"/><clone name="Carre Magique (1984) (Nathan Ecoles)"/></parent>
+<parent name="Enduro Racer (1988) (Sega, FIL)"><clone name="Enduro Racer (1988) (Sega)"/><clone name="Enduro Racer (1988) (FIL)"/></parent>
+<parent name="Nuit des Templiers, La (1986) (FIL, Coktel Vision)"><clone name="Nuit des Templiers, La (1986) (FIL)"/><clone name="Nuit des Templiers, La (198x) (Coktel Vision)"/></parent>
+<parent name="Equations &amp; Inequations (198x)"><clone name="Equations (198x)"/><clone name="Inequations (198x)"/></parent>
+<parent name="Fox (1997) (CFX)"><clone name="Fox (198x) (CFX)"/></parent>
+<parent name="Mission en Rafale (1987) (FIL)"><clone name="Missions en Rafale (1987) (FIL)"/></parent>
+<parent name="Pendu, Le (1982-84) (CNDP)"><clone name="Pendu, Le (1982) (CNDP)"/><clone name="Mpendu (1984) (CNDP)"/></parent>
+<parent name="Planete Inconnue, La (198x) (FIL, Coktel Vision)"><clone name="Planete Inconnue, La (198x) (Coktel Vision)"/><clone name="Planete Inconnue, La (198x) (FIL)"/></parent>
+</parents>
+
+</set>
+</romsets>

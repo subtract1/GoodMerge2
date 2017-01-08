@@ -1,0 +1,30 @@
+<?xml version="1.0"?><!DOCTYPE romsets SYSTEM "GoodMerge.dtd">
+<!--
+E-mail: Psych0phobiA@SoftHome.net
+IRC: q^-o|o-^p in #GoodMerge on irc.UnitedUsers.net
+Webpage: http://goodmerge.sourceforge.net
+-->
+
+<romsets>
+<set name="7800" version="2.04">
+<!--Atari 7800-->
+
+<options>
+<ext text="a78"/>
+<flag reg=" \[[!A-Za-z][0-9a-z]?\]"/>
+<ignore reg=" \((Prototype|PAL|CC2 Hack|HSC Hack|Crypt Hack)\)"/>
+</options>
+
+<parents>
+<!--Collections-->
+<parent name="Public Domain"><group reg="\(PD\)"/><group reg="Beef Drop 7800 .*"/></parent>
+
+<!--Hacks, Versions, etc.-->
+<parent name="Desert Falcon (1987) (Atari)"><group reg="Desert Falcon .*"/></parent>
+<parent name="Klax (1992) (Atari)"><group reg="Klax .*"/></parent>
+<parent name="Sentinel (1988-91) (Atari)"><clone name="Sentinel (1988) (Atari)"/><clone name="Sentinel (1991) (Atari)"/></parent>
+<parent name="Tubes (2004) (Bruce Tomlin)"><group reg="Tubes .*"/></parent>
+</parents>
+
+</set>
+</romsets>
