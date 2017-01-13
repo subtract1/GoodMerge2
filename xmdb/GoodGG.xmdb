@@ -5,26 +5,50 @@ Email: goodmerge@gmail.com
 -->
 
 <romsets>
-<set name="GG" version="3.13">
+<set name="GG" version="3.20">
 <!--Sega Game Gear-->
 
 <options>
 <ext text="gg"/>
-<flag reg=" (\((U|UE|E|K|J|JU|V[0-9]\.[0-9]|Prototype|(Aug|Mar) [0-9]{4}|M[0-9])\)|\[([abhot][0-9]|[!S])\]|\[T[+-])"/>
+<flag reg=" (\((U|UE|E|K|J|JE|JK|JU|JUE|JUEB|JEB|UEB|EB|UB|T|V[0-9]\.[0-9]|Prototype.*|(Aug|Mar) [0-9]{4}|M[0-9])\)|\[([abhot][0-9]|[!S])\]|\[T[+-])"/>
 <hackflag reg=" \("/>
 </options>
 
 <parents>
 <!--Collections-->
-<parent name="Public Domain ROMs (Demos)"><group reg="^(Chaos 89|GG Demo by Charles|GG Hicolor Demo|GG Hi-Res Graphics|Sega Tween|Simple Text Demo|SMSC Gamegear Demo|Twisty by Charles|Windows for GG)"/></parent>
 
-<parent name="Public Domain ROMs (Games)"><group reg="^(Fire Track|Frogs by Charles|GG Nibbles|GG Turrican|Zoop'em Up)"/></parent>
-
-<parent name="Public Domain ROMs (Music)"><group reg="^MOD2PSG"/></parent>
-
+<parent name="Public Domain ROMs (Demos)">
+	<group reg="^Chaos.*\(PD\)"/>
+	<group reg="^Credits Scroller.*\(PD\)"/>
+	<group reg="^Fade Test.*\(PD\)"/>
+	<group reg="^GG Demo.*\(PD\)"/>
+	<group reg="^GG Hicolor Demo.*\(PD\)"/>
+	<group reg="^GG Hi-Res Graphics.*\(PD\)"/>
+	<group reg="^GG Register Display.*\(PD\)"/>
+	<group reg="^Sega Tween.*\(PD\)"/>
+	<group reg="^Simple Text Demo.*\(PD\)"/>
+	<group reg="^SMSC Gamegear Demo.*\(PD\)"/>
+	<group reg="^ToToTEK GG-PRO Multi Menu.*\(PD\)"/>
+	<group reg="^Twisty.*\(PD\)"/>
+	<group reg="^Windows for GG.*\(PD\)"/>
+	<group reg="^Fire Track.*\(PD\)"/>
+</parent>
+<parent name="Public Domain ROMs (Games)">
+	<group reg="^Fire Track.*\(PD\)"/>
+	<group reg="^Frog.*\(PD\)"/>
+	<group reg="^GG Nibbles.*\(PD\)"/>
+	<group reg="^GG Turrican.*\(PD\)"/>
+	<group reg="^Zoop'em Up.*\(PD\)"/>
+</parent>
+<parent name="Public Domain ROMs (Music)">
+	<group reg="^MOD2PSG.*\(PD\)"/>
+	<group reg="^XPMCK.*\(PD\)"/>
+</parent>
 
 <!--Hacks, Versions, etc-->
 <parent name="Jeopardy!"><clone name="Jeopardy! - Sports Edition"/></parent>
+<parent name="Shadam Crusader - Harukanaru Oukoku"><clone name="Shadam Crusader - Harukanaru Oukoku(J)" /></parent>
+<parent name="Taz in Escape from Mars"><group reg="^Taz in Escape from Mars "/></parent>
 
 <!--Biased-->
 <zoned><bias zone="U" name="Baku Baku Animal"/><bias zone="J" name="Baku Baku Animal - Sekai Shiikugakari Senshu-ken"/></zoned> 
@@ -32,7 +56,7 @@ Email: goodmerge@gmail.com
 <zoned><bias zone="U" name="Bust-A-Move"/><bias zone="J" name="Puzzle Bobble"/></zoned>
 <zoned><bias zone="U" name="Crystal Warriors"/><bias zone="J" name="Arliel - Crystal Densetsu"/></zoned>
 <zoned><bias zone="U" name="Defenders of Oasis"/><bias zone="J" name="Shadam Crusader"/></zoned>
-<zoned><bias zone="U" name="Ecco - The Tides of Time"/><bias zone="J" name="Ecco II - The Tides of Time"/></zoned>
+<zoned><bias zone="U" name="Ecco - The Tides of Time"/><bias zone="J" name="Ecco the Dolphin II - The Tides of Time"/></zoned>
 <zoned><bias zone="U" name="Factory Panic"/><bias zone="J" name="Ganbare Gorby!"/></zoned>
 <zoned><bias zone="U" name="Revenge of Drancon"/><bias zone="E" name="Wonder Boy"/><bias zone="J" name="Wonder Boy"/></zoned>
 <zoned><bias zone="En" name="Samurai Shodown"/><bias zone="J" name="Samurai Spirits"/></zoned>
