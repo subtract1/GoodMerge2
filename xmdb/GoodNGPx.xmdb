@@ -5,7 +5,7 @@ Email: goodmerge@gmail.com
 -->
 
 <romsets>
-<set name="NGPx" version="3.14">
+<set name="NGPx" version="3.27">
 <!--SNK NeoGeo Pocket/Pocket Color-->
 
 <options>
@@ -15,7 +15,7 @@ Email: goodmerge@gmail.com
 <ext text="npc"/>
 <flag reg=" (\((J|U|UE|JE|W|As)\)|\[p1\])"/>
 <!--hackflag reg=" \("/-->
-<ignore reg=" (SAMPLE|Color|\(V[0-9][0-9]?\)|\(Beta\))"/>
+<ignore reg=" (SAMPLE|Color|\(V[0-9][0-9]?\)|\(Beta\)|\(Hack\))"/>
 </options>
 
 <parents>
@@ -24,10 +24,17 @@ Email: goodmerge@gmail.com
 
 <!--Hacks, Versions, etc.-->
 <parent name="Big Bang Pro Wrestling"><clone name="Wrestling Madness"/></parent>
+<parent name="Cool Boarders Pocket"><clone name="Cool Boarders Pocket by QQture"/></parent>
 <parent name="Cool Cool Jam"><clone name="Cool Cool Jam SAMPLE"/></parent>
 <parent name="Dive Alert"><group reg="^Dive Alert - "/></parent>
+<parent name="Ganbare NeoPoke Kun"><clone name="Gambare NeoPoke Kun"/></parent>
+<parent name="King of Fighters R-1"><clone name="King of Fighters R-1 by Tintin Machine"/></parent>
+<parent name="King of Fighters R-2"><clone name="King of Fighters R-2 - Clark H"/></parent>
+<parent name="King of Fighters, The - Battle De Paradise"><clone name="King of Fighters, The - Battle De Paradise - Monopoly"/></parent>
+<parent name="Metal Slug - 2nd Mission"><clone name="Metal Slug - 2nd Mission by DJJ"/></parent>
 <parent name="NeoGeo Cup '98"><clone name="NeoGeo Cup '98 Plus"/></parent>
 <parent name="Pachisuro Aruze Oogoku Pocket Hanabi"><group reg="^Pachisuro Aruze Oogoku Pocket Hanabi V"/></parent>
+<parent name="SNK Gals Fighters"><clone name="SNK Gals Fighters by DDJ"/></parent>
 <parent name="SNK Vs. Capcom - Card Fighters Clash"><group reg="^SNK Vs. Capcom - Card Fighters Clash -"/></parent>
 
 <!--Biased-->
