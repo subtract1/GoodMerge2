@@ -6,7 +6,7 @@ Webpage: http://goodmerge.sourceforge.net
 -->
 
 <romsets>
-<set name="SMS" version="3.13">
+<set name="SMS" version="3.20">
 <!--Sega Master System and Add-Ons-->
 
 <options>
@@ -15,10 +15,18 @@ Webpage: http://goodmerge.sourceforge.net
 <ext text="sc"/>
 <ext text="mv"/>
 <ext text="sf7"/>
-<flag reg=" (\((U|UE|UEB|E|K|J|JU|JE|B|US|W|V[0-9]\.[0-9]|Prototype|M[0-9])\)|\[([abfhop][0-9]|[!S])\]|\[T[+-])"/>
+<ext text="gg"/>
+<flag reg=" \((A|B|BK|E|E|EB|EBA|EBK|EK|F|J|JA|JB|JE|JEK|JIK|JK|JT|JTE|JU|JUB|JUE|JUEB|JUEBK|K|KB|T|U|UB|UBK|UE|UEB|UEK|UEBK|UJ|UJEB|UK|Unl)\)"/>
+<flag reg=" \[([abfhopt][0-9]|[!])\]"/>
+<flag reg=" \[T[+-](Bra|Eng|Fre|Ger|Ita|Pol|Rus|Spa|Swe)[^\]]*\]"/>
 <hackflag reg=" \("/>
-<ignore reg=" \((J?U?E?|B|SG-1000|SG-1000 Card|SG-1000 Cart|SC-3000|SF-7000|MV)\)"/>
-<ignore reg=" \((Ver-[AB]|V[0-9]\.[0-9]|Side [1-2]|Demo|Display-Unit Cart|EP-MyCard|Prototype for '93)\)"/>
+<ignore reg=" \((SC-3000|SF-7000|SG-1000)\)"/>
+<ignore reg=" \((EP-MyCard|M\d|MV|VC)\)"/>
+<ignore reg=" \((Demo|Display-Unit Cart|Hack|Sample|Side [1-2])\)"/>
+<ignore reg=" \(GG2SMS V[0-9]\.[0-9]+ Hack\)"/>
+<ignore reg=" \([^)]* Logo\)"/>
+<ignore reg=" \([pP]rototype[^)]*\)"/>
+<ignore reg=" \([vV][0-9]\.[0-9]+\)"/>
 </options>
 
 <parents>
@@ -28,19 +36,26 @@ Webpage: http://goodmerge.sourceforge.net
 <!--Hacks, Versions, etc.-->
 <parent name="Assault City"><clone name="Assault City - Pad Version"/><clone name="Assault City - Light Phaser Version"/></parent>
 <parent name="Master of Darkness"><clone name="Vampire"/></parent>
+<parent name="Castle of Illusion Starring Mickey Mouse"><clone name="Castle of Illusion Starring Mickey Mouse Rolling Demo"/></parent>
+<parent name="Ghouls 'n Ghosts"><clone name="Ghouls 'n Ghosts Demo"/></parent>
+<parent name="Golfamania"><clone name="Golfamnia"/><clone name="Super Golf"/></parent>
+<parent name="Great Golf (J)"><group reg="^Great Golf \(J\)"/></parent>
 <parent name="Mick &amp; Mack as the Global Gladiators"><clone name="Global Gladiators"/></parent>
 <parent name="Phantasy Star"><group reg="^Phantasy Star "/></parent>
 <parent name="Sega BASIC"><group reg="^Sega BASIC Level "/></parent>
 <parent name="Sega Disk Basic"><group reg="^Sega Disk Basic v"/></parent>
-<parent name="Sonic the Hedgehog 2"><group reg="^Sonic the Hedgehog 2 "/><clone name="Sonic 2 Rebirth (Sonic 2 Hack)"/></parent>
+<parent name="Sonic the Hedgehog"><clone name="Sonic 1"/></parent>
+<parent name="Sonic the Hedgehog 2"><clone name="Sonic 2"/><group reg="^Sonic the Hedgehog 2 "/><clone name="Sonic The Hedgehog 2 - Sweet Relief by Ambil"/><clone name="Sonic 2 Remixed v0.01 by Ravenfreak"/></parent>
 <parent name="Speedball"><group reg="^Speedball \("/></parent>
 <parent name="System BIOS"><group reg=" BIOS "/><clone name="SMS Prototype M404 BIOS"/><clone name="SMS Store Display Unit BIOS"/></parent>
 <parent name="Tom and Jerry - The Movie"><clone name="Tom and Jerry"/></parent>
 <parent name="Wonder Boy"><clone name="WB"/><clone name="Super Wonder Boy"/></parent>
 <parent name="Wonder Boy in Monster World"><clone name="Wonder Boy in MW"/></parent>
+<parent name="Woody Pop"><clone name="Woody Pop for ControlPad"/></parent>
 <parent name="Xenon 2"><group reg="^Xenon 2 "/></parent>
 
-<zoned><bias zone="En" name="Alex Kidd in High Tech World"/><bias zone="J" name="Anmitsu Hime"/></zoned>
+<zoned><bias zone="En" name="Alex Kidd - High Tech World"/><bias zone="J" name="Anmitsu Hime"/></zoned>
+<zoned><bias zone="En" name="Alex Kidd in Miracle World"/><bias zone="J" name="Alex Kidd no Miracle World"/></zoned>
 <zoned><bias zone="En" name="Asterix and the Secret Mission"/><bias zone="Br" name="As Aventuras da TV Colosso"/></zoned>
 <zoned><bias zone="En" name="Astro Warrior"/><bias zone="Br" name="Sapo Xule SOS Lagoa Poluida"/></zoned>
 <zoned><bias zone="En" name="Black Belt"/><bias zone="J" name="Hokuto no Ken"/></zoned>
@@ -74,8 +89,6 @@ Webpage: http://goodmerge.sourceforge.net
 <zoned><bias zone="En" name="World Soccer"/><bias zone="J" name="Sports Pad Soccer"/><bias zone="Br" name="Super Futebol"/></zoned>
 <zoned><bias zone="En" name="Ys - The Vanished Omens"/><bias zone="J" name="Ys"/></zoned>
 <zoned><bias zone="En" name="Zillion"/><bias zone="J" name="Akai Koudan Zillion"/></zoned>
-<zoned type="deferred"><bias zone="En" name="Great Golf (J)"/><bias zone="J" name="Great Golf"/><group reg="^Great Golf \(J\)"/></zoned>
-<zoned type="deferred"><bias zone="En" name="Great Golf (UE)"/><bias zone="J" name="Master Golf"/><group reg="^Great Golf \(UE\)"/></zoned>
 </parents>
 
 </set>

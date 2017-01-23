@@ -1,0 +1,28 @@
+<?xml version="1.0"?><!DOCTYPE romsets SYSTEM "GoodMerge.dtd">
+<!--
+GoodPico 3.15 XMDB
+-->
+
+<romsets>
+<set name="Pico" version="3.15">
+<!--Sega Pico-->
+
+<options>
+<ext text="pco"/>
+<flag reg=" (\((E|G|J|U)\)|\[(!|!p|b\d*|o\d*)\])"/>
+<!--hackflag reg=" \("/-->
+<ignore reg=" \((REV\d\d|Prototype[^\)]*|V[\d.]+)\)"/>
+</options>
+
+<parents>
+<!--Collections-->
+<parent name="Public Domain"><group reg="\(PD\)"/></parent>
+
+<!--Hacks, Versions, etc.-->
+
+<!--Biased-->
+<zoned><bias zone="U" name="Tails and the Music Maker"/><bias zone="G" name="Tails und der Musikant"/></zoned>
+</parents>
+
+</set>
+</romsets>

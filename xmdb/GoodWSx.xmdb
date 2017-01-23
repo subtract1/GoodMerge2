@@ -5,14 +5,18 @@ Email: goodmerge@gmail.com
 -->
 
 <romsets>
-<set name="WSx" version="3.14">
+<set name="WSx" version="3.27">
 <!--Bandai WonderSwan/WonderSwan Color-->
 
 <options>
 <ext text="ws"/>
 <ext text="wsc"/>
 <flag reg=" \((J|A|As)\)"/>
+<flag reg=" \[([abfhopt][0-9]|[!CM])\]"/>
+<flag reg=" \[T[+-](Chi|Eng|Ger|Rus)[^\]]*\]"/>
+<ignore reg=" \(Hack\)"/>
 </options>
+
 
 <parents>
 <!--Collections-->
@@ -21,7 +25,12 @@ Email: goodmerge@gmail.com
 <!--Versions-->
 <parent name="Digimon Adventure"><group reg="^Digimon Adventure - "/><clone name="Digimon Digital Monsters - Anode &amp; Cathode Tamer - Veedramon Version"/></parent>
 <parent name="Digimon Tamers - Battle Spirit"><clone name="Digimon Tamers - Battle Spirit V1.5"/></parent>
-<parent name="Medarot - Perfect Edition"><group reg="^Medarot - Perfect Edition K"/></parent>
+<parent name="From TV Animation - One Piece - Mezase Kaizoku Ou"><clone name="From TV Animation - One Piece - Mezase Kaizoku Ou by QQture"/></parent>
+<parent name="From TV Animation - One Piece - Treasure Wars 2 - Buggy Land e Youkoso"><clone name="From TV Animation - One Piece - Treasure Wars 2 - Buggy Land e Youkoso by QQture"/></parent>
+<parent name="From TV Animation - One Piece - Treasure Wars"><clone name="From TV Animation - One Piece - Treasure Wars by QQture"/></parent>
+<parent name="Inu Yasha Kagome no Yumenikki"><clone name="Inu Yasha Kagome no Yumenikki by QQture"/></parent>
+<parent name="Kaze no Klonoa - Moonlight Museum"><clone name="Kaze no Klonoa - Moonlight Museum by QQture"/></parent>
+<parent name="Rockman EXE-N1 Battle"><clone name="Rockman EXE-N1 Prequel by QQture"/></parent>
 <parent name="SD Gundam Eiyuuden"><group reg="^SD Gundam Eiyuuden - "/></parent>
 <parent name="Super Robot Taisen Compact 2"><group reg="^Super Robot Taisen Compact 2 - "/></parent>
 </parents>
