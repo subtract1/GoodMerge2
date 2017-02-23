@@ -448,10 +448,87 @@
     <bias zone="E" name="Dynasty Warriors DS - Fighters Battle"/>
     <bias zone="J" name="Shin Sangoku Musou DS - Fighters Battle"/>
   </zoned>
-
+  <zoned>
+    <bias zone="U" name="Eco Creatures - Save the Forest"/>
+    <bias zone="E" name="Ecolis - Save the Forest"/>
+    <bias zone="J" name="Ecolis"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Elebits - The Adventures of Kai and Zero"/>
+    <bias zone="E" name="Elebits - The Adventures of Kai and Zero"/>
+    <bias zone="J" name="Elebits - Kai to Zero no Fushigi na Tabi"/>
+    <bias zone="K" name="Elebits - Kai wa Zero Sinbihan Yeohaeng"/>
+  </zoned>
   <zoned>
     <bias zone="E" name="Essential Sudoku DS"/>
     <bias zone="J" name="Simple DS Series Vol. 7 - The Illust Puzzle and Suuji Puzzle"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Etrian Odyssey"/>
+    <bias zone="E" name="Etrian Odyssey"/>
+    <bias zone="J" name="Sekaiju no Meikyuu"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Etrian Odyssey II - Heroes of Lagaard"/>
+    <bias zone="J" name="Sekaiju no Meikyuu II - Shoou no Seihai"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Etrian Odyssey III - The Drowned City"/>
+    <bias zone="J" name="Sekaiju no Meikyuu III - Seikai no Raihousha"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="FIFA 06 Soccer"/>
+    <bias zone="E" name="FIFA 06"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Feel the Magic - XY XX"/>
+    <bias zone="E" name="Project Rub"/>
+    <bias zone="J" name="Kimi no Tame Nara Shineru"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="FIFA 07 Soccer"/>
+    <bias zone="E" name="FIFA 07"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="FIFA 08 Soccer"/>
+    <bias zone="E" name="FIFA 08"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="FIFA 09 Soccer"/>
+    <bias zone="E" name="FIFA 09"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="FIFA 10 Soccer"/>
+    <bias zone="E" name="FIFA 10"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="FIFA 11 Soccer"/>
+    <bias zone="E" name="FIFA 11"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Final Fantasy - The 4 Heroes of Light"/>
+    <bias zone="E" name="Final Fantasy - The 4 Heroes of Light"/>
+    <bias zone="J" name="Hikari no 4 Senshi - Final Fantasy Gaiden"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Final Fantasy Fables - Chocobo Tales"/>
+    <bias zone="E" name="Final Fantasy Fables - Chocobo Tales"/>
+    <bias zone="J" name="Chocobo to Mahou no Ehon"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Final Fantasy Tactics A2 - Grimoire of the Rift"/>
+    <bias zone="E" name="Final Fantasy Tactics A2 - Grimoire of the Rift"/>
+    <bias zone="J" name="Final Fantasy Tactics A2 - Fuuketsu no Grimoire"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Fire Emblem - Shadow Dragon"/>
+    <bias zone="E" name="Fire Emblem - Shadow Dragon"/>
+    <bias zone="J" name="Fire Emblem - Shin Ankokuryuu to Hikari no Ken"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Flash Focus - Vision Training in Minutes a Day"/>
+    <bias zone="E" name="Sight Training"/>
+    <bias zone="J" name="Miru Chikara wo Jissen de Kitaeru - DS Medikara Training"/>
   </zoned>
   <zoned>
     <bias zone="U" name="Flushed Away"/>
@@ -459,13 +536,166 @@
     <bias zone="J" name="17 - The Nezumi no Action Game - Mouse-Town Roddy to Rita no Daibouken"/>
   </zoned>
   <zoned>
+    <bias zone="U" name="Fossil Fighters"/>
+    <bias zone="J" name="Bokura wa Kaseki Horider"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Fossil Fighters - Champions"/>
+    <bias zone="J" name="Super Kaseki Horider"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Freedom Wings"/>
+    <bias zone="E" name="Freedom Wings"/>
+    <bias zone="J" name="Ore no Sentoki"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Freshly Picked - Tingles Rosy Rupeeland"/>
+    <bias zone="E" name="Freshly Picked - Tingles Rosy Rupeeland"/>
+    <bias zone="J" name="Mogitate Tingle no Bara Iro Ruppii Land"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Front Mission"/>
+    <bias zone="J" name="Front Mission - 1st"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Fullmetal Alchemist - Dual Sympathy"/>
+    <bias zone="E" name="Fullmetal Alchemist - Dual Sympathy"/>
+    <bias zone="J" name="Hagane no Renkinjutsushi - Dual Sympathy"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Ghost Trick - Phantom Detective"/>
+    <bias zone="E" name="Ghost Trick - Phantom Detective"/>
+    <bias zone="J" name="Ghost Trick"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Glory of Heracles"/>
+    <bias zone="E" name="Heracles - Battle with the Gods"/>
+    <bias zone="J" name="Hercules no Eikou - Tamashii no Shoumei"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Godzilla Unleashed - Double Smash"/>
+    <bias zone="E" name="Godzilla Unleashed"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="GoldenEye - Rogue Agent"/>
+    <bias zone="E" name="GoldenEye - Rogue Agent"/>
+    <bias zone="F" name="GoldenEye - Au Service du Mal"/>
+    <bias zone="J" name="GoldenEye - Dark Agent DS"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Gunpey DS"/>
+    <bias zone="E" name="Gunpey DS"/>
+    <bias zone="J" name="Oto o Tsunagou Gunpey Reverse"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Hamsterz Life"/>
+    <bias zone="E" name="Hamsterz"/>
+    <bias zone="J" name="Love Love Hamster"/>
+  </zoned>
+  <zoned>
+    <bias zone="E" name="Hamsterz 2"/>
+    <bias zone="J" name="Hamster to Kurasou"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Harvest Moon DS"/>
+    <bias zone="E" name="Harvest Moon DS"/>
+    <bias zone="J" name="Bokujou Monogatari - Korobokkuru Station"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Harvest Moon DS Cute"/>
+    <bias zone="E" name="Harvest Moon DS Cute"/>
+    <bias zone="J" name="Bokujou Monogatari - Korobokkuru Station for Girl"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Harvest Moon DS - Island of Happiness"/>
+    <bias zone="E" name="Harvest Moon DS - Island of Happiness"/>
+    <bias zone="J" name="Bokujou Monogatari - Kimi to Sodatsu Shima"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Harvest Moon DS - Sunshine Islands"/>
+    <bias zone="E" name="Harvest Moon DS - Sunshine Islands"/>
+    <bias zone="J" name="Bokujou Monogatari - KiraKira Taiyou to Nakamatachi"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Harvest Moon DS - Grand Bazaar"/>
+    <bias zone="E" name="Harvest Moon - Grand Bazaar"/>
+    <bias zone="J" name="Bokujou Monogatari - Youkoso Kaze no Bazaar e"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Harvest Moon DS - The Tale of Two Towns"/>
+    <bias zone="E" name="Harvest Moon - The Tale of Two Towns"/>
+    <bias zone="J" name="Bokujou Monogatari - Futago no Mura"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Heavy Armor Brigade"/>
+    <bias zone="J" name="Tank Beat 2 - Gekitotsu Deutsch Gun vs. Rengougun"/>
+    <bias zone="K" name="Tank Beat 2 - Gyeokdol Jeoncha Daejeon"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Heroes of Mana"/>
+    <bias zone="E" name="Heroes of Mana"/>
+    <bias zone="J" name="Seiken Densetsu - Heroes of Mana"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Hi Hamtaro - Ham-Ham Challenge"/>
+    <bias zone="E" name="Hi Hamtaro - Ham-Ham Challenge"/>
+    <bias zone="J" name="Tottoko Hamtaro Haai Hamu-Chans no Hamu Hamu Challenge Atsumare Haai"/>
+  </zoned>
+  <zoned>
+    <!-- This series is confusing. -->
+    <bias zone="U" name="Horsez"/>
+    <bias zone="E" name="Pippa Funnell"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Hotel Dusk - Room 215"/>
+    <bias zone="E" name="Hotel Dusk - Room 215"/>
+    <bias zone="J" name="Wish Room - Tenshi no Kioku"/>
+    <bias zone="K" name="Hotel Dusk - Secrets"/>
+  </zoned>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <zoned>
     <bias zone="E" name="Party Carnival"/>
     <bias zone="J" name="Simple DS Series Vol. 6 - The Party Game"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Petz - Hamsterz Superstarz"/>
+    <bias zone="E" name="Petz - Hamster Superstar"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Petz - Horsez 2"/>
+    <bias zone="E" name="Pippa Funnell 2 - Farm Adventures"/>
   </zoned>
   <zoned>
     <bias zone="U" name="Puzzle Quest - Challenge of the Warlords"/>
     <bias zone="E" name="Puzzle Quest - Challenge of the Warlords"/>
     <bias zone="J" name="23 - The Puzzle Quest - Agaria no Kishi"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Rune Factory - A Fantasy Harvest Moon"/>
+    <bias zone="E" name="Rune Factory - A Fantasy Harvest Moon"/>
+    <bias zone="J" name="Rune Factory - Shin Bokujou Monogatari"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Rune Factory 2 - A Fantasy Harvest Moon"/>
+    <bias zone="E" name="Rune Factory 2 - A Fantasy Harvest Moon"/>
+    <bias zone="J" name="Rune Factory 2"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Rune Factory 3 - A Fantasy Harvest Moon"/>
+    <bias zone="E" name="Rune Factory 3 - A Fantasy Harvest Moon"/>
+    <bias zone="J" name="Rune Factory 3"/>
   </zoned>
   <zoned>
     <bias zone="En" name="Simpsons Game, The"/>
@@ -476,6 +706,11 @@
   <zoned>
     <bias zone="U" name="Super Speed Machines"/>
     <bias zone="J" name="13 - Ijoukishou wo Tsuppashire - The Arashi no Drift Rally"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Tank Beat"/>
+    <bias zone="E" name="Tank Battles"/>
+    <bias zone="J" name="Tank Beat"/>
   </zoned>
 </parents>
 </set>
