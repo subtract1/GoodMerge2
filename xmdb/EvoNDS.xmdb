@@ -460,6 +460,10 @@
     <bias zone="K" name="Elebits - Kai wa Zero Sinbihan Yeohaeng"/>
   </zoned>
   <zoned>
+    <bias zone="U" name="Ener-G - Dance Squad"/>
+    <bias zone="E" name="Imagine - Modern Dancer"/>
+  </zoned>
+  <zoned>
     <bias zone="E" name="Essential Sudoku DS"/>
     <bias zone="J" name="Simple DS Series Vol. 7 - The Illust Puzzle and Suuji Puzzle"/>
   </zoned>
@@ -652,12 +656,102 @@
     <bias zone="J" name="Wish Room - Tenshi no Kioku"/>
     <bias zone="K" name="Hotel Dusk - Secrets"/>
   </zoned>
-
-
-
-
-
-
+  <zoned>
+    <bias zone="U" name="Imagine - Animal Doctor"/>
+    <bias zone="E" name="Imagine - Pet Vet"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Imagine - Babysitters"/>
+    <bias zone="E" name="Imagine - Baby Club"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Imagine - Babyz"/>
+    <bias zone="E" name="Imagine - Babies"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Imagine - Ballet Star"/>
+    <bias zone="E" name="Imagine - Ballet Dancer"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Imagine - Fashion Designer New York"/>
+    <bias zone="E" name="Imagine - Fashion Model"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Imagine - Master Chef"/>
+    <bias zone="E" name="Imagine - Happy Cooking"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Imagine - Reporter"/>
+    <bias zone="E" name="Imagine - Journalist"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Imagine - Resort Owner"/>
+    <bias zone="E" name="Imagine - Dream Resort"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Imagine - Rock Star"/>
+    <bias zone="E" name="Imagine - Girl Band"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Imagine - Salon Stylist"/>
+    <bias zone="E" name="Imagine - Beauty Stylist"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Imagine - Sweet 16"/>
+    <bias zone="E" name="Sweet 16"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Imagine - Wedding Designer"/>
+    <bias zone="E" name="Imagine - Dream Weddings"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Infinite Space"/>
+    <bias zone="E" name="Infinite Space"/>
+    <bias zone="J" name="Mugen Kouro - Infinite Space"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Ivy the Kiwi"/>
+    <bias zone="E" name="Ivy the Kiwi"/>
+    <bias zone="J" name="Ivy the Kiwi - Tsuta ga Michibiku Monogatari"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Izuna - Legend of the Unemployed Ninja"/>
+    <bias zone="E" name="Izuna - The Legend of the Ninja"/>
+    <bias zone="J" name="Gouma Reifu Den Izuna"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Izuna 2 - The Unemployed Ninja Returns"/>
+    <bias zone="J" name="Gouma Reifu Den Izuna Ni"/>
+  </zoned>
+  <zoned>
+    <!-- This is a tricky one since the game was released in America twice--once as an edited down version, once as the full thing.  I've decided to bundle both U versions together *but* the rerelease title's name wins. -->
+    <bias zone="U" name="Jake Hunter - Detective Story - Memories of the Past"/>
+    <bias zone="J" name="Tantei Jinguji Saburo DS - Inishie no Kioku"/>
+    <clone name="Jake Hunter - Detective Chronicles"/>
+  </zoned>
+  <!-- "Jam with the Band" and "Daigassou Band Brothers DX" appear related.  But the second one doesn't work in desmume and is also a different size.  -->
+  <zoned>
+    <bias zone="U" name="Kirby - Mass Attack"/>
+    <bias zone="E" name="Kirby - Mass Attack"/>
+    <bias zone="J" name="Atsumete Kirby"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Kirby Super Star Ultra"/>
+    <bias zone="E" name="Kirby Super Star Ultra"/>
+    <bias zone="J" name="Hoshi no Kirby - Ultra Super Deluxe"/>
+    <bias zone="K" name="Kirby Ultra Super Deluxe"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Kirby - Squeak Squad"/>
+    <bias zone="E" name="Kirby - Mouse Attack"/>
+    <bias zone="J" name="Hoshi no Kirby - Sanjou Dorocche Dan"/>
+    <bias zone="K" name="Byul ei Kirby - Dophang il Dang ei Seup Gyuk"/>
+  </zoned>
+  <zoned>
+    <bias zone="U" name="Kirby - Canvas Curse"/>
+    <bias zone="E" name="Kirby - Power Paintbrush"/>
+    <bias zone="J" name="Touch Kirbys Magic Paintbrush"/>
+  </zoned>
 
 
 
